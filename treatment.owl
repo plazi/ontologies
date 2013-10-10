@@ -1,0 +1,218 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix : <http://plazi.org/treatment.owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://plazi.org/treatment.owl> .
+
+<http://plazi.org/treatment.owl> rdf:type owl:Ontology .
+
+
+#################################################################
+#
+#    Annotation properties
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Datatypes
+#
+#################################################################
+
+
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://plazi.org/treatment.owl#biology
+
+:biology rdf:type owl:ObjectProperty ;
+         
+         rdfs:comment "BiologyEcologyFrom biological parts of div enumeration:BiologyEcology"^^rdfs:Literal ;
+         
+         rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#citation
+
+:citation rdf:type owl:ObjectProperty ;
+          
+          rdfs:comment """In practice a (part of?) a Nomenclature object is used as though it is a URI for a Treatment. For modelling, hasCitation refers to the Treatment itself,  and serializations may need to extract the Nomenclature object.
+
+?Normally, within a Treatment, a citation is attached to a Nomenclature object."""^^rdfs:Literal ;
+          
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://plazi.org/treatment.owl#description
+
+:description rdf:type owl:ObjectProperty ;
+             
+             rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#diagnosis
+
+:diagnosis rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#distribution
+
+:distribution rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#etymology
+
+:etymology rdf:type owl:ObjectProperty ;
+           
+           rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#key
+
+:key rdf:type owl:ObjectProperty .
+
+
+
+###  http://plazi.org/treatment.owl#materials_examined
+
+:materials_examined rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#materials_methods
+
+:materials_methods rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#multiple
+
+:multiple rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#name
+
+:name rdf:type owl:ObjectProperty ;
+      
+      rdfs:range :Nomenclature ;
+      
+      rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#publicationCitation
+
+:publicationCitation rdf:type owl:ObjectProperty ;
+                     
+                     rdfs:subPropertyOf :citation .
+
+
+
+###  http://plazi.org/treatment.owl#relatedTreatment
+
+:relatedTreatment rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:comment """E.g. a Treatment for a species might be deemed related to the Treatment for a particular Genus.  hasRelatedTreatment might need subProperties, e.g. hasOriginalGenus. Or a treatment of a species might be publishedWith Gid, where Gid is the URI of the genus whose original publication contains the genus treatment and the species treatment.
+
+Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
+""" ;
+                  
+                  rdfs:range :Treatment ;
+                  
+                  rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment.owl#treatmentCitation
+
+:treatmentCitation rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:comment "Perhaps better to just put an rdf:type on the object of citation?  Ditto for other sub props of citation.  Subprops should mainly be for inheritance of property constraints and KR."^^rdfs:Literal ;
+                   
+                   rdfs:subPropertyOf :citation .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://plazi.org/treatment.owl#synopsis
+
+:synopsis rdf:type owl:DatatypeProperty ;
+          
+          rdfs:range rdfs:Literal .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://plazi.org/treatment.owl#Author
+
+:Author rdf:type owl:Class ;
+        
+        rdfs:subClassOf owl:Thing .
+
+
+
+###  http://plazi.org/treatment.owl#Citation
+
+:Citation rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment.owl#Nomenclature
+
+:Nomenclature rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment.owl#Treatment
+
+:Treatment rdf:type owl:Class .
+
+
+
+
+###  Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net
+
