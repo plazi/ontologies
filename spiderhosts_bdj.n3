@@ -11,15 +11,15 @@
 
 ##Fix below; copied frpm 21401bis.n3
 <http://treatment.plazi.org/id/mumble31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
-	    rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
-	    trt:publishedIn <doi:10.1371/journal.pone.0001787> .
+	    <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
+	    trt:publishedIn <10.3897/BDJ.1.e992> .
 	    
 ##Fix below; copied frpm 21401bis.n3	    
 <doi:10.1371/journal.pone.0001787> a bibo:Article ;
-  dc:title "A revision of Malagasy species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera: Formicidae)." ;
-  dc:creator "Fisher, B. L." ;
-  dc:creater "Smith, M. A. " ;
-  dc:date "1923-01-03" .
+  dc:title "Spider hosts (Arachnida, Araneae) and wasp parasitoids (Insecta, Hymenoptera, Ichneumonidae, Ephialtini) matched using DNA barcodes." ;
+  dc:creator "Miller J" ;
+  dc:creater "Belgers J" ;
+  dc:date "2013" .
 
 	
 	
