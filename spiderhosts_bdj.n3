@@ -7,6 +7,7 @@
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix trt:   <http://plazi.org/vocab/treatment#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix:cito  <http://purl.org/spar/cito/cito:> .
 @prefix :      <http://plazi.org/rdf/millerSpider/> .
 
 ##Fix below; copied frpm 21401bis.n3
