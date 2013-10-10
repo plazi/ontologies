@@ -10,13 +10,16 @@
 @prefix:cito  <http://purl.org/spar/cito/cito:> .
 @prefix :      <http://plazi.org/rdf/millerSpider/> .
 
-##Fix below; copied frpm 21401bis.n3
+
 <http://treatment.plazi.org/id/mumble31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
 	    <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
 	    trt:publishedIn <10.3897/BDJ.1.e987> .
 	    cito:cites <10.3897/zookeys.292.3867> .
+
+<http://treatment.plazi.org/id/abc> a trt:Treatment ;
+	    <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
+	    trt:publishedIn <10.3897/zookeys.292.3867> .
 	    
-##Fix below; copied frpm 21401bis.n3	    
 <10.3897/BDJ.1.e987> a bibo:Article ;
   dc:title "Chinese species of egg-parasitoids of the genera Oxyscelio Kieffer, Heptascelio Kieffer and Platyscelio Kieffer (Hymenoptera: Platygastridae s.l., Scelioninae)." ;
   dc:creator "Johnson N" ;
@@ -28,7 +31,7 @@
   dc:creator "Burks R" ;
   dc:creater "Masner L" ;
   dc:creator "Johnson N" ;
-  dc:date "2013" 
+  dc:date "2013" .
 
 	
 <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> a dwcFP:TaxonConcept;
