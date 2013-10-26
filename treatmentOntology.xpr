@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="15.0">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="treatmentOntology.xpr">
+        <file name="21401.tx.xml"/>
+        <file name="21401bis.n3"/>
+        <file name="spiderhosts_bdj.n3"/>
+        <file name="spiderhosts_bdj.xml"/>
+        <file name="treatment.owl"/>
+        <file name="wasp_parasite.xml"/>
+    </projectTree>
+</project>

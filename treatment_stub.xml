@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:tax="http://plazi.org/taxOnt"
+    xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mods="http://www.loc.gov/mods/v3">
+    <rdf:Description rdf:about="http://treatment.plazi.org/id/8AD0DAEF2180649D27DBA7CE08E4FF93">
+        <dc:type>Taxon concept</dc:type>
+        <dwc:namePublishedInYear>2008</dwc:namePublishedInYear>
+        <dwc:scientificNameAuthorship>Fisher</dwc:scientificNameAuthorship>
+        <dwc:scientificName>Anochetus boltoni Fisher</dwc:scientificName>
+        <dwc:rank>species</dwc:rank>
+        <dwc:nomenclaturalStatus>n.sp.</dwc:nomenclaturalStatus>
+        <dwc:nomenclaturalCode>ICZN</dwc:nomenclaturalCode>
+        <dc:contributor>Hymenoptera Name Server</dc:contributor>
+        <dwc:namePublishedIn>
+            <tax:treatment>
+                <dc:title>Anochetus boltoni Fisher 2008</dc:title>
+                <bibo:pageStart>4</bibo:pageStart>
+                <dc:isPartOf>
+                    <rdf:Description rdf:about="http://dx.doi.org/10.113432171">
+                        <bibo:Article>Fisher, B. L. &amp; Smith, M. A., 2008, A revision of Malagasy
+                            species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera:
+                            Formicidae)., PLoS ONE 3: 1-23</bibo:Article>
+                    </rdf:Description>
+                </dc:isPartOf>
+            </tax:treatment>
+
+        </dwc:namePublishedIn>
+    </rdf:Description>
+</rdf:RDF>
