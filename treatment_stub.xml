@@ -3,7 +3,8 @@
     xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:mods="http://www.loc.gov/mods/v3">
     <rdf:Description rdf:about="http://treatment.plazi.org/id/8AD0DAEF2180649D27DBA7CE08E4FF93">
-        <dc:type>Taxon concept</dc:type>
+        <dwc:Taxon>
+        <rdf:Description>
         <dwc:namePublishedInYear>2008</dwc:namePublishedInYear>
         <dwc:scientificNameAuthorship>Fisher</dwc:scientificNameAuthorship>
         <dwc:scientificName>Anochetus boltoni Fisher</dwc:scientificName>
@@ -25,5 +26,7 @@
             </tax:treatment>
 
         </dwc:namePublishedIn>
+        </rdf:Description>
+        </dwc:Taxon>
     </rdf:Description>
 </rdf:RDF>
