@@ -1,0 +1,2151 @@
+ <?xml version="1.0"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY dsw "http://purl.org/dsw/" >
+    <!ENTITY dcterms "http://purl.org/dc/terms/" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY dwc "http://rs.tdwg.org/dwc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dwctype "http://rs.tdwg.org/dwc/dwctype/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY oad "http://filteredpush.org/ontologies/oa/oad#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY dwcFP "http://filteredpush.org/ontologies/oa/dwcFP#" >
+]>
+
+
+<rdf:RDF xmlns="http://filteredpush.org/ontologies/oa/dwcFP#"
+     xml:base="http://filteredpush.org/ontologies/oa/dwcFP"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dsw="http://purl.org/dsw/"
+     xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+     xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dwctype="http://rs.tdwg.org/dwc/dwctype/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:oad="http://filteredpush.org/ontologies/oa/oad#">
+    <owl:Ontology rdf:about="http://filteredpush.org/ontologies/oa/dwcFP#">
+        <owl:versionInfo rdf:datatype="&xsd;string">$HeadURL: https://svn.code.sf.net/p/filteredpush/svn/FP-Design/trunk/ontologies/oa/dwcFP.owl $</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">$Id: dwcFP.owl 2700 2013-08-31 18:42:02Z ramorrismorris $</owl:versionInfo>
+        <dc:creator rdf:datatype="&xsd;string">Paul J. Morris</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Robert A. Morris</dc:creator>
+        <dc:description xml:lang="en">An OWL-DL representation of information about specimens in natural science collections and related concepts in Biodiversity Informatics.  Modeled loosely on a combination of Darwin-sw and DarwinCore following the AppleCore guidance.</dc:description>
+        <rdfs:comment xml:lang="en">Competency Questions:</rdfs:comment>
+        <rdfs:comment xml:lang="en">Design Rationale: (1) TDWG DarwinCore terms that naturally represent data properties are included as data properties to allow easy mapping to flat or structured DarwinCore documents.  (2) TDWG DarwinCore types/classes are replaced with dwcFP classes, as Darwin-SW imports the DarwinCore classes and adds owl disjoint, equivalence, and other properties on them imposing limitations that we don&apos;t want to include here.  (3) TDWG DarwinCore terms that reference a class and have the suffix &quot;ID&quot;, e.g. occurrenceID are included as datatype properties with names in the form has__ID, e.g. hasOccurrenceID.  It it is expected that dwcFP will map IDs that are expressed as URIs to be the resources for the relevant individuals (e.g. dwc:taxonID=&quot;http://foo&quot; becomes &lt;http://foo&gt; a dwcFP:Taxon, and that by configuration non URI GIUDs for individuals will be transformed by prefixing a http:// URL (specified by configuration), but that for IDs that are integer values, a simple transformation to http://foo/123456 won&apos;t be approprate.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Limitations: Because TDWG DarwinCore terms are included as data properties, the load of dwcFP along with an ontology that represents them as object properties will make reasoning intractable.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#appleCoreGuidanceText -->
+
+    <owl:AnnotationProperty rdf:about="&dwcFP;appleCoreGuidanceText">
+        <rdfs:comment xml:lang="en">A summary of the AppleCore guidance for this term.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#appleCoreRecommendation -->
+
+    <owl:AnnotationProperty rdf:about="&dwcFP;appleCoreRecommendation">
+        <rdfs:comment xml:lang="en">One of: recommended, useful, optional.</rdfs:comment>
+        <rdfs:comment xml:lang="en">PJM: Can probably be removed, almost all of the wiki guidance pages no longer specify this, it is only on the (old) spreadsheet.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#appleCoreTermURL -->
+
+    <owl:AnnotationProperty rdf:about="&dwcFP;appleCoreTermURL">
+        <rdfs:comment xml:lang="en">URI for the page where the apple core guidance for the term can be found.</rdfs:comment>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#identificationProperty -->
+
+    <rdf:Description rdf:about="&dwcFP;identificationProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Identifications (but in flat DarwinCore may be associated with Occurrences).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The children of this property correspond to the expected data properties to be found in the domain buisness operations of creating a new determination/identification for a collection object or transcribing a determination from label or ledger data.  </rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#isFiledUnderNameInCollection -->
+
+    <owl:AnnotationProperty rdf:about="&dwcFP;isFiledUnderNameInCollection">
+        <rdfs:comment xml:lang="en">If present, indicates that this identification is the name under which the collection object for this occurrence is stored in the specified collection.  It would be expected that an occurrence has only one identification with isFiledUnderNameInCollection for each collection in which a voucher of that occurrence is held.</rdfs:comment>
+        <rdfs:comment xml:lang="en">When translating an occurrence with a list of identifications to flat DarwinCore, either isFiledUnderName or typeStatus may be the appropriate markers to choose which of the identifications to retain.  A reasonable algorithm is to use a primary type status, then a secondary type status, then if no type status is present (except for NotAType), to use isFiledUnderNameInCollection for the collection matching dwc:collectionCode.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="&dc;description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#collectingEventPropertiy -->
+
+    <rdf:Description rdf:about="&dwcFP;collectingEventPropertiy">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Events that are collecting events/gathering events (but in flat DarwinCore may be associated with Occurrences).</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#descendantTaxonOf -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;descendantTaxonOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:seeAlso rdf:datatype="&xsd;string">dwc:higherClassification</rdfs:seeAlso>
+        <rdfs:comment>Normally applied to a Taxon.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Allows creation of direct links between each node in a taxonomic tree and all of its parents, allowing a simple answer to the question is this taxon a child of this other taxon at an arbitrary rank.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Child is descendant taxon of parent at any higher rank, not just immediate child of parent.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Taxon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasAcceptedNameUsageByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasAcceptedNameUsageByID">
+        <rdfs:comment xml:lang="en">Normally applied to a Taxon.
+</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasAssociatedMedia -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasAssociatedMedia">
+        <rdfs:comment xml:lang="en">Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasBasisOfRecord -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasBasisOfRecord">
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">dwc:basisOfRecord</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasCollectingEvent -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasCollectingEvent">
+        <rdfs:comment>Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Event"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasCollectionByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasCollectionByID">
+        <rdfs:comment xml:lang="en">Range is owl:Thing. The object of hasCollectionByID is an object of unknown type, but conceptually is some kind of natural science collection.  The value of the property is the identifier of a resource conformant with dwc:collectionID as described in http://filteredpush.org/ontologies/oa/dwcFP#collectionID.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasCollector -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasCollector">
+        <rdfs:comment rdf:datatype="&xsd;string">Derived from dsw:recBy; unlike dsw:recBy need not apply only to Occurrences</rdfs:comment>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">dws:recBy dwc:recordedBy</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+        <rdfs:range rdf:resource="&foaf;Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasDatasetByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasDatasetByID">
+        <rdfs:comment xml:lang="en">Range is an individual with rdf:about that is the ID of a Dataset.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasDeterminer -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasDeterminer">
+        <rdfs:seeAlso rdf:datatype="&xsd;string">identifiedBy</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">Normally applied to an Identification.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+        <rdfs:range rdf:resource="&foaf;Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasGeologicalContext -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasGeologicalContext">
+        <rdfs:comment xml:lang="en">Normally applied to a Location.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;GeologicalContext"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasGeoreference -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasGeoreference">
+        <rdfs:comment xml:lang="en">Normally applied to a Location.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Georeference"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasGeoreferenceSource -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasGeoreferenceSource">
+        <rdfs:comment xml:lang="en">Link to a resource (e.g. doi for a publication) used as a source for the georeference.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasGeoreferencer -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasGeoreferencer">
+        <rdfs:seeAlso rdf:datatype="&xsd;string">georeferencedBy</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">TODO: Remove Domain</rdfs:comment>
+        <rdfs:domain rdf:resource="&dwcFP;Georeference"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+        <rdfs:range rdf:resource="&foaf;Agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasHabitat -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasHabitat">
+        <rdfs:seeAlso rdf:datatype="&xsd;string">habitat</rdfs:seeAlso>
+        <rdfs:comment xml:lang="en">The habitat coding of a location in a controled vocabulary (e.g http://vocabularies.gbif.org/vocabularies/habitat_iucn)</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasHigherGeographyByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasHigherGeographyByID">
+        <rdfs:comment xml:lang="en">Range is an individual with rdf:about that is the ID of a Higher Geography.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasIdentification -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasIdentification">
+        <rdfs:comment xml:lang="en">Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Identification"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasInstitutionByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasInstitutionByID">
+        <rdfs:comment xml:lang="en">Range is an individual with rdf:about that is the ID of an Institution.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasLocality -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasLocality">
+        <rdfs:comment rdf:datatype="&xsd;string">derived from dsw:locatedAt. Domain is not restricted to dwc:Event</rdfs:comment>
+        <rdfs:comment xml:lang="en">Collected at or Recorded at.  Relates an occurrence to a locality</rdfs:comment>
+        <rdfs:comment xml:lang="en">Normally applied to an Occurrence.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Location"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasLocationID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasLocationID">
+        <rdfs:comment xml:lang="en">Not needed if there is a URI resource for an individual of Location.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:locationIDs which are not URIs map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasNamePublishedInByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasNamePublishedInByID">
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Range is an individual with rdf:about that is the ID of a Published Work.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasOriginalNameUsageByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasOriginalNameUsageByID">
+        <rdfs:comment xml:lang="en">Normally applied to a Taxon.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasResourceWithID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasResourceWithID">
+        <rdfs:comment xml:lang="en">Temporary placeholder to cluster has__ByID properties that spescify a resource of type Thing.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasScientificNameByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasScientificNameByID">
+        <rdfs:comment xml:lang="en">Normally applied to a Taxon.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasTaxonConceptByID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;hasTaxonConceptByID">
+        <rdfs:comment xml:lang="en">Normally applied to a Taxon.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#locationProperty -->
+
+    <rdf:Description rdf:about="&dwcFP;locationProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Locations (but in flat DarwinCore may be associated with Occurrences), some of these may also be associated with georeferences.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#parentNameUsageID -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;parentNameUsageID">
+        <rdfs:comment>Normally applied to a Taxon.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Child is immediate child of parent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">To traverse a particular taxonomic heirarchy.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Taxon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#relationProperty -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;relationProperty">
+        <rdfs:comment xml:lang="en">Temporary placeholder to cluster properties that form relationships amongst dwcFP classes.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#taxonomicAuthorityFor -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;taxonomicAuthorityFor">
+        <rdfs:comment xml:lang="en">Normally applied to an Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The resource that provides a taxonomic authority for a Taxon.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Taxon"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;hasResourceWithID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#usesTaxon -->
+
+    <owl:ObjectProperty rdf:about="&dwcFP;usesTaxon">
+        <rdfs:comment rdf:datatype="&xsd;string">Typically used to attach a Taxon object to an Identification, But other things could be associated with a Taxon also, so we only specify the range, not the domain.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Normally applied to an Identification.</rdfs:comment>
+        <rdfs:range rdf:resource="&dwcFP;Taxon"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;relationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/continent -->
+
+    <owl:ObjectProperty rdf:about="&dwc;continent">
+        <rdfs:label xml:lang="en">Continent</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/country -->
+
+    <owl:ObjectProperty rdf:about="&dwc;country">
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/countryCode -->
+
+    <owl:ObjectProperty rdf:about="&dwc;countryCode">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/county -->
+
+    <owl:ObjectProperty rdf:about="&dwc;county">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/fieldNotes -->
+
+    <owl:ObjectProperty rdf:about="&dwc;fieldNotes">
+        <rdfs:label xml:lang="en">Field Notes</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/fieldNumber -->
+
+    <owl:ObjectProperty rdf:about="&dwc;fieldNumber">
+        <rdfs:label xml:lang="en">Field Number</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/habitat -->
+
+    <owl:ObjectProperty rdf:about="&dwc;habitat">
+        <rdfs:label xml:lang="en">Habitat</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/higherGeography -->
+
+    <owl:ObjectProperty rdf:about="&dwc;higherGeography">
+        <rdfs:comment xml:lang="en">Expected to be assembled from other terms.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/island -->
+
+    <owl:ObjectProperty rdf:about="&dwc;island">
+        <rdfs:label xml:lang="en">Island</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/islandGroup -->
+
+    <owl:ObjectProperty rdf:about="&dwc;islandGroup">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locality -->
+
+    <owl:ObjectProperty rdf:about="&dwc;locality">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locationAccordingTo -->
+
+    <owl:ObjectProperty rdf:about="&dwc;locationAccordingTo">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locationRemarks -->
+
+    <owl:ObjectProperty rdf:about="&dwc;locationRemarks">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumDepthInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;maximumDepthInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;maximumDistanceAboveSurfaceInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumElevationInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;maximumElevationInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumDepthInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;minimumDepthInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;minimumDistanceAboveSurfaceInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumElevationInMeters -->
+
+    <owl:ObjectProperty rdf:about="&dwc;minimumElevationInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/municipality -->
+
+    <owl:ObjectProperty rdf:about="&dwc;municipality">
+        <rdfs:label xml:lang="en">Municipality</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/samplingEffort -->
+
+    <owl:ObjectProperty rdf:about="&dwc;samplingEffort">
+        <rdfs:label xml:lang="en">Sampling Effort</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/samplingProtocol -->
+
+    <owl:ObjectProperty rdf:about="&dwc;samplingProtocol">
+        <rdfs:label xml:lang="en">Sampling Protocol</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;collectingEventPropertiy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/stateProvince -->
+
+    <owl:ObjectProperty rdf:about="&dwc;stateProvince">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimCoordinates -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimCoordinates">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimDepth -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimDepth">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimElevation -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimElevation">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLatitude -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimLatitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLocality -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimLocality">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLongitude -->
+
+    <owl:ObjectProperty rdf:about="&dwc;verbatimLongitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/waterBody -->
+
+    <owl:ObjectProperty rdf:about="&dwc;waterBody">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;locationProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#collectingEventPropertiy -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;collectingEventPropertiy">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Events that are collecting events/gathering events (but in flat DarwinCore may be associated with Occurrences).</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#darwinCoreTripletProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;darwinCoreTripletProperty">
+        <appleCoreTermURL xml:lang="en">Codes and Numbers</appleCoreTermURL>
+        <rdfs:comment xml:lang="en">Properties that form the DarwinCore triplet for providing a hopefully unique identifier for a collection object.  Expected to be associated with an occurrence.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">occurrenceID</rdfs:seeAlso>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#deprecatedProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;deprecatedProperty">
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+        <rdfs:comment xml:lang="en">Cluster of deprecated data properties.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#eventProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;eventProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Events (but in flat DarwinCore may be associated with Occurrences)</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#geologicalContextProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;geologicalContextProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with GeologicalContexts (but in flat DarwinCore may be associated with Occurrences), and could, depending on the representation be associated with localities or collecting events.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#georeferenceProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;georeferenceProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Georeferences (but in flat DarwinCore may be associated with Occurrences) some of which could also be associated with localities.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The children of this property correspond to the expected data properties to be found in the domain buisness operations of creating a georeference for a locality based on textural locality data and of recording/transcribing georeference information associated with a locality.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasEventID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasEventID">
+        <rdfs:comment xml:lang="en">Not needed if there is a URI resource for an individual of Event.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:eventIDs which are not URIs map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasGeologicalContextID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasGeologicalContextID">
+        <rdfs:comment xml:lang="en">Not needed if there is a URI resource for an individual of GeologicalContext.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:geologicalContextIDs which are not URIs map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasIdentificationID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasIdentificationID">
+        <rdfs:comment xml:lang="en">Not needed if rdf:about provides a guid for an individual of Identification.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:identificationID may map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasLocationID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasLocationID">
+        <rdfs:comment xml:lang="en">Not needed if there is a URI resource for an individual of Location.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:locationIDs which are not URIs map here.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasOccurrenceID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasOccurrenceID">
+        <rdfs:comment xml:lang="en">Note TDWG DarwinCore occurrenceID comment: For a specimen in the absence of a bona fide global unique identifier, for example, use the form: &quot;urn:catalog:[institutionCode]:[collectionCode]:[catalogNumber]. Examples: &quot;urn:lsid:nhm.ku.edu:Herps:32&quot;, &quot;urn:catalog:FMNH:Mammal:145732&quot;.</rdfs:comment>
+        <rdfs:comment xml:lang="en">To carry literal value of dwc:occurrenceId.  It is expected that this will be used as the URI of a taxon, either directly, or if the value is not a URI (but is an lsid or uuid), by appending a URI by configuration, except in cases where the value of dwc:occurrenceID has a low probability of global uniqueness (e.g. it is an integer derived from a surrogate numeric primary key in a database).</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:occurrenceIDs which are not URIs map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#hasTaxonID -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;hasTaxonID">
+        <rdfs:comment xml:lang="en">To carry literal value of dwc:taxonId.  It is expected that this will be used as the URI of a taxon, either directly, or if the value is not a URI, by appending a URI by configuration.</rdfs:comment>
+        <rdfs:comment xml:lang="en">dwc:taxonIDs which are not URIs map here.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#identificationProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;identificationProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Identifications (but in flat DarwinCore may be associated with Occurrences).</rdfs:comment>
+        <rdfs:comment xml:lang="en">The children of this property correspond to the expected data properties to be found in the domain buisness operations of creating a new determination/identification for a collection object or transcribing a determination from label or ledger data.  </rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#infraspecificRank -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;infraspecificRank">
+        <rdfs:comment xml:lang="en">The string representing the rank of the infraspecific name.  Equivalent to hispid:isprk</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#lithology -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;lithology">
+        <rdfs:label xml:lang="en">Lithology</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#locationProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;locationProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Locations (but in flat DarwinCore may be associated with Occurrences), some of these may also be associated with georeferences.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#md5checksum -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;md5checksum">
+        <rdfs:comment xml:lang="en">MD5 hash of a digital object.  Included here to support NEVP until this term can be included in Audubon Core.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;deprecatedProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#occurrenceProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;occurrenceProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Occurrences.   Non exclusive, any of the dwc data properties may be associated with an Occurrence in flat darwin core.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#recordProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;recordProperty">
+        <rdfs:comment rdf:datatype="&xsd;string">These terms are available on any dwcFP class, following the practice of DwC</rdfs:comment>
+        <rdfs:range rdf:resource="&xsd;string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#taxonProperty -->
+
+    <owl:DatatypeProperty rdf:about="&dwcFP;taxonProperty">
+        <rdfs:comment xml:lang="en">Cluster of data properties that are expected to be associated with Taxa (but in flat DarwinCore may be associated with Occurrences).</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/accessRights -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;accessRights">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;language">
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">dcterms:language</appleCoreTermURL>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">useful</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;modified">
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/ListOfTerms</rdfs:isDefinedBy>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/ListOfTerms</rdfs:seeAlso>
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">http://purl.org/dc/terms/modified</appleCoreTermURL>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">useful</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/references -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;references">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/rights -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;rights">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/rightsHolder -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;rightsHolder">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:DatatypeProperty rdf:about="&dcterms;type">
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/ListOfTerms</rdfs:isDefinedBy>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/ListOfTerms</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/TypeAndBasisOfRecord</rdfs:seeAlso>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.org/dc/terms/type</rdfs:seeAlso>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">recommended</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/acceptedNameUsage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;acceptedNameUsage">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/associatedOccurrences -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;associatedOccurrences">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/associatedReferences -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;associatedReferences">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/associatedSequences -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;associatedSequences">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/associatedTaxa -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;associatedTaxa">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/basisOfRecord -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;basisOfRecord">
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">http://rs.tdwg.org/dwc/terms/basisOfRecord</appleCoreTermURL>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">recommended</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/bed -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;bed">
+        <rdfs:label xml:lang="en">Bed</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/behavior -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;behavior">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/bibliographicCitation -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;bibliographicCitation">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/catalogNumber -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;catalogNumber">
+        <rdfs:label xml:lang="en">Catalog Number</rdfs:label>
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">http://rs.tdwg.org/dwc/terms/catalogNumber</appleCoreTermURL>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">recommended</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;darwinCoreTripletProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/class -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;class">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/collectionCode -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;collectionCode">
+        <rdfs:label xml:lang="en">Collection Code</rdfs:label>
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">http://rs.tdwg.org/dwc/terms/collectionCode</appleCoreTermURL>
+        <appleCoreRecommendation rdf:datatype="&xsd;string">recommended</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;darwinCoreTripletProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/continent -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;continent">
+        <rdfs:label xml:lang="en">Continent</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/coordinatePrecision -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;coordinatePrecision">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/coordinateUncertaintyInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;coordinateUncertaintyInMeters">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/country -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;country">
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/countryCode -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;countryCode"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/county -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;county"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/dataGeneralizations -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;dataGeneralizations">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/datasetName -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;datasetName">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/dateIdentified -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;dateIdentified">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/day -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;day">
+        <rdfs:label xml:lang="en">Day</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/decimalLatitude -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;decimalLatitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/decimalLongitude -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;decimalLongitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/disposition -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;disposition">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/dynamicProperties -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;dynamicProperties">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/earliestAgeOrLowestStage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;earliestAgeOrLowestStage">
+        <rdfs:label xml:lang="en">Earlyest Age</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/earliestEonOrLowestEonothem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;earliestEonOrLowestEonothem">
+        <rdfs:label xml:lang="en">Eon</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/earliestEpochOrLowestSeries -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;earliestEpochOrLowestSeries">
+        <rdfs:label xml:lang="en">Epoch</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/earliestEraOrLowestErathem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;earliestEraOrLowestErathem">
+        <rdfs:label xml:lang="en">Era</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/earliestPeriodOrLowestSystem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;earliestPeriodOrLowestSystem">
+        <rdfs:label xml:lang="en">Period</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/endDayOfYear -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;endDayOfYear">
+        <rdfs:label xml:lang="en">End Day of Year</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/establishmentMeans -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;establishmentMeans">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/eventDate -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;eventDate">
+        <rdfs:label xml:lang="en">Event Date</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/eventRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;eventRemarks">
+        <rdfs:label xml:lang="en">Event Remarks</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/eventTime -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;eventTime">
+        <rdfs:label xml:lang="en">Event Time</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/family -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;family">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/fieldNotes -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;fieldNotes">
+        <rdfs:label xml:lang="en">Field Notes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/fieldNumber -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;fieldNumber">
+        <rdfs:label xml:lang="en">Field Number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/footprintSRS -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;footprintSRS">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/footprintSpatialFit -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;footprintSpatialFit">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/footprintWKT -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;footprintWKT">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/formation -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;formation">
+        <rdfs:label xml:lang="en">Formation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/genus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;genus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/geodeticDatum -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;geodeticDatum">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/georeferenceProtocol -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;georeferenceProtocol">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/georeferenceRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;georeferenceRemarks">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/georeferenceSources -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;georeferenceSources">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/georeferenceVerificationStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;georeferenceVerificationStatus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/georeferencedBy -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;georeferencedBy">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/group -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;group">
+        <rdfs:label xml:lang="en">Group</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/habitat -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;habitat">
+        <rdfs:label xml:lang="en">Habitat</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/higherClassification -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;higherClassification">
+        <rdfs:comment xml:lang="en">Expected to be assembled from other terms.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/higherGeography -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;higherGeography">
+        <rdfs:comment xml:lang="en">Expected to be assembled from other terms.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/highestBiostratigraphicZone -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;highestBiostratigraphicZone">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/identificationQualifier -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;identificationQualifier">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/identificationReferences -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;identificationReferences">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/identificationRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;identificationRemarks">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/identificationVerificationStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;identificationVerificationStatus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/identifiedBy -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;identifiedBy">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/individualCount -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;individualCount">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/informationWithheld -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;informationWithheld">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/infraspecificEpithet -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;infraspecificEpithet">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/institutionCode -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;institutionCode">
+        <rdfs:label xml:lang="en">Institution Code</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;darwinCoreTripletProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/island -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;island">
+        <rdfs:label xml:lang="en">Island</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/islandGroup -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;islandGroup"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/kingdom -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;kingdom">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/latestAgeOrHighestStage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;latestAgeOrHighestStage">
+        <rdfs:label xml:lang="en">Latest Age</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/latestEonOrHighestEonothem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;latestEonOrHighestEonothem">
+        <rdfs:label xml:lang="en">Latest Eon</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/latestEpochOrHighestSeries -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;latestEpochOrHighestSeries">
+        <rdfs:label xml:lang="en">Latest Epoch</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/latestEraOrHighestErathem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;latestEraOrHighestErathem">
+        <rdfs:label xml:lang="en">Latest Era</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/latestPeriodOrHighestSystem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;latestPeriodOrHighestSystem">
+        <rdfs:label xml:lang="en">Latest Period</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/lifeStage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;lifeStage">
+        <rdfs:label xml:lang="en">Life Stage</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/lithostratigraphicTerms -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;lithostratigraphicTerms">
+        <rdfs:comment xml:lang="en">Expected to be assembled from other terms.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locality -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;locality"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locationAccordingTo -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;locationAccordingTo"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/locationRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;locationRemarks"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/lowestBiostratigraphicZone -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;lowestBiostratigraphicZone">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumDepthInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;maximumDepthInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumDistanceAboveSurfaceInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;maximumDistanceAboveSurfaceInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/maximumElevationInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;maximumElevationInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/member -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;member">
+        <rdfs:label xml:lang="en">Member</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;geologicalContextProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumDepthInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;minimumDepthInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumDistanceAboveSurfaceInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;minimumDistanceAboveSurfaceInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/minimumElevationInMeters -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;minimumElevationInMeters"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/month -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;month">
+        <rdfs:label xml:lang="en">Month</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/municipality -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;municipality">
+        <rdfs:label xml:lang="en">Municipality</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/nameAccordingTo -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;nameAccordingTo">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/namePublishedIn -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;namePublishedIn">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/namePublishedInYear -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;namePublishedInYear">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/nomenclaturalCode -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;nomenclaturalCode">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/nomenclaturalStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;nomenclaturalStatus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/occurrenceDetails -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;occurrenceDetails">
+        <rdfs:comment rdf:datatype="&xsd;string">See http://code.google.com/p/darwincore/issues/detail?id=96
+Use dcterms:references instead</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;deprecatedProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/occurrenceRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;occurrenceRemarks">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/occurrenceStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;occurrenceStatus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/order -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;order">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/originalNameUsage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;originalNameUsage">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/otherCatalogNumbers -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;otherCatalogNumbers">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/ownerInstitutionCode -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;ownerInstitutionCode">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;recordProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/parentNameUsage -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;parentNameUsage">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/phylum -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;phylum">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/pointRadiusSpatialFit -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;pointRadiusSpatialFit">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/preparations -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;preparations">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/previousIdentifications -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;previousIdentifications">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/recordNumber -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;recordNumber">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/recordedBy -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;recordedBy">
+        <appleCoreTermURL rdf:datatype="&xsd;anyURI">http://code.google.com/p/applecore/wiki/Collectors</appleCoreTermURL>
+        <appleCoreGuidanceText xml:lang="en">List of one or more collectors, prefered form is, Last name, first names, title.  Preferred form is to separate collectors by a semicolon &quot;;&quot;.   List the primary collector first.</appleCoreGuidanceText>
+        <appleCoreRecommendation xml:lang="en">recommended</appleCoreRecommendation>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/reproductiveCondition -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;reproductiveCondition">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/samplingEffort -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;samplingEffort">
+        <rdfs:label xml:lang="en">Sampling Effort</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/samplingProtocol -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;samplingProtocol">
+        <rdfs:label xml:lang="en">Sampling Protocol</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/scientificName -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;scientificName">
+        <rdfs:label xml:lang="en">Scientific Name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/scientificNameAuthorship -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;scientificNameAuthorship">
+        <rdfs:label xml:lang="en">Authorship</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/sex -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;sex">
+        <rdfs:label xml:lang="en">Sex</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;occurrenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/specificEpithet -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;specificEpithet">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/startDayOfYear -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;startDayOfYear">
+        <rdfs:label xml:lang="en">Start Day of Year</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/stateProvince -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;stateProvince"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/subgenus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;subgenus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/taxonRank -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;taxonRank">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/taxonRemarks -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;taxonRemarks">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/taxonomicStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;taxonomicStatus">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/typeStatus -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;typeStatus">
+        <rdfs:label xml:lang="en">Type Status</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;identificationProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimCoordinateSystem -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimCoordinateSystem">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimCoordinates -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimCoordinates">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimDepth -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimDepth"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimElevation -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimElevation">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimEventDate -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimEventDate">
+        <rdfs:label xml:lang="en">Verbatim Date</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLatitude -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimLatitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLocality -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimLocality">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimLongitude -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimLongitude">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimSRS -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimSRS">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;georeferenceProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/verbatimTaxonRank -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;verbatimTaxonRank">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/vernacularName -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;vernacularName">
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;taxonProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/waterBody -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;waterBody"/>
+    
+
+
+    <!-- http://rs.tdwg.org/dwc/terms/year -->
+
+    <owl:DatatypeProperty rdf:about="&dwc;year">
+        <rdfs:label xml:lang="en">Year</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&dwcFP;eventProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#DatatypeProperty -->
+
+    <owl:Class rdf:about="&dwcFP;DatatypeProperty"/>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#DwCTripletSelector -->
+
+    <owl:Class rdf:about="&dwcFP;DwCTripletSelector">
+        <rdfs:label>DarwinCore Triplet Key-Value Pair List Query Selector</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oad;KVPairQuerySelector"/>
+        <rdfs:comment xml:lang="en">A Key Value Pair Selector expected to consist of dwc:institutionCode, dwc:collectionCode, and dwc:catalogNumber.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Competency Question: Given a Specific Resource which is any data set that can be represented as DarwinCore, to which portions, as described by a list of DarwinCore dataProperties for institutionCode, collectionCode, and catalogNumber, with values, does the annotation apply?</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Event -->
+
+    <owl:Class rdf:about="&dwcFP;Event">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore:Event</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#GeologicalContext -->
+
+    <owl:Class rdf:about="&dwcFP;GeologicalContext">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore: GeologicalContext</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Georeference -->
+
+    <owl:Class rdf:about="&dwcFP;Georeference">
+        <rdfs:comment xml:lang="en">Allows for multiple georeferences for a locality.</rdfs:comment>
+        <rdfs:seeAlso xml:lang="en">TDWG Ontology: Geolocation</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Identification -->
+
+    <owl:Class rdf:about="&dwcFP;Identification">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore: Identification</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Location -->
+
+    <owl:Class rdf:about="&dwcFP;Location">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore dcterms:Location.</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Occurrence -->
+
+    <owl:Class rdf:about="&dwcFP;Occurrence">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore: Occurrence</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#Taxon -->
+
+    <owl:Class rdf:about="&dwcFP;Taxon">
+        <rdfs:seeAlso xml:lang="en">TDWG DarwinCore: Taxon</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/oad#KVPairQuerySelector -->
+
+    <owl:Class rdf:about="&oad;KVPairQuerySelector"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Agent -->
+
+    <owl:Class rdf:about="&foaf;Agent"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="&foaf;Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://filteredpush.org/ontologies/oa/dwcFP#isFiledUnderNameInCollection -->
+
+    <owl:NamedIndividual rdf:about="&dwcFP;isFiledUnderNameInCollection">
+        <rdf:type rdf:resource="&dwcFP;DatatypeProperty"/>
+        <rdfs:comment xml:lang="en">If present, indicates that this identification is the name under which the collection object for this occurrence is stored in the specified collection.  It would be expected that an occurrence has only one identification with isFiledUnderNameInCollection for each collection in which a voucher of that occurrence is held.</rdfs:comment>
+        <rdfs:comment xml:lang="en">When translating an occurrence with a list of identifications to flat DarwinCore, either isFiledUnderName or typeStatus may be the appropriate markers to choose which of the identifications to retain.  A reasonable algorithm is to use a primary type status, then a secondary type status, then if no type status is present (except for NotAType), to use isFiledUnderNameInCollection for the collection matching dwc:collectionCode.</rdfs:comment>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Original served at $HeadURL: https://svn.code.sf.net/p/filteredpush/svn/FP-Design/trunk/ontologies/oa/dwcFP.owl $ 
+     from $Id: dwcFP.owl 2700 2013-08-31 18:42:02Z ramorrismorris $ -->
