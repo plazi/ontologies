@@ -1,0 +1,164 @@
+<results _indexFields="docAuthor docDate docTitle masterDocTitle docOrigin pageNumber lastPageNumber masterPageNumber masterLastPageNumber docId checkinUser checkinTime updateUser updateTime docSource" _indexLabel="Document Index" _indexName="document">
+<document docNumber="10246" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="A5E6C3FD04F816662495E6260EF521FC" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica" lastPageNumber="579" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="579" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10246" LSID="2506" LSID-HNS="2506" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="genus" subFamily="Formicinae">Formicidae Formicinae Formica</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10246" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10261" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="4685B2731D05D792F41810D83751453E" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica atrata" lastPageNumber="582" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica atrata</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10261" LSID="136581" LSID-HNS="136581" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="atrata" subFamily="Formicinae">Formicidae Formicinae Formica atrata</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10261" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10258" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="8A3D42E941351DE7E1F00C82EEDFB617" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica bidens" lastPageNumber="581" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica bidens</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10258" LSID="137651" LSID-HNS="137651" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="bidens" subFamily="Formicinae">Formicidae Formicinae Formica bidens</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10258" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10256" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="F7F7D208B2B5A228A447C8F81A2C53C5" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica caespitum" lastPageNumber="581" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica caespitum</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10256" LSID="144928" LSID-HNS="144928" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="caespitum" subFamily="Formicinae">Formicidae Formicinae Formica caespitum</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10256" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10260" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="BBE267B54CF1E02FF760AD280B58FAA4" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica cephalotes" lastPageNumber="581" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica cephalotes</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10260" LSID="134296" LSID-HNS="134296" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="cephalotes" subFamily="Formicinae">Formicidae Formicinae Formica cephalotes</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10260" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10263" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="59565369EB6EC5FD56FD02ABB9F37B68" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica foetida" lastPageNumber="582" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="582" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica foetida</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10263" LSID="147700" LSID-HNS="147700" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="foetida" subFamily="Formicinae">Formicidae Formicinae Formica foetida</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10263" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10249" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="A1A94E7232D1446424DCFD9F3A501BA8" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica fusca" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica fusca</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10249" LSID="29086" LSID-HNS="29086" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="fusca" subFamily="Formicinae">Formicidae Formicinae Formica fusca</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10249" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10262" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="5FF6EF675F585A25D52772B20D71F3F8" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica haematoda" lastPageNumber="582" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="582" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica haematoda</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10262" LSID="141416" LSID-HNS="141416" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="haematoda" subFamily="Formicinae">Formicidae Formicinae Formica haematoda</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10262" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10247" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="BEFC026A9283A404C59A997B5D399D0B" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica herculeana" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="579" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica herculeana</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10247" LSID="135452" LSID-HNS="135452" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="herculeana" subFamily="Formicinae">Formicidae Formicinae Formica herculeana</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10247" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10250" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="990379577E2440C364A6772D8CD04CE7" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica nigra" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica nigra</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10250" LSID="147467" LSID-HNS="147467" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="nigra" subFamily="Formicinae">Formicidae Formicinae Formica nigra</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10250" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10251" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="A3DC5E10E143AC6E51ADE1C55254368B" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica obsoleta" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica obsoleta</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10251" LSID="147749" LSID-HNS="147749" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="obsoleta" subFamily="Formicinae">Formicidae Formicinae Formica obsoleta</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10251" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10257" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="0C43F34DC02C85F6FA30860BFB05219D" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica omnivora" lastPageNumber="581" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica omnivora</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10257" LSID="138304" LSID-HNS="138304" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="omnivora" subFamily="Formicinae">Formicidae Formicinae Formica omnivora</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10257" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10253" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="20DABF06EAC486D10F39E27AB68EB627" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica pharaonis" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica pharaonis</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10253" LSID="140521" LSID-HNS="140521" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="pharaonis" subFamily="Formicinae">Formicidae Formicinae Formica pharaonis</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10253" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10252" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="9201709955D57A5338E3E007F521A2D2" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica rubra" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica rubra</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10252" LSID="141015" LSID-HNS="141015" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="rubra" subFamily="Formicinae">Formicidae Formicinae Formica rubra</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10252" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10248" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="91FDCBD53C4B8AF1D8FB8A88F4982C9C" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica rufa" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica rufa</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10248" LSID="29198" LSID-HNS="29198" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="rufa" subFamily="Formicinae">Formicidae Formicinae Formica rufa</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10248" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10255" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="4A61F987EAEF1A72B292B00B0A6261A9" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica saccharivora" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica saccharivora</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10255" LSID="138317" LSID-HNS="138317" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="saccharivora" subFamily="Formicinae">Formicidae Formicinae Formica saccharivora</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10255" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10254" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="F9EF65210581C2538BC82FEC2F1B5E8A" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica salomonis" lastPageNumber="580" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="580" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica salomonis</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10254" LSID="140554" LSID-HNS="140554" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="salomonis" subFamily="Formicinae">Formicidae Formicinae Formica salomonis</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10254" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+<document docNumber="10259" checkinTime="1253093214219" checkinUser="donat" docAuthor="Linnaeus, C." docDate="1758" docId="14DFC1D0C5EF4A24545CF0832F67E703" docOrigin="Lipsiae: W. Engelmann" docSource="http://hdl.handle.net/10199/15420" docTitle="Formica sexdens" lastPageNumber="581" masterDocTitle="Systema naturae. Regnum Animale. 10 th ed." masterLastPageNumber="582" masterPageNumber="579" pageNumber="581" updateTime="1381308238186" updateUser="DRS.Boston">
+<entryValue>Linnaeus, C.. 1758. Formica sexdens</entryValue>
+<subResults _indexName="taxonomicName" _indexLabel="Scientific Name Index" _indexFields="documentPosition entryValue">
+<taxonomicName docNumber="10259" LSID="134317" LSID-HNS="134317" documentPosition="0" entryValueLabel="Scientific Name" family="Formicidae" genus="Formica" isNomenclature="true" rank="species" species="sexdens" subFamily="Formicinae">Formicidae Formicinae Formica sexdens</taxonomicName>
+</subResults>
+<subResults _indexName="citation" _indexLabel="MODS Citation Index" _indexFields="ModsDocAuthor ModsDocDate ModsDocTitle ModsDocOrigin ModsPageNumber ModsLastPageNumber">
+<citation docNumber="10259" ModsDocAuthor="Linnaeus, C." ModsDocDate="1758" ModsDocID="978" ModsDocOrigin="W. Engelmann, Lipsiae" ModsDocTitle="Systema naturae. Regnum Animale. 10 th ed." ModsLastPageNumber="-2147483648" ModsPageNumber="-2147483648">978</citation>
+</subResults>
+</document>
+</results>

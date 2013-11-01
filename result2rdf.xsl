@@ -24,6 +24,7 @@
     </xsl:template>
     <xsl:template match="document">
         <xsl:param name="taxon-name" select="@docTitle"/>
+        <xsl:param name="rank" select="child::subResults/taxonomicName/@rank"/>
         <xsl:param name="treatment-id" select="concat('http://plazi.org/id/', @docId)"/>        
         <xsl:param name="code" select="'http://rs.tdwg.org/ontology/voc/TaxonName#zoological'"/>
         <xsl:param name="author" select="@docAuthor"/>
@@ -38,6 +39,7 @@
                     <tn:nomenclaturalCode
                         rdf:resource="{$code}"/>
                     <tn:nameComplete><xsl:value-of select="$taxon-name"/></tn:nameComplete>
+                    <tn:rankString><xsl:value-of select="$rank"/></tn:rankString>
                 </rdf:Description>
             </trt:nomenclature>
             <tcom:namePublishedIn>
