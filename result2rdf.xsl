@@ -25,7 +25,7 @@
     <xsl:template match="document">
         <xsl:param name="taxon-name" select="@docTitle"/>
         <xsl:param name="rank" select="child::subResults/taxonomicName/@rank"/>
-        <xsl:param name="treatment-id" select="concat('http://plazi.org/id/', @docId)"/>        
+        <xsl:param name="treatment-id" select="concat('http://treatment.plazi.org/id/', @docId)"/>        
         <xsl:param name="code" select="'http://rs.tdwg.org/ontology/voc/TaxonName#zoological'"/>
         <xsl:param name="author" select="@docAuthor"/>
         <xsl:param name="pub-title" select="@masterDocTitle"/>
