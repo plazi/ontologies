@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments
+END
+xsd-Incl-MatchAllAndCopyRule.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Incl-MatchAllAndCopyRule.xsl
+END
+xsd-Incl-RemoveAnnotations.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Incl-RemoveAnnotations.xsl
+END
+xsd-Exe-ResolveInclude_NotWorking.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-ResolveInclude_NotWorking.xsl
+END
+xsl-StripEncodedFormattingTest.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsl-StripEncodedFormattingTest.xsl
+END
+xsd-Exe-RemoveIdentityPatternCommentAnnot.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-RemoveIdentityPatternCommentAnnot.xsl
+END
+xsl-Incl-TemplateTools.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsl-Incl-TemplateTools.xsl
+END
+xsd-Exe-DetypeSchema1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-DetypeSchema1.xsl
+END
+xsd-Exe-ReducedSchema.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-ReducedSchema.xsl
+END
+xsd-Incl-RemoveIdentityPatternComment.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Incl-RemoveIdentityPatternComment.xsl
+END
+xsl-Example-VALIDATION.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsl-Example-VALIDATION.xsl
+END
+xsd-Exe-DetypeSchema1_OnlyGroups.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-DetypeSchema1_OnlyGroups.xsl
+END
+xsd-Exe-DetypeSchema2.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-Exe-DetypeSchema2.xsl
+END
+xsd-SchemaReport.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/!svn/ver/1390/UBIF/2006/Schema/1.1/xsl-experiments/xsd-SchemaReport.xsl
+END

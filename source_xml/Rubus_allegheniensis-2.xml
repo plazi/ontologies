@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Datasets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://rs.tdwg.org/UBIF/2006/"
+  xsi:schemaLocation="http://rs.tdwg.org/UBIF/2006/ ../SDD.xsd">
+  <TechnicalMetadata created="2006-04-20T10:00:00">
+    <Generator name="n/a, handcrafted instance document" version="n/a"/>
+  </TechnicalMetadata>
+  <Dataset xml:lang="en-us">
+    <Representation>
+      <Label>Rubus allegheniensis</Label>
+      <Detail>SDD Treatment of Rubus allegheniensis. Intended for version="SDD 1.1v5".Evolved from examples in SDD distribution and with data from CharaParser</Detail>
+    </Representation>
+    <RevisionData>
+      <Creators>
+        <Agent role="aut" ref="a1"/>
+        <Agent role="aut" ref="a2"/>
+        <Agent role="edt" ref="a3"/>
+      </Creators>
+      <DateModified>2006-04-08T00:00:00</DateModified>
+    </RevisionData>
+    <IPRStatements>
+      <IPRStatement role="Copyright">
+        <Label xml:lang="en-au">(c) Descriptions are not copyrighable</Label>
+      </IPRStatement>
+    </IPRStatements>
+    <TaxonNames>
+      <TaxonName id="t1" uri="urn:lsid:vegbank.org:plantconcept:{AFE71089-7564-4C8D-8920-67281B03676A} "> 
+        <Representation>
+          <Label xml:lang="zxx-x-taxon">Rubus allegheniensis</Label>
+        </Representation>
+      </TaxonName>
+    </TaxonNames>
+    <DescriptiveConcepts>
+      <DescriptiveConcept id="mods"> <!-- ram: Could have lots of Descriptive Concept objects corresponding to different classes -->
+        <Representation>
+          <Label>Descriptive Concepts from CharaParser</Label>
+        </Representation>
+        <Modifiers>
+          <Modifier id="simply">
+            <Representation>
+              <Label>simply</Label>
+            </Representation>
+          </Modifier>
+          <Modifier id="intricately">
+            <Representation>
+              <Label>intricately</Label>
+            </Representation>
+          </Modifier>
+          <Modifier>
+            <Representation><Label> ll</Label></Representation> <!-- ram: Support for d0_s9, line 148 ff. in origin -->
+          </Modifier>
+        </Modifiers>
+      </DescriptiveConcept>
+    </DescriptiveConcepts>
+    <Characters>
+      <CategoricalCharacter id="c1">
+        <!--ram:  Line 105 in origin-->
+        <Representation>
+          <Label>floricane architecture</Label>
+        </Representation>
+        <States>
+          <StateDefinition id="s1">
+            <Representation>
+              <Label>branching</Label>
+            </Representation>
+          </StateDefinition>
+          <StateDefinition id="s2">
+            <Representation>
+              <Label>not branching</Label>
+            </Representation>
+          </StateDefinition>
+        </States>
+      </CategoricalCharacter>
+      <QuantitativeCharacter id="c2">
+        <Representation>
+          <Label>petal length</Label>
+        </Representation>
+        <MeasurementUnit >
+          <Label role="Abbrev">cm</Label>
+        </MeasurementUnit>
+      </QuantitativeCharacter>
+      <QuantitativeCharacter id="c3">
+        <Representation>
+          <Label>petal breadth</Label>
+        </Representation>
+        <MeasurementUnit >
+          <Label role="Abbrev">mm</Label>
+        </MeasurementUnit>
+      </QuantitativeCharacter>
+            
+    </Characters>
+    <CodedDescriptions>
+      <CodedDescription id="D101">
+        <Representation>
+          <Label>&lt;i&gt;Rubus allegheniensis&lt;/i&gt; Porter. as coded by R. Morris to SDD 1.1v5 on 21 Jun 2014</Label>
+        </Representation>
+        <Scope>
+          <TaxonName ref="t1"/>
+          <GeographicArea ref="NA" ></GeographicArea>
+        </Scope>
+        <SummaryData>  
+          <Categorical ref="c1"> <!-- floricane  architecture -->
+            <State ref="s1"> <!-- branching -->
+              <Modifier ref="simply"></Modifier>
+              <!-- intricately -->
+            </State>
+          </Categorical>
+          <Categorical ref="c1"> <!-- floricane  architecture -->
+            <State ref="s1"> <!-- branching -->
+              <Modifier ref="intricately"></Modifier>
+              <!-- intricately -->
+            </State>
+          </Categorical>
+ 
+          <Quantitative ref="c2"> <!-- petal length -->
+            <Measure type="Min" value="1"/>
+            <Measure type="Max" value="2"/>
+          </Quantitative>
+          
+          
+          <Quantitative ref="c3"> <!-- petal breadth -->
+            <Measure type="Min" value="4"/>
+            <Measure type="Max" value="12"/>
+          </Quantitative>
+          
+        </SummaryData>
+      </CodedDescription>
+    </CodedDescriptions>
+    <Agents>
+      <Agent id="a1">
+        <Representation>
+          <Label>Kevin Thiele</Label>
+        </Representation>
+      </Agent>
+      <Agent id="a2">
+        <Representation>
+          <Label>Gregor Hagedorn</Label>
+        </Representation>
+        <Links>
+          <Link rel="Alternate" href="http://www.diversitycampus.net/people/hagedorn"/>
+        </Links>
+      </Agent>
+      <Agent id="a3">
+        <Representation>
+          <Label>Ali Baba</Label>
+          <Detail role="Description">Ali Baba is also known as r.a.m.</Detail>
+        </Representation>
+      </Agent>
+    </Agents>
+    <Publications>
+      <Publication id="p1">
+        <Representation>
+          <Label>Sample Citation</Label>
+        </Representation>
+      </Publication>
+    </Publications>
+    <GeographicAreas>
+      <GeographicArea id="NA">
+        <Representation><Label>North America</Label></Representation>
+      </GeographicArea>
+    </GeographicAreas>
+    <MediaObjects>
+      <MediaObject id="m1">
+        <Representation>
+          <Label>Image description, e.g. to be used for alt-attribute in html.</Label>
+        </Representation>
+        <Type>Image</Type>
+        <Source href="http://test.edu/test.jpg"/>
+      </MediaObject>
+    </MediaObjects>
+  </Dataset>
+</Datasets>

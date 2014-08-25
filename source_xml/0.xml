@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment>
+  <meta>
+    <source>
+      <author>Gray</author>
+      <date>1950</date>
+    </source>
+    <processed_by>
+      <processor>
+        <date>2014/02/10 10:24:23</date>
+        <software type="format_conversion" version="f0a80a8516a06e51224d01314403eb26d60f881d">Text2XML</software>
+        <operator>Hong, Cui</operator>
+      </processor>
+    <processor>
+<date>2014/05/25 08:51:38</date>
+<software type="Semantic Markup" version="0.1.6">CharaParser</software>
+<operator />
+<resource type="OTO Glossary" version="0.1">Plant</resource>
+</processor>
+</processed_by>
+  </meta>
+  <taxon_identification status="ACCEPTED">
+    <genus_name>rubus</genus_name>
+    <species_name>allegheniensis</species_name>
+    <species_authority>porter</species_authority>
+    <taxon_hierarchy>family rosaceae;tribe rubeae;genus rubus;subgenus eubatus;section alleghenienses;species allegheniensis;</taxon_hierarchy>
+  </taxon_identification>
+  <number>154</number>
+  <description type="morphology">
+<statement id="d0_s0">
+<text>Erect or high arching, mostly 1-3 m. high, armed with scattered broad-based lanceolate to lance-subulate prickles or prickles wanting, the young primocanes often ridged or angled and finely pubescent, the expanding tip often glandular; </text>
+<structure id="o194" name="whole_organism">
+<character name="orientation" value="erect" />
+<character name="orientation" value="high" />
+<character name="orientation" value="arching" />
+<character char_type="range_value" from="1" from_unit="m" modifier="mostly" name="height" to="3" to_unit="m" />
+<character constraint="with prickles" constraintid="o196" name="architecture" value="armed" />
+</structure>
+<structure id="o195" name="prickle">
+<character name="shape" value="scattered" />
+<character name="shape" value="broad-based" />
+<character name="shape" value="lanceolate" />
+<character name="shape" value="lance-subulate" />
+<character char_type="range_value" from="lanceolate" name="shape" to="lance-subulate" />
+</structure>
+<structure id="o196" name="prickle">
+<character name="count" value="wanting" />
+</structure>
+<structure id="o197" name="primocane">
+<character name="life_stage" value="young" />
+<character name="shape" value="ridged" />
+<character name="shape" value="angled" />
+<character modifier="finely" name="external_texture" value="pubescent" />
+<character modifier="often" name="architecture_or_exudation" value="glandular" />
+</structure>
+<structure id="o198" name="tip" />
+<relation from="o197" id="r31" name="expanding" negation="false" to="o198" />
+</statement>
+<statement id="d0_s1">
+<text>primocane-leaves mostly 5-foliolate (sometimes 3- or 7-foliolate ), on pubescent and mostly stipitate-glandular unarmed or armed petioles; </text>
+<structure id="o199" name="primocane-leaf">
+<character modifier="mostly" name="architecture" value="5-foliolate" />
+</structure>
+<structure id="o200" name="petiole">
+<character name="external_texture" value="pubescent" />
+<character modifier="mostly" name="architecture" value="stipitate-glandular" />
+<character name="architecture" value="unarmed" />
+<character name="architecture" value="armed" />
+</structure>
+<relation from="o199" id="r32" name="on" negation="false" to="o200" />
+</statement>
+<statement id="d0_s2">
+<text>leaflets soft-pilose or velvety beneath, pilose above when young; </text>
+<structure id="o201" name="leaflet">
+<character name="external_texture" value="soft-pilose" />
+<character name="external_texture" value="velvety" />
+<character modifier="above when young" name="external_texture" value="pilose" />
+</structure>
+</statement>
+<statement id="d0_s3">
+<text>terminal leaflet ovate, cordate or broadly rounded at base, doubly serrate, with long attenuate or caudate tip, long-petiolulate; </text>
+<structure constraint="terminal" id="o202" name="leaflet">
+<character name="shape" value="ovate" />
+<character name="shape" value="cordate" />
+<character constraint="at base" constraintid="o203" modifier="broadly" name="shape" value="rounded" />
+<character modifier="doubly" name="shape" value="serrate" />
+<character name="architecture" value="long-petiolulate" />
+</structure>
+<structure id="o203" name="base" />
+<structure id="o204" name="tip">
+<character name="shape" value="long" />
+<character name="shape" value="attenuate" />
+<character name="shape" value="caudate" />
+</structure>
+<relation from="o202" id="r33" name="with" negation="false" to="o204" />
+</statement>
+<statement id="d0_s4">
+<text>the median paired leaflets petiolulate and mostly narrower; </text>
+<structure constraint="median" id="o205" name="leaflet">
+<character name="arrangement" value="paired" />
+<character name="architecture" value="petiolulate" />
+<character modifier="mostly" name="width" value="narrower" />
+</structure>
+</statement>
+<statement id="d0_s5">
+<text>floricanes simply or intricately branching; </text>
+<structure id="o206" name="floricane">
+<character modifier="intricately" name="architecture" value="branching" />
+</structure>
+</statement>
+<statement id="d0_s6">
+<text>principal racemes cylindric or subcylindric, mostly 1-3 dm. long and 2.5-10 cm. thick, the rachis and spreading-ascending to divergent pedicels copiously stipitate-glandular and either unarmed or armed; </text>
+<structure constraint="principal" id="o207" name="raceme">
+<character name="shape" value="cylindric" />
+<character name="shape" value="subcylindric" />
+<character char_type="range_value" from="1" from_unit="dm" modifier="mostly" name="length" to="3" to_unit="dm" />
+<character char_type="range_value" from="2.5" from_unit="cm" name="thickness" to="10" to_unit="cm" />
+</structure>
+<structure id="o208" name="rachis">
+<character name="orientation" value="spreading-ascending" />
+</structure>
+<structure id="o209" name="pedicel">
+<character name="arrangement" value="divergent" />
+<character modifier="copiously" name="architecture_or_exudation" value="stipitate-glandular" />
+<character modifier="either" name="architecture" value="unarmed" />
+<character name="architecture" value="armed" />
+</structure>
+</statement>
+<statement id="d0_s7">
+<text>calyx-lobes ovate to ovate-lanceolate, often with elongate tips; </text>
+<structure id="o210" name="calyx-lobe">
+<character name="shape" value="ovate" />
+<character name="shape" value="ovate-lanceolate" />
+<character char_type="range_value" from="ovate" name="shape" to="ovate-lanceolate" />
+</structure>
+<structure id="o211" name="tip">
+<character name="shape" value="elongate" />
+</structure>
+<relation from="o210" id="r34" modifier="often" name="with" negation="false" to="o211" />
+</statement>
+<statement id="d0_s8">
+<text>petals 1-2 cm. long, 4-12 mm. broad; </text>
+<structure id="o212" name="petal">
+<character char_type="range_value" from="1" from_unit="cm" name="length" to="2" to_unit="cm" />
+<character char_type="range_value" from="4" from_unit="mm" name="width" to="12" to_unit="mm" />
+</structure>
+</statement>
+<statement id="d0_s9">
+<text>fruit globose to thimble-shaped, up to 2 cm. long, either dryish or juicy and of rich flavor. </text>
+<structure id="o213" name="fruit">
+<character name="shape" value="globose" />
+<character name="shape" value="thimble--shaped" />
+<character char_type="range_value" from="globose" name="shape" to="thimble-shaped" />
+<character char_type="range_value" from="0" from_unit="cm" name="length" to="2" to_unit="cm" />
+<character modifier="either" name="flavor" value="dryish" />
+<character name="flavor" value="juicy" />
+</structure>
+</statement>
+</description>
+  <description type="morphology">
+<statement id="d1_s0">
+<text>R. allegheniensis (typical ). </text>
+<structure id="o214" name="whole_organism">
+<character name="taxon_name" value="allegheniensis" />
+</structure>
+</statement>
+<statement id="d1_s1">
+<text>Canes up to 1 cm. or more thick at base; </text>
+<structure id="o215" name="cane">
+<character char_type="range_value" from="0" from_unit="cm" name="size" to="1" to_unit="cm" />
+<character constraint="at base" constraintid="o216" name="width" value="thick" />
+</structure>
+<structure id="o216" name="base" />
+</statement>
+<statement id="d1_s2">
+<text>terminal primocane-leaflet 0.7-2 dm. long, 3.5-11 cm. broad; </text>
+<structure constraint="terminal" id="o217" name="primocane-leaflet">
+<character char_type="range_value" from="0.7" from_unit="dm" name="length" to="2" to_unit="dm" />
+<character char_type="range_value" from="3.5" from_unit="cm" name="width" to="11" to_unit="cm" />
+</structure>
+</statement>
+<statement id="d1_s3">
+<text>lower elongate pedicels often forking. </text>
+<structure constraint="lower" id="o218" name="pedicel">
+<character name="shape" value="elongate" />
+<character modifier="often" name="shape" value="forking" />
+</structure>
+</statement>
+</description>
+  <description type="habitat"><statement id="habitat0"><text>Dry clearings and thickets</text></statement></description>
+  <description type="ecology">usually abundant</description>
+  <description type="distribution"><statement id="distribution0"><text>N.B. and s. Que. to Minn., s. to N.S., N.E., L.I., Md., upland N.C. and Term., and Mo. </text></statement></description>
+   <description type="phenology"><statement id="phenology0"><text>Fl. May-July; fr. Aug., Sept.</text></statement></description>
+  <discussion>Common and wide-ranging species with several recognizable vars. and forms, of which the following are best marked:</discussion>
+</treatment>
