@@ -1,0 +1,111 @@
+<document ENCODING="UTF8" ID-HNS-Pub="Lehtinen1967CribellatePenestominae" ID-Handle="Lehtinen1967CribellatePenestominae" _generate="added" checkinTime="1376563468907" checkinUser="jeremy" docAuthor="Pekka T. Lehtinen" docDate="1967" docId="0F0B6BC2B992D710F1791A8C1D515D05" docLanguage="en" docName="Lehtinen1967CribellatePenestominae.xml" docOrigin="Annales Zoologici Fennici 4" docSource="http://research.amnh.org/iz/spiders/catalog/" docTitle="Wajane armata Lehtinen, 1967, sp. n." lastPageNumber="410" masterDocId="2147628664A36F240C7F6CCA1C9B177B" masterDocTitle="Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha" masterLastPageNumber="468" masterPageNumber="199" originalUpdateTime="1401798444897" pageId="null" pageNumber="409" updateTime="1401796064070" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Pekka T. Lehtinen</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Annales Zoologici Fennici</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1967</mods:date>
+<mods:detail type="volume">
+<mods:number>4</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>199</mods:start>
+<mods:end>468</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">Lehtinen1967CribellatePenestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:0F0B6BC2B992D710F1791A8C1D515D05" httpUri="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05" lastPageNumber="410" pageId="null" pageNumber="409">
+<subSubSection type="nomenclature">
+<paragraph pageId="null" pageNumber="409">
+<span class="font2" pageId="null" pageNumber="409" style="font-style:italic;">
+<taxonomicName authorityName="Lehtinen" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="409" phylum="Arthropoda" rank="species" species="armata">
+<pageBreakToken pageId="null" pageNumber="409" start="start">Wajane</pageBreakToken>
+armata
+</taxonomicName>
+</span>
+<span class="font2" pageId="null" pageNumber="409">
+<taxonomicNameLabel pageId="null" pageNumber="409" rank="species">sp. n.</taxonomicNameLabel>
+(
+<taxonomicName family="Eresidae" pageId="null" pageNumber="409" rank="family">Eresidae</taxonomicName>
+: 
+<taxonomicName pageId="null" pageNumber="409" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+)
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="null" pageNumber="409">
+<span class="font1" pageId="null" pageNumber="409">
+♂ - Carapace 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="2.1" pageId="null" pageNumber="409" unit="mm" value="2.1">2.1 mm</quantity>
+, flat, cephalic area very short. Colouration reddish brown, completely covered with short, white hairs. There are also longer, darker bristles along the clypeus and laterally to the ocular area. Fovea quite shallow, wide, and indistinctly limited.
+</span>
+</paragraph>
+<paragraph pageId="null" pageNumber="409">
+<span class="font1" pageId="null" pageNumber="409">Chelicerae rather long and narrow, obliquely directed, fang short. Anterior margin of cheliceral groove with a low chitinous keel that is armed with four teeth, the next to the most basal being the largest. There are also two chitinous knobs immediately behind this keel, but they are too close to the anterior margin to represent a true armature of the posterior margin of the cheliceral groove that is lacking in other Eresid species. Maxillae basally wide, triangular, but the apical part has parallel sides and a rounded apex. The maxillae are quite parallel to each other, and therefore separated by the whole width of the labium. The latter is longer than wide, its apical part is tapering, but widely rounded at the apex. Sternum long oval as in</span>
+<span class="font1" pageId="null" pageNumber="409" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="409" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+,
+</span>
+<span class="font1" pageId="null" pageNumber="409">caudally projected between fourth coxae, the apex rounded.</span>
+</paragraph>
+<paragraph lastPageNumber="410" pageId="null" pageNumber="409">
+<span class="font1" lastPageNumber="410" pageId="null" pageNumber="409">
+Abdomen long oval, strongly tapering towards both ends, and somewhat flattened. Anterior margin truncate, caudal 
+<pageBreakToken pageId="null" pageNumber="410" start="start">end</pageBreakToken>
+pointed. Anal tubercle well-developed, triangular. There are white patches at the anterolateral corners of the dorsal side, and a pair of broader, transversal white patches at the widest point of the abdomen. Remainder of dorsal side yellowish brown. Ventral side unicoloured, lighter brownish yellow. Anterior spinnerets conical, dorsoventrally flattened and their basal diameter apart. Posterior spinnerets shorter, cylindrical, and much narrower than the anterior pair. Apical segment of both these pairs as long as wide, conical. Median spinnerets acutely conical, a little shorter than the. posterior pair. The homologues of the anterior median spinnerets are represented by an unpaired, narrow, strongly curved, and weakly sclerotized plate in front of the spinnerets. Evidently this is a case of nonfunctional colulus, but the weak sclerotization of the whole caudal end of the 
+<typeStatus pageId="null" pageNumber="410">holotype</typeStatus>
+hinders further interpretation of the structure of this colulus, as such unique in 
+<taxonomicName family="Eresidae" pageId="null" pageNumber="410" rank="family">Eresidae</taxonomicName>
+. Tracheal stigma as wide as the spinnerets area, separated from the colulus by its own width.
+</span>
+</paragraph>
+<paragraph pageId="null" pageNumber="410">
+<span class="font1" pageId="null" pageNumber="410">
+Legs rather short, weakly sclerotized in the 
+<typeStatus pageId="null" pageNumber="410">holotype</typeStatus>
+. Coxae exceptionally long, especially in fourth leg, in this respect resembling the Platorid spiders. Trochanterae unnotched. Femora thick, armed with a single dorsomedian spine, much darker than the remaining segments of the legs. Tibiae with numerous short spines on ventral and lateral sides; they are quite irregularly arranged. Metatarsi also with irregular spinulation, although a basic pattern of three ventral pairs of spines might be traced. Tarsi spineless, more or less rigidly joined to metatarsi as in all Eresid species. Three tarsal claws, all with teeth. An oval area around the unpaired claw, densely covered with short hairs, also proves affinity with Eresids. Neither calamistrum nor any distinct trichobothria can be seen in the 
+<typeStatus pageId="null" pageNumber="410">holotype</typeStatus>
+, but its hair covering has been mostly rubbed away. The male palpus (Figs. 470 and 471) is characterized by a large, bifurcate tibial process and a large and complicated median apophysis, both of these characters being unique among Eresids. The coiled embolus runs inside a fold of the conductor. Moreover, there is a central membranous plate arising from the tegulum and supporting the apical parts of conductor and embolus.
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageId="null" pageNumber="410">
+<span class="font1" pageId="null" pageNumber="410">
+<materialsCitation collectingDate="1916-01" collectionCode="MHNG" collectorName="F. Cruden" country="South Africa" location="Alicedale" pageId="null" pageNumber="410" specimenCount="1" specimenCount-male="1" typeStatus="Holotype">
+<typeStatus pageId="null" pageNumber="410">Holotype</typeStatus>
+♂ from 
+<collectingMunicipality pageId="null" pageNumber="410">Alicedale</collectingMunicipality>
+, 
+<collectingCountry pageId="null" pageNumber="410" value="South Africa">South Africa</collectingCountry>
+, coll. 
+<collectorName pageId="null" pageNumber="410">F. Cruden</collectorName>
+, 
+<date pageId="null" pageNumber="410" value="1916-01">
+<collectingDate pageId="null" pageNumber="410" value="1916-01">Jan. 1916</collectingDate>
+</date>
+(
+<collectionCode pageId="null" pageNumber="410">Geneva</collectionCode>
+)
+</materialsCitation>
+.
+</span>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

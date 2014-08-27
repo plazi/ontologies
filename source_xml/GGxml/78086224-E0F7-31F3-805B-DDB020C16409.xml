@@ -1,0 +1,210 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="78086224E0F731F3805BDDB020C16409" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Wajane stilleri Dippenaar-Schoeman, 1989, spec. nov." lastPageNumber="134" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="3" pageNumber="134" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:78086224E0F731F3805BDDB020C16409" httpUri="http://treatment.plazi.org/id/78086224E0F731F3805BDDB020C16409" pageId="3" pageNumber="134">
+<subSubSection type="nomenclature">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="species" species="stilleri">
+Wajane stilleri 
+<taxonomicNameLabel pageId="3" pageNumber="134" rank="species">
+<authority pageId="3" pageNumber="134">spec</authority>
+. nov.
+</taxonomicNameLabel>
+</taxonomicName>
+Fig. 2,7-8
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<typeStatus pageId="3" pageNumber="134">Types</typeStatus>
+</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<materialsCitation collectingDate="1975-08-03" collectingMethod="found in silk-lined tunnels under exfoliated section of rock, in a boulder" collectionCode="NCA" collectorName="M. Stiller" country="South Africa" elevation="300 m" latitude="-33.75" location="Donkerkloof, Du Toit's kloof, Paarl" longLatPrecision="1" longitude="18.833334" pageId="3" pageNumber="134" specimenCode="88 / 29" specimenCount="2" specimenCountFemale="1" specimenCountOther="1" typeStatus="holotype">
+Female 
+<typeStatus pageId="3" pageNumber="134">holotype</typeStatus>
+, 
+<collectingCountry pageId="3" pageNumber="134" value="South Africa">South Africa</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:78086224E0F731F3805BDDB020C16409:15924051CDCBDEC649563EA444F6CE0E" country="South Africa" latitude="-33.75" longLatPrecision="1" longitude="18.833334" name="Donkerkloof, Du Toit's kloof, Paarl" pageId="3" pageNumber="134">
+Donkerkloof, Du 
+<normalizedToken originalValue="Toit’s" pageId="3" pageNumber="134">Toit's</normalizedToken>
+kloof, Paarl
+</location>
+, elevation 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="3.0" pageId="3" pageNumber="134" unit="m" value="300.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="3.0" pageId="3" pageNumber="134" unit="m" value="300.0">300 m</elevation>
+</quantity>
+, 
+<geoCoordinate direction="south" orientation="latitude" pageId="3" pageNumber="134" precision="1" value="-33.75">33° 45' S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" pageId="3" pageNumber="134" precision="1" value="18.833334">18° 50' E</geoCoordinate>
+, 
+<collectingMethod pageId="3" pageNumber="134">found in silk-lined tunnels under exfoliated section of rock, in a boulder</collectingMethod>
+, 
+<date pageId="3" pageNumber="134" value="1975-08-03">
+<collectingDate pageId="3" pageNumber="134" value="1975-08-03">3. viii. 1975</collectingDate>
+</date>
+, 
+<collectorName pageId="3" pageNumber="134">M. Stiller</collectorName>
+, deposited with one immature female in the 
+<collectionCode pageId="3" pageNumber="134">National Collection of Arachnida</collectionCode>
+(
+<specimenCode pageId="3" pageNumber="134">NCA 88/29</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="etymology">
+<paragraph pageId="3" pageNumber="134" type="mainText">Etymology</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+Named after Martin Stiller, formerly of the Plant Protection Research Institute, collector of the 
+<typeStatus pageId="3" pageNumber="134">type</typeStatus>
+material.
+</paragraph>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph pageId="3" pageNumber="134" type="mainText">Diagnosis</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+The female of the genus 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+is described here for the first time. It differs from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="species" species="armata">W. armata</taxonomicName>
+, the only other known species, in colour, the absence of white setae on the carapace and white patches on the anterolateral corners of the abdomen.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="3" pageNumber="134" type="mainText">Description</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">Female Size (n=l): total length 3,72; carapace width 0,96; carapace length 1,52.</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+Carapace smooth and shiny; dirty grey, paler anteriorly, dark rim around posterior edge; eyes encircled with black; fovea a shallow depression, edged with black M-shaped marking. Carapace longer than wide, flattened, lateral margins of thorax parallel, clypeus centrally slightly protruding; carapace clothed with few brown to translucent thin setae. Eyes situated close to anterior margin; anterior eye row straight, posterior row recurved; ALE very close to clypeal edge, larger than 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="3" pageNumber="134">AME</collectionCode>
+; 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="3" pageNumber="134">AME</collectionCode>
+closer to each other than to ALB; PLE more widely spaced than ALE, slightly larger than PME; PME almost as far from each other than from PLE; MOQ wider than long, narrower anteriorly (Fig. 5). Chelicerae less hairy than those of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+, pale brown; anterior margin of chelicerae with a low chitinous keel armed with 5 teeth, tooth next to basal one largest. Labium and maxillae pale grey, labium half the length of maxillae, apex white translucent. Sternum dirty grey, oval, posteriorly projected between fourth coxae. Legs 
+<misspelling pageId="3" pageNumber="134" type="misspelled">greyish</misspelling>
+; only coxae III and IV white translucent, metatarsi and tarsi I and II brownish; other segments with pale translucent patches; legs clothed with long pale setae; leg formula 4123; leg measurements:
+</paragraph>
+<paragraph pageId="3" pageNumber="134">
+<table border="1" pageId="3" pageNumber="134">
+<tr pageId="3" pageNumber="134">
+<td isEmpty="true" pageId="3" pageNumber="134">-</td>
+<td pageId="3" pageNumber="134">I</td>
+<td pageId="3" pageNumber="134">I</td>
+<td pageId="3" pageNumber="134">in</td>
+<td pageId="3" pageNumber="134">IV</td>
+<td pageId="3" pageNumber="134">Palp</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Coxa</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,36</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,35</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,32</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,48</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">-</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Femur</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,60</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,60</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,56</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,80</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,44</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Patella</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,48</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,44</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,32</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,48</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,24</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Tibia</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,56</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,48</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0.48</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,72</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,16</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Metatarsus</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,44</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,40</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,36</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,44</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">-</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">Tarsus</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,24</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,24</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,24</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,28</td>
+<td pageId="3" pageNumber="134" style="vertical-align:bottom;">0,32</td>
+</tr>
+<tr pageId="3" pageNumber="134">
+<td pageId="3" pageNumber="134">Total</td>
+<td pageId="3" pageNumber="134" style="vertical-align:middle;">2,68</td>
+<td pageId="3" pageNumber="134">2,51</td>
+<td pageId="3" pageNumber="134" style="vertical-align:middle;">2,28</td>
+<td pageId="3" pageNumber="134">3,20</td>
+<td pageId="3" pageNumber="134" style="vertical-align:middle;">1,16</td>
+</tr>
+</table>
+</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+Coxae long, especially leg IV; femur of all legs slightly thicker than rest. Abdomen oval, tapering posteriorly; grey, clothed with numerous short black setae, with a pair of roundish transversal white patches centrally at widest point of abdomen, patches covered with strong white setae; 
+<misspelling pageId="3" pageNumber="134" type="misspelled">ventrum</misspelling>
+unicoloured.
+</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">Epigynum as shown in Fig. 7, internal genitalia as depicted in Fig. 8.</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">Male Unknown.</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">Juvenile similar to female.</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+Distribution Known only from 
+<typeStatus pageId="3" pageNumber="134">type</typeStatus>
+locality.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageId="3" pageNumber="134" type="mainText">Bionomics</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+An adult female was collected in August from 
+<misspelling pageId="3" pageNumber="134" type="misspelled">silklined</misspelling>
+tunnels in boulders.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

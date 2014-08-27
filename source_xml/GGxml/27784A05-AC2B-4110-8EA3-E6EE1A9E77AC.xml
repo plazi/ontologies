@@ -1,0 +1,331 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="01A1857D5A4726421C572AB9E53EC3BA" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus kruger Miller, Griswold &amp; Haddad, 2010, sp. nov." docUuid="27784A05-AC2B-4110-8EA3-E6EE1A9E77AC" docUuidSource="ZooBank" lastPageId="26" lastPageNumber="27" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="24" pageNumber="25" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:01A1857D5A4726421C572AB9E53EC3BA" httpUri="http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA" lastPageId="26" lastPageNumber="27" pageId="24" pageNumber="25">
+<subSubSection pageId="24" pageNumber="25" type="nomenclature">
+<paragraph pageId="24" pageNumber="25" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="kruger">Penestomus kruger</taxonomicName>
+<taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+<paragraph pageId="24" pageNumber="25" type="mainText">
+http://zoobank.org/um:lsid:zoobank.org:act:27784A05-AC2B-4110-8EA3-E6EE1A 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="9.0">9E</geoCoordinate>
+77AC
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="25" type="description">
+<paragraph pageId="24" pageNumber="25" type="mainText">Figs 16B, 17A, 17B, 21</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="25" type="materials_examined">
+<paragraph pageId="24" pageNumber="25" type="mainText">
+<materialsCitation collectingDate="1984-04-07" collectionCode="NCA" collectorName="A. Leroy" country="South Africa" latitude="-24.0" location="Mid Plateau, Kruger National Park" longLatPrecision="1" longitude="31.5" specimenCode="AcAT 98 / 283, LR 1248" specimenCount="1" specimenCount-female="1" stateProvince="Limpopo" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♀, 
+<location LSID="urn:lsid:plazi:treatment:01A1857D5A4726421C572AB9E53EC3BA:2CE1B26BC6DA6D12C9A977179091EFE1" country="South Africa" latitude="-24.0" longLatPrecision="1" longitude="31.5" name="Mid Plateau, Kruger National Park" stateProvince="Limpopo">Mid Plateau, Kruger National Park</location>
+[
+<collectingRegion>Limpopo</collectingRegion>
+], 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-24.0">24°S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="31.5">31°30'E</geoCoordinate>
+], 
+<date value="1984-04-07">
+<collectingDate value="1984-04-07">7 April 1984</collectingDate>
+</date>
+, 
+<collectorName>A. Leroy</collectorName>
+(
+<specimenCode>AcAT 98/283, LR 1248</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+).
+</materialsCitation>
+<materialsCitation collectingDate="1984-04-07" collectionCode="NCA" collectorName="A. Leroy" country="South Africa" latitude="-24.0" location="Mid Plateau, Kruger National Park" longLatPrecision="1" longitude="31.5" specimenCode="AcAT 98 / 283, LR 1248" specimenCount="6" specimenCount-female="1" stateProvince="Limpopo" typeStatus="Paratypes">
+<typeStatus>Paratypes</typeStatus>
+: 
+<specimenCount type="generic">1 ♀</specimenCount>
+, 
+<specimenCount type="generic">5 juveniles</specimenCount>
+, same data as holotype (
+<specimenCode>AcAT 98/283, LR 1248</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="25" type="etymology">
+<paragraph pageId="24" pageNumber="25" type="mainText">
+Etymology. The specific epithet is a noun in apposition, named for the 
+<typeStatus>type</typeStatus>
+locality, Kruger National Park.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="24" pageNumber="25" type="diagnosis">
+<paragraph pageId="24" pageNumber="25" type="mainText">
+Diagnosis. Female distinguished from other 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species as follows: from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">P. montanus</taxonomicName>
+by the parallel grooves on the PL (Figs 16 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>B</collectionCode>
+; diverging in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">
+P. montanus
+<authority pageId="24" pageNumber="25">, Fig</authority>
+</taxonomicName>
+. 12 
+<collectionCode>C</collectionCode>
+), and by the having the AL of the epigynum well defined and subtriangular (suboval and weakly defined in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">
+P. montanus
+<authority pageId="24" pageNumber="25">, Fig</authority>
+</taxonomicName>
+. 12 
+<collectionCode>C</collectionCode>
+); from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">P. egazini</taxonomicName>
+by the PL, which is approximately one third the length of the epigynum (Figs 16 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>B</collectionCode>
+; nearly half the length of the epigynum in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">P. egazini
+<authority pageId="24" pageNumber="25">, Fig</authority>
+</taxonomicName>
+. 12 
+<collectionCode>A</collectionCode>
+); from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="prendinii">P. prendinii</taxonomicName>
+by the recurved posterior margin of the AL
+</paragraph>
+</subSubSection>
+<subSubSection pageId="25" pageNumber="26" type="multiple">
+<caption pageId="25" pageNumber="26">
+<paragraph pageId="25" pageNumber="26" type="caption">
+<pageBreakToken pageId="25" pageNumber="26" start="start">(</pageBreakToken>
+Figs 16 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>B</collectionCode>
+; transverse medially in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="prendinii">P. prendinii
+<authority pageId="25" pageNumber="26">, Fig</authority>
+</taxonomicName>
+. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="12.0">
+12 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+); from P 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="zulu">zulu</taxonomicName>
+<taxonomicNameLabel pageId="25" pageNumber="26" rank="species">sp. nov.</taxonomicNameLabel>
+by the lack of an invagination on the posterior margin of the PL (Fig. 16 
+<collectionCode>D</collectionCode>
+); and from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+by the overall shape of the epigynum, which is narrow and long with a more weakly concave posterior margin of the AL in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
+(Fig. 16 
+<collectionCode>B</collectionCode>
+; relatively wide and short with a strongly concave posterior margin of the 
+<collectionCode>AL</collectionCode>
+in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="planus">P. planus
+<authority pageId="25" pageNumber="26">, Fig</authority>
+</taxonomicName>
+. 16 
+<collectionCode>A</collectionCode>
+). Male unknown.
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection lastPageId="26" lastPageNumber="27" pageId="25" pageNumber="26" type="description">
+<paragraph pageId="25" pageNumber="26" type="mainText">
+Description. Carapace red-brown, lighter posteriorly with smooth texture, covered by fine black setae; broad white setae mostly posterior to fovea (Fig. 17 
+<collectionCode>A</collectionCode>
+). Sternum pale yellow (Fig. 17 
+<collectionCode>B</collectionCode>
+). Chelicerae red-brown, with six promarginal teeth, two retromarginal teeth; with fine black setae only. Legs dusky orange basally, anterior legs red-orange distally, posterior legs orange distally. Abdomen dark gray dorsally with light dorsolateral patches, smaller light patches anteriorly and above spinnerets (Fig. 17 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<paragraph pageId="25" pageNumber="26" type="mainText">
+Epigynum. AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin moderately concave; PL approximately 1/3 length of epigynum, with parallel grooves (Fig. 16 
+<collectionCode>B</collectionCode>
+).
+</paragraph>
+<caption pageId="25" pageNumber="26">
+<paragraph pageId="25" pageNumber="26" type="caption">
+FIGURE 16. Epigynum of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+species. A, 
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="planus">
+P. planus 
+<authority pageId="25" pageNumber="26">Simon, 1902</authority>
+</taxonomicName>
+from Willowmore, South Africa (
+<collectionCode>AR</collectionCode>
+14375, 21716), arrow indicates posterior margin of AL; B, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
+<taxonomicNameLabel pageId="25" pageNumber="26" rank="species">sp. nov.</taxonomicNameLabel>
+from Kruger National Park, South Africa (AcAT 98/283, 
+<collectionCode>LR</collectionCode>
+1248), arrow indicates posterior margin of AL; C, D, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="zulu">P. zulu</taxonomicName>
+<taxonomicNameLabel pageId="25" pageNumber="26" rank="species">sp. nov.</taxonomicNameLabel>
+from Mfongosi, KwaZulu Natal, South Africa (SAM-ENW-B004176), unlabeled arrow in D indicates invagination of posterior lobe; E, F, 
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri 
+<authority pageId="25" pageNumber="26">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+from Grahamstown, South Africa (AcAT 87/249); G, H, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989) from Winterhoek, South Africa (SAM-ENW-B002686); I, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="25" pageNumber="26" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989) from Donkerkloof, South Africa (
+<typeStatus>holotype</typeStatus>
+, AcAT 88/29). A-C, E, G, ventral view; D, F, H, I, cleared, dorsal view. Scale bars = 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="2.0" unit="mm" value="2.0">0.2 mm</quantity>
+. AL, anterior lobe; CD, copulatory duct; FD, fertilization duct; MP, median projection of the AL; PA, posterolateral apophysis; PL, posterior lobe; S, spermatheca.
+</paragraph>
+</caption>
+<paragraph pageId="26" pageNumber="27" type="mainText">
+<pageBreakToken pageId="26" pageNumber="27" start="start">Female</pageBreakToken>
+macrosetae: Leg I: femur d1, tibia 
+<date>v1-1</date>
+-2, metatarsus 
+<date>v2-2</date>
+-2; leg II: femur d1, tibia 
+<date>v1</date>
+, metatarsus 
+<date>v2-2</date>
+; leg III: femur d1, metatarsus 
+<date>v2</date>
+; leg IV: femur d1, metatarsus 
+<date>v1-2</date>
+; tarsus r1.
+</paragraph>
+<paragraph pageId="26" pageNumber="27" type="mainText">
+<typeStatus>Holotype</typeStatus>
+female (AcAT 98/283): Total length 6.1 carapace 2.56 long, 1.91 wide, 0.48 high, sternum 1.53 long, 0.80 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="26" pageNumber="27" type="table">
+<table border="1" pageId="26" pageNumber="27">
+<tr pageId="26" pageNumber="27">
+<td isEmpty="true" pageId="26" pageNumber="27">-</td>
+<td pageId="26" pageNumber="27">I</td>
+<td pageId="26" pageNumber="27">II</td>
+<td pageId="26" pageNumber="27">III</td>
+<td pageId="26" pageNumber="27">IV</td>
+<td pageId="26" pageNumber="27">Pedipalp</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Femur</td>
+<td pageId="26" pageNumber="27">1.27</td>
+<td pageId="26" pageNumber="27">1.30</td>
+<td pageId="26" pageNumber="27">1.05</td>
+<td pageId="26" pageNumber="27">1.58</td>
+<td pageId="26" pageNumber="27">0.79</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Patella</td>
+<td pageId="26" pageNumber="27">0.69</td>
+<td pageId="26" pageNumber="27">0.71</td>
+<td pageId="26" pageNumber="27">0.60</td>
+<td pageId="26" pageNumber="27">0.84</td>
+<td pageId="26" pageNumber="27">0.31</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Tibia</td>
+<td pageId="26" pageNumber="27">0.89</td>
+<td pageId="26" pageNumber="27">0.84</td>
+<td pageId="26" pageNumber="27">0.63</td>
+<td pageId="26" pageNumber="27">1.37</td>
+<td pageId="26" pageNumber="27">0.30</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Metatarsus</td>
+<td pageId="26" pageNumber="27">0.86</td>
+<td pageId="26" pageNumber="27">0.84</td>
+<td pageId="26" pageNumber="27">0.60</td>
+<td pageId="26" pageNumber="27">0.94</td>
+<td pageId="26" pageNumber="27">-</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Tarsus</td>
+<td pageId="26" pageNumber="27">0.46</td>
+<td pageId="26" pageNumber="27">0.43</td>
+<td pageId="26" pageNumber="27">0.30</td>
+<td pageId="26" pageNumber="27">0.43</td>
+<td pageId="26" pageNumber="27">0.51</td>
+</tr>
+<tr pageId="26" pageNumber="27">
+<td pageId="26" pageNumber="27">Total</td>
+<td pageId="26" pageNumber="27">4.17</td>
+<td pageId="26" pageNumber="27">4.13</td>
+<td pageId="26" pageNumber="27">3.18</td>
+<td pageId="26" pageNumber="27">5.15</td>
+<td pageId="26" pageNumber="27">1.90</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="26" pageNumber="27" type="distribution">
+<paragraph pageId="26" pageNumber="27" type="mainText">Distribution. Known from Limpopo Province, South Africa (Fig. 21).</paragraph>
+</subSubSection>
+</treatment>
+</document>

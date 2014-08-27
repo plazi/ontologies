@@ -1,0 +1,72 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="FDF16D9A6F04F4D7336EF30F4D8739F1" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Wajane armata Lehtinen" lastPageNumber="134" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="3" pageNumber="134" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:FDF16D9A6F04F4D7336EF30F4D8739F1" httpUri="http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1" pageId="3" pageNumber="134">
+<subSubSection type="nomenclature">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<taxonomicName authority="Lehtinen" authorityName="Lehtinen" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="species" species="armata">Wajane armata Lehtinen</taxonomicName>
+, 1967
+</paragraph>
+</subSubSection>
+<subSubSection type="reference_group">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/0F0B6BC2-B992-D710-F179-1A8C1D515D05">
+<taxonomicName authority="Lehtinen" authorityName="Lehtinen" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="species" species="armata">Wajane armata Lehtinen</taxonomicName>
+, 1967:409
+</treatmentCitation>
+</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<materialsCitation collectingDate="1916-01" collectionCode="MHNG" collectorName="F. Cruden" country="South Africa" latitude="-33.266666" location="Alicedale" longLatPrecision="1" longitude="26.033333" pageId="3" pageNumber="134" specimenCount="1" specimenCountMale="1" stateProvince="Cape Province" typeStatus="holotype">
+The 
+<typeStatus pageId="3" pageNumber="134">holotype</typeStatus>
+male was collected in 
+<date pageId="3" pageNumber="134" value="1916-01">
+<collectingDate pageId="3" pageNumber="134" value="1916-01">January 1916</collectingDate>
+</date>
+by 
+<collectorName pageId="3" pageNumber="134">F. Cruden</collectorName>
+at 
+<location LSID="urn:lsid:plazi:treatment:FDF16D9A6F04F4D7336EF30F4D8739F1:DC309AF6EB7275AD002248EED5C1F639" country="South Africa" latitude="-33.266666" longLatPrecision="1" longitude="26.033333" name="Alicedale" pageId="3" pageNumber="134" stateProvince="Cape Province">Alicedale</location>
+, (
+<geoCoordinate direction="south" orientation="latitude" pageId="3" pageNumber="134" precision="1" value="-33.266666">33° 16' S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" pageId="3" pageNumber="134" precision="1" value="26.033333">26° 02' E</geoCoordinate>
+), 
+<collectingRegion pageId="3" pageNumber="134">Cape Province</collectingRegion>
+. For a drawing of the palp see Lehtinen (1967: 462, Fig. 470 and 471). The type is deposited in the 
+<collectionCode pageId="3" pageNumber="134">Museum d'Histoire Naturelle, Geneva</collectionCode>
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

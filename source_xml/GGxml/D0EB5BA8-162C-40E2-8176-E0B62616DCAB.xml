@@ -1,0 +1,277 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="84A90B878C7606E484D8052DD338ED7E" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus prendinii Miller, Griswold &amp; Haddad, 2010, sp. nov." docUuid="D0EB5BA8-162C-40E2-8176-E0B62616DCAB" docUuidSource="ZooBank" lastPageNumber="23" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="22" pageNumber="23" updateTime="1404292469104" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:84A90B878C7606E484D8052DD338ED7E" httpUri="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E" pageId="22" pageNumber="23">
+<subSubSection pageId="22" pageNumber="23" type="nomenclature">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="prendinii">Penestomus prendinii</taxonomicName>
+<taxonomicNameLabel pageId="22" pageNumber="23" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+<paragraph pageId="22" pageNumber="23" type="mainText">
+http://zoobank.org/urn:lsid:zoobank.org:act:D0EB5BA8-162C- 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="40.0">40E</geoCoordinate>
+2-8176-E0B62616DCAB
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="description">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="12.0">12E</geoCoordinate>
+, 12F, 15A, 15B, 21
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="reference_group">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+<taxonomicNameLabel pageId="22" pageNumber="23" rank="species">
+sp. 
+<date>nov. 2</date>
+</taxonomicNameLabel>
+: Miller et al., 2010. GenBank accession numbers FJ948972 (
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-28.0">
+28 
+<collectionCode>S</collectionCode>
+</geoCoordinate>
+rDNA), FJ948888 and FJ948930 (
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-18.0">
+18 
+<collectionCode>S</collectionCode>
+</geoCoordinate>
+rDNA), FJ949049 (
+<misspelling corrections="[Ljava.lang.String;@42595a82" pageId="22" pageNumber="23" type="misspelled">Histone</misspelling>
+<collectionCode>H</collectionCode>
+3), FJ949012 (
+<misspelling corrections="[Ljava.lang.String;@78452ed5" pageId="22" pageNumber="23" type="misspelled">cytochrome</misspelling>
+<misspelling corrections="[Ljava.lang.String;@605dfa3" pageId="22" pageNumber="23" type="misspelled">oxidase</misspelling>
+<collectionCode>I</collectionCode>
+).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="materials_examined">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+<materialsCitation collectingDate="2007-03-08" collectionCode="AMNH" collectorName="L. Prendini, H. Bichard" country="South Africa" elevation="1449 m" latitude="-32.068733" location="site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73" longLatPrecision="0" longitude="22.756083" specimenCount="1" specimenCount-female="1" stateProvince="Western Cape" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♀, 
+<location LSID="urn:lsid:plazi:treatment:84A90B878C7606E484D8052DD338ED7E:E183A4F003AEDE2171F2716C19626B38" country="South Africa" latitude="-32.068733" longLatPrecision="0" longitude="22.756083" name="site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73" stateProvince="Western Cape">
+site 65, 
+<quantity metricMagnitude="4" metricUnit="m" metricValue="3.7399999999999998" unit="km" value="37.4">37.4 km</quantity>
+NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73
+</location>
+, 
+<collectingRegion>Western Cape</collectingRegion>
+, 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+, 
+<geoCoordinate direction="south" orientation="latitude" precision="0" value="-32.068733">32°4.124'S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="0" value="22.756083">22°45.365'E</geoCoordinate>
+, 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="1.449" unit="m" value="1449.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="1.449" unit="m" value="1449.0">1449 m</elevation>
+</quantity>
+, 
+<date value="2007-03-08">
+<collectingDate value="2007-03-08">8 March 2007</collectingDate>
+</date>
+, 
+<collectorName>
+L. 
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="genus" tribe="Prendini">Prendini</taxonomicName>
+</collectorName>
+&amp; 
+<collectorName>H. Bichard</collectorName>
+(
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+).
+</materialsCitation>
+<materialsCitation collectingDate="2007-03-08" collectionCode="AMNH" collectorName="L. Prendini, H. Bichard" country="South Africa" elevation="1449 m" latitude="-32.068733" location="site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73" longLatPrecision="0" longitude="22.756083" specimenCount="6" specimenCount-female="2" stateProvince="Western Cape" typeStatus="Paratypes">
+<typeStatus>Paratypes</typeStatus>
+: 
+<specimenCount type="generic">2♀</specimenCount>
+, 
+<specimenCount type="generic">4 juveniles</specimenCount>
+, same data as holotype (
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="etymology">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Etymology. The specific epithet is a patronymic in honor of co-collector Lorenzo 
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="genus" tribe="Prendini">Prendini</taxonomicName>
+for his contributions to arachnid systematics in South Africa and elsewhere, and for braving gunfire during the collection of this species.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="diagnosis">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Diagnosis. Female distinguished by the shape of the carapace, which is more rounded laterally (Fig. 15 
+<collectionCode>A</collectionCode>
+), nearly parallel sided in other species (Fig. 9 
+<collectionCode>A</collectionCode>
+), and also flatter than other species. Female further distinguished from other 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species by the shape of the posterior margin of the AL of the epigynum, which is straight medially, then turns sharply to form lateral corners that project somewhat more posteriorly (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="12.0">
+12 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+). The posterior margin of the AL is distinctly recurved in other species (Fig. 12 
+<collectionCode>A</collectionCode>
+) except P 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="22" pageNumber="23" phylum="Arthropoda" rank="species" species="montanus">montanus</taxonomicName>
+, which has an indistinct margin (Fig. 12 
+<collectionCode>C</collectionCode>
+). Male unknown.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="description">
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Description. Carapace brown, lateral margins somewhat rounded, covered by fine black setae, with broad white setae concentrated posterior to fovea (Fig. 15 
+<collectionCode>A</collectionCode>
+). Sternum dusky pale yellow (Fig. 15 
+<collectionCode>B</collectionCode>
+). Chelicerae brown, with five promarginal teeth, two retromarginal teeth; with fine black setae only. Legs dusky brown basally, anterior legs orange distally, posterior legs yellow distally. Abdomen dark gray dorsally with pair of broad light dorsolateral patches, covered with mixture of fine black and broad white setae (Fig. 15 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Epigynum. AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin straight medially, then turns sharply to form lateral corners projecting somewhat more posteriorly; PL approximately 1/4 length of epigynum, grooves slightly diverging posteriorly (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="12.0">
+12 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+).
+</paragraph>
+<paragraph pageId="22" pageNumber="23" type="mainText">
+Female macrosetae. Leg I: tibia 
+<date>v1-2</date>
+-2, metatarsus 
+<date>v2-2</date>
+-2; leg II: tibia 
+<date>v1</date>
+, metatarsus 
+<date>v2-2</date>
+-2; leg III: metatarsus 
+<date>v1-2</date>
+; leg IV: metatarsus 
+<date>v2-1</date>
+-2, tarsus r1.
+</paragraph>
+<paragraph pageId="22" pageNumber="23" type="mainText">
+<typeStatus>Paratype</typeStatus>
+female (
+<collectionCode collectionName="USA, New York, New York, American Museum of Natural History">AMNH</collectionCode>
+): Total length 5.7, carapace 2.31 long, 1.88 wide, 0.16 high, sternum 1.34 long, 0.69 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="22" pageNumber="23" type="table">
+<table border="1" pageId="22" pageNumber="23">
+<tr pageId="22" pageNumber="23">
+<td isEmpty="true" pageId="22" pageNumber="23">-</td>
+<td pageId="22" pageNumber="23">I</td>
+<td pageId="22" pageNumber="23">II</td>
+<td pageId="22" pageNumber="23">III</td>
+<td pageId="22" pageNumber="23">IV</td>
+<td pageId="22" pageNumber="23">Pedipalp</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Femur</td>
+<td pageId="22" pageNumber="23">1.33</td>
+<td pageId="22" pageNumber="23">1.31</td>
+<td pageId="22" pageNumber="23">0.98</td>
+<td pageId="22" pageNumber="23">1.58</td>
+<td pageId="22" pageNumber="23">0.68</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Patella</td>
+<td pageId="22" pageNumber="23">0.70</td>
+<td pageId="22" pageNumber="23">0.67</td>
+<td pageId="22" pageNumber="23">0.52</td>
+<td pageId="22" pageNumber="23">0.76</td>
+<td pageId="22" pageNumber="23">0.29</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Tibia</td>
+<td pageId="22" pageNumber="23">0.84</td>
+<td pageId="22" pageNumber="23">0.83</td>
+<td pageId="22" pageNumber="23">0.62</td>
+<td pageId="22" pageNumber="23">1.31</td>
+<td pageId="22" pageNumber="23">0.25</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Metatarsus</td>
+<td pageId="22" pageNumber="23">0.86</td>
+<td pageId="22" pageNumber="23">0.79</td>
+<td pageId="22" pageNumber="23">0.55</td>
+<td pageId="22" pageNumber="23">0.86</td>
+<td pageId="22" pageNumber="23">-</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Tarsus</td>
+<td pageId="22" pageNumber="23">0.39</td>
+<td pageId="22" pageNumber="23">0.34</td>
+<td pageId="22" pageNumber="23">0.24</td>
+<td pageId="22" pageNumber="23">0.29</td>
+<td pageId="22" pageNumber="23">0.46</td>
+</tr>
+<tr pageId="22" pageNumber="23">
+<td pageId="22" pageNumber="23">Total</td>
+<td pageId="22" pageNumber="23">4.12</td>
+<td pageId="22" pageNumber="23">3.94</td>
+<td pageId="22" pageNumber="23">2.91</td>
+<td pageId="22" pageNumber="23">4.81</td>
+<td pageId="22" pageNumber="23">1.69</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="22" pageNumber="23" type="distribution">
+<paragraph pageId="22" pageNumber="23" type="mainText">Distribution. Known from Western Cape Province, South Africa (Fig. 21).</paragraph>
+</subSubSection>
+</treatment>
+</document>

@@ -1,0 +1,322 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="FE0A009924D592880CE5574191C881CC" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus armatus Miller, Griswold &amp; Haddad, 2010, new combination" lastPageId="32" lastPageNumber="33" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="30" pageNumber="31" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:FE0A009924D592880CE5574191C881CC" httpUri="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC" lastPageId="32" lastPageNumber="33" pageId="30" pageNumber="31">
+<subSubSection pageId="30" pageNumber="31" type="nomenclature">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="armatus">
+Penestomus armatus 
+<authority pageId="30" pageNumber="31">(Lehtinen, 1967)</authority>
+</taxonomicName>
+, 
+<taxonomicNameLabel pageId="30" pageNumber="31">new combination</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="description">
+<paragraph pageId="30" pageNumber="31" type="mainText">Figs 3D, 19-21</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="reference_group">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/0F0B6BC2-B992-D710-F179-1A8C1D515D05">
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="armata">
+Wajane armata 
+<authority pageId="30" pageNumber="31">Lehtinen, 1967</authority>
+</taxonomicName>
+: 409, figs 470-471.
+</treatmentCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="materials_examined">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+<materialsCitation collectingDate="1916-01" collectionCode="MHNG" collectorName="F. Cruden" country="South Africa" latitude="-33.266666" location="Alicedale" longLatPrecision="1" longitude="26.033333" specimenCount="1" specimenCount-male="1" stateProvince="Eastern Cape" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♂, 
+<location LSID="urn:lsid:plazi:treatment:FE0A009924D592880CE5574191C881CC:E56B40B113A46CEBA21D6E62B0CE0501" country="South Africa" latitude="-33.266666" longLatPrecision="1" longitude="26.033333" name="Alicedale" stateProvince="Eastern Cape">Alicedale</location>
+, 
+<collectingRegion>Eastern Cape</collectingRegion>
+, 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.266666">33°16'S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="26.033333">26°2'E</geoCoordinate>
+], 
+<date value="1916-01">
+<collectingDate value="1916-01">January 1916</collectingDate>
+</date>
+, 
+<collectorName>F. Cruden</collectorName>
+(
+<collectionCode collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle">MHNG</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="diagnosis">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+Diagnosis. Male distinguished from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="egazini">P egazini</taxonomicName>
+(Fig. 10 
+<collectionCode>A</collectionCode>
+) by the absence of a keel on the outer margin of the embolus (Fig. 20 
+<collectionCode>A</collectionCode>
+); and from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="montanus">P. montanus</taxonomicName>
+(Fig. 14 
+<collectionCode>A</collectionCode>
+) by the lack of a lobe on the anterior margin of the tail of the MA (Fig. 20 
+<collectionCode>A</collectionCode>
+). Male further distinguished by the relatively shallow notch in the retrolateral plate of the MA (Fig. 20 
+<collectionCode>C</collectionCode>
+). Female unknown.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="32" lastPageNumber="33" pageId="30" pageNumber="31" type="description">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+Description. Carapace orange, rugose (Fig. 19 
+<collectionCode>A</collectionCode>
+; setae, if any, lost from 
+<typeStatus>holotype</typeStatus>
+). Sternum pale yellow (Fig. 19 
+<collectionCode>B</collectionCode>
+; damaged in 
+<typeStatus>holotype</typeStatus>
+specimen). Chelicerae orange, with five promarginal teeth, two retromarginal teeth. Legs brown basally, pale yellow distally. Abdomen light gray dorsally with pair of light dorsolateral patches (Fig. 19 
+<collectionCode>A</collectionCode>
+; setae, if any, lost from 
+<typeStatus>holotype</typeStatus>
+).
+</paragraph>
+<paragraph pageId="30" pageNumber="31" type="mainText">
+Male pedipalp: RTA1 with tips long, diverging, inside tip curved ventrally, outside tip with basal suture (Fig. 20 
+<collectionCode>A</collectionCode>
+). Dorsal ridge short, restricted to base of RTA1. RTA2 with apex short, curved dorsally (Fig. 20 
+<collectionCode>C</collectionCode>
+). MA without anterior lobe arising from tail (Fig. 20 
+<collectionCode>A</collectionCode>
+). Embolus without keel along outer margin; bifid distal region formed from small transparent dorsal process and pointed distal tip (Fig. 20 
+<collectionCode>C</collectionCode>
+).
+</paragraph>
+<caption pageId="30" pageNumber="31">
+<paragraph pageId="30" pageNumber="31" type="caption">
+FIGURE 19. A, B, Habitus images of male 
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="armatus">
+Penestomus armatus 
+<authority pageId="30" pageNumber="31">(Lehtinen, 1967)</authority>
+</taxonomicName>
+from Alicedale, South Africa (
+<typeStatus>holotype</typeStatus>
+of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="species" species="armata">Wajane armata</taxonomicName>
+). A, dorsal view; B, ventral view. Scale bars = 
+<quantity metricMagnitude="-4" metricUnit="m" metricValue="3.0" unit="mm" value="0.3">0.3 mm</quantity>
+.
+</paragraph>
+</caption>
+<caption pageId="31" pageNumber="32">
+<paragraph pageId="31" pageNumber="32" type="caption">
+<pageBreakToken pageId="31" pageNumber="32" start="start">FIGURE</pageBreakToken>
+20. 
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="31" pageNumber="32" phylum="Arthropoda" rank="species" species="armatus">
+Penestomus armatus 
+<authority pageId="31" pageNumber="32">(Lehtinen, 1967)</authority>
+</taxonomicName>
+from Alicedale, South Africa (
+<typeStatus>holotype</typeStatus>
+of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="31" pageNumber="32" phylum="Arthropoda" rank="species" species="armata">Wajane armata</taxonomicName>
+), left pedipalp. A, ventral view; B, prolateral view; C, retrolateral view. Scale bars = 
+<quantity metricMagnitude="-4" metricUnit="m" metricValue="2.0" unit="mm" value="0.2">0.2 mm</quantity>
+. C, conductor; E, embolus; MA, median apophysis; RTA1, outer, bifid ramus of retrolateral tibial apophysis; RTA1(
+<collectionCode>I</collectionCode>
+), inner tip of outer ramus of retrolateral tibial apophysis; RTA1(
+<collectionCode>O</collectionCode>
+), outer tip of outer ramus of retrolateral tibial apophysis; RTA2, inner ramus of retrolateral tibial apophysis; SU, suture; TG, tegulum.
+</paragraph>
+</caption>
+<paragraph pageId="32" pageNumber="33" type="mainText">
+<pageBreakToken pageId="32" pageNumber="33" start="start">Male</pageBreakToken>
+macrosetae: Leg I: femur d1, tibia r2-2-2-2-2-1, 
+<date>v1-2</date>
+-2, metatarsus r1-3-1, 
+<date>v2-2</date>
+-2; leg II: femur d1, tibia r1-1-1, 
+<date>v2-2</date>
+-2, metatarsus r1-1-1, 
+<date>v2-2</date>
+; leg III: femur d1, tibia r1-1-1, 
+<date>v2-2</date>
+-2, metatarsus r1-1-1, 
+<date>v2-2</date>
+; leg IV: femur d1 (tibia, metatarsus, tarsus 
+<misspelling corrections="[Ljava.lang.String;@6b9d496b" pageId="32" pageNumber="33" type="misspelled">undetermined</misspelling>
+).
+</paragraph>
+<paragraph pageId="32" pageNumber="33" type="mainText">
+<typeStatus>Holotype</typeStatus>
+male: Total length 4.9, carapace 2.20 long, 1.56 wide, 0.56 high, sternum 1.28 long, 0.69 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="32" pageNumber="33" type="table">
+<table border="1" pageId="32" pageNumber="33">
+<tr pageId="32" pageNumber="33">
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td isEmpty="true" pageId="32" pageNumber="33">-</td>
+<td pageId="32" pageNumber="33">I</td>
+<td pageId="32" pageNumber="33">II</td>
+<td pageId="32" pageNumber="33">III</td>
+<td pageId="32" pageNumber="33">IV*</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Femur</td>
+<td pageId="32" pageNumber="33">1.17</td>
+<td pageId="32" pageNumber="33">1.11</td>
+<td pageId="32" pageNumber="33">0.95</td>
+<td pageId="32" pageNumber="33">1.27</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Patella</td>
+<td pageId="32" pageNumber="33">0.59</td>
+<td pageId="32" pageNumber="33">0.56</td>
+<td pageId="32" pageNumber="33">0.50</td>
+<td pageId="32" pageNumber="33">0.67</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Tibia</td>
+<td pageId="32" pageNumber="33">0.91</td>
+<td pageId="32" pageNumber="33">0.80</td>
+<td pageId="32" pageNumber="33">0.64</td>
+<td pageId="32" pageNumber="33">NA</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Metatarsus</td>
+<td pageId="32" pageNumber="33">1.02</td>
+<td pageId="32" pageNumber="33">0.88</td>
+<td pageId="32" pageNumber="33">0.69</td>
+<td pageId="32" pageNumber="33">NA</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Tarsus</td>
+<td pageId="32" pageNumber="33">0.51</td>
+<td pageId="32" pageNumber="33">0.45</td>
+<td pageId="32" pageNumber="33">0.36</td>
+<td pageId="32" pageNumber="33">NA</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td pageId="32" pageNumber="33">Total</td>
+<td pageId="32" pageNumber="33">4.20</td>
+<td pageId="32" pageNumber="33">3.80</td>
+<td pageId="32" pageNumber="33">3.14</td>
+<td pageId="32" pageNumber="33">NA</td>
+</tr>
+<tr pageId="32" pageNumber="33">
+<td colspan="5" pageId="32" pageNumber="33">* tibiae of both fourth legs broken.</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="32" pageNumber="33" type="distribution">
+<paragraph pageId="32" pageNumber="33" type="mainText">Distribution. Known from Eastern Cape Province, South Africa (Fig. 21).</paragraph>
+</subSubSection>
+<subSubSection pageId="32" pageNumber="33" type="multiple">
+<caption pageId="32" pageNumber="33">
+<paragraph pageId="32" pageNumber="33" type="caption">
+FIGURE 21. Distribution of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+species. Red circle, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="egazini">P egazini</taxonomicName>
+<taxonomicNameLabel pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+; white circle, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="montanus">P. montanus</taxonomicName>
+<taxonomicNameLabel pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+; yellow square, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="prendinii">P. prendinii</taxonomicName>
+<taxonomicNameLabel pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+; white triangle, 
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="planus">
+P. planus 
+<authority pageId="32" pageNumber="33">Simon, 1902</authority>
+</taxonomicName>
+; red square, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
+<taxonomicNameLabel pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+; yellow circle, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="zulu">P. zulu</taxonomicName>
+<taxonomicNameLabel pageId="32" pageNumber="33" rank="species">sp. nov.</taxonomicNameLabel>
+; white square, 
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri 
+<authority pageId="32" pageNumber="33">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+; red triangle, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989); yellow triangle, 
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="species" species="armatus">
+P. armatus 
+<authority pageId="32" pageNumber="33">(Lehtinen, 1967)</authority>
+</taxonomicName>
+; gray circles, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="32" pageNumber="33" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+from localities represented only by juveniles. To explore distribution data using Google Earth, see supplementary file (http://www.mapress.com/zootaxa/ 2010/data/2520/ 
+<taxonomicName family="Penestomidae" pageId="32" pageNumber="33" rank="family">Penestomidae</taxonomicName>
+. 
+<misspelling corrections="[Ljava.lang.String;@233f46ff" pageId="32" pageNumber="33" type="misspelled">kml</misspelling>
+).
+</paragraph>
+</caption>
+</subSubSection>
+</treatment>
+</document>

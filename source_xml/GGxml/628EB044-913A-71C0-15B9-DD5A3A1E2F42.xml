@@ -1,0 +1,88 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="628EB044913A71C015B9DD5A3A1E2F42" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Penestomus planus Simon" lastPageNumber="133" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="2" pageNumber="133" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:628EB044913A71C015B9DD5A3A1E2F42" httpUri="http://treatment.plazi.org/id/628EB044913A71C015B9DD5A3A1E2F42" pageId="2" pageNumber="133">
+<subSubSection pageId="2" pageNumber="133" type="nomenclature">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<taxonomicName authority="Simon" authorityName="Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="species" species="planus">
+Penestomus planus 
+<authority pageId="2" pageNumber="133">Simon</authority>
+</taxonomicName>
+Fig. 6
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="133" type="reference_group">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<taxonomicName authority="Simon" authorityName="Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="species" species="planus">Penestomus planus Simon</taxonomicName>
+, 1902: 241
+</treatmentCitation>
+: 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">Lehtinen, 1967: 390,462</treatmentCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="133" type="discussion">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<materialsCitation collectionCode="MNHN" collectorName="H. Brauns" country="South Africa" latitude="-33.166668" location="Willowmore" longLatPrecision="1" longitude="23.35" pageId="2" pageNumber="133" specimenCount="1" specimenCountFemale="1" stateProvince="Cape Province" typeStatus="holotype">
+The 
+<typeStatus pageId="2" pageNumber="133">holotype</typeStatus>
+female was collected by 
+<collectorName pageId="2" pageNumber="133">H. Brauns</collectorName>
+from 
+<location LSID="urn:lsid:plazi:treatment:628EB044913A71C015B9DD5A3A1E2F42:B40ADA10465C24D47E27AEC820BF0F10" country="South Africa" latitude="-33.166668" longLatPrecision="1" longitude="23.35" name="Willowmore" pageId="2" pageNumber="133" stateProvince="Cape Province">Willowmore</location>
+, 
+<collectingRegion pageId="2" pageNumber="133">Cape Province</collectingRegion>
+(
+<geoCoordinate direction="south" orientation="latitude" pageId="2" pageNumber="133" precision="1" value="-33.166668">33° 10' S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" pageId="2" pageNumber="133" precision="1" value="23.35">23° 21' E</geoCoordinate>
+) and deposited in the 
+<collectionCode pageId="2" pageNumber="133">
+Museum National 
+<normalizedToken originalValue="d’Histoire" pageId="2" pageNumber="133">d'Histoire</normalizedToken>
+Naturelle, Paris
+</collectionCode>
+. The female is 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="7.0" pageId="2" pageNumber="133" unit="mm" value="7.0">7 mm</quantity>
+in length, slightly larger than specimens of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri 
+<authority pageId="2" pageNumber="133">spec</authority>
+</taxonomicName>
+, nov., and darker in colour. The two species resemble each other closely but 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+has a calamistrum consisting of a single series of setae. The epigynum which is shown in Fig. 6 is after a drawing by Lehtinen (1967: Fig. 462)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

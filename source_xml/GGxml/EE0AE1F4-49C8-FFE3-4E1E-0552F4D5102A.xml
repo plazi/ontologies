@@ -1,0 +1,264 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="EE0AE1F449C8FFE34E1E0552F4D5102A" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus croeseri Dippenaar-Schoeman 1989" lastPageId="29" lastPageNumber="30" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="27" pageNumber="28" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:EE0AE1F449C8FFE34E1E0552F4D5102A" httpUri="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A" lastPageId="29" lastPageNumber="30" pageId="27" pageNumber="28">
+<subSubSection pageId="27" pageNumber="28" type="nomenclature">
+<paragraph pageId="27" pageNumber="28" type="mainText">
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="27" pageNumber="28" phylum="Arthropoda" rank="species" species="croeseri">
+Penestomus croeseri 
+<authority pageId="27" pageNumber="28">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="27" pageNumber="28" type="description">
+<paragraph pageId="27" pageNumber="28" type="mainText">
+Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="16.0">16E</geoCoordinate>
+, 16F, 18A, 18B, 21
+</paragraph>
+</subSubSection>
+<subSubSection pageId="27" pageNumber="28" type="reference_group">
+<paragraph pageId="27" pageNumber="28" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/FDC20097-39A3-C902-AE48-2CB24271860D">
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="27" pageNumber="28" phylum="Arthropoda" rank="species" species="croeseri">
+Penestomus croeseri 
+<authority pageId="27" pageNumber="28">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+: 132, figs 1, 3-5
+</treatmentCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="28" lastPageNumber="29" pageId="27" pageNumber="28" type="materials_examined">
+<paragraph lastPageId="28" lastPageNumber="29" pageId="27" pageNumber="28" type="mainText">
+<materialsCitation collectingDate="1980-01-01" collectionCode="NCA" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" specimenCode="AcAT 87 / 249" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♀ (with 
+<specimenCount type="generic">2 ♀</specimenCount>
+<typeStatus>paratypes</typeStatus>
+), 
+<location LSID="urn:lsid:plazi:treatment:EE0AE1F449C8FFE34E1E0552F4D5102A:661216F3BD4C80F3625CE4AE5F4E0B99" country="South Africa" latitude="-33.316666" longLatPrecision="1" longitude="26.533333" name="Grahamstown" stateProvince="Eastern Cape">Grahamstown</location>
+[
+<collectingRegion>Eastern Cape</collectingRegion>
+], 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+, 
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.316666">33°19'S</geoCoordinate>
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="26.533333">26°32'E</geoCoordinate>
+, 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="5.0" unit="m" value="500.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="5.0" unit="m" value="500.0">500 m</elevation>
+</quantity>
+, 
+<date value="1980-01-01">
+<collectingDate value="1980-01-01">1 January 1980</collectingDate>
+</date>
+, in riverine bush from soil surface, 
+<collectorName>P. Croeser</collectorName>
+, 
+<collectorName>P. Hawkes</collectorName>
+(
+<specimenCode>AcAT 87/249</specimenCode>
+, 
+<pageBreakToken pageId="28" pageNumber="29" start="start">
+<collectionCode collectionName="NCA">NCA</collectionCode>
+</pageBreakToken>
+).
+</materialsCitation>
+<materialsCitation collectingDate="1980-01-01" collectionCode="NCA" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" specimenCode="AcAT 87 / 249 a" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<typeStatus>Paratypes</typeStatus>
+: ♀, same data as holotype (
+<specimenCode>AcAT 87/249a</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1980-01-01" collectionCode="NCA" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" specimenCode="AcAT 87 / 249 b" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+♀, same data as holotype (
+<specimenCode>AcAT 87/ 249b</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="28" pageNumber="29" type="diagnosis">
+<paragraph pageId="28" pageNumber="29" type="mainText">
+Diagnosis. Female distinguished by the narrow connection between the AL and the MP, which then becomes a wide plate with convex lateral margins (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="16.0">
+16 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+). Male unknown.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="29" lastPageNumber="30" pageId="28" pageNumber="29" type="description">
+<paragraph pageId="28" pageNumber="29" type="mainText">
+Description. Carapace red-brown, lighter posteriorly with smooth texture, with sparse fine black setae and broad white setae mostly at margin and fovea region (Fig. 18 
+<collectionCode>A</collectionCode>
+). Sternum dusky pale yellow (Fig. 18 
+<collectionCode>B</collectionCode>
+). Chelicerae red-brown, with six promarginal teeth, three retromarginal teeth; with fine black setae only. Legs brown basally, anterior legs red-brown distally, posterior legs pale yellow distally. Abdomen medium gray dorsally without light dorsolateral patches, covered by fine black setae, broad white setae around margin (Fig. 18 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<caption pageId="28" pageNumber="29">
+<paragraph pageId="28" pageNumber="29" type="caption">
+FIGURE 18. Habitus images of female 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="28" pageNumber="29" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+species. A, B, 
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="28" pageNumber="29" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri 
+<authority pageId="28" pageNumber="29">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+from Grahamstown, South Africa (AcAT 87/249). C, D, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="28" pageNumber="29" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="28" pageNumber="29" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989) from Winterhoek, South Africa (SAM-ENW-B002686). A, C, dorsal view; B, D, ventral view. Scale bars = 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="2.0" unit="mm" value="2.0">0.2 mm</quantity>
+.
+</paragraph>
+</caption>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<pageBreakToken pageId="29" pageNumber="30" start="start">Epigynum</pageBreakToken>
+. Subpentagonal, clearly differentiated from surrounding cuticle. AL a half oval, connected to MP by narrow waist; MP a wide plate with convex lateral margins; MP/PL complex approximately 1/3 length of epigynum, much wider posteriorly than anteriorly. PA only marginally less sclerotized than the rest of the epigynum, separated from AL by groove (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="16.0">
+16 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+).
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Female macrosetae: Leg I: femur d1, tibia 
+<date>v1-2</date>
+, metatarsus 
+<date>v1-2</date>
+-2; leg II: femur d1, tibia 
+<date>v1</date>
+, metatarsus 
+<date>v1-2</date>
+; leg III: femur d1, tibia 
+<date>v1</date>
+, metatarsus 
+<date>v1-2</date>
+; leg IV: femur d1, metatarsus 
+<date>v1-2</date>
+; tarsus r1.
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<typeStatus>Paratype</typeStatus>
+female (AcAT 87/249): Total length 5.0, carapace 2.13 long, 1.59 wide, 0.53 high, sternum 1.25 long, 0.72 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="table">
+<table border="1" pageId="29" pageNumber="30">
+<tr pageId="29" pageNumber="30">
+<td isEmpty="true" pageId="29" pageNumber="30">-</td>
+<td pageId="29" pageNumber="30">I</td>
+<td pageId="29" pageNumber="30">II</td>
+<td pageId="29" pageNumber="30">III</td>
+<td pageId="29" pageNumber="30">IV</td>
+<td pageId="29" pageNumber="30">Pedipalp</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Femur</td>
+<td pageId="29" pageNumber="30">1.14</td>
+<td pageId="29" pageNumber="30">1.08</td>
+<td pageId="29" pageNumber="30">0.86</td>
+<td pageId="29" pageNumber="30">1.30</td>
+<td pageId="29" pageNumber="30">0.62</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Patella</td>
+<td pageId="29" pageNumber="30">0.59</td>
+<td pageId="29" pageNumber="30">0.54</td>
+<td pageId="29" pageNumber="30">0.51</td>
+<td pageId="29" pageNumber="30">0.70</td>
+<td pageId="29" pageNumber="30">0.22</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Tibia</td>
+<td pageId="29" pageNumber="30">0.75</td>
+<td pageId="29" pageNumber="30">0.70</td>
+<td pageId="29" pageNumber="30">0.56</td>
+<td pageId="29" pageNumber="30">1.10</td>
+<td pageId="29" pageNumber="30">0.25</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Metatarsus</td>
+<td pageId="29" pageNumber="30">0.75</td>
+<td pageId="29" pageNumber="30">0.67</td>
+<td pageId="29" pageNumber="30">0.51</td>
+<td pageId="29" pageNumber="30">0.78</td>
+<td pageId="29" pageNumber="30">-</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Tarsus</td>
+<td pageId="29" pageNumber="30">0.37</td>
+<td pageId="29" pageNumber="30">0.30</td>
+<td pageId="29" pageNumber="30">0.19</td>
+<td pageId="29" pageNumber="30">0.24</td>
+<td pageId="29" pageNumber="30">0.48</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Total</td>
+<td pageId="29" pageNumber="30">3.59</td>
+<td pageId="29" pageNumber="30">3.29</td>
+<td pageId="29" pageNumber="30">2.62</td>
+<td pageId="29" pageNumber="30">4.11</td>
+<td pageId="29" pageNumber="30">1.57</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="distribution">
+<paragraph pageId="29" pageNumber="30" type="mainText">Distribution. Known from Eastern Cape Province, South Africa (Fig. 21).</paragraph>
+</subSubSection>
+</treatment>
+</document>

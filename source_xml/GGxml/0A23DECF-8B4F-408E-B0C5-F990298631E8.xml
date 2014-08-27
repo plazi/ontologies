@@ -1,0 +1,549 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="3E2BBACF9E0F3E8D46FABA401D308399" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus egazini Miller, Griswold &amp; Haddad, 2010, sp. nov." docUuid="0A23DECF-8B4F-408E-B0C5-F990298631E8" docUuidSource="ZooBank" lastPageId="15" lastPageNumber="16" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="10" pageNumber="11" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:3E2BBACF9E0F3E8D46FABA401D308399" httpUri="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399" lastPageId="15" lastPageNumber="16" pageId="10" pageNumber="11">
+<subSubSection pageId="10" pageNumber="11" type="nomenclature">
+<paragraph pageId="10" pageNumber="11" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="10" pageNumber="11" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="10" pageNumber="11" rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+<paragraph pageId="10" pageNumber="11" type="mainText">http://zoobank.org/urn:lsid:zoobank.org:act:0A23DECF-8B4F-408E-B0C5-F990298631E8</paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="11" type="description">
+<paragraph pageId="10" pageNumber="11" type="mainText">Figs 1, 2, 3B, 4-7, 8A-D, 9-11, 12A, B, 21</paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="11" type="reference_group">
+<paragraph pageId="10" pageNumber="11" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="10" pageNumber="11" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+<taxonomicNameLabel pageId="10" pageNumber="11" rank="species">
+sp. 
+<date>nov. 1</date>
+</taxonomicNameLabel>
+: Miller et al., 2010, figs 1A, 1C, 2A, 2C, 2F. GenBank accession numbers FJ948973 (
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-28.0">
+28 
+<collectionCode>S</collectionCode>
+</geoCoordinate>
+rDNA), FJ948889 and FJ948931 (
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-18.0">
+18 
+<collectionCode>S</collectionCode>
+</geoCoordinate>
+rDNA), FJ949050 (Histone 
+<collectionCode>H</collectionCode>
+3), FJ949013 (cytochrome oxidase 
+<collectionCode>I</collectionCode>
+).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="11" type="materials_examined">
+<paragraph pageId="10" pageNumber="11" type="mainText">
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="NCA" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024958" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♀, 
+<location LSID="urn:lsid:plazi:treatment:3E2BBACF9E0F3E8D46FABA401D308399:0530AE7E0DC311B5EE27B775CBDF5C40" country="South Africa" latitude="-33.319435" longLatPrecision="0" longitude="26.523767" name="Grahamstown Municipal Caravan Park" stateProvince="Eastern Cape">Grahamstown Municipal Caravan Park</location>
+, 
+<collectingRegion>Eastern Cape</collectingRegion>
+, 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+, 
+<geoCoordinate direction="south" orientation="latitude" precision="0" value="-33.319435">33°19.166'S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="0" value="26.523767">26°31.426'E</geoCoordinate>
+, 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="5.8" unit="m" value="580.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="5.8" unit="m" value="580.0">580 m</elevation>
+</quantity>
+, 
+<date value="2006-02-10" valueMax="2006-02-19" valueMin="2006-02-10">
+<collectingDate value="2006-02-10" valueMax="2006-02-19" valueMin="2006-02-10">10-19 February 2006</collectingDate>
+</date>
+, under Eucalyptus bark, 
+<collectorName>J. Miller</collectorName>
+, 
+<collectorName>H. Wood</collectorName>
+, 
+<collectorName>L. Lotz</collectorName>
+(
+<specimenCode>CASENT 9024958</specimenCode>
+, deposited in 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+).
+</materialsCitation>
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024985" specimenCount="1" specimenCount-male="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<typeStatus>Paratypes</typeStatus>
+: 
+<specimenCount type="generic">1 ♂</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024985</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+; reared to adulthood in the laboratory over a period of approximately nine months from collection)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024962" specimenCount="3" specimenCount-female="2" stateProvince="Eastern Cape" typeStatus="Paratypes">
+2♀, 
+<specimenCount type="generic">1 juvenile</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024962</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024964" specimenCount="3" specimenCount-female="2" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">2 ♀</specimenCount>
+, 
+<specimenCount type="generic">1 juvenile</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024964</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024957" specimenCount="9" specimenCount-female="4" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">4 ♀</specimenCount>
+, 
+<specimenCount type="generic">5 juveniles</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024957</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024965" specimenCount="18" specimenCount-female="3" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">3 ♀</specimenCount>
+, 
+<specimenCount type="generic">15 juveniles</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024965</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024961" specimenCount="4" specimenCount-female="3" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">3 ♀</specimenCount>
+, 
+<specimenCount type="generic">1 juvenile</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024961</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9023774" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">1 ♀</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9023774</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+, DNA voucher JM8-15)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9023775" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">1 ♀</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9023775</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2006-02-10" collectingDateMax="2006-02-19" collectingDateMin="2006-02-10" collectionCode="CAS" collectorName="J. Miller, H. Wood, L. Lotz" country="South Africa" elevation="580 m" latitude="-33.319435" location="Grahamstown Municipal Caravan Park" longLatPrecision="0" longitude="26.523767" specimenCode="CASENT 9024960" specimenCount="2" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Paratypes">
+<specimenCount type="generic">1 ♀</specimenCount>
+, 
+<specimenCount type="generic">1 juvenile</specimenCount>
+, same data as holotype (
+<specimenCode>CASENT 9024960</specimenCode>
+, 
+<collectionCode collectionName="USA, California, San Francisco, California Academy of Sciences">CAS</collectionCode>
+), with egg cases and prey remains
+</materialsCitation>
+; 
+<materialsCitation collectionCode="NCA" country="South Africa" latitude="-33.3" location="Grahamstown" longLatPrecision="1" longitude="26.516666" specimenCode="AcAT 2007 / 1541" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape">
+<specimenCount type="generic">1 ♀</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:3E2BBACF9E0F3E8D46FABA401D308399:C075FB6440021C45455BA9F1E0754434" country="South Africa" latitude="-33.3" longLatPrecision="1" longitude="26.516666" name="Grahamstown" stateProvince="Eastern Cape">Grahamstown</location>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.3">33°18'S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="26.516666">26°31'E</geoCoordinate>
+], &quot;inside garden woodshed in untidy tangle of web next to glass pane, web like eresid but spider belongs to another group, egg sac enclosed&quot; (
+<specimenCode>AcAT 2007/1541</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph pageId="10" pageNumber="11" type="mainText">
+<materialsCitation collectingDate="1914-12" collectionCode="AMG" collectorName="F. Cruden" country="South Africa" latitude="-31.467" location="Alicedale" longLatPrecision="1" longitude="25.85" specimenCount="8" specimenCount-female="6" stateProvince="Eastern Cape">
+Additional material examined. 
+<collectingCountry value="South Africa">SOUTH AFRICA</collectingCountry>
+: 
+<collectingRegion>Eastern Cape</collectingRegion>
+: 
+<specimenCount type="generic">6 ♀</specimenCount>
+, 
+<specimenCount type="generic">2 juveniles</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:3E2BBACF9E0F3E8D46FABA401D308399:D892AC9E7C4B6C8C10A420C26E05BF68" country="South Africa" latitude="-31.467" longLatPrecision="1" longitude="25.85" name="Alicedale" stateProvince="Eastern Cape">Alicedale</location>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-31.467">31.467°S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="25.85">25.850°E</geoCoordinate>
+], 
+<date value="1914-12">
+<collectingDate value="1914-12">December 1914</collectingDate>
+</date>
+, 
+<collectorName>F. Cruden</collectorName>
+(
+<collectionCode collectionName="South Africa, Cape Province, Grahamstown, Albany Museum">AMG</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="10" pageNumber="11" type="etymology">
+<paragraph pageId="10" pageNumber="11" type="mainText">Etymology. The specific epithet is a noun in apposition, named after the site of a pivotal 1819 battle in which the Xhosa, led by Maqana Nxele, attacked the British garrison in Grahamstown.</paragraph>
+</subSubSection>
+<subSubSection pageId="11" pageNumber="12" type="multiple">
+<caption pageId="11" pageNumber="12">
+<paragraph pageId="11" pageNumber="12" type="caption">
+<pageBreakToken pageId="11" pageNumber="12" start="start">FIGURE</pageBreakToken>
+5. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="11" pageNumber="12" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="11" pageNumber="12" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (
+<collectionCode>A</collectionCode>
+, C-F, CASENT 9024961; 
+<collectionCode>B</collectionCode>
+, CASENT 9024964), scanning electron micrographs of female spinnerets. A, spinnerets; B, anterior lateral spinneret, right side; C, posterior median spinnerets; D, posterior lateral spinneret, left side; E, cribellum; F, detail, cribellar spigots. Scale bars A = 30 µm; B, D = 3 µm; C, E = 10 µm; F = 2µm. AC, aciniform gland spigot; ALS, anterior lateral spinnerets; CR, cribellum; CY, cylindrical gland spigot; MAP, major ampullate gland spigot; mAP, minor ampullate gland spigot; MS, PLS modified spigot; n, nubbin; PI, piriform gland spigot; PLS, posterior lateral spinnerets; PMS, posterior median spinnerets; t, tartipore.
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection lastPageId="12" lastPageNumber="13" pageId="11" pageNumber="12" type="diagnosis">
+<paragraph pageId="11" pageNumber="12" type="mainText">
+Diagnosis. Male distinguished by the presence of a keel on the outer margin of the embolus near the distal maximum of the embolic arc (Figs 7 
+<collectionCode>C</collectionCode>
+, 10 
+<collectionCode>A</collectionCode>
+), absent from other species (Fig. 14 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<paragraph pageId="12" pageNumber="13" type="mainText">
+<pageBreakToken pageId="12" pageNumber="13" start="start">Female</pageBreakToken>
+distinguished from other 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="12" pageNumber="13" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species as follows: from P 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="12" pageNumber="13" phylum="Arthropoda" rank="species" species="zulu">zulu</taxonomicName>
+<taxonomicNameLabel pageId="12" pageNumber="13" rank="species">sp. nov.</taxonomicNameLabel>
+by the lack of an invagination on the posterior margin of the PL (Fig. 16 
+<collectionCode>D</collectionCode>
+); from the remaining 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="12" pageNumber="13" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species by the posterior margin of the AL, which is only slightly recurved and farther from the epigastric furrow than in other species (Fig. 12 
+<collectionCode>A</collectionCode>
+). Further distinguished by the presence of only two rows of ventral macrosetae on the first tibiae and metatarsi, with three rows in other species.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="15" lastPageNumber="16" pageId="12" pageNumber="13" type="description">
+<paragraph pageId="12" pageNumber="13" type="mainText">
+Description. Carapace brown, rugose, covered by fine black setae, with broad white setae concentrated in thoracic region (Fig. 9 
+<collectionCode>A</collectionCode>
+). Sternum dusky pale yellow (Fig. 9 
+<collectionCode>B</collectionCode>
+). Chelicerae brown, with six promarginal teeth, three retromarginal teeth (Fig. 2 
+<collectionCode>D</collectionCode>
+); with fine black setae only. Legs brown basally, pale yellow distally. Abdomen dark gray dorsally with pair of narrow light dorsolateral patches, covered with mixture of fine black and broad white setae (Fig. 9 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<paragraph pageId="12" pageNumber="13" type="mainText">
+Male pedipalp. Outer retrolateral tibial apophysis (
+<collectionCode>RTA</collectionCode>
+1) with tips long, diverging, inside tip curved ventrally (Figs 7 
+<collectionCode>F</collectionCode>
+, 10 
+<collectionCode>A</collectionCode>
+). Dorsal ridge long, extending from base of RTA1 nearly to bifid part (Fig. 7 
+<collectionCode>F</collectionCode>
+). RTA2 with apex long, slender, curved dorsally (Figs 7 
+<collectionCode>B</collectionCode>
+, 10 
+<collectionCode>C</collectionCode>
+). MA without anterior lobe arising from tail. Embolus with keel along outer margin terminating near distal maximum of embolic arc forming notch; bifid distal region formed from transparent dorsal process and pointed distal tip (Figs 7 
+<collectionCode>F</collectionCode>
+, 10 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<paragraph pageId="12" pageNumber="13" type="mainText">
+Epigynum: AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin concave; PL nearly half length of epigynum, with parallel grooves (Fig. 12 
+<collectionCode>A</collectionCode>
+).
+</paragraph>
+<caption pageId="12" pageNumber="13">
+<paragraph pageId="12" pageNumber="13" type="caption">
+FIGURE 6. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="12" pageNumber="13" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="12" pageNumber="13" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (CASENT 9024985), scanning electron micrographs of male spinnerets. A, spinnerets; B, anterior lateral spinneret, left side; C, posterior median spinnerets; D, posterior lateral spinneret, left side. Scale bars A = 100 µm; B, C = 20 µm; D = 10 µm. AC, aciniform gland spigot; ALS, anterior lateral spinnerets; MAP, major ampullate gland spigot; mAP, minor ampullate gland spigot; MS, PLS modified spigot; n, nubbin; PI, piriform gland spigot; PLS, posterior lateral spinnerets; PMS, posterior median spinnerets; t, tartipore.
+</paragraph>
+</caption>
+<paragraph pageId="13" pageNumber="14" type="mainText">
+<pageBreakToken pageId="13" pageNumber="14" start="start">Male</pageBreakToken>
+macrosetae: Leg I: femur d1, tibia r2-1-2, 
+<date>v1-2</date>
+-2, metatarsus r1-1, 
+<date>v2-2</date>
+-2; leg II: femur d1, tibia r2- 2, 
+<date>v2-2</date>
+-2, metatarsus r1-1, 
+<date>v2-2</date>
+; leg III: femur d1, tibia p1-1, r1, 
+<date>v2-2</date>
+-2, metatarsus p1, r1-2, 
+<date>v1-2</date>
+; leg IV: femur d1, tibia p1-1-1-1-2-1, 
+<date>v2-2</date>
+-2-2, metatarsus p1-1, r1, 
+<date>v1-2</date>
+, tarsus r1.
+</paragraph>
+<paragraph pageId="13" pageNumber="14" type="mainText">
+Female macrosetae: Leg I: tibia 
+<date>v1-2</date>
+, metatarsus 
+<date>v2-2</date>
+; leg II: metatarsus 
+<date>v2-2</date>
+; leg III: metatarsus 
+<date>v2</date>
+; leg IV: metatarsus 
+<date>v1-1</date>
+-2, tarsus r1. All femora with one dorsal seta slightly thicker and longer than the others.
+</paragraph>
+<caption pageId="13" pageNumber="14">
+<paragraph pageId="13" pageNumber="14" type="caption">
+FIGURE 7. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="13" pageNumber="14" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="13" pageNumber="14" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (CASENT 9024985), scanning electron micrographs of left male pedipalp. A, prolateral view; B, retrolateral view; C, ventral view; D, detail of embolus tip, retrolateral view; E, detail of embolus tip, prolateral view; F, tibia, dorsal view. Scale bars A-D = 30 µm; E, F = 100 µm. C, conductor; E, embolus; K, keel on embolus; MA, median apophysis; RTA1, outer, bifid ramus of retrolateral tibial apophysis; RTA1(
+<collectionCode>I</collectionCode>
+), inner tip of outer ramus of retrolateral tibial apophysis; RTA1(
+<collectionCode>O</collectionCode>
+), outer tip of outer ramus of retrolateral tibial apophysis; RTA2, inner ramus of retrolateral tibial apophysis; R, ridge at base of RTA1.
+</paragraph>
+</caption>
+<caption pageId="14" pageNumber="15">
+<paragraph pageId="14" pageNumber="15" type="caption">
+<pageBreakToken pageId="14" pageNumber="15" start="start">FIGURE</pageBreakToken>
+8. A-D, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="14" pageNumber="15" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="14" pageNumber="15" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (
+<collectionCode>A</collectionCode>
+, female, CASENT 9024961; B-D, female, CASENT 9024964); E, F, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="14" pageNumber="15" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="14" pageNumber="15" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989) from Winterhoek, South Africa (
+<collectionCode>B</collectionCode>
+2853, SAM-ENW-B 002853). A-E, epigynum; F, spinnerets. A, E, ventral view; B, D, dorsal view; C, posterior view; F, spinnerets including functional cribellum. Scale bars A, B = 100 µm; C = 30 µm; D = 10 µm; E, F = 20 µm. AL, anterior lobe; CD, copulatory duct; CR, cribellum; FD, fertilization duct; G, groove; MP, median projection of the AL; PA, posterolateral apophysis; PL, posterior lobe; S, spermatheca; ALS, anterior lateral spinnerets; PLS, posterior lateral spinnerets; PMS, posterior median spinnerets.
+</paragraph>
+</caption>
+<paragraph pageId="15" pageNumber="16" type="mainText">
+<pageBreakToken pageId="15" pageNumber="16" start="start">
+<typeStatus>Paratype</typeStatus>
+</pageBreakToken>
+male (CASENT 9024962): Total length 5.3, carapace 2.22 long, 1.61 wide, 0.45 high, sternum 1.23 long, 0.75 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="15" pageNumber="16" type="table">
+<table border="1" pageId="15" pageNumber="16">
+<tr pageId="15" pageNumber="16">
+<td isEmpty="true" pageId="15" pageNumber="16">-</td>
+<td pageId="15" pageNumber="16">I</td>
+<td pageId="15" pageNumber="16">II</td>
+<td pageId="15" pageNumber="16">III</td>
+<td pageId="15" pageNumber="16">IV</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Femur</td>
+<td pageId="15" pageNumber="16">1.13</td>
+<td pageId="15" pageNumber="16">1.08</td>
+<td pageId="15" pageNumber="16">0.87</td>
+<td pageId="15" pageNumber="16">1.27</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Patella</td>
+<td pageId="15" pageNumber="16">0.60</td>
+<td pageId="15" pageNumber="16">0.57</td>
+<td pageId="15" pageNumber="16">0.46</td>
+<td pageId="15" pageNumber="16">0.63</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Tibia</td>
+<td pageId="15" pageNumber="16">0.87</td>
+<td pageId="15" pageNumber="16">0.71</td>
+<td pageId="15" pageNumber="16">0.56</td>
+<td pageId="15" pageNumber="16">1.04</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Metatarsus</td>
+<td pageId="15" pageNumber="16">0.99</td>
+<td pageId="15" pageNumber="16">0.87</td>
+<td pageId="15" pageNumber="16">0.67</td>
+<td pageId="15" pageNumber="16">0.83</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Tarsus</td>
+<td pageId="15" pageNumber="16">0.53</td>
+<td pageId="15" pageNumber="16">0.40</td>
+<td pageId="15" pageNumber="16">0.33</td>
+<td pageId="15" pageNumber="16">0.40</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Total</td>
+<td pageId="15" pageNumber="16">4.13</td>
+<td pageId="15" pageNumber="16">3.63</td>
+<td pageId="15" pageNumber="16">2.89</td>
+<td pageId="15" pageNumber="16">4.17</td>
+</tr>
+</table>
+</paragraph>
+<paragraph pageId="15" pageNumber="16" type="mainText">
+<typeStatus>Holotype</typeStatus>
+female (CASENT 9024985): Total length 4.6, carapace 1.75 long, 1.30 wide, 0.38 high, sternum 1.06 long, 0.59 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="15" pageNumber="16" type="table">
+<table border="1" pageId="15" pageNumber="16">
+<tr pageId="15" pageNumber="16">
+<td isEmpty="true" pageId="15" pageNumber="16">-</td>
+<td pageId="15" pageNumber="16">I</td>
+<td pageId="15" pageNumber="16">II</td>
+<td pageId="15" pageNumber="16">III</td>
+<td pageId="15" pageNumber="16">IV</td>
+<td pageId="15" pageNumber="16">Pedipalp</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Femur</td>
+<td pageId="15" pageNumber="16">0.80</td>
+<td pageId="15" pageNumber="16">0.76</td>
+<td pageId="15" pageNumber="16">0.63</td>
+<td pageId="15" pageNumber="16">0.99</td>
+<td pageId="15" pageNumber="16">0.45</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Patella</td>
+<td pageId="15" pageNumber="16">0.46</td>
+<td pageId="15" pageNumber="16">0.43</td>
+<td pageId="15" pageNumber="16">0.37</td>
+<td pageId="15" pageNumber="16">0.54</td>
+<td pageId="15" pageNumber="16">0.21</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Tibia</td>
+<td pageId="15" pageNumber="16">0.51</td>
+<td pageId="15" pageNumber="16">0.46</td>
+<td pageId="15" pageNumber="16">0.38</td>
+<td pageId="15" pageNumber="16">0.81</td>
+<td pageId="15" pageNumber="16">0.19</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Metatarsus</td>
+<td pageId="15" pageNumber="16">0.54</td>
+<td pageId="15" pageNumber="16">0.49</td>
+<td pageId="15" pageNumber="16">0.36</td>
+<td pageId="15" pageNumber="16">0.56</td>
+<td pageId="15" pageNumber="16">-</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Tarsus</td>
+<td pageId="15" pageNumber="16">0.29</td>
+<td pageId="15" pageNumber="16">0.29</td>
+<td pageId="15" pageNumber="16">0.22</td>
+<td pageId="15" pageNumber="16">0.25</td>
+<td pageId="15" pageNumber="16">0.38</td>
+</tr>
+<tr pageId="15" pageNumber="16">
+<td pageId="15" pageNumber="16">Total</td>
+<td pageId="15" pageNumber="16">2.60</td>
+<td pageId="15" pageNumber="16">2.43</td>
+<td pageId="15" pageNumber="16">1.97</td>
+<td pageId="15" pageNumber="16">3.14</td>
+<td pageId="15" pageNumber="16">1.23</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="16" type="biology_ecology">
+<paragraph pageId="15" pageNumber="16" type="mainText">
+Natural history. Prey remains (CASENT 9024960) suggest a diet dominated by 
+<taxonomicName family="Formicidae" pageId="15" pageNumber="16" rank="family">Formicidae</taxonomicName>
+(especially 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:2414" class="Insecta" family="Formicidae" genus="Camponotus" kingdom="Animalia" lsidName-HNS="Camponotus Mayr" order="Hymenoptera" pageId="15" pageNumber="16" phylum="Arthropoda" rank="genus" subFamily="Formicinae">Camponotus</taxonomicName>
+and 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:24788" class="Insecta" family="Formicidae" genus="Lepisiota" kingdom="Animalia" lsidName-HNS="Lepisiota Santschi" order="Hymenoptera" pageId="15" pageNumber="16" phylum="Arthropoda" rank="genus" subFamily="Formicinae">Lepisiota</taxonomicName>
+) with some 
+<taxonomicName genus="Coleoptera" higher="Coleoptera" pageId="15" pageNumber="16" rank="higher">Coleoptera</taxonomicName>
+and 
+<taxonomicName class="Insecta" genus="Hemiptera" higher="Hemiptera" kingdom="Animalia" pageId="15" pageNumber="16" phylum="Arthropoda" rank="higher">Hemiptera</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="15" pageNumber="16" type="distribution">
+<paragraph pageId="15" pageNumber="16" type="mainText">Distribution. Known from Eastern Cape Province, South Africa (Fig. 21).</paragraph>
+</subSubSection>
+</treatment>
+</document>

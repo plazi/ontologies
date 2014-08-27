@@ -1,0 +1,62 @@
+<document ENCODING="UTF8" ID-HNS-Pub="Simon1902Cribellates" ID-Handle="Simon1902Ctibellates" _generate="retained" checkinTime="1376057982885" checkinUser="jeremy" docAuthor="Eugene Simon" docDate="1902" docId="6C9891A37202DD499F29F8C73E39C73A" docLanguage="fr" docName="Simon1902Cribellates.xml" docOrigin="Bulletin de la Societe entomologique de France 15" docSource="http://www.biodiversitylibrary.org/page/9281116page/250/mode/1up" docTitle="Penestomus planus Simon, 1902, sp. nov." lastPageNumber="240" masterDocId="205CFA7769E010886A9DB1156B0CB11A" masterDocTitle="Descriptions de quelques Arachnides nouveaux de la section des Cribellates" masterLastPageNumber="243" masterPageNumber="240" originalUpdateTime="1401651953065" pageId="null" pageNumber="240" updateTime="1401649547326" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Descriptions de quelques Arachnides nouveaux de la section des Cribellates</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Eugene Simon</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Bulletin de la Societe entomologique de France</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1902</mods:date>
+<mods:detail type="volume">
+<mods:number>15</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>240</mods:start>
+<mods:end>243</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.biodiversitylibrary.org/page/9281116#page/250/mode/1up</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">Simon1902Cribellates</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:6C9891A37202DD499F29F8C73E39C73A" httpUri="http://treatment.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A" pageId="null" pageNumber="240">
+<subSubSection pageId="null" pageNumber="240" type="description">
+<paragraph pageId="null" pageNumber="240">
+<span class="font3" pageId="null" pageNumber="240" style="font-weight:bold;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="240" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+,
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+<taxonomicNameLabel pageId="null" pageNumber="240" rank="species">sp. nov.</taxonomicNameLabel>
+- ♀ long. 7
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+mill. - 
+<normalizedToken originalValue="Céphalothorax">Cephalothorax</normalizedToken>
+sublaevis. fusco-piceus, pilis albidis pronis et longis conspersus. Abdomen oblongum, depressiusculum, fusco-testaceum. Chelae validae et convexae. nigrae, antice setis spiniformibus nigris longis hirsutae, subtus valde transversim rugatae. Partes oris laeves, fulvo-rufulae, testaceo-marginatae. Sternum coxaeque fulva, nitida et glabra. Pedes fusco-testacei
+</span>
+, 
+<span class="font3" pageId="null" pageNumber="240">
+<pageBreakToken pageId="null" pageNumber="240">longe</pageBreakToken>
+nigro-pilosi, tibia 1 
+<sup pageId="null" pageNumber="240">i</sup>
+paris aculeis apicalibus binis, metatarsis cunctis aculeis apicalibus aculeoque medio inferiore subtus instructis. Plaga genitalis magna, convexa, rufula, semicircularis, pilis crassis et longis cinereis munita, sed postice foveola longitudinali angusta et nitida secta. - Africa maxime australis: Willomore (D 
+<sup pageId="null" pageNumber="240">r</sup>
+H. Brauns).
+</span>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

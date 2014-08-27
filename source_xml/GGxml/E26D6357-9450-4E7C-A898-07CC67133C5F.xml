@@ -1,0 +1,524 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="3E931D97229BA4C724F1EE5A012BD7FA" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus Miller, Griswold &amp; Haddad, 2010, sp. nov." docUuid="E26D6357-9450-4E7C-A898-07CC67133C5F" docUuidSource="ZooBank" lastPageId="9" lastPageNumber="9" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="5" pageNumber="6" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:3E931D97229BA4C724F1EE5A012BD7FA" httpUri="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA" lastPageId="9" lastPageNumber="10" pageId="5" pageNumber="6">
+<subSubSection pageId="5" pageNumber="6" type="nomenclature">
+<paragraph pageId="5" pageNumber="6" type="mainText">
+<pageBreakToken pageId="5" pageNumber="6" start="start">Genus</pageBreakToken>
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">
+Penestomus 
+<authority pageId="5" pageNumber="6">Simon, 1902</authority>
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="6" type="reference_group">
+<paragraph pageId="5" pageNumber="6" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">
+Penestomus 
+<authority pageId="5" pageNumber="6">Simon, 1902</authority>
+</taxonomicName>
+: 241
+</treatmentCitation>
+. 
+<typeStatus>Type</typeStatus>
+species by monotypy 
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="planus">
+Penestomus planus 
+<authority pageId="5" pageNumber="6">Simon, 1902</authority>
+</taxonomicName>
+. 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997">Simon, 1903: 980</treatmentCitation>
+;
+</paragraph>
+<paragraph pageId="5" pageNumber="6" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">Lehtinen, 1967: 257, 385-390</treatmentCitation>
+; 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F">
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989: 131
+</treatmentCitation>
+.
+</paragraph>
+<paragraph pageId="5" pageNumber="6" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">
+Wajane 
+<authority pageId="5" pageNumber="6">Lehtinen, 1967</authority>
+</taxonomicName>
+: 275
+</treatmentCitation>
+. 
+<typeStatus>Type</typeStatus>
+species by 
+<misspelling corrections="[Ljava.lang.String;@61a1c071" pageId="5" pageNumber="6" type="misspelled">monotypy</misspelling>
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="armata">
+Wajane armata 
+<authority pageId="5" pageNumber="6">Lehtinen, 1967</authority>
+</taxonomicName>
+. 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/F810A2A8-3567-FA92-BD7A-D19EAF61629D">
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989: 133
+</treatmentCitation>
+. New synonymy.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="6" type="discussion">
+<paragraph pageId="5" pageNumber="6" type="mainText">
+Justification of synonymy. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+was described by Lehtinen (1967) based on a single male specimen. At the time, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+was known only from females. The chief diagnostic character for distinguishing 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+was the lack of a cribellum in the latter. However, male spiders almost never have a cribellum, even when conspecific females do, and Lehtinen himself speculated that 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+females could have a functional cribellum (Lehtinen 1967: 387). 
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+(1989) described 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="stilleri">W. stilleri</taxonomicName>
+in the genus 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+based on its reported lack of a cribellum but electron microscopy of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="stilleri">W. stilleri</taxonomicName>
+non-type material clearly indicates that a functional cribellum is present (Fig. 8 
+<collectionCode>F</collectionCode>
+). A total of three penestomid species are now known from males. While all differ in detail (especially of the pedipalp), there are no obvious characters that would suggest two distinct clades that could be circumscribed as 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+and 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+is thus hereby synonymised with 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="5" pageNumber="6" type="diagnosis">
+<paragraph pageId="5" pageNumber="6" type="mainText">
+Diagnosis. Distinguished from other three-clawed, eight-eyed, cribellate entelegyne spiders except 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47205" family="Eresidae" lsidName-HNS="Eresidae " pageId="5" pageNumber="6" rank="family">Eresidae</taxonomicName>
+by their subrectangular carapace (Fig. 1 
+<collectionCode>B</collectionCode>
+) and clypeal hood (Fig. 1 
+<collectionCode>C</collectionCode>
+); distinguished from 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47205" family="Eresidae" lsidName-HNS="Eresidae " pageId="5" pageNumber="6" rank="family">Eresidae</taxonomicName>
+by the flat body (Fig. 1 
+<collectionCode>A</collectionCode>
+), tapetum in the indirect eyes (Fig. 1 
+<collectionCode>D</collectionCode>
+), RTA on the male pedipalpal tibia and by the position of the posterior lateral eyes, which are several eye diameters behind the posterior median eyes in 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47205" family="Eresidae" lsidName-HNS="Eresidae " pageId="5" pageNumber="6" rank="family">Eresidae</taxonomicName>
+but are less than three eye diameters behind the posterior median eyes in 
+<taxonomicName family="Penestomidae" pageId="5" pageNumber="6" rank="family">Penestomidae</taxonomicName>
+(Fig. 1 
+<collectionCode>C</collectionCode>
+). Distinguished from the 
+<misspelling corrections="[Ljava.lang.String;@42616cca" pageId="5" pageNumber="6" type="misspelled">ecribellate</misspelling>
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47249" family="Zodariidae" lsidName-HNS="Zodariidae " pageId="5" pageNumber="6" rank="family">Zodariidae</taxonomicName>
+by the presence of a cribellum (Fig. 5 
+<collectionCode>A</collectionCode>
+) and calamistrum (Fig. 4 
+<collectionCode>C</collectionCode>
+), a serrula on the endites (Fig. 2 
+<collectionCode>A</collectionCode>
+), a clypeal hood (Fig. 1 
+<collectionCode>C</collectionCode>
+), and by the absence of tarsal trichobothria.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="8" lastPageNumber="9" pageId="5" pageNumber="6" type="description">
+<paragraph pageId="5" pageNumber="6" type="mainText">
+Description. Flat spiders (Fig. 1 
+<collectionCode>A</collectionCode>
+). Total length 3-6. Carapace subrectangular with shallow ovoid fovea. Eight eyes in two rows, posterior eye row slightly recurved, more widely spaced than anteriors (Fig. 1 
+<collectionCode>C</collectionCode>
+). Tapetum present in indirect eyes (
+<collectionCode>ALE</collectionCode>
+, 
+<collectionCode>PLE</collectionCode>
+, 
+<collectionCode>PME</collectionCode>
+), at least that of PME appears to be canoe-shaped (Fig. 1 
+<collectionCode>D</collectionCode>
+). Carapace, legs, and abdomen usually with two setal morphologies, one black and filiform, the other white and plumose (Figs 1 
+<collectionCode>B</collectionCode>
+, 
+<collectionCode>E</collectionCode>
+). Sternum ovoid, longer than wide, not fused to labium (Fig. 1 
+<collectionCode>F</collectionCode>
+). Endites parallel, with serrula. Anterior surface of labrum with bifid lingual process (Fig. 2 
+<collectionCode>B</collectionCode>
+). Chelicerae with boss (Fig. 2 
+<collectionCode>C</collectionCode>
+). Promargin of fang furrow armed with four-six teeth increasing in size from base of fang to the penultimate tooth; proximal tooth small. Retromargin of fang furrow armed with two-three teeth (Fig. 2 
+<collectionCode>D</collectionCode>
+; contra 
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+1989; Lehtinen 1967). Respiratory system with pair of book lungs anteriorly; posterior tracheal system (examined in a penultimate juvenile of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="5" pageNumber="6" phylum="Arthropoda" rank="species" species="egazini">P. egazini</taxonomicName>
+<taxonomicNameLabel pageId="5" pageNumber="6" rank="species">sp. nov.</taxonomicNameLabel>
+) quadritracheate, with four simple, subequal tubes restricted to abdomen. Female pedipalp with dentate claw; tarsus with pro-ventral cluster of macrosetae. Leg tarsi each with multidentate paired claws and untoothed median claw (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="2.0">
+2 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+); scopula absent. Tarsal organ capsulate, on slightly raised base; opening circular (Fig. 2 
+<collectionCode>F</collectionCode>
+). Tibiae each with two dorsal rows of trichobothria; metatarsi each with one dorsal trichobothrium distally; bothria hooded (Fig. 4 
+<collectionCode>A</collectionCode>
+); tarsi without trichobothria. Male tibiae and metatarsi I with clusters of retrolateral macrosetae (Figs 3B-D); tibiae II-IV with visible transverse suture near base (Fig. 3 
+<collectionCode>A</collectionCode>
+; see also Griswold 1993, 1994; Griswold et al. 2005). Female with calamistrum, a single row of setae occupying distal two thirds of metatarsus IV (Fig. 4 
+<collectionCode>C</collectionCode>
+). Female cribellum divided with two fields of strobilate spigots (Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="5.0">
+5 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+, 
+<collectionCode>F</collectionCode>
+). Female anterior lateral spinnerets (
+<collectionCode>ALS</collectionCode>
+) with two major ampullate gland spigots (
+<collectionCode>MAP</collectionCode>
+) on squat bases, these invaginated into piriform (
+<collectionCode>PI</collectionCode>
+) field, four PI on tall tapered bases, plus approximately four tartipores (Fig. 5 
+<collectionCode>B</collectionCode>
+). Female posterior median spinnerets (
+<collectionCode>PMS</collectionCode>
+) with two minor ampullate gland spigots (mAP), one aciniform gland spigot (
+<collectionCode>AC</collectionCode>
+), one tartipore, and two cylindrical gland spigots (
+<collectionCode>CY</collectionCode>
+; Fig. 5 
+<collectionCode>C</collectionCode>
+). Female PLS with one modified spigot (
+<collectionCode>MS</collectionCode>
+) flanked by two nubbins, four aciniform gland spigots (
+<collectionCode>AC</collectionCode>
+), one tartipore, and one CY (Fig. 5 
+<collectionCode>D</collectionCode>
+). Paracribellar spigots absent from both the PLS and PMS. Male cribellum vestigial, lacking spigots (Fig. 6 
+<collectionCode>A</collectionCode>
+). Male ALS with one MAP on a squat base plus one nubbin, these within the PI field, four PI on tall tapered bases, and approximately three tartipores. Male PMS with one mAP, one nubbin (representing a mAP), one anterior AC, and one tartipore (Fig. 6 
+<collectionCode>C</collectionCode>
+). Male PLS with one nubbin (representing the 
+<collectionCode>MS</collectionCode>
+), seven AC, and three tartipores (Fig. 6 
+<collectionCode>D</collectionCode>
+). Epiandrum with two clusters of about 5-10 spigots (Fig. 4 
+<collectionCode>B</collectionCode>
+).
+</paragraph>
+<paragraph pageId="6" pageNumber="7" type="mainText">
+<pageBreakToken pageId="6" pageNumber="7" start="start">FIGURE</pageBreakToken>
+1. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="6" pageNumber="7" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="6" pageNumber="7" rank="species">sp. nov.</taxonomicNameLabel>
+females from Grahamstown, South Africa (
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>C</collectionCode>
+, 
+<collectionCode>E</collectionCode>
+, 
+<collectionCode>F</collectionCode>
+, CASENT 9024961; 
+<collectionCode>B</collectionCode>
+, CASENT 9023774; 
+<collectionCode>D</collectionCode>
+, CASENT 9024964). A, prosoma, lateral view; B, live female with egg case under Eucalyptus bark; C, prosoma, anterior view, arrow indicates clypeal hood; D, light micrograph showing tapetum in posterior median eyes; E, detail of carapace, lateral view, showing plumose and filiform 
+<typeStatus>types</typeStatus>
+of setae; F, prosoma, ventral view. A, C, 
+<misspelling corrections="[Ljava.lang.String;@a2d63d2" language="German" pageId="6" pageNumber="7" type="outOfLanguage">E-</misspelling>
+F, scanning electron micrographs; B, field photograph; D, light micrograph of specimen under stereomicroscope. Scale bars A, F = 100 µm; C, E = 30 µm; D = 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="1.0" unit="mm" value="1.0">0.1 mm</quantity>
+.
+</paragraph>
+<paragraph lastPageId="7" lastPageNumber="8" pageId="6" pageNumber="7" type="mainText">
+Male pedipalpal tibia with apophyses arising from the retrolateral part of tibia (the retrolateral tibial apophysis or 
+<collectionCode>RTA</collectionCode>
+), which comprise an inner ramus of the RTA (
+<collectionCode>RTA</collectionCode>
+2) that arises apically near the base of the cymbium (Fig. 7 
+<collectionCode>B</collectionCode>
+) and an outer, bifid ramus of the RTA (
+<collectionCode>RTA</collectionCode>
+1) that arises basally on the tibia and that is divided apically into inner RTA1(
+<collectionCode>I</collectionCode>
+) and outer RTA1(
+<collectionCode>O</collectionCode>
+) tips (Fig. 7 
+<collectionCode>F</collectionCode>
+). Base of RTA1 with ridge (
+<collectionCode>R</collectionCode>
+). Median apophysis (
+<collectionCode>MA</collectionCode>
+) anchored to retrolateral side of tegulum by membranous tissue, with notched plate on 
+<pageBreakToken pageId="7" pageNumber="8" start="start">retrolateral</pageBreakToken>
+side and long tailpiece extending transversely across the proximal tegulum to prolateral side of bulb (Fig. 7 
+<collectionCode>C</collectionCode>
+). Conductor (
+<collectionCode>C</collectionCode>
+) retroapical, fleshy, translucent (Figs 7 
+<collectionCode>D</collectionCode>
+, 10 
+<collectionCode>A</collectionCode>
+). Embolus makes a half turn, tip expanded and complex, rests against conductor in unexpanded conformation (Figs 7 
+<collectionCode>C</collectionCode>
+, 10 
+<collectionCode>A</collectionCode>
+). Expansion of the bulb reveals a long, narrow, heavily sclerotized petiole that extends two-thirds the retrolateral height of the alveolus, the prodorsal surface of the tegulum with a conical projection that fits into a corresponding depression on the subtegulum (Fig. 11 
+<collectionCode>B</collectionCode>
+), and a reservoir that makes a simple loop around the margin of the tegulum and subtegulum, without switchbacks.
+</paragraph>
+<paragraph pageId="7" pageNumber="8" type="mainText">
+FIGURE 2. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="7" pageNumber="8" phylum="Arthropoda" rank="species" species="egazini">Penestomus egazini</taxonomicName>
+<taxonomicNameLabel pageId="7" pageNumber="8" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>B</collectionCode>
+, 
+<collectionCode>E</collectionCode>
+, 
+<collectionCode>F</collectionCode>
+, female, CASENT 9024964; 
+<collectionCode>C</collectionCode>
+, 
+<collectionCode>D</collectionCode>
+, male, CASENT 9024985), scanning electron micrographs. A, detail of endite showing serrula, anterior view; B, labrum, anterior view, chelicerae removed, arrow indicated bifid lingual process; C, chelicera, lateral view, arrow indicates boss; D, chelicera showing fang and teeth; E, claws, left tarsus IV; F, tarsal organ, tarsus I. A, B taken from specimen with chelicerae removed; C shows chelicera removed from prosoma and mounted separately. Scale bars A, E, F = 20 µm; B = 30 µm; C, D = 100 µm.
+</paragraph>
+<caption pageId="8" pageNumber="9">
+<paragraph pageId="8" pageNumber="9" type="caption">
+<pageBreakToken pageId="8" pageNumber="9" start="start">FIGURE</pageBreakToken>
+3. Male legs of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+species, retrolateral view. A, C, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="montanus">P. montanus</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+from Qacha's Nek, Lesotho (AcAT 2006/1535); B, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="egazini">P. egazini</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+from Grahamstown, South Africa (CASENT 9024985); D, 
+<taxonomicName authority="Lehtinen, 1967" authorityName="Lehtinen" authorityYear="1967" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="armatus">
+P. armatus 
+<authority pageId="8" pageNumber="9">(Lehtinen, 1967)</authority>
+</taxonomicName>
+from Alicedale, South Africa (
+<typeStatus>holotype</typeStatus>
+of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="armata">Wajane armata</taxonomicName>
+). A, leg II showing tibia broken at suture; B-D, leg I. Scale bars = 
+<quantity metricMagnitude="-3" metricUnit="m" metricValue="5.0" unit="mm" value="5.0">0.5 mm</quantity>
+.
+</paragraph>
+</caption>
+<paragraph pageId="8" pageNumber="9" type="mainText">
+Female genitalia entelegyne, epigynum divided into anterior lobe (
+<collectionCode>AL</collectionCode>
+) and posterior lobe (
+<collectionCode>PL</collectionCode>
+; Fig. 12 
+<collectionCode>A</collectionCode>
+). Epigynum usually mushroom-shaped (a subtriangular anterior lobe with a long, narrow posterior lobe), occasionally subpentagonal (Fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="16.0">
+16 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+). Median projection of AL runs posteriorly into PL, divided from PL by a groove laterally and posteriorly (Fig. 8 
+<collectionCode>A</collectionCode>
+). Pair of (usually membranous) posterolateral apophyses (
+<collectionCode>PA</collectionCode>
+) arise from AL on either side of the median projection (
+<collectionCode>MP</collectionCode>
+)/PL complex (Figs 8 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>E</collectionCode>
+). AL usually with pair of unsclerotized anterolateral patches (Fig. 12 
+<collectionCode>A</collectionCode>
+). Spermathecae (
+<collectionCode>S</collectionCode>
+) usually subspherical, occasionally ovoid (Figs 8 
+<collectionCode>B</collectionCode>
+, 16 
+<collectionCode>H</collectionCode>
+); fertilization ducts (
+<collectionCode>FD</collectionCode>
+) and copulatory ducts (
+<collectionCode>CD</collectionCode>
+) originate from posteromesal region of spermathecae (Fig. 12 
+<collectionCode>D</collectionCode>
+). CD path direct, gently curved or sinuous, running posteriorly from spermathecae (Fig. 8 
+<collectionCode>B</collectionCode>
+). FD relatively robust, gently curved, running posteriorly from spermathecae (Fig. 8 
+<collectionCode>B</collectionCode>
+).
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="9" lastPageNumber="10" pageId="8" pageNumber="9" type="discussion">
+<paragraph pageId="8" pageNumber="9" type="mainText">
+Previous authors have erroneously suggested that penestomids lack teeth on the posterior margin of the fang furrow (
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+1989; Lehtinen 1967). The lack of posterior margin teeth has also been claimed in eresines, although in fact the teeth are merely small (Griswold et al. 2005: fig. 131 
+<collectionCode>D</collectionCode>
+). Lehtinen (1967: 388) asserted that there were instead two rows of teeth along the anterior margin. In fact, penestomids have four to six teeth on the promargin and two to three teeth on the retromargin of the fang furrow (Fig. 2 
+<collectionCode>D</collectionCode>
+).
+</paragraph>
+<paragraph lastPageId="9" lastPageNumber="10" pageId="8" pageNumber="9" type="mainText">
+Species groups. Based on morphology of female genitalia, most 
+<misspelling corrections="[Ljava.lang.String;@29f47536" pageId="8" pageNumber="9" type="misspelled">penestomid</misspelling>
+species resemble the 
+<typeStatus>type</typeStatus>
+species 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+in possessing a mushroom-shaped epigynum (a subtriangular anterior lobe with a long, narrow posterior lobe; Fig. 16 
+<collectionCode>A</collectionCode>
+). 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="croeseri">Penestomus croeseri</taxonomicName>
+and 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+are both quite distinct from the 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+configuration and from each other. All remaining species (
+<taxonomicName authority="," authorityName="," class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">
+P. planus
+<authority pageId="8" pageNumber="9">,</authority>
+</taxonomicName>
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="egazini">P. egazini</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<collectionCode>P</collectionCode>
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="montanus">montanus</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="prendinii">P. prendinii</taxonomicName>
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+, 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="zulu">P. zulu</taxonomicName>
+. 
+<taxonomicNameLabel pageId="8" pageNumber="9" rank="species">sp. nov.</taxonomicNameLabel>
+) are placed in the 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group. Females of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species are distinguished from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+by the subspherical spermathecae (Figs 8 
+<collectionCode>B</collectionCode>
+, 12 
+<collectionCode>B</collectionCode>
+, 
+<collectionCode>D</collectionCode>
+, 
+<collectionCode>F</collectionCode>
+, 16 
+<collectionCode>D</collectionCode>
+; 
+<pageBreakToken pageId="9" pageNumber="10" start="start">ovoid</pageBreakToken>
+in 
+<collectionCode>P</collectionCode>
+<taxonomicName authority=", Fig" authorityName=", Fig" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="stilleri">
+stilleri
+<authority pageId="9" pageNumber="10">, Fig</authority>
+</taxonomicName>
+. 16 
+<collectionCode>H</collectionCode>
+); from P 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="croeseri">croeseri</taxonomicName>
+by the connection between the AL and its MP (as wide as the 
+<collectionCode>MP</collectionCode>
+in 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
+group species, Figs 12 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>C</collectionCode>
+, 
+<collectionCode>E</collectionCode>
+, 16 
+<collectionCode>A</collectionCode>
+, 
+<collectionCode>B</collectionCode>
+, 
+<collectionCode>C</collectionCode>
+; distinctly narrower in 
+<taxonomicName authority=", Fig" authorityName=", Fig" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri
+<authority pageId="9" pageNumber="10">, Fig</authority>
+</taxonomicName>
+. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="16.0">
+16 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+). Since the female of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="armatus">P. armatus</taxonomicName>
+is unknown, it is not possible to infer its affinities at this time. But if the female is discovered and it resembles 
+<taxonomicName authority="," authorityName="," class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri
+<authority pageId="9" pageNumber="10">,</authority>
+</taxonomicName>
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="species" species="stilleri">P. stilleri</taxonomicName>
+, or has a unique configuration, this could justify the resurrection of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="8" pageNumber="9" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

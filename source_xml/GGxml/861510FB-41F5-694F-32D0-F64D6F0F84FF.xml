@@ -1,0 +1,256 @@
+<document ENCODING="UTF8" ID-HNS-Pub="Lehtinen1967CribellatePenestominae" ID-Handle="Lehtinen1967CribellatePenestominae" _generate="added" checkinTime="1376563468907" checkinUser="jeremy" docAuthor="Pekka T. Lehtinen" docDate="1967" docId="861510FB41F5694F32D0F64D6F0F84FF" docLanguage="en" docName="Lehtinen1967CribellatePenestominae.xml" docOrigin="Annales Zoologici Fennici 4" docSource="http://research.amnh.org/iz/spiders/catalog/" docTitle="Penestomus" lastPageNumber="460" masterDocId="2147628664A36F240C7F6CCA1C9B177B" masterDocTitle="Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha" masterLastPageNumber="468" masterPageNumber="199" originalUpdateTime="1401798444897" pageId="null" pageNumber="257" updateTime="1401796064070" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Pekka T. Lehtinen</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Annales Zoologici Fennici</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1967</mods:date>
+<mods:detail type="volume">
+<mods:number>4</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>199</mods:start>
+<mods:end>468</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">Lehtinen1967CribellatePenestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:861510FB41F5694F32D0F64D6F0F84FF" httpUri="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF" lastPageNumber="390" pageId="null" pageNumber="257">
+<subSubSection type="nomenclature">
+<paragraph lastPageNumber="390" pageId="null" pageNumber="257">
+<span class="font2" pageId="null" pageNumber="257" style="font-weight:bold;font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="257" phylum="Arthropoda" rank="genus">
+<pageBreakToken pageId="null" pageNumber="257" start="start">Penestomus</pageBreakToken>
+</taxonomicName>
+</span>
+<span class="font2" pageId="null" pageNumber="257">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">Simon 1902, Ann. Soc. Ent. France 71, Bull., CCXLI:</treatmentCitation>
+</span>
+<treatmentCitation httpURI="http://treatment.plazi.org/id/6C9891A3-7202-DD49-9F29-F8C73E39C73A">
+<taxonomicName authorityName="Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="257" phylum="Arthropoda" rank="species" species="planus">
+<span class="font2" pageId="null" pageNumber="257" style="font-style:italic;">P. planus</span>
+<span class="font2" pageId="null" pageNumber="257">
+<authority pageId="null" pageNumber="257">Sim</authority>
+. 1902, ibid. from South Africa (? Paris). Described in 
+<taxonomicName family="Eresidae" pageId="null" pageNumber="257" rank="family">Eresidae</taxonomicName>
+, and selected by
+</span>
+</taxonomicName>
+</treatmentCitation>
+<span class="font1" pageId="null" pageNumber="257">Simon</span>
+<span class="font2" lastPageNumber="390" pageId="null" pageNumber="257">
+(1903 a) as the 
+<typeStatus pageId="null" pageNumber="257">type</typeStatus>
+genus for the subfamily 
+<taxonomicName pageId="null" pageNumber="257" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+<pageBreakToken pageId="null" pageNumber="390" start="start">.</pageBreakToken>
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="null" pageNumber="390">
+<table border="1" pageId="null" pageNumber="390">
+<tr pageId="null" pageNumber="390">
+<td isEmpty="true" pageId="null" pageNumber="390">-</td>
+<td pageId="null" pageNumber="390">
+<span class="font1" pageId="null" pageNumber="390" style="font-style:italic;">
+<taxonomicName authorityName="Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="390" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+</span>
+</td>
+<td pageId="null" pageNumber="390">
+<span class="font1" pageId="null" pageNumber="390" style="font-style:italic;">
+<taxonomicName authorityName="Lehtinen" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="390" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+</span>
+</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Figure</td>
+<td pageId="null" pageNumber="390">482, 469</td>
+<td pageId="null" pageNumber="390">470, 471</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Size</td>
+<td pageId="null" pageNumber="390">medium</td>
+<td pageId="null" pageNumber="390">medium</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Cribellum - colulus</td>
+<td pageId="null" pageNumber="390">cr: bipartite, long oval</td>
+<td pageId="null" pageNumber="390">co: transersal narrow plate</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Anterior spinnerets</td>
+<td pageId="null" pageNumber="390">strongly conical</td>
+<td pageId="null" pageNumber="390">slender, slightly conical</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Posterior spinnerets</td>
+<td pageId="null" pageNumber="390">&lt;AS, cylindrical</td>
+<td pageId="null" pageNumber="390">~ AS, slender cylindrical</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Median spinnerets</td>
+<td pageId="null" pageNumber="390">small triangular</td>
+<td pageId="null" pageNumber="390">small triangular</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Abdominal pattern #m</td>
+<td pageId="null" pageNumber="390">unknown</td>
+<td pageId="null" pageNumber="390">2 central white patches</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Abdominal pattern #f</td>
+<td pageId="null" pageNumber="390">none</td>
+<td pageId="null" pageNumber="390">unknown</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Shape of carapace</td>
+<td pageId="null" pageNumber="390">very flat subrectangular</td>
+<td pageId="null" pageNumber="390">very flat subrectangular</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Clypeal triangle</td>
+<td pageId="null" pageNumber="390">gradually pointed</td>
+<td pageId="null" pageNumber="390">obtuse</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Fovea</td>
+<td pageId="null" pageNumber="390">oval shallow depression</td>
+<td pageId="null" pageNumber="390">indistinct</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Size of AM</td>
+<td pageId="null" pageNumber="390">subequal to PM</td>
+<td pageId="null" pageNumber="390">subequal to PM</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Shape of MOT</td>
+<td pageId="null" pageNumber="390">strongly trapezoidal</td>
+<td pageId="null" pageNumber="390">strongly trapezoidal</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Shape of LOT</td>
+<td pageId="null" pageNumber="390">very strongly trapezoidal</td>
+<td pageId="null" pageNumber="390">strongly trapezoidal</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Cheliceral keel</td>
+<td pageId="null" pageNumber="390">rounded triangular with 3 teeth</td>
+<td pageId="null" pageNumber="390">rounded triangular with 4 teeth</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Anterior part of sternum</td>
+<td pageId="null" pageNumber="390">gradually narrowed</td>
+<td pageId="null" pageNumber="390">gradually narrowed</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Tib. &amp; met. v. sp.</td>
+<td pageId="null" pageNumber="390">I-II: 0 + 2, III-IV: 1 - 3 + 2</td>
+<td pageId="null" pageNumber="390">I-IV: numerous irregular + 3</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Tarsal spines</td>
+<td pageId="null" pageNumber="390">none</td>
+<td pageId="null" pageNumber="390">I-IV: 2 - 3 rather long apical</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Tarsal scopulae</td>
+<td pageId="null" pageNumber="390">none</td>
+<td pageId="null" pageNumber="390">none</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Shape of cymbium</td>
+<td pageId="null" pageNumber="390">#m unknown</td>
+<td pageId="null" pageNumber="390">circular with basodorsal carina</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Tibial apophysis</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+<td pageId="null" pageNumber="390">long branched</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Embolus</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+<td pageId="null" pageNumber="390">semicircular, distally modified</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Conductor</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+<td pageId="null" pageNumber="390">semicircular fold</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Median apophysis</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+<td pageId="null" pageNumber="390">very long and protruding, geniculate</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Shape of tegulum</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+<td pageId="null" pageNumber="390">very long and protruding, geniculate</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Epigynal plate</td>
+<td pageId="null" pageNumber="390">caudally projected trapezium</td>
+<td pageId="null" pageNumber="390">#f unknown</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Epigynal foveae</td>
+<td pageId="null" pageNumber="390">paired longitudinal narrow</td>
+<td pageId="null" pageNumber="390">&amp;nbsp;</td>
+</tr>
+<tr pageId="null" pageNumber="390">
+<td pageId="null" pageNumber="390">Distribution</td>
+<td pageId="null" pageNumber="390">S. Ethiopian</td>
+<td pageId="null" pageNumber="390">S. Ethiopian</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<caption>
+<paragraph pageId="null" pageNumber="460">
+<tr pageId="null" pageNumber="390">
+<td isEmpty="true" pageId="null" pageNumber="390">
+<pageBreakToken pageNumber="460">Figs</pageBreakToken>
+. 445-453. - 445: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Adonea" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="splendens">Adonea splendens</taxonomicName>
+♂, 446: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Gandanameno" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="spenceri">Gandanameno spenceri</taxonomicName>
+♀ (holotype of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="depressus">Eresus depressus</taxonomicName>
+), 447: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Dresserus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="schreineri">Dresserus schreineri</taxonomicName>
+, leg, 448: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Seothyra" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="schreineri">Seothyra schreineri</taxonomicName>
+, chelicera, 449: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Adonea" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="splendens">Adonea splendens</taxonomicName>
+, chelicera, 450: 
+<taxonomicName genus="Magunia" pageId="null" pageNumber="460" rank="genus">Magunia</taxonomicName>
+<taxonomicName genus="Magunia" pageId="null" pageNumber="460" rank="species" species="tentoriicola">tentoriicola</taxonomicName>
+, spinnerets and anal tubercle, 451: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Seothyra" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="schreineri">Seothyra schreineri</taxonomicName>
+, spinnerets in dorsal view, 452: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="planus">Penestomus planus</taxonomicName>
+, carapace, 453: 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Dresserus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="460" phylum="Arthropoda" rank="species" species="schreineri">Dresserus schreineri</taxonomicName>
+, spinnerets and anal tubercle. - Orig.
+</td>
+</tr>
+</paragraph>
+</caption>
+</subSubSection>
+</treatment>
+</document>

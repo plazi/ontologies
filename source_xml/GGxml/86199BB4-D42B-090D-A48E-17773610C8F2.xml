@@ -1,0 +1,265 @@
+<document ENCODING="UTF8" _generate="added" checkinTime="1376058483560" checkinUser="jeremy" docAuthor="Eugene Simon" docDate="1903" docId="86199BB4D42B090DA48E17773610C8F2" docLanguage="fr" docName="Simon1903Penestominae.xml" docOrigin="Paris: Encyclopedie Roret" docTitle="Penestominae" lastPageNumber="980" masterDocId="AB10B65447CA3EFC5642B740CC24267B" masterDocTitle="Histoire naturelle des Araignees. T. 2, fasc 4" originalUpdateTime="1401652119569" pageId="null" pageNumber="979" updateTime="1401649629258" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Histoire naturelle des Araignees. T. 2, fasc 4</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Eugene Simon</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:originInfo>
+<mods:dateIssued>1903</mods:dateIssued>
+<mods:publisher>Encyclopedie Roret</mods:publisher>
+<mods:place>
+<mods:placeTerm>Paris</mods:placeTerm>
+</mods:place>
+</mods:originInfo>
+<mods:classification>book</mods:classification>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:86199BB4D42B090DA48E17773610C8F2" httpUri="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2" lastPageNumber="980" pageId="null" pageNumber="979">
+<subSubSection type="nomenclature">
+<paragraph pageId="null" pageNumber="979">
+<span class="font7" pageId="null" pageNumber="979">
+<pageBreakToken pageId="null" pageNumber="979" start="start">2</pageBreakToken>
+<sup pageId="null" pageNumber="979">e</sup>
+Sous-famille
+</span>
+<span class="font8" pageId="null" pageNumber="979" style="font-weight:bold;">
+<taxonomicName pageId="null" pageNumber="979" rank="subFamily" subFamily="Penestominae">PENESTOMINAE</taxonomicName>
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="null" pageNumber="979">
+<span class="font7" pageId="null" pageNumber="979">
+<normalizedToken originalValue="Proposée">Proposee</normalizedToken>
+pour le genre
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+,
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+qui 
+<normalizedToken originalValue="diffère">differe</normalizedToken>
+des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Eresus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+par un 
+<normalizedToken originalValue="céphalothorax">cephalothorax</normalizedToken>
+<normalizedToken originalValue="très">tres</normalizedToken>
+plat, comme celui des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<normalizedToken originalValue="Hemiclœa">Hemicloea</normalizedToken>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+, beaucoup plus long que large, 
+<normalizedToken originalValue="parallèle">parallele</normalizedToken>
+, 
+<normalizedToken originalValue="tronqué">tronque</normalizedToken>
+en avant, 
+<normalizedToken originalValue="marqué">marque</normalizedToken>
+, un peu au 
+<normalizedToken originalValue="delà">dela</normalizedToken>
+du milieu, 
+<normalizedToken originalValue="d’une">d'une</normalizedToken>
+large fossette mal 
+<normalizedToken originalValue="définie">definie</normalizedToken>
+; ses yeux sont petits, les 
+<normalizedToken originalValue="médians">medians</normalizedToken>
+figurent, au milieu du bord frontal 
+<normalizedToken originalValue="déprimé">deprime</normalizedToken>
+, un groupe au moins deux fois plus large que long et beaucoup plus 
+<normalizedToken originalValue="étroit">etroit</normalizedToken>
+en avant 
+<normalizedToken originalValue="qu’en">qu'en</normalizedToken>
+<normalizedToken originalValue="arrière">arriere</normalizedToken>
+, avec les 
+<normalizedToken originalValue="antérieurs">anterieurs</normalizedToken>
+un peu plus petits que les 
+<normalizedToken originalValue="postérieurs">posterieurs</normalizedToken>
+; les 
+<normalizedToken originalValue="latéraux">lateraux</normalizedToken>
+<normalizedToken originalValue="antérieurs">anterieurs</normalizedToken>
+, un peu plus gros et ovales sont 
+<normalizedToken originalValue="situés">situes</normalizedToken>
+<normalizedToken originalValue="à">a</normalizedToken>
+la marge et plus 
+<normalizedToken originalValue="éloignés">eloignes</normalizedToken>
+des angles frontaux que des yeux 
+<normalizedToken originalValue="médians">medians</normalizedToken>
+; les 
+<normalizedToken originalValue="latéraux">lateraux</normalizedToken>
+<normalizedToken originalValue="postérieurs">posterieurs</normalizedToken>
+, petits, sont beaucoup plus 
+<normalizedToken originalValue="écartés">ecartes</normalizedToken>
+transversalement, mais moins 
+<normalizedToken originalValue="reculés">recules</normalizedToken>
+que ceux des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Eresus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+, figurant, avec les 
+<normalizedToken originalValue="médians">medians</normalizedToken>
+<normalizedToken originalValue="postérieurs">posterieurs</normalizedToken>
+, une ligne 
+<normalizedToken originalValue="très">tres</normalizedToken>
+large, 
+<normalizedToken originalValue="légèrement">legerement</normalizedToken>
+<normalizedToken originalValue="récurvée">recurvee</normalizedToken>
+; disposition oculaire rappelant celle des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<normalizedToken originalValue="Hemiclœa">Hemicloea</normalizedToken>
+(t.
+</span>
+<span class="font7" pageId="null" pageNumber="979">I, p. 242, fig. 305).</span>
+</paragraph>
+<paragraph pageId="null" pageNumber="979">
+<span class="font7" pageId="null" pageNumber="979">
+Les 
+<normalizedToken originalValue="chélicères">cheliceres</normalizedToken>
+sont construites comme celles des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Eresus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+; mais les lamesmaxillaires sont plus 
+<normalizedToken originalValue="étroites">etroites</normalizedToken>
+, non 
+<normalizedToken originalValue="dilatées">dilatees</normalizedToken>
+au 
+<normalizedToken originalValue="côté">cote</normalizedToken>
+externe, droites, 
+<normalizedToken originalValue="parallèles">paralleles</normalizedToken>
+et obtuses. Le sternum est 
+<normalizedToken originalValue="étroit">etroit</normalizedToken>
+, presque 
+<normalizedToken originalValue="également">egalement</normalizedToken>
+<normalizedToken originalValue="atténué">attenue</normalizedToken>
+en avant et en 
+<normalizedToken originalValue="arrière">arriere</normalizedToken>
+.
+</span>
+</paragraph>
+<paragraph pageId="null" pageNumber="979">
+<span class="font7" pageId="null" pageNumber="979">Les pattes sont courtes et robustes comme celles des</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Eresus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+, mais leurs tarses, petits (surtout les 
+<normalizedToken originalValue="postérieurs">posterieurs</normalizedToken>
+) et 
+<normalizedToken originalValue="comprimés">comprimes</normalizedToken>
+, sont un peu 
+<normalizedToken originalValue="atténués">attenues</normalizedToken>
+<normalizedToken originalValue="à">a</normalizedToken>
+la base, nullement en 
+<normalizedToken originalValue="continuité">continuite</normalizedToken>
+avec les 
+<normalizedToken originalValue="métatarses">metatarses</normalizedToken>
+et pourvus de griffes beaucoup plus longues, 
+<normalizedToken originalValue="très">tres</normalizedToken>
+visibles, au moins les 
+<normalizedToken originalValue="supérieures">superieures</normalizedToken>
+(celles des
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Eresus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="979" phylum="Arthropoda" rank="genus">Eresus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="979">
+sont courtes et 
+<normalizedToken originalValue="cachées">cachees</normalizedToken>
+par des poils), qui sont garnies 
+<normalizedToken originalValue="d’une">d'une</normalizedToken>
+<normalizedToken originalValue="série">serie</normalizedToken>
+de dents fines et nombreuses; ces pattes sont de plus 
+<normalizedToken originalValue="armées">armees</normalizedToken>
+<normalizedToken originalValue="d’épines">d'epines</normalizedToken>
+plus longues que celles des autres
+</span>
+<span class="font7" pageId="null" pageNumber="979" style="font-style:italic;">Eresides:</span>
+<span class="font7" pageId="null" pageNumber="979">
+les tibias de la 1 
+<sup pageId="null" pageNumber="979">re</sup>
+paire ont en dessous 2 
+<normalizedToken originalValue="épines">epines</normalizedToken>
+apicales, les 
+<normalizedToken originalValue="métatarses">metatarses</normalizedToken>
+2 apicales et (sauf celui de la 3 
+<sup pageId="null" pageNumber="979">e</sup>
+paire) une 
+<normalizedToken originalValue="médiane">mediane</normalizedToken>
+.
+</span>
+</paragraph>
+<paragraph pageId="null" pageNumber="979">
+<span class="font7" pageId="null" pageNumber="979">
+Le cribellum, large et transverse, est 
+<normalizedToken originalValue="divisé">divise</normalizedToken>
+; le calamistrum, qui occupe le dessus de l'artiele, 
+<normalizedToken originalValue="très">tres</normalizedToken>
+<normalizedToken originalValue="comprimé">comprime</normalizedToken>
+, est 
+<normalizedToken originalValue="formé">forme</normalizedToken>
+de crins courbes fins, 
+<normalizedToken originalValue="unisériés">uniseries</normalizedToken>
+.
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageId="null" pageNumber="980">
+<span class="font7" pageId="null" pageNumber="980">
+<pageBreakToken pageId="null" pageNumber="980" start="start">La</pageBreakToken>
+familie des
+</span>
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">Eresides,</span>
+<span class="font7" pageId="null" pageNumber="980">
+<normalizedToken originalValue="jusqu’ici">jusqu'ici</normalizedToken>
+<normalizedToken originalValue="très">tres</normalizedToken>
+<normalizedToken originalValue="isolée">isolee</normalizedToken>
+au. milieu des Cribellates, se trouve 
+<normalizedToken originalValue="reliée">reliee</normalizedToken>
+aux
+</span>
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Amaurobiidae" genus="Amaurobius" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="980" phylum="Arthropoda" rank="genus">Amaurobius</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="980">et a certains</span>
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">Zoropsides</span>
+<span class="font7" pageId="null" pageNumber="980">par le genre ambigu</span>
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="980" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+</span>
+<span class="font7" pageId="null" pageNumber="980">.</span>
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="null" pageNumber="980">
+<span class="font7" pageId="null" pageNumber="980">
+Ce genre ne comprend qu'une petite 
+<normalizedToken originalValue="espèce">espece</normalizedToken>
+de l'Afrique du Sud, 
+<normalizedToken originalValue="brunâtre">brunatre</normalizedToken>
+et garnie de gros poils blancs peu 
+<normalizedToken originalValue="serrés">serres</normalizedToken>
+et 
+<normalizedToken originalValue="couchés">couches</normalizedToken>
+.
+</span>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

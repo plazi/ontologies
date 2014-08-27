@@ -1,0 +1,135 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="F1D4ED7ECC27E7BCA6485E989EEF9BC8" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomidae Simon 1903" lastPageNumber="5" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="4" pageNumber="5" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:F1D4ED7ECC27E7BCA6485E989EEF9BC8" httpUri="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8" pageId="4" pageNumber="5">
+<subSubSection pageId="4" pageNumber="5" type="nomenclature">
+<paragraph pageId="4" pageNumber="5" type="mainText">
+Family 
+<taxonomicName authority="Simon, 1903" authorityName="Simon" authorityYear="1903" family="Penestomidae" pageId="4" pageNumber="5" rank="family">
+Penestomidae 
+<authority pageId="4" pageNumber="5">Simon, 1903</authority>
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="5" type="reference_group">
+<paragraph pageId="4" pageNumber="5" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997">
+<taxonomicName authority="Simon, 1903" authorityName="Simon" authorityYear="1903" pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">
+Penestominae 
+<authority pageId="4" pageNumber="5">Simon, 1903</authority>
+</taxonomicName>
+: 979
+</treatmentCitation>
+. 
+<typeStatus>Type</typeStatus>
+genus 
+<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="4" pageNumber="5" phylum="Arthropoda" rank="genus">
+Penestomus 
+<authority pageId="4" pageNumber="5">Simon, 1902</authority>
+</taxonomicName>
+. 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">Lehtinen, 1967: 385-390</treatmentCitation>
+; 
+<treatmentCitation httpUri="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F">
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="4" pageNumber="5" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989: 131.
+</treatmentCitation>
+</paragraph>
+<paragraph pageId="4" pageNumber="5" type="mainText">
+<taxonomicName family="Penestomidae" pageId="4" pageNumber="5" rank="family">Penestomidae</taxonomicName>
+. Miller et al., 2010: 801.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="5" type="discussion">
+<paragraph pageId="4" pageNumber="5" type="mainText">
+Affinities. Removal of the 
+<taxonomicName pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+from the 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47205" family="Eresidae" lsidName-HNS="Eresidae " pageId="4" pageNumber="5" rank="family">Eresidae</taxonomicName>
+was justified by analysis of molecular sequence data (Miller et al. 2010). These data consistently indicated that penestomines are close to the 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47249" family="Zodariidae" lsidName-HNS="Zodariidae " pageId="4" pageNumber="5" rank="family">Zodariidae</taxonomicName>
+, and that this relationship has significantly better support than one constrained to include a monophyletic 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47205" family="Eresidae" lsidName-HNS="Eresidae " pageId="4" pageNumber="5" rank="family">Eresidae</taxonomicName>
+including 
+<taxonomicName authority="Shimodaira &amp; Hasegawa 1999" authorityName="Shimodaira &amp; Hasegawa" authorityYear="1999" pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">
+Penestominae 
+<authority pageId="4" pageNumber="5">(Shimodaira &amp; Hasegawa 1999)</authority>
+</taxonomicName>
+. One line of morphological evidence that could support a close relationship between zodariids and penestomids has to do with the arrangement of spigots on the anterior lateral spinnerets. Typically, the major ampullate gland spigots (
+<collectionCode>MAP</collectionCode>
+) are placed on the margin of the spinning field (e.g. see Griswold et al. 2005, fig. 49 
+<collectionCode>B</collectionCode>
+) but in both zodariids (Miller et al. 2010, fig. 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="2.0">
+2 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+) and penestomids (Fig. 6 
+<collectionCode>B</collectionCode>
+) the MAP are placed in the center of the field of piriform gland spigots (
+<collectionCode>PI</collectionCode>
+).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="4" pageNumber="5" type="diagnosis">
+<paragraph pageId="4" pageNumber="5" type="mainText">
+The 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47249" family="Zodariidae" lsidName-HNS="Zodariidae " pageId="4" pageNumber="5" rank="family">Zodariidae</taxonomicName>
+are diagnosed by several characters not found in 
+<taxonomicName pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+(i.e. absence of serrula, lateral implantation of tarsal claw teeth, long anterior lateral spinnerets; see 
+<normalizedToken originalValue="Jocqué" pageId="4" pageNumber="5">Jocque</normalizedToken>
+1991). Inclusion of 
+<taxonomicName pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+within the entirely ecribellate 
+<taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:47249" family="Zodariidae" lsidName-HNS="Zodariidae " pageId="4" pageNumber="5" rank="family">Zodariidae</taxonomicName>
+would radically change and complicate the diagnosis of this expanded family concept. For these reasons, Miller et al. (2010) promoted 
+<taxonomicName pageId="4" pageNumber="5" rank="subFamily" subFamily="Penestominae">Penestominae</taxonomicName>
+to family rank.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

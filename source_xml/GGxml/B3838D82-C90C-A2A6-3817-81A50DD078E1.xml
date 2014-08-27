@@ -1,0 +1,314 @@
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="B3838D82C90CA2A6381781A50DD078E1" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus stilleri Miller, Griswold &amp; Haddad, 2010, new combination" lastPageId="30" lastPageNumber="31" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="29" pageNumber="30" updateTime="1401794864559" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Jeremy A. Miller</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles E. Griswold</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Charles R. Haddad</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Zootaxa</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2010</mods:date>
+<mods:detail type="volume">
+<mods:number>2534</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>1</mods:start>
+<mods:end>36</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:B3838D82C90CA2A6381781A50DD078E1" httpUri="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1" lastPageId="30" lastPageNumber="31" pageId="29" pageNumber="30">
+<subSubSection pageId="29" pageNumber="30" type="nomenclature">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="29" pageNumber="30" phylum="Arthropoda" rank="species" species="stilleri">Penestomus stilleri</taxonomicName>
+(
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="29" pageNumber="30" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+, 1989), 
+<taxonomicNameLabel pageId="29" pageNumber="30">new combination</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="description">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="8.0">8E</geoCoordinate>
+, 8F, 16G-I, 18C, 18D, 21
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="reference_group">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/78086224-E0F7-31F3-805B-DDB020C16409">
+<taxonomicName authority="Dippenaar-Schoeman, 1989" authorityName="Dippenaar-Schoeman" authorityYear="1989" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="29" pageNumber="30" phylum="Arthropoda" rank="species" species="stilleri">
+Wajane stilleri 
+<authority pageId="29" pageNumber="30">Dippenaar-Schoeman, 1989</authority>
+</taxonomicName>
+: 134, figs 2, 7-8
+</treatmentCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="materials_examined">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<materialsCitation collectingDate="1975-08-03" collectionCode="NCA" collectorName="M. Stiller" country="South Africa" elevation="300 m" latitude="-33.75" location="Paarl Du Toit's Kloof, Donkerkloof" longLatPrecision="1" longitude="18.833334" specimenCode="AcAT 88 / 29" specimenCount="2" specimenCount-female="1" stateProvince="Western Cape" typeStatus="Holotype">
+Type material. 
+<typeStatus>Holotype</typeStatus>
+: ♀ (with 
+<specimenCount type="generic">1 juvenile</specimenCount>
+<typeStatus>paratype</typeStatus>
+), 
+<location LSID="urn:lsid:plazi:treatment:B3838D82C90CA2A6381781A50DD078E1:86FAC6B27DAC3C9D50BC327C4CC39437" country="South Africa" latitude="-33.75" longLatPrecision="1" longitude="18.833334" name="Paarl Du Toit's Kloof, Donkerkloof" stateProvince="Western Cape">Paarl Du Toit's Kloof, Donkerkloof</location>
+, 
+<collectingRegion>Western Cape</collectingRegion>
+, 
+<collectingCountry value="South Africa">South Africa</collectingCountry>
+, 
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.75">33°45'S</geoCoordinate>
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="18.833334">18°50'E</geoCoordinate>
+, 
+<quantity metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">
+<elevation metricMagnitude="2" metricUnit="m" metricValue="3.0" unit="m" value="300.0">300 m</elevation>
+</quantity>
+, 
+<date value="1975-08-03">
+<collectingDate value="1975-08-03">3 August 1975</collectingDate>
+</date>
+, found in silk-lined tunnels under exfoliated section of rock, in a boulder, 
+<collectorName>M. Stiller</collectorName>
+(
+<specimenCode>AcAT 88/29</specimenCode>
+, 
+<collectionCode collectionName="NCA">NCA</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<materialsCitation collectingDate="1916-11-20" collectionCode="SAM" collectorName="Tucker" country="South Africa" elevation="1341 - 1676 m" latitude="-33.1" location="Winterhoek" longLatPrecision="1" longitude="19.13" specimenCode="B 2686 SAM-ENW-B 002686" specimenCount="8" specimenCount-female="3" stateProvince="Western Cape">
+Additional material examined. 
+<collectingCountry value="South Africa">SOUTH AFRICA</collectingCountry>
+. 
+<collectingRegion>Western Cape</collectingRegion>
+: 
+<specimenCount type="generic">3 ♀</specimenCount>
+<specimenCount type="generic">5 juveniles</specimenCount>
+, 
+<location LSID="urn:lsid:plazi:treatment:B3838D82C90CA2A6381781A50DD078E1:24EB7044AF6449E6E73160C82BBC0083" country="South Africa" latitude="-33.1" longLatPrecision="1" longitude="19.13" name="Winterhoek" stateProvince="Western Cape">Winterhoek</location>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.1">33.1°S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="19.13">19.13°E</geoCoordinate>
+] 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="1.50876" metricValueMax="1.6764" metricValueMin="1.34112" unit="ft" value="4950.0" valueMax="5500.0" valueMin="4400.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="1.50876" metricValueMax="1.6764" metricValueMin="1.34112" unit="ft" value="4950.0" valueMax="5500.0" valueMin="4400.0">4400-5500 ft</elevation>
+</quantity>
+, 
+<date value="1916-11-20">
+<collectingDate value="1916-11-20">20 November 1916</collectingDate>
+</date>
+, 
+<collectorName>Tucker</collectorName>
+(
+<specimenCode>B2686 SAM-ENW-B002686</specimenCode>
+, 
+<collectionCode collectionName="Australia, South Australia, Adelaide, South Australian Museum">SAM</collectionCode>
+)
+</materialsCitation>
+; 
+<materialsCitation collectingDate="1916-11-20" collectionCode="SAM" collectorName="Tucker" country="South Africa" elevation="1524 - 1707 m" latitude="-33.1" location="Winterhoek" longLatPrecision="1" longitude="19.13" municipality="Winterhoek" specimenCode="B 2853 SAM-ENW-B 002853" specimenCount="3" specimenCount-female="2" stateProvince="Western Cape">
+<specimenCount type="generic">2 ♀</specimenCount>
+, 
+<specimenCount type="generic">1 juvenile</specimenCount>
+, 
+<collectingMunicipality>Winterhoek</collectingMunicipality>
+[
+<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.1">33.1°S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="19.13">19.13°E</geoCoordinate>
+], 
+<quantity metricMagnitude="3" metricUnit="m" metricValue="1.61544" metricValueMax="1.70688" metricValueMin="1.524" unit="ft" value="5300.0" valueMax="5600.0" valueMin="5000.0">
+<elevation metricMagnitude="3" metricUnit="m" metricValue="1.61544" metricValueMax="1.70688" metricValueMin="1.524" unit="ft" value="5300.0" valueMax="5600.0" valueMin="5000.0">5000-5600 ft</elevation>
+</quantity>
+, 
+<date value="1916-11-20">
+<collectingDate value="1916-11-20">20 November 1916</collectingDate>
+</date>
+, 
+<collectorName>Tucker</collectorName>
+(
+<specimenCode>B2853 SAM-ENW-B002853</specimenCode>
+, 
+<collectionCode collectionName="Australia, South Australia, Adelaide, South Australian Museum">SAM</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="diagnosis">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Diagnosis. Female distinguished by the ovoid, diverging spermathecae (Figs 16 
+<collectionCode>H</collectionCode>
+, 
+<collectionCode>I</collectionCode>
+) and PA of the epigynum that are as sclerotized as the AL (Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="8.0">
+8 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+, 16 
+<collectionCode>G</collectionCode>
+). Male unknown.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="29" pageNumber="30" type="description">
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Description. Carapace orange-yellow, lighter posteriorly with smooth texture (Fig. 18 
+<collectionCode>C</collectionCode>
+). Sternum dusky pale yellow (Fig. 18 
+<collectionCode>D</collectionCode>
+). Chelicerae orange, with five promarginal teeth, two retromarginal teeth. Legs brown basally, leg I and II orange distally, posterior legs pale yellow distally. Abdomen medium gray dorsally with light dorsolateral patches (Fig. 18 
+<collectionCode>C</collectionCode>
+). (Most setae lost on specimens so these data are not reported here.)
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Epigynum. Subpentagonal, MP/PL complex approximately 1/4 length of epigynum, parallel sided with grooves converging posteriorly, extending only slightly posterior from AL (Figs 
+<geoCoordinate direction="east" orientation="longitude" precision="1" value="8.0">
+8 
+<collectionCode>E</collectionCode>
+</geoCoordinate>
+, 16 
+<collectionCode>G</collectionCode>
+). PA sclerotized, undifferentiated from rest of epigynum.
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+Female macrosetae: Leg I: femur d1, tibia 
+<date>v2-2</date>
+, metatarsus 
+<date>v2-2</date>
+-2; leg II: femur d1, tibia 
+<date>v1</date>
+, metatarsus 
+<date>v2-2</date>
+; leg III: femur d1, tibia 
+<date>v1</date>
+, metatarsus 
+<date>v1-3</date>
+; leg IV: femur d1, metatarsus 
+<date>v1-1</date>
+-3.
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="mainText">
+<typeStatus>Holotype</typeStatus>
+female (AcAT 88/29): Total length 3.6, carapace 1.44 long, 0.97 wide, 0.38 high, sternum 0.91 long, 0.50 wide. Leg measurements:
+</paragraph>
+<paragraph pageId="29" pageNumber="30" type="table">
+<table border="1" pageId="29" pageNumber="30">
+<tr pageId="29" pageNumber="30">
+<td isEmpty="true" pageId="29" pageNumber="30">-</td>
+<td pageId="29" pageNumber="30">I</td>
+<td pageId="29" pageNumber="30">II</td>
+<td pageId="29" pageNumber="30">III</td>
+<td pageId="29" pageNumber="30">IV</td>
+<td pageId="29" pageNumber="30">Pedipalp</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Femur</td>
+<td pageId="29" pageNumber="30">0.65</td>
+<td pageId="29" pageNumber="30">0.62</td>
+<td pageId="29" pageNumber="30">0.56</td>
+<td pageId="29" pageNumber="30">0.71</td>
+<td pageId="29" pageNumber="30">0.35</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Patella</td>
+<td pageId="29" pageNumber="30">0.43</td>
+<td pageId="29" pageNumber="30">0.40</td>
+<td pageId="29" pageNumber="30">0.32</td>
+<td pageId="29" pageNumber="30">0.48</td>
+<td pageId="29" pageNumber="30">0.17</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Tibia</td>
+<td pageId="29" pageNumber="30">0.48</td>
+<td pageId="29" pageNumber="30">0.44</td>
+<td pageId="29" pageNumber="30">0.40</td>
+<td pageId="29" pageNumber="30">0.63</td>
+<td pageId="29" pageNumber="30">0.17</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Metatarsus</td>
+<td pageId="29" pageNumber="30">0.43</td>
+<td pageId="29" pageNumber="30">0.40</td>
+<td pageId="29" pageNumber="30">0.33</td>
+<td pageId="29" pageNumber="30">0.46</td>
+<td pageId="29" pageNumber="30">-</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Tarsus</td>
+<td pageId="29" pageNumber="30">0.27</td>
+<td pageId="29" pageNumber="30">0.24</td>
+<td pageId="29" pageNumber="30">0.19</td>
+<td pageId="29" pageNumber="30">0.22</td>
+<td pageId="29" pageNumber="30">0.30</td>
+</tr>
+<tr pageId="29" pageNumber="30">
+<td pageId="29" pageNumber="30">Total</td>
+<td pageId="29" pageNumber="30">2.25</td>
+<td pageId="29" pageNumber="30">2.10</td>
+<td pageId="29" pageNumber="30">1.79</td>
+<td pageId="29" pageNumber="30">2.51</td>
+<td pageId="29" pageNumber="30">1.00</td>
+</tr>
+</table>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="distribution">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+<pageBreakToken pageId="30" pageNumber="31" start="start">Distribution</pageBreakToken>
+. Known from Western Cape Province, South Africa (Fig. 21).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="30" pageNumber="31" type="discussion">
+<paragraph pageId="30" pageNumber="31" type="mainText">
+Remarks. 
+<taxonomicName class="Arachnida" family="Ammoxenidae" genus="Ammoxenus" kingdom="Animalia" order="Araneae" pageId="30" pageNumber="31" phylum="Arthropoda" rank="genus">Dippenaar-Schoeman</taxonomicName>
+(1989) reported the absence of a cribellum in this species. Indeed, no cribellum is obvious in the somewhat degraded 
+<typeStatus>type</typeStatus>
+series specimens, although there is evidence of a broad lobe that could be a cribellum or wide colulus. In the 
+<typeStatus>holotype</typeStatus>
+, most setae are missing from the legs, including the calamistrum region; in the juvenile 
+<typeStatus>paratype</typeStatus>
+, both legs IV are broken near the tibia-metatarsus joint. Other specimens (i.e., those from Winterhoek, South Africa; 
+<collectionCode>B</collectionCode>
+2853, SAM-ENW-B002853), have a well developed cribellum (Fig. 8 
+<collectionCode>F</collectionCode>
+) and calamistrum.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

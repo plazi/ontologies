@@ -1,0 +1,114 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="F810A2A83567FA92BD7AD19EAF61629D" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Wajane Dippenaar-Schoeman, 1989, spec. nov." lastPageId="3" lastPageNumber="134" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="2" pageNumber="133" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:F810A2A83567FA92BD7AD19EAF61629D" httpUri="http://treatment.plazi.org/id/F810A2A83567FA92BD7AD19EAF61629D" lastPageId="3" lastPageNumber="134" pageId="2" pageNumber="133">
+<subSubSection pageId="2" pageNumber="133" type="nomenclature">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+Lehtinen, 1967
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="133" type="reference_group">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/0F0B6BC2-B992-D710-F179-1A8C1D515D05">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+Lehtinen, 1967: 409
+</treatmentCitation>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="133" type="nomenclature">
+<paragraph pageId="2" pageNumber="133" type="mainText">
+<typeStatus pageId="2" pageNumber="133">Type</typeStatus>
+species 
+<taxonomicName authority="Lehtinen" authorityName="Lehtinen" class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="species" species="armata">
+Wajane armata 
+<authority pageId="2" pageNumber="133">Lehtinen</authority>
+</taxonomicName>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="133" type="diagnosis">
+<paragraph pageId="2" pageNumber="133" type="mainText">Diagnosis</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">
+The flattened body, smaller size, position of the eyes and the absence of a cribellum distinguish 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="2" pageNumber="133" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+from all other eresids.
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="3" lastPageNumber="134" pageId="2" pageNumber="133" type="description">
+<paragraph pageId="2" pageNumber="133" type="mainText">Description</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">
+Female. Size: small 
+<normalizedToken originalValue="±" pageId="2" pageNumber="133">+/-</normalizedToken>
+<quantity metricMagnitude="-2" metricUnit="m" metricValue="3.7" pageId="2" pageNumber="133" unit="mm" value="37.0">3,7 mm</quantity>
+. Colour of carapace reddish brown to grey; smooth to completely covered with short white hairs with relatively longer dark setae in between; carapace longer than wide, flattened, lateral margins of thorax parallel; cephalic area short, slightly narrower than thoraxic area; fovea shallow and wide. Eyes in two rows, anterior row straight, posterior row recurved; ALE close to clypeal edge, slightly larger than 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="2" pageNumber="133">AME</collectionCode>
+; 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="2" pageNumber="133">AME</collectionCode>
+closer to each other than to ALE; MOQ wider than long, narrower anteriorly; PLE more widely spaced than ALE; PME as far from each other as from PLE (Fig. 2). Chelicerae long and narrow, obliquely directed, fang short; anterior margin of cheliceral groove with low chitinous keel, armed with 4-5 teeth, one next to basal one the largest. Maxillae basally wide, triangular, apical part with parallel sides, apex rounded, maxillae parallel to each other, separated by the width of the labium. Sternum oval, posteriorly projecting between fourth coxae. Legs short, weakly sclerotized; leg formula 4123; coxae long, especially leg IV; femur of all legs slightly thicker than rest of leg segments; tibiae with numerous short spines ventrally and laterally, irregularly arranged; metatarsi also with irregular spination; three tarsal claws, paired claws with long thin teeth. Abdomen oval, tapering towards both ends, slightly flattened; with two patches of thick white hairs present dorsally, at the widest point of abdomen and sometimes at anterolateral comers; ventrum unicoloured; anal tubercle well-developed; anterior spinnerets conical, posterior spinnerets shorter, cylindrical, median spinnerets acutely conical. Epigynal plate slightly longer than wide. Male palp characterized by a large, bifurcate tibial process and large complicated median apophysis
+<pageNumber ambiguity="2147483647" fuzzyness="2147483647" pageId="2" pageNumber="133" score="2" value="3">;</pageNumber>
+the coiled embolus runs inside a fold of the conductor.
+</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<pageBreakToken pageId="3" pageNumber="134" start="start">Lehtinen</pageBreakToken>
+(1967) in his description of the genus mentioned an unpaired, narrow, strongly curved and weakly sclerotized plate in front of the spinnerets. According to him it could be a nonfunctional colulus, unique for 
+<taxonomicName family="Eresidae" pageId="3" pageNumber="134" rank="family">Eresidae</taxonomicName>
+. However, the specimen he examined was weakly sclerotized and this hindered interpretation of the structure. The female described here for the first time has no cribellum or calamistrum, with only a faint indication of a plate in front of the spinnerets. It is, however, weakly sclerotized and difficult to see.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="134" type="distribution">
+<paragraph pageId="3" pageNumber="134" type="mainText">Distribution</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">Known only from the Cape Province, South Africa.</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="134" type="discussion">
+<paragraph pageId="3" pageNumber="134" type="mainText">Relationship</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+is related to 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+in having a small flattened body, with eyes close to the anterior edge and the same basic body shape. 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+differs in having no cribellum or calamistrum.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="3" pageNumber="134" type="biology_ecology">
+<paragraph pageId="3" pageNumber="134" type="mainText">Bionomics</paragraph>
+<paragraph pageId="3" pageNumber="134" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="3" pageNumber="134" phylum="Arthropoda" rank="species" species="stilleri">
+Wajane stilleri 
+<taxonomicNameLabel pageId="3" pageNumber="134" rank="species">
+<authority pageId="3" pageNumber="134">spec</authority>
+. nov.
+</taxonomicNameLabel>
+</taxonomicName>
+was collected from silklined tunnels in boulders.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

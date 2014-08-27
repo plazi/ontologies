@@ -1,0 +1,92 @@
+<document ENCODING="UTF8" ID-HNS-Pub="Simon1902Cribellates" ID-Handle="Simon1902Ctibellates" _generate="retained" checkinTime="1376057982885" checkinUser="jeremy" docAuthor="Eugene Simon" docDate="1902" docId="02973AAA882B523591C8F306FBB08D33" docLanguage="fr" docName="Simon1902Cribellates.xml" docOrigin="Bulletin de la Societe entomologique de France 15" docSource="http://www.biodiversitylibrary.org/page/9281116page/250/mode/1up" docTitle="Penestomus Simon, 1902, nov. gen." lastPageNumber="240" masterDocId="205CFA7769E010886A9DB1156B0CB11A" masterDocTitle="Descriptions de quelques Arachnides nouveaux de la section des Cribellates" masterLastPageNumber="243" masterPageNumber="240" originalUpdateTime="1401651953065" pageId="null" pageNumber="240" updateTime="1401649547326" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Descriptions de quelques Arachnides nouveaux de la section des Cribellates</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Eugene Simon</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Bulletin de la Societe entomologique de France</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1902</mods:date>
+<mods:detail type="volume">
+<mods:number>15</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>240</mods:start>
+<mods:end>243</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://www.biodiversitylibrary.org/page/9281116#page/250/mode/1up</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">Simon1902Cribellates</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:02973AAA882B523591C8F306FBB08D33" httpUri="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33" pageId="null" pageNumber="240">
+<subSubSection pageId="null" pageNumber="240" type="description">
+<paragraph pageId="null" pageNumber="240">
+<span class="font3" pageId="null" pageNumber="240" style="font-weight:bold;">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="240" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+, 
+<taxonomicNameLabel pageId="null" pageNumber="240" rank="genus">nov. gen.</taxonomicNameLabel>
+- Cephalothorax multo longior quam latior, planissimus, fere parallelus, fovea thoracica magna et profunda impressus. Oculi cuncti parvi, quatuor medii, ad marginem frontalem depressum siti, aream plus duplo latiorem quam longiorem et antice quam postice multo angustiorem occupantes, antici posticis minores, laterales antici ad marginem siti, a mediis non multo distantes, laterales postici a mediis latissime distantes, sed parum remoti, cum mediis lineam latam recurvam formantes. Laminae longae, angustae. rectae et parallelae, apice obtusae. Sternum angustum. antice posticeque fere aequaliter attenuatum. Pedes breves et robusti, cuncti aculeati, tarsis. praesertim posticis, parvis, compressis sed ad basin attenuatis, unguibus superioribus longis, numerose et tenuiter pectinatis. Cribellum bipartitum. Calamistrum ex setis longis uniseriatis compositum.
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="null" pageNumber="240" type="discussion">
+<paragraph pageId="null" pageNumber="240">
+<span class="font3" pageId="null" pageNumber="240">Ce genre appartient a la famille des</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">
+<taxonomicName family="Eresidae" pageId="null" pageNumber="240" rank="family">Eresidae</taxonomicName>
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+, mais il est 
+<normalizedToken originalValue="très">tres</normalizedToken>
+anormal et deviendra le type d'une sous-famille, reliant les
+</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">
+<taxonomicName family="Eresidae" pageId="null" pageNumber="240" rank="family">Eresidae</taxonomicName>
+,
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+jus-qu'ici 
+<normalizedToken originalValue="très">tres</normalizedToken>
+<normalizedToken originalValue="isolés">isoles</normalizedToken>
+au milieu des 
+<normalizedToken originalValue="Cribellatés">Cribellates</normalizedToken>
+, aux
+</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Amaurobiidae" genus="Amaurobius" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="240" phylum="Arthropoda" rank="genus">Amaurobius</taxonomicName>
+</span>
+<span class="font3" pageId="null" pageNumber="240">et aux</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">
+<taxonomicName class="Arachnida" family="Zoropsidae" genus="Zoropsis" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="240" phylum="Arthropoda" rank="genus">Zoropsis</taxonomicName>
+.
+</span>
+<span class="font3" pageId="null" pageNumber="240">
+Le 
+<normalizedToken originalValue="céphalothorax">cephalothorax</normalizedToken>
+et les yeux offrent une frappante analogie avec ceux des
+</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">Hemicloea</span>
+<span class="font3" pageId="null" pageNumber="240">de la familie des</span>
+<span class="font3" pageId="null" pageNumber="240" style="font-style:italic;">
+<taxonomicName family="Drassidae" pageId="null" pageNumber="240" rank="family">Drassidae</taxonomicName>
+.
+</span>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

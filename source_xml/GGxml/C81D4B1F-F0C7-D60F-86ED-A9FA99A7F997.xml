@@ -1,0 +1,79 @@
+<document ENCODING="UTF8" _generate="added" checkinTime="1376058483560" checkinUser="jeremy" docAuthor="Eugene Simon" docDate="1903" docId="C81D4B1FF0C7D60F86EDA9FA99A7F997" docLanguage="fr" docName="Simon1903Penestominae.xml" docOrigin="Paris: Encyclopedie Roret" docTitle="Penestomus E. Simon" lastPageNumber="980" masterDocId="AB10B65447CA3EFC5642B740CC24267B" masterDocTitle="Histoire naturelle des Araignees. T. 2, fasc 4" originalUpdateTime="1401652119569" pageId="null" pageNumber="980" updateTime="1401649629258" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Histoire naturelle des Araignees. T. 2, fasc 4</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Eugene Simon</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:originInfo>
+<mods:dateIssued>1903</mods:dateIssued>
+<mods:publisher>Encyclopedie Roret</mods:publisher>
+<mods:place>
+<mods:placeTerm>Paris</mods:placeTerm>
+</mods:place>
+</mods:originInfo>
+<mods:classification>book</mods:classification>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:C81D4B1FF0C7D60F86EDA9FA99A7F997" httpUri="http://treatment.plazi.org/id/C81D4B1FF0C7D60F86EDA9FA99A7F997" pageId="null" pageNumber="980">
+<subSubSection pageId="null" pageNumber="980" type="nomenclature">
+<paragraph pageId="null" pageNumber="980">
+<span class="font7" pageId="null" pageNumber="980">
+<taxonomicName authorityName="E. Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="980" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+E. Simon,
+</span>
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">Bull. Soc. ent. Fr.,</span>
+<span class="font7" pageId="null" pageNumber="980">1902 (oct.), p. 241.</span>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="null" pageNumber="980" type="description">
+<paragraph pageId="null" pageNumber="980">
+<span class="font7" pageId="null" pageNumber="980">
+Cephalothorax multo longior quam latior, planissimus, fere parallelus, fovea thoracica magna impressus. Oculi cuncti parvi, quatuor medii, ad marginem frontalem depressum siti, aream plus duplo latiorem quam longiorem et antice quam postice multo angustiorem occupantes, antici posticis minores, laterales antici ad marginem siti, a mediis non multo distantes, laterales postici a mediis latissime distantes, sed parum remoti, cum mediis lineam latam recurvam formantes. Laminae 
+<normalizedToken originalValue="longæ">longae</normalizedToken>
+, 
+<normalizedToken originalValue="angustæ">angustae</normalizedToken>
+, 
+<normalizedToken originalValue="rectæ">rectae</normalizedToken>
+et 
+<normalizedToken originalValue="parallelæ">parallelae</normalizedToken>
+, apice 
+<normalizedToken originalValue="obtusæ">obtusae</normalizedToken>
+. Sternum angustum, antice posticeque fere 
+<normalizedToken originalValue="æqualiter">aequaliter</normalizedToken>
+attenuatum. Pedes breves et robusti, cuncti aculeati, tarsis, 
+<normalizedToken originalValue="præsertim">praesertim</normalizedToken>
+posticis, parvis, compressis sed ad basin attenuatis, unguibus superioribus longis, numerose et tenuiter pectinatis. Cribellum bipartitum. Calamistrum ex setis longis uniseriatis compositum.
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="null" pageNumber="980" type="nomenclature">
+<paragraph pageId="null" pageNumber="980">
+<span class="font5" pageId="null" pageNumber="980" style="font-weight:bold;font-variant:small-caps;">Typus</span>
+<span class="font7" pageId="null" pageNumber="980">
+: 
+<taxonomicName authorityName="E. Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="null" pageNumber="980" phylum="Arthropoda" rank="species" species="planus">
+P. 
+<span class="font7" pageId="null" pageNumber="980" style="font-style:italic;">planus</span>
+<span class="font7" pageId="null" pageNumber="980">
+<authority pageId="null" pageNumber="980">E. Simon</authority>
+.
+</span>
+</taxonomicName>
+</span>
+</paragraph>
+</subSubSection>
+<subSubSection pageId="null" pageNumber="980" type="distribution">
+<paragraph pageId="null" pageNumber="980">
+<span class="font7" pageId="null" pageNumber="980">Ar.</span>
+<span class="font6" pageId="null" pageNumber="980" style="font-weight:bold;">geogr</span>
+<span class="font3" pageId="null" pageNumber="980">.</span>
+<span class="font7" pageId="null" pageNumber="980">: Africa maxime australis.</span>
+</paragraph>
+</subSubSection>
+</treatment>
+</document>

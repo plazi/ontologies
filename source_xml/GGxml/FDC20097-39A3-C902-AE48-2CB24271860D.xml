@@ -1,0 +1,211 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="FDC2009739A3C902AE482CB24271860D" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Penestomus croeseri Dippenaar-Schoeman, 1989, new species" lastPageId="2" lastPageNumber="133" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="1" pageNumber="132" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:FDC2009739A3C902AE482CB24271860D" httpUri="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D" lastPageId="2" lastPageNumber="133" pageId="1" pageNumber="132">
+<subSubSection type="nomenclature">
+<paragraph pageId="1" pageNumber="132" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="1" pageNumber="132" phylum="Arthropoda" rank="species" species="croeseri">
+Penestomus croeseri 
+<authority pageId="1" pageNumber="132">spec</authority>
+</taxonomicName>
+, nov., Fig. 1,3-5
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageId="1" pageNumber="132" type="mainText">
+<typeStatus pageId="1" pageNumber="132">Types</typeStatus>
+</paragraph>
+<paragraph pageId="1" pageNumber="132" type="mainText">
+<materialsCitation collectingDate="1980-01-01" collectingMethod="collected in riverine bush from soil surface" collectionCode="NCA" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" pageId="1" pageNumber="132" specimenCode="87 / 249" specimenCount="1" specimenCountFemale="1" typeStatus="holotype">
+Female 
+<typeStatus pageId="1" pageNumber="132">holotype</typeStatus>
+, 
+<collectingCountry pageId="1" pageNumber="132" value="South Africa">South Africa</collectingCountry>
+, 
+<location LSID="urn:lsid:plazi:treatment:FDC2009739A3C902AE482CB24271860D:255BC4459AE1B9BB0C68C729625DD803" country="South Africa" latitude="-33.316666" longLatPrecision="1" longitude="26.533333" name="Grahamstown" pageId="1" pageNumber="132">Grahamstown</location>
+, elevation 
+<elevation pageId="1" pageNumber="132">500</elevation>
+m (
+<geoCoordinate direction="south" orientation="latitude" pageId="1" pageNumber="132" precision="1" value="-33.316666">33° 19' S</geoCoordinate>
+, 
+<geoCoordinate direction="east" orientation="longitude" pageId="1" pageNumber="132" precision="1" value="26.533333">26° 32' E</geoCoordinate>
+), 
+<collectingMethod pageId="1" pageNumber="132">collected in riverine bush from soil surface</collectingMethod>
+, 
+<date pageId="1" pageNumber="132" value="1980-01-01">
+<collectingDate pageId="1" pageNumber="132" value="1980-01-01">1. i. 1980</collectingDate>
+</date>
+, 
+<collectorName pageId="1" pageNumber="132">P. Croeser</collectorName>
+and 
+<collectorName pageId="1" pageNumber="132">P. Hawkes</collectorName>
+, deposited in the 
+<collectionCode pageId="1" pageNumber="132">National Collection of Arachnida</collectionCode>
+, 
+<specimenCode pageId="1" pageNumber="132">NCA 87/249</specimenCode>
+.
+</materialsCitation>
+<materialsCitation collectingDate="1980-01-01" collectingMethod="collected in riverine bush from soil surface" collectionCode="Natal Museum, Pietermaritzburg" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" pageId="1" pageNumber="132" specimenCode="87 / 249" specimenCount="2" specimenCountFemale="2" typeStatus="Paratype">
+<typeStatus pageId="1" pageNumber="132">Paratypes</typeStatus>
+: four females, same locality and date, deposited in the following collections: two females in the 
+<collectionCode pageId="1" pageNumber="132">Natal Museum, Pietermaritzburg</collectionCode>
+,
+</materialsCitation>
+<materialsCitation collectingDate="1980-01-01" collectingMethod="collected in riverine bush from soil surface" collectionCode="NCA" collectorName="P. Croeser, P. Hawkes" country="South Africa" elevation="500 m" latitude="-33.316666" location="Grahamstown" longLatPrecision="1" longitude="26.533333" pageId="1" pageNumber="132" specimenCode="87 / 249" specimenCount="2" specimenCountFemale="2" typeStatus="Paratype">
+and two in the 
+<location LSID="urn:lsid:plazi:treatment:FDC2009739A3C902AE482CB24271860D:E56ED897EA05CF2BD4F3961907C4EE1C" country="South Africa" name="National Collection of Arachnida" pageId="1" pageNumber="132">National Collection of Arachnida</location>
+(
+<specimenCode pageId="1" pageNumber="132">NCA 87/249</specimenCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="etymology">
+<paragraph pageId="1" pageNumber="132" type="mainText">Etymology</paragraph>
+<paragraph pageId="1" pageNumber="132" type="mainText">
+The specific name is a patronym in honour of Mr Peter Croeser of the Natal Museum, collector of the 
+<typeStatus pageId="1" pageNumber="132">type</typeStatus>
+material.
+</paragraph>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph pageId="1" pageNumber="132" type="mainText">Diagnosis</paragraph>
+<paragraph lastPageId="2" lastPageNumber="133" pageId="1" pageNumber="132" type="mainText">
+The 
+<taxonomicNameLabel pageId="1" pageNumber="132" rank="species">new species</taxonomicNameLabel>
+differ from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="1" pageNumber="132" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+, the only 
+<pageBreakToken pageId="2" pageNumber="133" start="start">other</pageBreakToken>
+species in the genus, in the different shape of the genitalia, its reddish brown colour, smaller size and the biseriate calamistrum.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="2" pageNumber="133" type="mainText">Description</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Female Size (n=5): total length 5,6 (4,4-5,7); carapace width 1,68 (1,56-1,76); carapace length 2,08(2,0-2,12).</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">
+Carapace smooth and shiny, reddish brown, anterior edge slightly darker, eyes encircled with black; carapace longer than wide, flattened, slightly narrower in cephalic area, lateral margins of thoracic area almost subparallel, posteriorly truncated, clypeus centrally protruding (Fig. 3); cephalic area very short, pars cephalica slightly elevated, flattened; fovea a shallow oval-shaped depression, with short black setae marginally; carapace clothed with short to long thin black setae, thoracic area with thick white setae scattered in between. Eyes situated close to anterior margin; anterior eye row straight, posterior row recurved, ALE situated close to anterior margin, not widely spaced, larger than 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="2" pageNumber="133">AME</collectionCode>
+; 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="2" pageNumber="133">AME</collectionCode>
+small, situated closer to each other than to ALE; PLE widely spaced, slightly larger than PME, PME closer to each other than to PLE, PME situated close to 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="2" pageNumber="133">AME</collectionCode>
+, MOQ wider than long, narrower anteriorly (Fig. 1). Chelicerae similar in colour to anterior part of carapace, long and obliquely directed, hairy; fangs short, anterior margin of cheliceral groove with low chitinous keel, armed with four teeth, tooth next to basal one largest. Labium and maxillae pale brown, labium half the length of maxillae, apex white translucent; maxillae longer than wide, parallel to each other, sides subparallel, apex rounded, white translucent. Sternum yellowish brown.
+</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Legs brown, hairy and weakly sclerotized; leg formula 4123; coxae exceptionally long, especially fourth leg; trochanters unnotched, femora thicker and darker than remaining segments, with a single seta dorsomedially; tibia I with two spines apically; metatarsi with 1-4 irregularly spaced spines; tarsi very short, shorter than metatarsi; calamistrum on metatarsi IV a double row of curved setae covering two thirds of segment; three tarsal claws, paired claws with numerous long teeth. Palp with a single, apical pectinate claw, hairy, with strong setae ventrally. Measurements of legs:</paragraph>
+<paragraph pageId="2" pageNumber="133">
+<table border="1" pageId="2" pageNumber="133">
+<tr pageId="2" pageNumber="133">
+<td isEmpty="true" pageId="2" pageNumber="133">-</td>
+<td pageId="2" pageNumber="133">I</td>
+<td pageId="2" pageNumber="133">II</td>
+<td pageId="2" pageNumber="133">III</td>
+<td pageId="2" pageNumber="133">IV</td>
+<td pageId="2" pageNumber="133">Palp</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Coxa</td>
+<td pageId="2" pageNumber="133">0,68</td>
+<td pageId="2" pageNumber="133">0,64</td>
+<td pageId="2" pageNumber="133">0,60</td>
+<td pageId="2" pageNumber="133">0,88</td>
+<td pageId="2" pageNumber="133">-</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Femur</td>
+<td pageId="2" pageNumber="133">1,12</td>
+<td pageId="2" pageNumber="133">0,92</td>
+<td pageId="2" pageNumber="133">0,60</td>
+<td pageId="2" pageNumber="133">1,22</td>
+<td pageId="2" pageNumber="133">0,56</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Patella</td>
+<td pageId="2" pageNumber="133">0,60</td>
+<td pageId="2" pageNumber="133">0,72</td>
+<td pageId="2" pageNumber="133">0,24</td>
+<td pageId="2" pageNumber="133">0,68</td>
+<td pageId="2" pageNumber="133">0,24</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Tibia</td>
+<td pageId="2" pageNumber="133">0,72</td>
+<td pageId="2" pageNumber="133">0,76</td>
+<td pageId="2" pageNumber="133">0,60</td>
+<td pageId="2" pageNumber="133">1,12</td>
+<td pageId="2" pageNumber="133">0,24</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Metatarsus</td>
+<td pageId="2" pageNumber="133">0,72</td>
+<td pageId="2" pageNumber="133">0,56</td>
+<td pageId="2" pageNumber="133">0,20</td>
+<td pageId="2" pageNumber="133">0,68</td>
+<td pageId="2" pageNumber="133">-</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Tarsus</td>
+<td pageId="2" pageNumber="133">0,40</td>
+<td pageId="2" pageNumber="133">0,24</td>
+<td pageId="2" pageNumber="133">0,24</td>
+<td pageId="2" pageNumber="133">0,20</td>
+<td pageId="2" pageNumber="133">0,52</td>
+</tr>
+<tr pageId="2" pageNumber="133">
+<td pageId="2" pageNumber="133">Total</td>
+<td pageId="2" pageNumber="133">4,24</td>
+<td pageId="2" pageNumber="133">3,84</td>
+<td pageId="2" pageNumber="133">2,48</td>
+<td pageId="2" pageNumber="133">4,78</td>
+<td pageId="2" pageNumber="133">1,56</td>
+</tr>
+</table>
+</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Abdomen oval long, not modified, tapering towards spinnerets; slightly flattened; dirty greyish brown, clothed with short black setae, no patterns; venter unicoloured, paler than dorsum; tracheal stigmata close to spinnerets; anal tubercle triangular, well-developed; anterior spinnerets conical, dorsoventrally flattened; posterior spinnerets shorter than anterior ones; median spinnerets small, triangular. Cribellum oval, bipartite.</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Epigynum: epigynal plate roundish, truncated posteriorly (Fig. 4), internal genitalia as depicted in Fig. 5.</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Male. Unknown.</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Variation</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">No significant variation was detected in specimens examined, except for a paler colour in some specimens.</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="2" pageNumber="133" type="mainText">Distribution</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">
+Known only from 
+<typeStatus pageId="2" pageNumber="133">type</typeStatus>
+locality.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageId="2" pageNumber="133" type="mainText">Bionomics</paragraph>
+<paragraph pageId="2" pageNumber="133" type="mainText">Very little is known about the species except that adults were collected in January from the soil surface in riverine bushes.</paragraph>
+</subSubSection>
+</treatment>
+</document>

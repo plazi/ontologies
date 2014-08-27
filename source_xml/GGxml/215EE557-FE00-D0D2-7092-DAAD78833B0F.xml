@@ -1,0 +1,108 @@
+<document ENCODING="UTF8" ID-HNS-Pub="DippenaarSchoeman1989Penestominae" _generate="added" checkinTime="1384956007146" checkinUser="jeremy" docAuthor="Anna S. Dippenaar-Schoeman" docDate="1989" docId="215EE557FE00D0D27092DAAD78833B0F" docLanguage="en" docName="DippenaarSchoeman1989Penestominae.htm" docOrigin="Phytophylactica 21" docTitle="Penestomus Dippenaar-Schoeman, 1989, spec. nov." lastPageNumber="131" masterDocId="CA6D89F0B69DAEB31A724162E5043C68" masterDocTitle="The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" masterLastPageNumber="134" masterPageNumber="131" originalUpdateTime="1401711667870" pageId="0" pageNumber="131" updateTime="1401708997188" updateUser="DRS.Boston">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Anna S. Dippenaar-Schoeman</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>Phytophylactica</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>1989</mods:date>
+<mods:detail type="volume">
+<mods:number>21</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>131</mods:start>
+<mods:end>134</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="HNS-Pub">DippenaarSchoeman1989Penestominae</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:215EE557FE00D0D27092DAAD78833B0F" httpUri="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F" pageId="0" pageNumber="131">
+<subSubSection type="nomenclature">
+<paragraph pageId="0" pageNumber="131" type="mainText">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+Simon, 1902
+</paragraph>
+</subSubSection>
+<subSubSection type="reference_group">
+<paragraph pageId="0" pageNumber="131" type="mainText">
+<treatmentCitation httpUri="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+Simon, 1902: 241
+</treatmentCitation>
+; 
+<treatmentCitation httpUri="http://plazi.cs.umb.edu/GgServer/html/861510FB41F5694F32D0F64D6F0F84FF">Lehtinen, 1967: 257, 390</treatmentCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="nomenclature">
+<paragraph pageId="0" pageNumber="131" type="mainText">
+<typeStatus pageId="0" pageNumber="131">Type</typeStatus>
+species: 
+<taxonomicName authority="Simon" authorityName="Simon" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="species" species="planus">Penestomus planus Simon</taxonomicName>
+, 1902.
+</paragraph>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph pageId="0" pageNumber="131" type="mainText">Diagnosis</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">
+The flattened body, small size and the position of the eyes distinguish 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="genus">Penestomus</taxonomicName>
+from other eresids.
+</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">
+It differs from 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+in having a cribellum, no patterns on the abdomen and a slightly different eye pattern.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="0" pageNumber="131" type="mainText">Description</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">
+Female. Size: small to medium-sized spiders (4,4-7,0 mm). Colour of carapace reddish brown to dark brown; smooth and shiny, with scattered long black setae covering the dorsal surface interspersed by thicker white setae. Carapace longer than wide, subrectangular and flattened, sides subparallel, slightly narrower in caphalic area, posteriorly and anteriorly truncated with clypeus centrally protruding (Fig. 3). Fovea oval, shallow depression. Eyes in two rows, situated close to anterior edge; anterior row straight, posterior row recurved; eyes small, lateral eyes slightly larger than median eyes; MOQ wider than long, narrower in front; ALE situated close to anterior margin; both 
+<collectionCode collectionName="USA, Florida, Gainesville, University of Florida, Florida Museum of Natural History, Allyn Museum" pageId="0" pageNumber="131">AME</collectionCode>
+and PME nearer to each other than to lateral eyes; PLE widely spaced (Fig. 1). Chelicerae long, obliquely directed; anterior margin of cheliceral groove with small chitinous keel armed with small teeth. Maxillae parallel to each other, longer than wide. Sternum oval, caudally projecting between fourth coxae. Abdomen long oval, slightly depressed dorsally, covered with short black setae, uniformly pale ventrally. Legs short, robust; leg formula 4123; coxae long, especially leg IV; three tarsal claws, paired claws pectinate. Cribellum indistinct, oval, bipartite; calamistrum bi- or uniseriate. Epigynal plate large, reddish brown.
+</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">Male Unknown.</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="0" pageNumber="131" type="mainText">Distribution</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">Known only from the Cape Province, South Africa.</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageId="0" pageNumber="131" type="mainText">Relationship</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">
+Closely related to 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Wajane" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="genus">Wajane</taxonomicName>
+from which it differs in having a cribellum, no pattern on the abdomen and a slightly different eye pattern.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageId="0" pageNumber="131" type="mainText">Bionomics</paragraph>
+<paragraph pageId="0" pageNumber="131" type="mainText">
+Nothing is known of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+. Adult females of 
+<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="0" pageNumber="131" phylum="Arthropoda" rank="species" species="croeseri">
+P. croeseri 
+<taxonomicNameLabel pageId="0" pageNumber="131" rank="species">
+<authority pageId="0" pageNumber="131">spec</authority>
+. nov.
+</taxonomicNameLabel>
+</taxonomicName>
+have been collected from the soil surface in riverine bush in Grahamstown.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
