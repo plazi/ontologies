@@ -4,9 +4,9 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://plazi.org/treatment.owl> .
+@base <http://plazi.org/vocab/treatment#> .
 
-<http://plazi.org/treatment.owl> rdf:type owl:Ontology .
+<http://plazi.org/vocab/treatment#> rdf:type owl:Ontology .
 
 
 #################################################################
