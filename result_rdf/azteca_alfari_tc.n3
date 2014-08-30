@@ -10,7 +10,7 @@
 
 
 <> a trt:Treatment ;
-	rdfs:about <xxxxx>;
+	rdfs:about <http://hns.org/names/Azteca_alfari>;
 	trt:publishedIn <http://xxxx.com/xxxx> ;
 
 http://xxxx.com/xxxx a bibo:Article ;
@@ -20,3 +20,16 @@ http://xxxx.com/xxxx a bibo:Article ;
 	bibo:Journal "Zootaxa" ;
 	bibo:volume "1491" ;
 	bibo:startPage "15" ;
+
+<http://hns.org/names/Azteca_alfari> a dwc:TaxonConcept;
+ sdd:hasDescription :description1.
+
+:description1 a sdd:NaturalLanguageDescription;
+    sdd:someStuff :stuff1;
+    sdd:naturalLanguageData :theData.
+
+:theData a sdd:NaturalLanguageData;
+    	sdd:hasMarkupText "A long description".
+
+:stuff1 a sdd:typeOfStuff1;
+    sdd:property1 value1.
