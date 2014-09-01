@@ -7,32 +7,22 @@
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix trt:   <http://plazi.org/vocab/treatment#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix sdd:  <http://tdwg.org/sdd#> .
 @prefix :      <http://plazi.org/rdf/millerSpider/> .
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
-	    rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
-	    trt:publishedIn <doi:10.1371/journal.pone.0001787> .
+	    trt:definesTaxonConcept <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
+	    trt:publishedIn <doi:10.1371/journal.pone.0001787> ;
+	    trt:material_examined :material1 ;
+	    trt:material_examined :material2 ;
+	    trt:material_examined :material3 .
 	    
 <doi:10.1371/journal.pone.0001787> a bibo:Article ;
   dc:title "A revision of Malagasy species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera: Formicidae)." ;
   dc:creator "Fisher, B. L." ;
   dc:creater "Smith, M. A. " ;
-  dc:date "1923-01-03" .
+  dc:date "2008" .
 
-	
-	
-<urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> a dwcFP:TaxonConcept;
-	dwc:genus "Anochetus";
-	dwc:specificEpithet "grandidieri";
-	dwc:scientificNameAuthorship "Forel";
-	dwc:scientificName "Anochetus gradidieri Forel" ;
-		
-	trt:material_examined :material1 ;
-	trt:material_examined :material2 ;
-	trt:description [
-	   a cnt:ContentAsText;
-	   cnt:chars "Queens alate: Very similar to workers, only slightly larger than respective size class (Figs 3e-h). Ergatoid queens not recorded.NEWLINE NEWLINE Within a single locality, two size classes of workers, queens and males are present in this species, but the differences within a site do not hold up when variation across all sites is included. These differences suggest that two reproductive and developmental pathways can occur in this species. Further work is needed to explore the biotic or abiotic factors that trigger the development of small and large castes." 
-     ].
 
    
  :material1 a trt:Material;
@@ -45,4 +35,25 @@
 	dwc:Country "CENTRAL AFRICAN REPUBLIC" ;
     dwc:StateProvince "Prefecture Sangha-Mbaere" ;
 	dwc:Locality "Lidjombo" .
-   
+
+:material3 a trt:Material ;
+     sdd:hasContent :material3_content .
+     
+:material3_content a cnt:ContentAsText;
+       cnt:chars "Specimens examined for Anochetus grandidieri : Specimens from 456 separate collection events from the following 140 localities were examined. MADAGASCAR : Province Antsiranana : Sakalava Beach ; Montagne des Francais , 7.2 km 142° SE Antsiranana ;..." . 	
+	
+	
+	
+<urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> a dwcFP:TaxonConcept;
+	dwc:genus "Anochetus";
+	dwc:specificEpithet "grandidieri";
+	dwc:scientificNameAuthorship "Forel";
+	dwc:scientificName "Anochetus gradidieri Forel" ;
+	sdd:hasDescription :nld . #natural language
+
+:nld a sdd:NaturalLanguageDescription ;
+     sdd:hasContent :nldContent .
+
+:nldContent a  cnt:ContentAsText;
+	   cnt:chars "Queens alate: Very similar to workers, only slightly larger than respective size class (Figs 3e-h). Ergatoid queens not recorded.NEWLINE NEWLINE Within a single locality, two size classes of workers, queens and males are present in this species, but the differences within a site do not hold up when variation across all sites is included. These differences suggest that two reproductive and developmental pathways can occur in this species. Further work is needed to explore the biotic or abiotic factors that trigger the development of small and large castes." 
+     .
