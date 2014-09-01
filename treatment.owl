@@ -92,11 +92,13 @@
 
 
 
-###  http://plazi.org/treatment.owl#materials_examined
+###  http://plazi.org/treatment.owl#material_examined
 
-:materials_examined rdf:type owl:ObjectProperty ;
-                    
-                    rdfs:domain :Treatment .
+:material_examined rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:domain :Treatment ;
+                   
+                   rdfs:range <http://plazi.org/vocab/treatment#Material> .
 
 
 
@@ -214,6 +216,12 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 ###  http://plazi.org/treatment.owl#Treatment
 
 :Treatment rdf:type owl:Class .
+
+
+
+###  http://plazi.org/vocab/treatment#Material
+
+<http://plazi.org/vocab/treatment#Material> rdf:type owl:Class .
 
 
 
