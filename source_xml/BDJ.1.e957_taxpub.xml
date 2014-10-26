@@ -257,7 +257,6 @@
               <label>Occurrence:</label>
               <p><tp:material-citation>
                   <tp:type-status>Holotype</tp:type-status><named-content
-              
                     content-type="dwc:recordedBy" xlink:type="simple">P. Stoev &amp; L.
                     Penev</named-content>; individualCount: <named-content
                     content-type="dwc:individualCount" xlink:type="simple">1</named-content>; sex:
