@@ -152,6 +152,12 @@
         </tp:nomenclature>
         <tp:treatment-sec sec-type="materials">
           <title>Materials</title>
+          <list>
+            <list-item>
+              <p><</p>
+            </list-item>
+          </list>
+          <!--
           <list list-type="alpha-lower">
             <list-item>
               <label>Type status: Holotype</label>
@@ -174,6 +180,7 @@
               <p><bold>Occurrence:</bold> recordedBy: <named-content content-type="dwc:recordedBy" xlink:type="simple">P. Stoev &amp; L. Penev</named-content>; individualCount: <named-content content-type="dwc:individualCount" xlink:type="simple">1</named-content>; sex: <named-content content-type="dwc:sex" xlink:type="simple">male</named-content>; <bold>Location:</bold> island: <named-content content-type="dwc:island" xlink:type="simple">Luzon Island</named-content>; country: <named-content content-type="dwc:country" xlink:type="simple">Philippines</named-content>; stateProvince: <named-content content-type="dwc:stateProvince" xlink:type="simple">Mountain Province</named-content>; verbatimLocality: <named-content content-type="dwc:verbatimLocality" xlink:type="simple">Mt Polis Checkpoint on the road Banaue – Sagada</named-content>; verbatimElevation: <named-content content-type="dwc:verbatimElevation" xlink:type="simple">1800-1900 m</named-content>; locationRemarks: <named-content content-type="dwc:locationRemarks" xlink:type="simple">under stones and logs</named-content>; verbatimLatitude: <named-content content-type="dwc:verbatimLatitude" xlink:type="simple">16°57\'58"N</named-content>; verbatimLongitude: <named-content content-type="dwc:verbatimLongitude" xlink:type="simple">121°1\'37"E</named-content>; <bold>Event:</bold> eventDate: <named-content content-type="dwc:eventDate" xlink:type="simple">6 July 2012</named-content>; <bold>Record Level:</bold> institutionCode: <named-content content-type="dwc:institutionCode" xlink:type="simple">ZMUM</named-content></p>
             </list-item>
           </list>
+          -->
         </tp:treatment-sec>
         <tp:treatment-sec sec-type="Description">
           <title>Description</title>
