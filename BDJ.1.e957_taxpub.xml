@@ -292,7 +292,8 @@
                     >Luzon Island</named-content>; country: <named-content
                     content-type="dwc:country" xlink:type="simple">Philippines</named-content>;
                   stateProvince: <named-content content-type="dwc:stateProvince" xlink:type="simple"
-                    >Mountain Province</named-content>; verbatimLocality: <named-content content-type="dwc:verbatimLocality" xlink:type="simple">Mt Polis Checkpoint on
+                    >Mountain Province</named-content>; verbatimLocality: <named-content
+                    content-type="dwc:verbatimLocality" xlink:type="simple">Mt Polis Checkpoint on
                     the road Banaue – Sagada</named-content>; verbatimElevation: <named-content
                     content-type="dwc:verbatimElevation" xlink:type="simple">1800-1900
                     m</named-content>; locationRemarks: <named-content
