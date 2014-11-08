@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:cnt="http://www.w3.org/2011/content#"
+    xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sdd="http://tdwg.org/sdd#"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:trt="http://plazi.org/vocab/treatment#"
+    >
+    <trt:Treatment rdf:about="http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A">
+        <trt:definesTaxonConcept>
+            <dwcFP:TaxonConcept rdf:about="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263">
+                <dwc:specificEpithet>grandidieri</dwc:specificEpithet>
+                <dwc:scientificNameAuthorship>Forel</dwc:scientificNameAuthorship>
+                <dwc:scientificName>Anochetus gradidieri Forel</dwc:scientificName>
+                <dwc:genus>Anochetus</dwc:genus>
+                <sdd:hasDescription rdf:resource="http://plazi.org/rdf/millerSpider/nld"/>
+            </dwcFP:TaxonConcept>
+        </trt:definesTaxonConcept>
+        <trt:material_examined>
+            <trt:Material rdf:about="http://plazi.org/rdf/millerSpider/material3">
+                <sdd:hasContent rdf:resource="http://plazi.org/rdf/millerSpider/material3_content"/>
+            </trt:Material>
+        </trt:material_examined>
+        <trt:material_examined>
+            <trt:Material rdf:about="http://plazi.org/rdf/millerSpider/material2">
+                <dwc:Country>CENTRAL AFRICAN REPUBLIC</dwc:Country>
+                <dwc:StateProvince>Prefecture Sangha-Mbaere</dwc:StateProvince>
+                <dwc:DecimalLatitude>
+                    <rdf:Description rdf:nodeID="ub5bL33C30">
+                        <xsd:decimal>-174.0</xsd:decimal>
+                    </rdf:Description>
+                </dwc:DecimalLatitude>
+                <dwc:Locality>Lidjombo</dwc:Locality>
+            </trt:Material>
+        </trt:material_examined>
+        <trt:material_examined>
+            <trt:Material rdf:about="http://plazi.org/rdf/millerSpider/material1">
+                <dwc:StateProvince>Sud-Ouest</dwc:StateProvince>
+                <dwc:Country>CAMEROON</dwc:Country>
+                <dwc:Locality>Bimbia Forest</dwc:Locality>
+            </trt:Material>
+        </trt:material_examined>
+        <trt:publishedIn>
+            <bibo:Article rdf:about="doi:10.1371/journal.pone.0001787">
+                <dc:creater>Smith, M. A. </dc:creater>
+                <dc:creator>Fisher, B. L.</dc:creator>
+                <dc:title>A revision of Malagasy species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera: Formicidae).</dc:title>
+                <dc:date>2008</dc:date>
+            </bibo:Article>
+        </trt:publishedIn>
+    </trt:Treatment>
+    <cnt:ContentAsText rdf:about="http://plazi.org/rdf/millerSpider/nldContent">
+        <cnt:chars>Queens alate: Very similar to workers, only slightly larger than respective size class (Figs 3e-h). Ergatoid queens not recorded.NEWLINE NEWLINE Within a single locality, two size classes of workers, queens and males are present in this species, but the differences within a site do not hold up when variation across all sites is included. These differences suggest that two reproductive and developmental pathways can occur in this species. Further work is needed to explore the biotic or abiotic factors that trigger the development of small and large castes.</cnt:chars>
+    </cnt:ContentAsText>
+    <cnt:ContentAsText rdf:about="http://plazi.org/rdf/millerSpider/material3_content">
+        <cnt:chars>Specimens examined for Anochetus grandidieri : Specimens from 456 separate collection events from the following 140 localities were examined. MADAGASCAR : Province Antsiranana : Sakalava Beach ; Montagne des Francais , 7.2 km 142Â° SE Antsiranana ;...</cnt:chars>
+    </cnt:ContentAsText>
+    <sdd:NaturalLanguageDescription rdf:about="http://plazi.org/rdf/millerSpider/nld">
+        <sdd:hasContent rdf:resource="http://plazi.org/rdf/millerSpider/nldContent"/>
+    </sdd:NaturalLanguageDescription>
+</rdf:RDF>

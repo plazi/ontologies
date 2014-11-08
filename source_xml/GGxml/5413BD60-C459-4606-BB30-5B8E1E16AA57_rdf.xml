@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_1"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_2"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_3"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_4"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_5"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_6"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_7"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_8"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_9"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_10"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+      <dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+      <dc:creator>Jeremy A. Miller</dc:creator>
+      <dc:creator>Charles E. Griswold</dc:creator>
+      <dc:creator>Charles R. Haddad</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Zootaxa</bibo:journal>
+      <dc:date>2010</dc:date>
+      <bibo:volume>2534</bibo:volume>
+      <bibo:startPage>1</bibo:startPage>
+      <bibo:endPage>36</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Penestomus</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>18</dwc:pageId>
+      <dwc:pageNumber>19</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>montanus</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2003-11-09</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>C. Haddad</dwc:collectorName>
+      <dwc:country>Lesotho</dwc:country>
+      <dwc:elevation>1820 m</dwc:elevation>
+      <dwc:latitude>-30.092</dwc:latitude>
+      <dwc:location>near Ha Mphahama</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.595766</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1534</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Qacha's Nek Distr</dwc:stateProvince>
+      <dwc:typeStatus>Holotype</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_2">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2003-11-09</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>C. Haddad</dwc:collectorName>
+      <dwc:country>Lesotho</dwc:country>
+      <dwc:elevation>1820 m</dwc:elevation>
+      <dwc:latitude>-30.092</dwc:latitude>
+      <dwc:location>near Ha Mphahama</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.595766</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1535</dwc:specimenCode>
+      <dwc:specimenCount>9</dwc:specimenCount>
+      <dwc:specimenCount-female>4</dwc:specimenCount-female>
+      <dwc:specimenCount-male>1</dwc:specimenCount-male>
+      <dwc:stateProvince>Qacha's Nek Distr</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_3">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-11-28</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1748 m</dwc:elevation>
+      <dwc:latitude>-30.16502</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.62045</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1538, MDTP 5192</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_4">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-11-28</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1748 m</dwc:elevation>
+      <dwc:latitude>-30.16502</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.62045</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1547, MDTP 2082</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-male>1</dwc:specimenCount-male>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_5">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-11-28</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1748 m</dwc:elevation>
+      <dwc:latitude>-30.16502</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.62045</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1542, MDTP 7053</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_6">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-11-30</dwc:collectingDate>
+      <dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1829 m</dwc:elevation>
+      <dwc:latitude>-30.15118</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 33)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.62637</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1541, MDTP 77378</dwc:specimenCode>
+      <dwc:specimenCount>2</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_7">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-11-30</dwc:collectingDate>
+      <dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1829 m</dwc:elevation>
+      <dwc:latitude>-30.15118</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 33)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.62637</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1537, MDTP 5483</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_8">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-12-02</dwc:collectingDate>
+      <dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1692 m</dwc:elevation>
+      <dwc:latitude>-30.15538</dwc:latitude>
+      <dwc:location>Qacha's Nek (Site No. 36)</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>28.59319</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1540, MDTP 5888</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_9">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-12-10</dwc:collectingDate>
+      <dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1482 m</dwc:elevation>
+      <dwc:latitude>-31.1159</dwc:latitude>
+      <dwc:location>Prentjiesberg (Site No. 45)</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>28.1745</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1539, MDTP 78909</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_10">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2005-12-10</dwc:collectingDate>
+      <dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>UKZN staff</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1491 m</dwc:elevation>
+      <dwc:latitude>-31.1159</dwc:latitude>
+      <dwc:location>Prentjiesberg (Site No. 46)</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>28.1745</dwc:longitude>
+      <dwc:specimenCode>AcAT 2006 / 1536, MDTP 6743</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+</rdf:RDF>

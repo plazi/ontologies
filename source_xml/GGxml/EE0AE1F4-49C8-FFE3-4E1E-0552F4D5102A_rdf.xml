@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_1"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_2"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+      <dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+      <dc:creator>Jeremy A. Miller</dc:creator>
+      <dc:creator>Charles E. Griswold</dc:creator>
+      <dc:creator>Charles R. Haddad</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Zootaxa</bibo:journal>
+      <dc:date>2010</dc:date>
+      <bibo:volume>2534</bibo:volume>
+      <bibo:startPage>1</bibo:startPage>
+      <bibo:endPage>36</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:authority>Dippenaar-Schoeman, 1989</dwc:authority>
+      <dwc:authorityName>Dippenaar-Schoeman</dwc:authorityName>
+      <dwc:authorityYear>1989</dwc:authorityYear>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Penestomus</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>27</dwc:pageId>
+      <dwc:pageNumber>28</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>croeseri</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1980-01-01</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>500 m</dwc:elevation>
+      <dwc:latitude>-33.316666</dwc:latitude>
+      <dwc:location>Grahamstown</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>26.533333</dwc:longitude>
+      <dwc:specimenCode>AcAT 87 / 249</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Holotype</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_2">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1980-01-01</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>500 m</dwc:elevation>
+      <dwc:latitude>-33.316666</dwc:latitude>
+      <dwc:location>Grahamstown</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>26.533333</dwc:longitude>
+      <dwc:specimenCode>AcAT 87 / 249 a</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_3">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1980-01-01</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>500 m</dwc:elevation>
+      <dwc:latitude>-33.316666</dwc:latitude>
+      <dwc:location>Grahamstown</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>26.533333</dwc:longitude>
+      <dwc:specimenCode>AcAT 87 / 249 b</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+</rdf:RDF>

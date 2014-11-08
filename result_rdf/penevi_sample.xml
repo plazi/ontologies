@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:fabio="http://purl.org/spar/fabio/"
+    xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+    xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:trt="http://plazi.org/vocab/treatment#"
+    >
+    <trt:Treatment rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+        <trt:definesTaxonConcept>
+            <dwcFP:TaxonConcept rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+                <dwc:taxonRank>species</dwc:taxonRank>
+                <dwc:specificEpithet>penevi</dwc:specificEpithet>
+                <dwc:scientificName>Eustrongylosoma penevi</dwc:scientificName>
+                <dwc:scientificNameAuthorship>Golovatch &amp;amp; Stoev, 2013</dwc:scientificNameAuthorship>
+                <dwc:genus>Eustrongylosoma</dwc:genus>
+            </dwcFP:TaxonConcept>
+        </trt:definesTaxonConcept>
+        <trt:publishedIn>
+            <fabio:JournalArticle rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+                <dc:creator>Golovatch S</dc:creator>
+                <dc:isPartOf rdf:resource="urn:issn:1314-2828"/>
+                <dc:title xml:lang="en">The millipede family Paradoxosomatidae in the Philippines, with a description of Eustrongylosoma penevi sp.n., and notes on Anoplodesmus anthracinus Pocock, 1895, recorded in Malaysia and Sri Lanka for the first time (Diplopoda, Polydesmida)</dc:title>
+                <bibo:issue>1</bibo:issue>
+                <dc:date>2013-09-16</dc:date>
+                <dc:creator>Stoev P</dc:creator>
+            </fabio:JournalArticle>
+        </trt:publishedIn>
+    </trt:Treatment>
+    <bibo:Journal rdf:about="urn:issn:1314-2828">
+        <dc:title xml:lang="en">Biodiversity Data Journal</dc:title>
+    </bibo:Journal>
+</rdf:RDF>

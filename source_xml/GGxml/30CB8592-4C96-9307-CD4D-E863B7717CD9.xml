@@ -1,337 +1,318 @@
-<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677" checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad" docDate="2010" docId="30CB85924C969307CD4DE863B7717CD9" docLanguage="en" docName="zt02534p036.xml" docOrigin="Zootaxa 2534" docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf" docTitle="Penestomus planus Miller, Griswold &amp; Haddad, 2010, sp. nov." lastPageId="24" lastPageNumber="25" masterDocId="AAFA02E9D2D840A4CA58B3957719276C" masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="23" pageNumber="24" updateTime="1401794864559" updateUser="DRS.Boston">
-<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
-<mods:titleInfo>
-<mods:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</mods:title>
-</mods:titleInfo>
-<mods:name type="personal">
-<mods:role>
-<mods:roleTerm>Author</mods:roleTerm>
-</mods:role>
-<mods:namePart>Jeremy A. Miller</mods:namePart>
-</mods:name>
-<mods:name type="personal">
-<mods:role>
-<mods:roleTerm>Author</mods:roleTerm>
-</mods:role>
-<mods:namePart>Charles E. Griswold</mods:namePart>
-</mods:name>
-<mods:name type="personal">
-<mods:role>
-<mods:roleTerm>Author</mods:roleTerm>
-</mods:role>
-<mods:namePart>Charles R. Haddad</mods:namePart>
-</mods:name>
-<mods:typeOfResource>text</mods:typeOfResource>
-<mods:relatedItem type="host">
-<mods:titleInfo>
-<mods:title>Zootaxa</mods:title>
-</mods:titleInfo>
-<mods:part>
-<mods:date>2010</mods:date>
-<mods:detail type="volume">
-<mods:number>2534</mods:number>
-</mods:detail>
-<mods:extent unit="page">
-<mods:start>1</mods:start>
-<mods:end>36</mods:end>
-</mods:extent>
-</mods:part>
-</mods:relatedItem>
-<mods:location>
-<mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
-</mods:location>
-<mods:classification>journal article</mods:classification>
-<mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
-<mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
-</mods:mods>
-<treatment LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9" httpUri="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9" lastPageId="24" lastPageNumber="25" pageId="23" pageNumber="24">
-<subSubSection pageId="23" pageNumber="24" type="nomenclature">
-<paragraph pageId="23" pageNumber="24" type="mainText">
-<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="planus">
-Penestomus planus 
-<authority pageId="23" pageNumber="24">Simon, 1902</authority>
-</taxonomicName>
-</paragraph>
-</subSubSection>
-<subSubSection pageId="23" pageNumber="24" type="description">
-<paragraph pageId="23" pageNumber="24" type="mainText">Figs 15C, 16A, 21</paragraph>
-</subSubSection>
-<subSubSection pageId="23" pageNumber="24" type="reference_group">
-<paragraph pageId="23" pageNumber="24" type="mainText">
-<treatmentCitation httpUri="http://treatment.plazi.org/id/6C9891A3-7202-DD49-9F29-F8C73E39C73A">
-<taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species" species="planus">
-Penestomus planus 
-<authority pageId="23" pageNumber="24">Simon, 1902</authority>
-</taxonomicName>
-: 241
-</treatmentCitation>
-; 
-<treatmentCitation httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">Lehtinen, 1967: 462, fig. 469</treatmentCitation>
-; 
-<treatmentCitation httpUri="http://treatment.plazi.org/id/628EB044-913A-71C0-15B9-DD5A3A1E2F42">Dippenaar-Schoeman, 1989: 133, fig. 6</treatmentCitation>
-.
-</paragraph>
-</subSubSection>
-<subSubSection lastPageId="24" lastPageNumber="25" pageId="23" pageNumber="24" type="materials_examined">
-<paragraph pageId="23" pageNumber="24" type="mainText">
-<materialsCitation collectionCode="MNHN" collectorName="D. H. Brauns" country="South Africa" latitude="-33.166668" location="Willowmore" longLatPrecision="1" longitude="23.35" specimenCode="AR 14375, 21716" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape" typeStatus="Holotype">
-Type material. 
-<typeStatus>Holotype</typeStatus>
-: ♀, 
-<location LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:D3C99675AA96A861EF2CA2413DC9914A" country="South Africa" latitude="-33.166668" longLatPrecision="1" longitude="23.35" name="Willowmore" stateProvince="Eastern Cape">Willowmore</location>
-, 
-<collectingRegion>Eastern Cape</collectingRegion>
-, 
-<collectingCountry value="South Africa">South Africa</collectingCountry>
-[
-<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.166668">33°10'S</geoCoordinate>
-, 
-<geoCoordinate direction="east" orientation="longitude" precision="1" value="23.35">23°21'E</geoCoordinate>
-], 
-<collectorName>D.H. Brauns</collectorName>
-(
-<specimenCode>AR 14375, 21716</specimenCode>
-, 
-<collectionCode collectionName="France, Paris, Museum National d'Histoire Naturelle">MNHN</collectionCode>
-)
-</materialsCitation>
-.
-</paragraph>
-<paragraph pageId="24" pageNumber="25" type="mainText">
-<materialsCitation collectingDate="1901" collectionCode="SAM" collectorName="J. A. O'Neil" country="South Africa" latitude="-33.75" location="Dunbrody, Uitenhage District" longLatPrecision="1" longitude="25.383333" specimenCode="11608 SAM-ENW-X 011608" specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape">
-<pageBreakToken pageId="24" pageNumber="25" start="start">Additional</pageBreakToken>
-material examined. 
-<collectingCountry value="South Africa">SOUTH AFRICA</collectingCountry>
-: 
-<collectingRegion>Eastern Cape</collectingRegion>
-: 
-<specimenCount type="generic">1 ♀</specimenCount>
-, 
-<location LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:D0D508BDC22017B148ACF59482043F66" country="South Africa" latitude="-33.75" longLatPrecision="1" longitude="25.383333" name="Dunbrody, Uitenhage District" stateProvince="Eastern Cape">Dunbrody, Uitenhage District</location>
-[
-<geoCoordinate direction="south" orientation="latitude" precision="1" value="-33.75">33°45'S</geoCoordinate>
-, 
-<geoCoordinate direction="east" orientation="longitude" precision="1" value="25.383333">
-<pageNumber ambiguity="4" fuzzyness="0" pageId="24" pageNumber="25" score="366" value="25">25</pageNumber>
-°23'E
-</geoCoordinate>
-], 
-<collectingDate>1901</collectingDate>
-, 
-<collectorName>J.A. O'Neil</collectorName>
-(
-<specimenCode>
-11608 SAM-ENW-X 
-<date value="08-01-16">011608</date>
-</specimenCode>
-, 
-<collectionCode collectionName="Australia, South Australia, Adelaide, South Australian Museum">SAM</collectionCode>
-)
-</materialsCitation>
-; 
-<materialsCitation collectingDate="1896-04" collectionCode="SAM" collectorName="W. F. Purcell" country="South Africa" latitude="-34.166668" location="Mossel Bay" longLatPrecision="1" longitude="22.116667" specimenCode="912 - 4196 SAM-ENW-X 000912" specimenCount="2" specimenCount-female="1" stateProvince="Western Cape">
-<collectingRegion>Western Cape</collectingRegion>
-: 
-<specimenCount type="generic">1 ♀</specimenCount>
-, 
-<specimenCount type="generic">1 juvenile</specimenCount>
-, 
-<location LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:FDFB250B1063E193734F2CF3F0AFB734" country="South Africa" latitude="-34.166668" longLatPrecision="1" longitude="22.116667" name="Mossel Bay" stateProvince="Western Cape">Mossel Bay</location>
-[
-<geoCoordinate direction="south" orientation="latitude" precision="1" value="-34.166668">34°10'S</geoCoordinate>
-, 
-<geoCoordinate direction="east" orientation="longitude" precision="1" value="22.116667">22°7'E</geoCoordinate>
-], 
-<date value="1896-04">
-<collectingDate value="1896-04">April 1896</collectingDate>
-</date>
-, 
-<collectorName>
-W.F. 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="genus">Purcell</taxonomicName>
-</collectorName>
-(
-<specimenCode>912 - 4196 SAM-ENW-X000912</specimenCode>
-, 
-<collectionCode collectionName="Australia, South Australia, Adelaide, South Australian Museum">SAM</collectionCode>
-)
-</materialsCitation>
-.
-</paragraph>
-</subSubSection>
-<subSubSection pageId="24" pageNumber="25" type="diagnosis">
-<paragraph pageId="24" pageNumber="25" type="mainText">
-Diagnosis. Female distinguished from other 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName>
-group species as follows: from 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">P. montanus</taxonomicName>
-by the parallel grooves on the PL (Figs 16 
-<collectionCode>A</collectionCode>
-, 
-<collectionCode>B</collectionCode>
-; diverging in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">
-P. montanus
-<authority pageId="24" pageNumber="25">, Fig</authority>
-</taxonomicName>
-. 12 
-<collectionCode>C</collectionCode>
-), and by the having the AL of the epigynum well defined and subtriangular (suboval and weakly defined in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">
-P. montanus
-<authority pageId="24" pageNumber="25">, Fig</authority>
-</taxonomicName>
-. 12 
-<collectionCode>C</collectionCode>
-); from 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">P egazini</taxonomicName>
-by the PL, which is approximately one third the length of the epigynum (Figs 16 
-<collectionCode>A</collectionCode>
-, 
-<collectionCode>B</collectionCode>
-; nearly half the length of the epigynum in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">
-P. 
-<taxonomicName authority=", Fig" authorityName=", Fig" class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">
-egazini
-<authority pageId="24" pageNumber="25">, Fig</authority>
-</taxonomicName>
-</taxonomicName>
-. 12 
-<collectionCode>A</collectionCode>
-); from 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="prendinii">P. prendinii</taxonomicName>
-by the recurved posterior margin of the AL (Figs 16 
-<collectionCode>A</collectionCode>
-, 
-<collectionCode>B</collectionCode>
-; transverse medially in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="prendinii">
-P. prendinii
-<authority pageId="24" pageNumber="25">, Fig</authority>
-</taxonomicName>
-. 
-<geoCoordinate direction="east" orientation="longitude" precision="1" value="12.0">
-12 
-<collectionCode>E</collectionCode>
-</geoCoordinate>
-); from 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="zulu">P. zulu</taxonomicName>
-<taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
-by the lack of an invagination on the posterior margin of the PL (Fig. 16 
-<collectionCode>D</collectionCode>
-); and from 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
-<taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
-by the overall shape of the epigynum, which is relatively wide and short with a strongly concave posterior margin of the AL in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
-(Fig. 16 
-<collectionCode>A</collectionCode>
-; narrow and long with a more weakly concave posterior margin of the 
-<collectionCode>AL</collectionCode>
-in 
-<taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
-<taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp. nov.</taxonomicNameLabel>
-, Fig. 16 
-<collectionCode>B</collectionCode>
-). Male unknown.
-</paragraph>
-</subSubSection>
-<subSubSection pageId="24" pageNumber="25" type="description">
-<paragraph pageId="24" pageNumber="25" type="mainText">
-Description. Specimen faded, carapace orange, lighter posteriorly with smooth texture, covered by fine black setae, with broad white setae concentrated in thoracic and fovea region (Fig. 15 
-<collectionCode>C</collectionCode>
-). Sternum pale yellow. Chelicerae dark red, with six promarginal teeth, two retromarginal teeth. Legs dusky yellow basally, anterior legs orange distally, posterior legs yellow distally. Abdomen pale, but details obscured due to specimen damage.
-</paragraph>
-<paragraph pageId="24" pageNumber="25" type="mainText">
-Epigynum. AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin strongly concave; PL approximately 1/3 length of epigynum, with parallel grooves (Fig. 16 
-<collectionCode>A</collectionCode>
-).
-</paragraph>
-<paragraph pageId="24" pageNumber="25" type="mainText">
-Female macrosetae: Leg I: femur d1, tibia 
-<date>v1-2</date>
--2, metatarsus 
-<date>v1-2</date>
--2; leg II: femur d1, tibia 
-<date>v1</date>
-, metatarsus 
-<date>v1-2</date>
-; leg III: femur d1, metatarsus 
-<date>v2</date>
-; leg IV: femur d1, metatarsus 
-<date>v1-2</date>
-; tarsus r1.
-</paragraph>
-<paragraph pageId="24" pageNumber="25" type="mainText">
-<typeStatus>Holotype</typeStatus>
-female (
-<collectionCode>AR</collectionCode>
-14375, 21716): Carapace 2.28 long, 1.61 wide, 0.56 high, sternum 1.31 long, 0.75 wide (abdomen disarticulated from prosoma so total length undetermined). Leg measurements:
-</paragraph>
-<paragraph pageId="24" pageNumber="25" type="table">
-<table border="1" pageId="24" pageNumber="25">
-<tr pageId="24" pageNumber="25">
-<td isEmpty="true" pageId="24" pageNumber="25">-</td>
-<td pageId="24" pageNumber="25">I</td>
-<td pageId="24" pageNumber="25">II</td>
-<td pageId="24" pageNumber="25">III</td>
-<td pageId="24" pageNumber="25">IV</td>
-<td pageId="24" pageNumber="25">Pedipalp</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Femur</td>
-<td pageId="24" pageNumber="25">0.98</td>
-<td pageId="24" pageNumber="25">0.95</td>
-<td pageId="24" pageNumber="25">0.78</td>
-<td pageId="24" pageNumber="25">1.22</td>
-<td pageId="24" pageNumber="25">0.60</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Patella</td>
-<td pageId="24" pageNumber="25">0.57</td>
-<td pageId="24" pageNumber="25">0.59</td>
-<td pageId="24" pageNumber="25">0.47</td>
-<td pageId="24" pageNumber="25">0.73</td>
-<td pageId="24" pageNumber="25">0.23</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Tibia</td>
-<td pageId="24" pageNumber="25">0.64</td>
-<td pageId="24" pageNumber="25">0.61</td>
-<td pageId="24" pageNumber="25">0.48</td>
-<td pageId="24" pageNumber="25">1.08</td>
-<td pageId="24" pageNumber="25">0.25</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Metatarsus</td>
-<td pageId="24" pageNumber="25">0.75</td>
-<td pageId="24" pageNumber="25">0.66</td>
-<td pageId="24" pageNumber="25">0.47</td>
-<td pageId="24" pageNumber="25">0.74</td>
-<td pageId="24" pageNumber="25">-</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Tarsus</td>
-<td pageId="24" pageNumber="25">0.37</td>
-<td pageId="24" pageNumber="25">0.33</td>
-<td pageId="24" pageNumber="25">0.22</td>
-<td pageId="24" pageNumber="25">0.26</td>
-<td pageId="24" pageNumber="25">0.51</td>
-</tr>
-<tr pageId="24" pageNumber="25">
-<td pageId="24" pageNumber="25">Total</td>
-<td pageId="24" pageNumber="25">3.31</td>
-<td pageId="24" pageNumber="25">3.14</td>
-<td pageId="24" pageNumber="25">2.42</td>
-<td pageId="24" pageNumber="25">4.03</td>
-<td pageId="24" pageNumber="25">1.60</td>
-</tr>
-</table>
-</paragraph>
-</subSubSection>
-<subSubSection pageId="24" pageNumber="25" type="distribution">
-<paragraph pageId="24" pageNumber="25" type="mainText">Distribution. Known from Eastern Cape Province and Western Cape Province, South Africa (Fig. 21).</paragraph>
-</subSubSection>
-</treatment>
+<document ENCODING="UTF8" ID-HNS-Pub="zt02534p036" _generate="added" checkinTime="1382116681677"
+    checkinUser="jeremy" docAuthor="Jeremy A. Miller, Charles E. Griswold &amp; Charles R. Haddad"
+    docDate="2010" docId="30CB85924C969307CD4DE863B7717CD9" docLanguage="en"
+    docName="zt02534p036.xml" docOrigin="Zootaxa 2534"
+    docSource="http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf"
+    docTitle="Penestomus planus Miller, Griswold &amp; Haddad, 2010, sp. nov." lastPageId="24"
+    lastPageNumber="25" masterDocId="AAFA02E9D2D840A4CA58B3957719276C"
+    masterDocTitle="Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)"
+    masterLastPageNumber="36" masterPageNumber="1" originalUpdateTime="1401797202733" pageId="23"
+    pageNumber="24" updateTime="1401794864559" updateUser="DRS.Boston">
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:titleInfo>
+            <mods:title>Taxonomic revision of the spider family Penestomidae (Araneae,
+                Entelegynae)</mods:title>
+        </mods:titleInfo>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm>Author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Jeremy A. Miller</mods:namePart>
+        </mods:name>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm>Author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Charles E. Griswold</mods:namePart>
+        </mods:name>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm>Author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Charles R. Haddad</mods:namePart>
+        </mods:name>
+        <mods:typeOfResource>text</mods:typeOfResource>
+        <mods:relatedItem type="host">
+            <mods:titleInfo>
+                <mods:title>Zootaxa</mods:title>
+            </mods:titleInfo>
+            <mods:part>
+                <mods:date>2010</mods:date>
+                <mods:detail type="volume">
+                    <mods:number>2534</mods:number>
+                </mods:detail>
+                <mods:extent unit="page">
+                    <mods:start>1</mods:start>
+                    <mods:end>36</mods:end>
+                </mods:extent>
+            </mods:part>
+        </mods:relatedItem>
+        <mods:location>
+            <mods:url>http://www.mapress.com/zootaxa/2010/f/zt02534p036.pdf</mods:url>
+        </mods:location>
+        <mods:classification>journal article</mods:classification>
+        <mods:identifier type="HNS-Pub">zt02534p036</mods:identifier>
+        <mods:identifier type="ZooBank">8F657D94-8DD3-4184-BB90-A43C3268DF42</mods:identifier>
+    </mods:mods>
+    <treatment LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9"
+        httpUri="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9" lastPageId="24"
+        lastPageNumber="25" pageId="23" pageNumber="24">
+        <subSubSection pageId="23" pageNumber="24" type="nomenclature">
+            <paragraph pageId="23" pageNumber="24" type="mainText">
+                <taxonomicName authority="Simon, 1902" authorityName="Simon" authorityYear="1902"
+                    class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia"
+                    order="Araneae" pageId="23" pageNumber="24" phylum="Arthropoda" rank="species"
+                    species="planus"> Penestomus planus <authority pageId="23" pageNumber="24"
+                        >Simon, 1902</authority>
+                </taxonomicName>
+            </paragraph>
+        </subSubSection>
+        <subSubSection pageId="23" pageNumber="24" type="description">
+            <paragraph pageId="23" pageNumber="24" type="mainText">Figs 15C, 16A, 21</paragraph>
+        </subSubSection>
+        <subSubSection pageId="23" pageNumber="24" type="reference_group">
+            <paragraph pageId="23" pageNumber="24" type="mainText">
+                <treatmentCitation
+                    httpUri="http://treatment.plazi.org/id/6C9891A3-7202-DD49-9F29-F8C73E39C73A">
+                    <taxonomicName authority="Simon, 1902" authorityName="Simon"
+                        authorityYear="1902" class="Arachnida" family="Eresidae" genus="Penestomus"
+                        kingdom="Animalia" order="Araneae" pageId="23" pageNumber="24"
+                        phylum="Arthropoda" rank="species" species="planus"> Penestomus planus
+                            <authority pageId="23" pageNumber="24">Simon, 1902</authority>
+                    </taxonomicName> : 241 </treatmentCitation> ; <treatmentCitation
+                    httpUri="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF"
+                    >Lehtinen, 1967: 462, fig. 469</treatmentCitation> ; <treatmentCitation
+                    httpUri="http://treatment.plazi.org/id/628EB044-913A-71C0-15B9-DD5A3A1E2F42"
+                    >Dippenaar-Schoeman, 1989: 133, fig. 6</treatmentCitation> . </paragraph>
+        </subSubSection>
+        <subSubSection lastPageId="24" lastPageNumber="25" pageId="23" pageNumber="24"
+            type="materials_examined">
+            <paragraph pageId="23" pageNumber="24" type="mainText">
+                <materialsCitation collectionCode="MNHN" collectorName="D. H. Brauns"
+                    country="South Africa" latitude="-33.166668" location="Willowmore"
+                    longLatPrecision="1" longitude="23.35" specimenCode="AR 14375, 21716"
+                    specimenCount="1" specimenCount-female="1" stateProvince="Eastern Cape"
+                    typeStatus="Holotype"> Type material. <typeStatus>Holotype</typeStatus> : ♀,
+                        <location
+                        LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:D3C99675AA96A861EF2CA2413DC9914A"
+                        country="South Africa" latitude="-33.166668" longLatPrecision="1"
+                        longitude="23.35" name="Willowmore" stateProvince="Eastern Cape"
+                        >Willowmore</location> , <collectingRegion>Eastern Cape</collectingRegion> ,
+                        <collectingCountry value="South Africa">South Africa</collectingCountry> [
+                        <geoCoordinate direction="south" orientation="latitude" precision="1"
+                        value="-33.166668">33°10'S</geoCoordinate> , <geoCoordinate direction="east"
+                        orientation="longitude" precision="1" value="23.35">23°21'E</geoCoordinate>
+                    ], <collectorName>D.H. Brauns</collectorName> ( <specimenCode>AR 14375,
+                        21716</specimenCode> , <collectionCode
+                        collectionName="France, Paris, Museum National d'Histoire Naturelle"
+                        >MNHN</collectionCode> ) </materialsCitation> . </paragraph>
+            <paragraph pageId="24" pageNumber="25" type="mainText">
+                <materialsCitation collectingDate="1901" collectionCode="SAM"
+                    collectorName="J. A. O'Neil" country="South Africa" latitude="-33.75"
+                    location="Dunbrody, Uitenhage District" longLatPrecision="1"
+                    longitude="25.383333" specimenCode="11608 SAM-ENW-X 011608" specimenCount="1"
+                    specimenCount-female="1" stateProvince="Eastern Cape">
+                    <pageBreakToken pageId="24" pageNumber="25" start="start"
+                        >Additional</pageBreakToken> material examined. <collectingCountry
+                        value="South Africa">SOUTH AFRICA</collectingCountry> :
+                        <collectingRegion>Eastern Cape</collectingRegion> : <specimenCount
+                        type="generic">1 ♀</specimenCount> , <location
+                        LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:D0D508BDC22017B148ACF59482043F66"
+                        country="South Africa" latitude="-33.75" longLatPrecision="1"
+                        longitude="25.383333" name="Dunbrody, Uitenhage District"
+                        stateProvince="Eastern Cape">Dunbrody, Uitenhage District</location> [
+                        <geoCoordinate direction="south" orientation="latitude" precision="1"
+                        value="-33.75">33°45'S</geoCoordinate> , <geoCoordinate direction="east"
+                        orientation="longitude" precision="1" value="25.383333">
+                        <pageNumber ambiguity="4" fuzzyness="0" pageId="24" pageNumber="25"
+                            score="366" value="25">25</pageNumber> °23'E </geoCoordinate> ],
+                        <collectingDate>1901</collectingDate> , <collectorName>J.A.
+                        O'Neil</collectorName> ( <specimenCode> 11608 SAM-ENW-X <date
+                            value="08-01-16">011608</date>
+                    </specimenCode> , <collectionCode
+                        collectionName="Australia, South Australia, Adelaide, South Australian Museum"
+                        >SAM</collectionCode> ) </materialsCitation> ; <materialsCitation
+                    collectingDate="1896-04" collectionCode="SAM" collectorName="W. F. Purcell"
+                    country="South Africa" latitude="-34.166668" location="Mossel Bay"
+                    longLatPrecision="1" longitude="22.116667"
+                    specimenCode="912 - 4196 SAM-ENW-X 000912" specimenCount="2"
+                    specimenCount-female="1" stateProvince="Western Cape">
+                    <collectingRegion>Western Cape</collectingRegion> : <specimenCount
+                        type="generic">1 ♀</specimenCount> , <specimenCount type="generic">1
+                        juvenile</specimenCount> , <location
+                        LSID="urn:lsid:plazi:treatment:30CB85924C969307CD4DE863B7717CD9:FDFB250B1063E193734F2CF3F0AFB734"
+                        country="South Africa" latitude="-34.166668" longLatPrecision="1"
+                        longitude="22.116667" name="Mossel Bay" stateProvince="Western Cape">Mossel
+                        Bay</location> [ <geoCoordinate direction="south" orientation="latitude"
+                        precision="1" value="-34.166668">34°10'S</geoCoordinate> , <geoCoordinate
+                        direction="east" orientation="longitude" precision="1" value="22.116667"
+                        >22°7'E</geoCoordinate> ], <date value="1896-04">
+                        <collectingDate value="1896-04">April 1896</collectingDate>
+                    </date> , <collectorName> W.F. <taxonomicName class="Arachnida"
+                            family="Eresidae" genus="Penestomus" kingdom="Animalia" order="Araneae"
+                            pageId="24" pageNumber="25" phylum="Arthropoda" rank="genus"
+                            >Purcell</taxonomicName>
+                    </collectorName> ( <specimenCode>912 - 4196 SAM-ENW-X000912</specimenCode> ,
+                        <collectionCode
+                        collectionName="Australia, South Australia, Adelaide, South Australian Museum"
+                        >SAM</collectionCode> ) </materialsCitation> . </paragraph>
+        </subSubSection>
+        <subSubSection pageId="24" pageNumber="25" type="diagnosis">
+            <paragraph pageId="24" pageNumber="25" type="mainText"> Diagnosis. Female distinguished
+                from other <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="planus">planus</taxonomicName> group
+                species as follows: from <taxonomicName class="Arachnida" family="Eresidae"
+                    genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24"
+                    pageNumber="25" phylum="Arthropoda" rank="species" species="montanus">P.
+                    montanus</taxonomicName> by the parallel grooves on the PL (Figs 16
+                    <collectionCode>A</collectionCode> , <collectionCode>B</collectionCode> ;
+                diverging in <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="montanus"> P. montanus <authority
+                        pageId="24" pageNumber="25">, Fig</authority>
+                </taxonomicName> . 12 <collectionCode>C</collectionCode> ), and by the having the AL
+                of the epigynum well defined and subtriangular (suboval and weakly defined in
+                    <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="montanus"> P. montanus <authority
+                        pageId="24" pageNumber="25">, Fig</authority>
+                </taxonomicName> . 12 <collectionCode>C</collectionCode> ); from <taxonomicName
+                    class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia"
+                    order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species"
+                    species="egazini">P egazini</taxonomicName> by the PL, which is approximately
+                one third the length of the epigynum (Figs 16 <collectionCode>A</collectionCode> ,
+                    <collectionCode>B</collectionCode> ; nearly half the length of the epigynum in
+                    <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="egazini"> P. <taxonomicName
+                        authority=", Fig" authorityName=", Fig" class="Arachnida" family="Eresidae"
+                        genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24"
+                        pageNumber="25" phylum="Arthropoda" rank="species" species="egazini">
+                        egazini <authority pageId="24" pageNumber="25">, Fig</authority>
+                    </taxonomicName>
+                </taxonomicName> . 12 <collectionCode>A</collectionCode> ); from <taxonomicName
+                    class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia"
+                    order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species"
+                    species="prendinii">P. prendinii</taxonomicName> by the recurved posterior
+                margin of the AL (Figs 16 <collectionCode>A</collectionCode> ,
+                    <collectionCode>B</collectionCode> ; transverse medially in <taxonomicName
+                    class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia"
+                    order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species"
+                    species="prendinii"> P. prendinii <authority pageId="24" pageNumber="25">,
+                        Fig</authority>
+                </taxonomicName> . <geoCoordinate direction="east" orientation="longitude"
+                    precision="1" value="12.0"> 12 <collectionCode>E</collectionCode>
+                </geoCoordinate> ); from <taxonomicName class="Arachnida" family="Eresidae"
+                    genus="Penestomus" kingdom="Animalia" order="Araneae" pageId="24"
+                    pageNumber="25" phylum="Arthropoda" rank="species" species="zulu">P.
+                    zulu</taxonomicName>
+                <taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp.
+                    nov.</taxonomicNameLabel> by the lack of an invagination on the posterior margin
+                of the PL (Fig. 16 <collectionCode>D</collectionCode> ); and from <taxonomicName
+                    class="Arachnida" family="Eresidae" genus="Penestomus" kingdom="Animalia"
+                    order="Araneae" pageId="24" pageNumber="25" phylum="Arthropoda" rank="species"
+                    species="kruger">P. kruger</taxonomicName>
+                <taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp.
+                    nov.</taxonomicNameLabel> by the overall shape of the epigynum, which is
+                relatively wide and short with a strongly concave posterior margin of the AL in
+                    <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="planus">P. planus</taxonomicName>
+                (Fig. 16 <collectionCode>A</collectionCode> ; narrow and long with a more weakly
+                concave posterior margin of the <collectionCode>AL</collectionCode> in
+                    <taxonomicName class="Arachnida" family="Eresidae" genus="Penestomus"
+                    kingdom="Animalia" order="Araneae" pageId="24" pageNumber="25"
+                    phylum="Arthropoda" rank="species" species="kruger">P. kruger</taxonomicName>
+                <taxonomicNameLabel pageId="24" pageNumber="25" rank="species">sp.
+                    nov.</taxonomicNameLabel> , Fig. 16 <collectionCode>B</collectionCode> ). Male
+                unknown. </paragraph>
+        </subSubSection>
+        <subSubSection pageId="24" pageNumber="25" type="description">
+            <paragraph pageId="24" pageNumber="25" type="mainText"> Description. Specimen faded,
+                carapace orange, lighter posteriorly with smooth texture, covered by fine black
+                setae, with broad white setae concentrated in thoracic and fovea region (Fig. 15
+                    <collectionCode>C</collectionCode> ). Sternum pale yellow. Chelicerae dark red,
+                with six promarginal teeth, two retromarginal teeth. Legs dusky yellow basally,
+                anterior legs orange distally, posterior legs yellow distally. Abdomen pale, but
+                details obscured due to specimen damage. </paragraph>
+            <paragraph pageId="24" pageNumber="25" type="mainText"> Epigynum. AL subtriangular,
+                clearly differentiated from surrounding cuticle, posterior margin strongly concave;
+                PL approximately 1/3 length of epigynum, with parallel grooves (Fig. 16
+                    <collectionCode>A</collectionCode> ). </paragraph>
+            <paragraph pageId="24" pageNumber="25" type="mainText"> Female macrosetae: Leg I: femur
+                d1, tibia <date>v1-2</date> -2, metatarsus <date>v1-2</date> -2; leg II: femur d1,
+                tibia <date>v1</date> , metatarsus <date>v1-2</date> ; leg III: femur d1, metatarsus
+                    <date>v2</date> ; leg IV: femur d1, metatarsus <date>v1-2</date> ; tarsus r1. </paragraph>
+            <paragraph pageId="24" pageNumber="25" type="mainText">
+                <typeStatus>Holotype</typeStatus> female ( <collectionCode>AR</collectionCode>
+                14375, 21716): Carapace 2.28 long, 1.61 wide, 0.56 high, sternum 1.31 long, 0.75
+                wide (abdomen disarticulated from prosoma so total length undetermined). Leg
+                measurements: </paragraph>
+            <paragraph pageId="24" pageNumber="25" type="table">
+                <table border="1" pageId="24" pageNumber="25">
+                    <tr pageId="24" pageNumber="25">
+                        <td isEmpty="true" pageId="24" pageNumber="25">-</td>
+                        <td pageId="24" pageNumber="25">I</td>
+                        <td pageId="24" pageNumber="25">II</td>
+                        <td pageId="24" pageNumber="25">III</td>
+                        <td pageId="24" pageNumber="25">IV</td>
+                        <td pageId="24" pageNumber="25">Pedipalp</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Femur</td>
+                        <td pageId="24" pageNumber="25">0.98</td>
+                        <td pageId="24" pageNumber="25">0.95</td>
+                        <td pageId="24" pageNumber="25">0.78</td>
+                        <td pageId="24" pageNumber="25">1.22</td>
+                        <td pageId="24" pageNumber="25">0.60</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Patella</td>
+                        <td pageId="24" pageNumber="25">0.57</td>
+                        <td pageId="24" pageNumber="25">0.59</td>
+                        <td pageId="24" pageNumber="25">0.47</td>
+                        <td pageId="24" pageNumber="25">0.73</td>
+                        <td pageId="24" pageNumber="25">0.23</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Tibia</td>
+                        <td pageId="24" pageNumber="25">0.64</td>
+                        <td pageId="24" pageNumber="25">0.61</td>
+                        <td pageId="24" pageNumber="25">0.48</td>
+                        <td pageId="24" pageNumber="25">1.08</td>
+                        <td pageId="24" pageNumber="25">0.25</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Metatarsus</td>
+                        <td pageId="24" pageNumber="25">0.75</td>
+                        <td pageId="24" pageNumber="25">0.66</td>
+                        <td pageId="24" pageNumber="25">0.47</td>
+                        <td pageId="24" pageNumber="25">0.74</td>
+                        <td pageId="24" pageNumber="25">-</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Tarsus</td>
+                        <td pageId="24" pageNumber="25">0.37</td>
+                        <td pageId="24" pageNumber="25">0.33</td>
+                        <td pageId="24" pageNumber="25">0.22</td>
+                        <td pageId="24" pageNumber="25">0.26</td>
+                        <td pageId="24" pageNumber="25">0.51</td>
+                    </tr>
+                    <tr pageId="24" pageNumber="25">
+                        <td pageId="24" pageNumber="25">Total</td>
+                        <td pageId="24" pageNumber="25">3.31</td>
+                        <td pageId="24" pageNumber="25">3.14</td>
+                        <td pageId="24" pageNumber="25">2.42</td>
+                        <td pageId="24" pageNumber="25">4.03</td>
+                        <td pageId="24" pageNumber="25">1.60</td>
+                    </tr>
+                </table>
+            </paragraph>
+        </subSubSection>
+        <subSubSection pageId="24" pageNumber="25" type="distribution">
+            <paragraph pageId="24" pageNumber="25" type="mainText">Distribution. Known from Eastern
+                Cape Province and Western Cape Province, South Africa (Fig. 21).</paragraph>
+        </subSubSection>
+    </treatment>
 </document>

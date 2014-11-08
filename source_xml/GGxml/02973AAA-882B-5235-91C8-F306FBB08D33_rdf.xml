@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A">
+      <dc:title>Descriptions de quelques Arachnides nouveaux de la section des Cribellates</dc:title>
+      <dc:creator>Eugene Simon</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Bulletin de la Societe entomologique de France</bibo:journal>
+      <dc:date>1902</dc:date>
+      <bibo:volume>15</bibo:volume>
+      <bibo:startPage>240</bibo:startPage>
+      <bibo:endPage>243</bibo:endPage>
+   </rdf:Description>
+</rdf:RDF>
