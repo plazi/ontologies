@@ -1,4 +1,4 @@
-<!DOCTYPE article SYSTEM "/home/thc4/Github/Plazi/TaxPub/tax-treatment-NS0.dtd">
+<!DOCTYPE article SYSTEM "../../TaxPub/tax-treatment-NS0.dtd">
 <article article-type="research-article" dtd-version="3.0" xml:lang="en"
   xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub">
@@ -254,9 +254,14 @@
           <title>Materials</title>
           <list>
             <list-item>
+<<<<<<< HEAD:BDJ.1.e957_taxpub.xml
               <label>Occurrence:</label>
               <p><tp:material-citation>
                   <tp:type-status>Holotype</tp:type-status><named-content
+=======
+              <p><tp:material-citation> Occurrence:
+                    <tp:type-status>Holotype</tp:type-status><named-content
+>>>>>>> parent of 8740b27... moved occurrence to label in list-item:source_xml/BDJ.1.e957_taxpub.xml
                     content-type="dwc:recordedBy" xlink:type="simple">P. Stoev &amp; L.
                     Penev</named-content>; individualCount: <named-content
                     content-type="dwc:individualCount" xlink:type="simple">1</named-content>; sex:
@@ -282,6 +287,7 @@
                 </tp:material-citation></p>
             </list-item>
             <list-item>
+<<<<<<< HEAD:BDJ.1.e957_taxpub.xml
               <label>Occurrence:</label>
               <p><tp:material-citation><tp:type-status>Paratype</tp:type-status> Occurrence:
                   recordedBy: <named-content content-type="dwc:recordedBy" xlink:type="simple">P.
@@ -293,6 +299,19 @@
                     content-type="dwc:country" xlink:type="simple">Philippines</named-content>;
                   stateProvince: <named-content content-type="dwc:stateProvince" xlink:type="simple"
                     >Mountain Province</named-content>; verbatimLocality: <named-content
+=======
+              <p><tp:material-citation> Occurrence: <tp:type-status>Paratype</tp:type-status>
+                  Occurrence: recordedBy: <named-content content-type="dwc:recordedBy"
+                    xlink:type="simple">P. Stoev &amp; L. Penev</named-content>; individualCount:
+                    <named-content content-type="dwc:individualCount" xlink:type="simple"
+                    >4</named-content>; sex: <named-content content-type="dwc:sex"
+                    xlink:type="simple">male</named-content>; Location: island: <named-content
+                    content-type="dwc:island" xlink:type="simple">Luzon Island</named-content>;
+                  country: <named-content content-type="dwc:country" xlink:type="simple"
+                    >Philippines</named-content>; stateProvince: <named-content
+                    content-type="dwc:stateProvince" xlink:type="simple">Mountain
+                    Province</named-content>; verbatimLocality: <named-content
+>>>>>>> parent of 8740b27... moved occurrence to label in list-item:source_xml/BDJ.1.e957_taxpub.xml
                     content-type="dwc:verbatimLocality" xlink:type="simple">Mt Polis Checkpoint on
                     the road Banaue – Sagada</named-content>; verbatimElevation: <named-content
                     content-type="dwc:verbatimElevation" xlink:type="simple">1800-1900
@@ -339,7 +358,10 @@
               </p>
             </list-item>
             <list-item>
+<<<<<<< HEAD:BDJ.1.e957_taxpub.xml
               <label>Occurrence:</label>
+=======
+>>>>>>> parent of 8740b27... moved occurrence to label in list-item:source_xml/BDJ.1.e957_taxpub.xml
               <p>
                 <tp:material-citation>
                   <tp:type-status>Paratype</tp:type-status> Occurrence: recordedBy: <named-content
@@ -370,6 +392,7 @@
               </p>
             </list-item>
             <list-item>
+<<<<<<< HEAD:BDJ.1.e957_taxpub.xml
               <label>Occurrence:</label>
               <p><tp:material-citation>
                   <tp:type-status>Paratype</tp:type-status> recordedBy: <named-content
@@ -396,6 +419,13 @@
                   Record Level: institutionCode: <named-content content-type="dwc:institutionCode"
                     xlink:type="simple">ZMUM</named-content>
                 </tp:material-citation></p>
+=======
+              <p><tp:material-citation>
+                <tp:type-status>Paratype</tp:type-status>
+                Occurrence: recordedBy: <named-content content-type="dwc:recordedBy" xlink:type="simple">P. Stoev &amp; L. Penev</named-content>; individualCount: <named-content content-type="dwc:individualCount" xlink:type="simple">1</named-content>; sex: <named-content content-type="dwc:sex" xlink:type="simple">male</named-content>; Location: island: <named-content content-type="dwc:island" xlink:type="simple">Luzon Island</named-content>; country: <named-content content-type="dwc:country" xlink:type="simple">Philippines</named-content>; stateProvince: <named-content content-type="dwc:stateProvince" xlink:type="simple">Mountain Province</named-content>; verbatimLocality: <named-content content-type="dwc:verbatimLocality" xlink:type="simple">Mt Polis Checkpoint on the road Banaue – Sagada</named-content>; verbatimElevation: <named-content content-type="dwc:verbatimElevation" xlink:type="simple">1800-1900 m</named-content>; locationRemarks: <named-content content-type="dwc:locationRemarks" xlink:type="simple">under stones and logs</named-content>; verbatimLatitude: <named-content content-type="dwc:verbatimLatitude" xlink:type="simple">16°57\'58"N</named-content>; verbatimLongitude: <named-content content-type="dwc:verbatimLongitude" xlink:type="simple">121°1\'37"E</named-content>; Event: eventDate: <named-content content-type="dwc:eventDate" xlink:type="simple">6 July 2012</named-content>; Record Level: institutionCode: <named-content content-type="dwc:institutionCode" xlink:type="simple">ZMUM</named-content>
+                
+              </tp:material-citation></p>
+>>>>>>> parent of 8740b27... moved occurrence to label in list-item:source_xml/BDJ.1.e957_taxpub.xml
             </list-item>
           </list>
           <!--
