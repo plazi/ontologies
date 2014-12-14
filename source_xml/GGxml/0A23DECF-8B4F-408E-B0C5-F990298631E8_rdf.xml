@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_1"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_2"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_3"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_4"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_5"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_6"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_7"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_8"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_9"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_10"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_11"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_12"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+      <dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+      <dc:creator>Jeremy A. Miller</dc:creator>
+      <dc:creator>Charles E. Griswold</dc:creator>
+      <dc:creator>Charles R. Haddad</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Zootaxa</bibo:journal>
+      <dc:date>2010</dc:date>
+      <bibo:volume>2534</bibo:volume>
+      <bibo:startPage>1</bibo:startPage>
+      <bibo:endPage>36</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Penestomus</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>10</dwc:pageId>
+      <dwc:pageNumber>11</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>egazini</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024958</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Holotype</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_2">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024985</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-male>1</dwc:specimenCount-male>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_3">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024962</dwc:specimenCode>
+      <dwc:specimenCount>3</dwc:specimenCount>
+      <dwc:specimenCount-female>2</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_4">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024964</dwc:specimenCode>
+      <dwc:specimenCount>3</dwc:specimenCount>
+      <dwc:specimenCount-female>2</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_5">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024957</dwc:specimenCode>
+      <dwc:specimenCount>9</dwc:specimenCount>
+      <dwc:specimenCount-female>4</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_6">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024965</dwc:specimenCode>
+      <dwc:specimenCount>18</dwc:specimenCount>
+      <dwc:specimenCount-female>3</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_7">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024961</dwc:specimenCode>
+      <dwc:specimenCount>4</dwc:specimenCount>
+      <dwc:specimenCount-female>3</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_8">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9023774</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_9">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9023775</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_10">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>2006-02-10</dwc:collectingDate>
+      <dwc:collectingDateMax>2006-02-19</dwc:collectingDateMax>
+      <dwc:collectingDateMin>2006-02-10</dwc:collectingDateMin>
+      <dwc:collectionCode>CAS</dwc:collectionCode>
+      <dwc:collectorName>J. Miller, H. Wood, L. Lotz</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>580 m</dwc:elevation>
+      <dwc:latitude>-33.319435</dwc:latitude>
+      <dwc:location>Grahamstown Municipal Caravan Park</dwc:location>
+      <dwc:longLatPrecision>0</dwc:longLatPrecision>
+      <dwc:longitude>26.523767</dwc:longitude>
+      <dwc:specimenCode>CASENT 9024960</dwc:specimenCode>
+      <dwc:specimenCount>2</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Paratypes</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_11">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-33.3</dwc:latitude>
+      <dwc:location>Grahamstown</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>26.516666</dwc:longitude>
+      <dwc:specimenCode>AcAT 2007 / 1541</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_12">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1914-12</dwc:collectingDate>
+      <dwc:collectionCode>AMG</dwc:collectionCode>
+      <dwc:collectorName>F. Cruden</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-31.467</dwc:latitude>
+      <dwc:location>Alicedale</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>25.85</dwc:longitude>
+      <dwc:specimenCount>8</dwc:specimenCount>
+      <dwc:specimenCount-female>6</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+</rdf:RDF>

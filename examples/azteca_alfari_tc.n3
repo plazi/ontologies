@@ -1,0 +1,22 @@
+@prefix cnt:   <http://www.w3.org/2011/content#>
+@prefix dc:    <http://purl.org/dc/elements/1.1/>
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#>
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#>
+@prefix dwc:   <http://rs.tdwg.org/dwc/terms/>
+@prefix trt:   <http://plazi.org/vocab/treatment#>
+@prefix bibo: <http://purl.org/ontology/bibo/>
+
+
+<> a trt:Treatment ;
+	rdfs:about <xxxxx>;
+	trt:publishedIn <http://xxxx.com/xxxx> ;
+
+http://xxxx.com/xxxx a bibo:Article ;
+	dc:title "A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group." ;
+	dc:creator "Longino, J. T." ;
+	dc:date "2007" ;
+	bibo:Journal "Zootaxa" ;
+	bibo:volume "1491" ;
+	bibo:startPage "15" ;
