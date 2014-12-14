@@ -1,7 +1,6 @@
 @prefix : <http://plazi.org/treatment.owl#> .
 @prefix tc: <http://rs.tdwg.org/ontology/voc/TaxonConcept#> .
 @prefix dwc: <http://filteredpush.org/ontologies/oa/dwcFP#> .
->>>>>>> 95ec99eac76fda713bc45afd091928cbd54f6097
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix voc: <http://rs.tdwg.org/ontology/voc/> .
