@@ -44,7 +44,7 @@
  :material2 a trt:Material ;
 	dwc:DecimalLatitude "-174.0"^xsd:decimal;
 	dwc:Country "CENTRAL AFRICAN REPUBLIC" ;
-    dwc:StateProvince "Prefecture Sangha-Mbaere" ;
+	dwc:StateProvince "Prefecture Sangha-Mbaere" ;
 	dwc:Locality "Lidjombo" .
    
 	

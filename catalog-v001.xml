@@ -1,4 +1,46 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog id="XML Catalog File (see http://www.oasis-open.org/committees/entity/spec-2001-08-06.html) - Created By Protege 4" prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <group id="Folder Repository, directory=/Users/terry/Dropbox/TreatmentOntologies, Auto-Update=true" prefer="public" xml:base=""/>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://filteredpush.org/ontologies/oa/dwcFP#" uri="http://filteredpush.org/ontologies/oa/dwcFP.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/bspo.owl" uri="ontologies/bspo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/envo.owl" uri="ontologies/envo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/hao.owl" uri="ontologies/hao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/iao.owl" uri="ontologies/iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/pato.owl" uri="ontologies/pato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.obolibrary.org/obo/ro.owl" uri="ontologies/ro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.org/dsw/" uri="ontologies/dsw.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://purl.org/spar/cito/" uri="ontologies/cito.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/Base" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/Base.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/Core" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/Core.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Collection" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Collection.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/CollectionType" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/CollectionType.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/CollectionType" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TermWithSource.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Common" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Common.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/ContactDetails" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/ContactDetails.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/DigitalImage" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/DigitalImage.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/GeographicRegion" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/GeographicRegion.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Institution" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Institution.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/InstitutionType" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/InstitutionType.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Interaction" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonOccurrenceInteraction.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/OccurrenceRecord" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/OccurrenceRecord.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Person" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Person.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Procedure" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Procedure.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/PublicationCitation" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/PublicationCitation.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/SPMInfoItems" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/SPMInfoItems.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/SPMInfoItems" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/OccurrenceStatusTerm.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/SPMInfoItems" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/CyclicityTerm.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/SpeciesProfileModel.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Specimen" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Specimen.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonConcept" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonConcept.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonConcept" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonConcept.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonName" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonName.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonName" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonName.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/TaxonOccurrence" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonOccurrence.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonRank" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonRank.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://rs.tdwg.org/ontology/voc/TaxonRank" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/TaxonRank.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://rs.tdwg.org/ontology/voc/Team" uri="ontologies/tdwg-ontology/v2009-12-18/ontology/voc/Team.rdf"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://treatment.plazi.org/id/" uri="result_rdf/linnaeus_plazi_rdf.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="duplicate:http://treatment.plazi.org/id/" uri="result_rdf/test_result_rdf.xml"/>
+        <uri id="Automatically generated entry, Timestamp=1420660754804" name="http://www.evolutionaryontology.org/cdao/1.0/cdao.owl" uri="ontologies/cdao.owl"/>
+    </group>
 </catalog>
