@@ -1,4 +1,4 @@
-@prefix : <http://plazi.org/treatment.owl#> .
+@prefix : <http://plazi.org/treatment#> .
 @prefix tc: <http://rs.tdwg.org/ontology/voc/TaxonConcept#> .
 @prefix dwc: <http://filteredpush.org/ontologies/oa/dwcFP#> .
 @prefix occ: <http://rs.tdwg.org/ontology/voc/OccurrenceRecord#> .
@@ -10,11 +10,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix core: <http://rs.tdwg.org/ontology/Core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://plazi.org/vocab/treatment#> .
+@base <http://plazi.org/treatment#> .
 
-<http://plazi.org/vocab/treatment#> rdf:type owl:Ontology ;
-                                    
-                                    owl:imports dwc: .
+<http://plazi.org/treatment#> rdf:type owl:Ontology ;
+                              
+                              owl:imports dwc: .
 
 
 #################################################################
@@ -24,7 +24,7 @@
 #################################################################
 
 
-###  http://plazi.org/treatment.owl#biology
+###  http://plazi.org/treatment#biology
 
 :biology rdf:type owl:ObjectProperty ;
          
@@ -34,7 +34,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#citation
+###  http://plazi.org/treatment#citation
 
 :citation rdf:type owl:ObjectProperty ;
           
@@ -46,7 +46,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#definedByTreatment
+###  http://plazi.org/treatment#definedByTreatment
 
 :definedByTreatment rdf:type owl:ObjectProperty ;
                     
@@ -58,7 +58,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#definesTaxon
+###  http://plazi.org/treatment#definesTaxon
 
 :definesTaxon rdf:type owl:ObjectProperty ;
               
@@ -66,7 +66,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#definesTaxonConcept
+###  http://plazi.org/treatment#definesTaxonConcept
 
 :definesTaxonConcept rdf:type owl:ObjectProperty ;
                      
@@ -78,7 +78,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#description
+###  http://plazi.org/treatment#description
 
 :description rdf:type owl:ObjectProperty ;
              
@@ -88,7 +88,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#diagnosis
+###  http://plazi.org/treatment#diagnosis
 
 :diagnosis rdf:type owl:ObjectProperty ;
            
@@ -96,7 +96,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#distribution
+###  http://plazi.org/treatment#distribution
 
 :distribution rdf:type owl:ObjectProperty ;
               
@@ -104,7 +104,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#etymology
+###  http://plazi.org/treatment#etymology
 
 :etymology rdf:type owl:ObjectProperty ;
            
@@ -112,13 +112,13 @@
 
 
 
-###  http://plazi.org/treatment.owl#key
+###  http://plazi.org/treatment#key
 
 :key rdf:type owl:ObjectProperty .
 
 
 
-###  http://plazi.org/treatment.owl#material_examined
+###  http://plazi.org/treatment#material_examined
 
 :material_examined rdf:type owl:ObjectProperty ;
                    
@@ -128,7 +128,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#materials_methods
+###  http://plazi.org/treatment#materials_methods
 
 :materials_methods rdf:type owl:ObjectProperty ;
                    
@@ -136,7 +136,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#multiple
+###  http://plazi.org/treatment#multiple
 
 :multiple rdf:type owl:ObjectProperty ;
           
@@ -144,7 +144,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#name
+###  http://plazi.org/treatment#name
 
 :name rdf:type owl:ObjectProperty ;
       
@@ -154,7 +154,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#publicationCitation
+###  http://plazi.org/treatment#publicationCitation
 
 :publicationCitation rdf:type owl:ObjectProperty ;
                      
@@ -162,7 +162,7 @@
 
 
 
-###  http://plazi.org/treatment.owl#relatedTreatment
+###  http://plazi.org/treatment#relatedTreatment
 
 :relatedTreatment rdf:type owl:ObjectProperty ;
                   
@@ -177,7 +177,7 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 
 
 
-###  http://plazi.org/treatment.owl#treatmentCitation
+###  http://plazi.org/treatment#treatmentCitation
 
 :treatmentCitation rdf:type owl:ObjectProperty ;
                    
@@ -198,7 +198,7 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
-###  http://plazi.org/treatment.owl#synopsis
+###  http://plazi.org/treatment#synopsis
 
 :synopsis rdf:type owl:DatatypeProperty ;
           
@@ -225,11 +225,13 @@ dwc:Taxon rdf:type owl:Class ;
 
 ###  http://plazi.org/sdd.owl#Description
 
-sdd:Description rdf:type owl:Class .
+sdd:Description rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Description .
 
 
 
-###  http://plazi.org/treatment.owl#Author
+###  http://plazi.org/treatment#Author
 
 :Author rdf:type owl:Class ;
         
@@ -237,25 +239,31 @@ sdd:Description rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Citation
+###  http://plazi.org/treatment#Citation
 
 :Citation rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Material
+###  http://plazi.org/treatment#Description
+
+:Description rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Material
 
 :Material rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Nomenclature
+###  http://plazi.org/treatment#Nomenclature
 
 :Nomenclature rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Treatment
+###  http://plazi.org/treatment#Treatment
 
 :Treatment rdf:type owl:Class .
 
