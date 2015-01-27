@@ -82,7 +82,7 @@
 
 :description rdf:type owl:ObjectProperty ;
              
-             rdfs:range sdd:Description ;
+             rdfs:range :Description ;
              
              rdfs:domain :Treatment .
 
@@ -122,9 +122,9 @@
 
 :material_examined rdf:type owl:ObjectProperty ;
                    
-                   rdfs:range :Material ;
+                   rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
                    
-                   rdfs:domain :Treatment .
+                   rdfs:range :Material .
 
 
 
@@ -133,14 +133,6 @@
 :materials_methods rdf:type owl:ObjectProperty ;
                    
                    rdfs:domain :Treatment .
-
-
-
-###  http://plazi.org/treatment#multiple
-
-:multiple rdf:type owl:ObjectProperty ;
-          
-          rdfs:domain :Treatment .
 
 
 
