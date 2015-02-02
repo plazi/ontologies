@@ -1,6 +1,5 @@
 @prefix : <http://plazi.org/treatment#> .
 @prefix tc: <http://rs.tdwg.org/ontology/voc/TaxonConcept#> .
-@prefix dwc: <http://filteredpush.org/ontologies/oa/dwcFP#> .
 @prefix occ: <http://rs.tdwg.org/ontology/voc/OccurrenceRecord#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,11 +9,12 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix core: <http://rs.tdwg.org/ontology/Core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dwcOwl: <http://filteredpush.org/ontologies/oa/dwcFP#> .
 @base <http://plazi.org/treatment#> .
 
 <http://plazi.org/treatment#> rdf:type owl:Ontology ;
                               
-                              owl:imports dwc: .
+                              owl:imports dwcOwl: .
 
 
 #################################################################
@@ -62,7 +62,13 @@
 
 :definesTaxon rdf:type owl:ObjectProperty ;
               
-              rdfs:comment "should be removed in favor of definesTaxonConcept" .
+              rdfs:comment "should be removed in favor of definesTaxonConcept" ;
+              
+              rdfs:range dwcOwl:Taxon ;
+              
+              rdfs:domain :Treatment ;
+              
+              owl:equivalentProperty :definesTaxonConcept .
 
 
 
@@ -82,6 +88,8 @@
 
 :description rdf:type owl:ObjectProperty ;
              
+             rdfs:comment "Should have Taxon as subject" ;
+             
              rdfs:range :Description ;
              
              rdfs:domain :Treatment .
@@ -91,6 +99,8 @@
 ###  http://plazi.org/treatment#diagnosis
 
 :diagnosis rdf:type owl:ObjectProperty ;
+           
+           rdfs:comment "should perhaps be hasDiagnosis if" ;
            
            rdfs:domain :Treatment .
 
@@ -124,7 +134,9 @@
                    
                    rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
                    
-                   rdfs:range :Material .
+                   rdfs:range :Material ;
+                   
+                   rdfs:domain :Treatment .
 
 
 
@@ -142,7 +154,10 @@
       
       rdfs:range :Nomenclature ;
       
-      rdfs:domain :Treatment .
+      rdfs:domain :Treatment ;
+      
+      rdfs:seeAlso <http://rs.tdwg.org/dwc/terms/scientificName> ,
+                   <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> .
 
 
 
@@ -150,7 +165,9 @@
 
 :publicationCitation rdf:type owl:ObjectProperty ;
                      
-                     rdfs:subPropertyOf :citation .
+                     rdfs:subPropertyOf :citation ;
+                     
+                     rdfs:seeAlso <http://rs.tdwg.org/dwc/terms/namePublishedIn> .
 
 
 
@@ -190,6 +207,16 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
+###  http://plazi.org/treatment#descriptionText
+
+:descriptionText rdf:type owl:DatatypeProperty ;
+                 
+                 rdfs:subPropertyOf dwcOwl:taxonProperty ;
+                 
+                 rdfs:seeAlso :description .
+
+
+
 ###  http://plazi.org/treatment#synopsis
 
 :synopsis rdf:type owl:DatatypeProperty ;
@@ -209,9 +236,9 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 
 ###  http://filteredpush.org/ontologies/oa/dwcFP#Taxon
 
-dwc:Taxon rdf:type owl:Class ;
-          
-          owl:equivalentClass tc:TaxonConcept .
+dwcOwl:Taxon rdf:type owl:Class ;
+             
+             owl:equivalentClass tc:TaxonConcept .
 
 
 
