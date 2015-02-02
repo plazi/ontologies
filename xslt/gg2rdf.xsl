@@ -28,7 +28,7 @@
     </xsl:template>
     <xsl:template match="treatment">
         
-        <rdf:RDF xmlns="{@httpUri}">
+        <rdf:RDF>
             <rdf:Description
                 rdf:about="{$treatmentID}">
                 <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
