@@ -314,6 +314,30 @@ sdd:Description rdf:type owl:Class ;
 
 
 
+###  http://plazi.org/treatment#Diagnosis
+
+:Diagnosis rdf:type owl:Class ;
+           
+           rdfs:subClassOf spm:InfoItem .
+
+
+
+###  http://plazi.org/treatment#Etymology
+
+:Etymology rdf:type owl:Class ;
+           
+           rdfs:subClassOf spm:InfoItem .
+
+
+
+###  http://plazi.org/treatment#Key
+
+:Key rdf:type owl:Class ;
+     
+     rdfs:subClassOf spm:InfoItem .
+
+
+
 ###  http://plazi.org/treatment#Material
 
 :Material rdf:type owl:Class .
