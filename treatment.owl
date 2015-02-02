@@ -198,7 +198,9 @@
                    
                    rdfs:range :Material ;
                    
-                   rdfs:domain :Treatment .
+                   rdfs:domain :Treatment ;
+                   
+                   rdfs:subPropertyOf owl:topObjectProperty .
 
 
 
@@ -206,7 +208,11 @@
 
 :materials_methods rdf:type owl:ObjectProperty ;
                    
-                   rdfs:domain :Treatment .
+                   rdfs:range :MaterialsMethods ;
+                   
+                   rdfs:domain :Treatment ;
+                   
+                   rdfs:subPropertyOf :hasInformation .
 
 
 
@@ -359,6 +365,14 @@ sdd:Description rdf:type owl:Class ;
 ###  http://plazi.org/treatment#Material
 
 :Material rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#MaterialsMethods
+
+:MaterialsMethods rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf spm:InfoItem .
 
 
 
