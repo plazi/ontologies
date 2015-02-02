@@ -32,6 +32,8 @@
          
          rdfs:comment "BiologyEcologyFrom biological parts of div enumeration:BiologyEcology"^^rdfs:Literal ;
          
+         rdfs:range :Biology ;
+         
          rdfs:domain :Treatment ;
          
          rdfs:subPropertyOf :hasInformation .
@@ -94,6 +96,8 @@
            
            rdfs:comment "should perhaps be hasDiagnosis if" ;
            
+           rdfs:range :Diagnosis ;
+           
            rdfs:domain :Treatment ;
            
            rdfs:subPropertyOf :hasInformation .
@@ -104,6 +108,8 @@
 
 :distribution rdf:type owl:ObjectProperty ;
               
+              rdfs:range :Distribution ;
+              
               rdfs:domain :Treatment ;
               
               rdfs:subPropertyOf :hasInformation .
@@ -113,6 +119,8 @@
 ###  http://plazi.org/treatment#etymology
 
 :etymology rdf:type owl:ObjectProperty ;
+           
+           rdfs:range :Etymology ;
            
            rdfs:domain :Treatment ;
            
@@ -175,6 +183,8 @@
 ###  http://plazi.org/treatment#key
 
 :key rdf:type owl:ObjectProperty ;
+     
+     rdfs:range :Key ;
      
      rdfs:subPropertyOf :hasInformation .
 
@@ -319,6 +329,14 @@ sdd:Description rdf:type owl:Class ;
 :Diagnosis rdf:type owl:Class ;
            
            rdfs:subClassOf spm:InfoItem .
+
+
+
+###  http://plazi.org/treatment#Distribution
+
+:Distribution rdf:type owl:Class ;
+              
+              rdfs:subClassOf spm:InfoItem .
 
 
 
