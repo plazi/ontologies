@@ -253,13 +253,23 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
+###  http://filteredpush.org/ontologies/oa/dwcFP#taxonProperty
+
+dwcOwl:taxonProperty rdfs:domain tc:TaxonConcept .
+
+
+
 ###  http://plazi.org/treatment#descriptionText
 
 :descriptionText rdf:type owl:DatatypeProperty ;
                  
                  rdfs:subPropertyOf dwcOwl:taxonProperty ;
                  
-                 rdfs:seeAlso :description .
+                 rdfs:seeAlso :description ;
+                 
+                 rdfs:domain tc:TaxonConcept ;
+                 
+                 rdfs:range xsd:string .
 
 
 
