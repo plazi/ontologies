@@ -28,7 +28,7 @@
     </xsl:template>
     <xsl:template match="treatment">
         
-        <rdf:RDF xmlns="{@httpUri}">
+        <rdf:RDF>
             <rdf:Description
                 rdf:about="{$treatmentID}">
                 <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
@@ -55,10 +55,10 @@
         </rdf:Description>
     </xsl:template>
     <xsl:template match="materialsCitation" mode="object">
-        <trt:material_examined rdf:resource="{$treatmentID}/#material_{position()}"/>
+        <trt:material_examined rdf:resource="{$treatmentID}#material_{position()}"/>
     </xsl:template>
     <xsl:template match="materialsCitation" mode="subject">
-        <rdf:Description rdf:about="{$treatmentID}/#material_{position()}">
+        <rdf:Description rdf:about="{$treatmentID}#material_{position()}">
             <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
             <xsl:apply-templates select="@*"/>
         </rdf:Description>
