@@ -1,5 +1,6 @@
 @prefix : <http://plazi.org/treatment#> .
 @prefix tc: <http://rs.tdwg.org/ontology/voc/TaxonConcept#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
 @prefix occ: <http://rs.tdwg.org/ontology/voc/OccurrenceRecord#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -10,12 +11,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix core: <http://rs.tdwg.org/ontology/Core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
+@prefix dwcIRI: <http://rs.tdwg.org/dwc/iri/> .
 @prefix dwcOwl: <http://filteredpush.org/ontologies/oa/dwcFP#> .
 @base <http://plazi.org/treatment#> .
 
 <http://plazi.org/treatment#> rdf:type owl:Ontology ;
                               
-                              owl:imports dwcOwl: ,
+                              owl:imports dwcFP: ,
                                           voc:SpeciesProfileModel .
 
 
@@ -58,7 +61,7 @@
               
               rdfs:comment "should be removed in favor of definesTaxonConcept" ;
               
-              rdfs:range dwcOwl:Taxon ;
+              rdfs:range dwcFP:Taxon ;
               
               rdfs:domain :Treatment ;
               
@@ -164,7 +167,7 @@
                         
                         rdfs:subPropertyOf :hasCitation ;
                         
-                        rdfs:seeAlso <http://rs.tdwg.org/dwc/terms/namePublishedIn> .
+                        rdfs:seeAlso dwc:namePublishedIn .
 
 
 
@@ -224,8 +227,8 @@
       
       rdfs:domain :Treatment ;
       
-      rdfs:seeAlso <http://rs.tdwg.org/dwc/terms/scientificName> ,
-                   <http://rs.tdwg.org/dwc/terms/scientificNameAuthorship> .
+      rdfs:seeAlso dwc:scientificName ,
+                   dwc:scientificNameAuthorship .
 
 
 
@@ -255,7 +258,9 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 
 ###  http://filteredpush.org/ontologies/oa/dwcFP#taxonProperty
 
-dwcOwl:taxonProperty rdfs:domain tc:TaxonConcept .
+dwcOwl:taxonProperty rdf:type owl:DatatypeProperty ;
+                     
+                     rdfs:domain tc:TaxonConcept .
 
 
 
@@ -296,11 +301,11 @@ dwcOwl:taxonProperty rdfs:domain tc:TaxonConcept .
 #################################################################
 
 
-###  http://filteredpush.org/ontologies/oa/dwcFP#Taxon
+###  http://filteredpush.org/ontologies/FP/2.0/dwcFP#Taxon
 
-dwcOwl:Taxon rdf:type owl:Class ;
-             
-             owl:equivalentClass tc:TaxonConcept .
+dwcFP:Taxon rdf:type owl:Class ;
+            
+            owl:equivalentClass tc:TaxonConcept .
 
 
 
