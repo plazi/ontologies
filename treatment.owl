@@ -47,11 +47,11 @@
 
 :definedByTreatment rdf:type owl:ObjectProperty ;
                     
+                    rdfs:domain dwcFP:Taxon ;
+                    
                     rdfs:range :Treatment ;
                     
-                    owl:inverseOf :definesTaxon ;
-                    
-                    rdfs:domain tc:TaxonConcept .
+                    owl:inverseOf :definesTaxon .
 
 
 
@@ -63,9 +63,7 @@
               
               rdfs:range dwcFP:Taxon ;
               
-              rdfs:domain :Treatment ;
-              
-              owl:equivalentProperty :definesTaxonConcept .
+              rdfs:domain :Treatment .
 
 
 
@@ -73,11 +71,9 @@
 
 :definesTaxonConcept rdf:type owl:ObjectProperty ;
                      
-                     rdfs:domain :Treatment ;
+                     rdfs:range dwcFP:Taxon ;
                      
-                     owl:inverseOf :definedByTreatment ;
-                     
-                     rdfs:range tc:TaxonConcept .
+                     rdfs:domain :Treatment .
 
 
 
@@ -256,28 +252,6 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
-###  http://filteredpush.org/ontologies/oa/dwcFP#taxonProperty
-
-dwcOwl:taxonProperty rdf:type owl:DatatypeProperty ;
-                     
-                     rdfs:domain tc:TaxonConcept .
-
-
-
-###  http://plazi.org/treatment#descriptionText
-
-:descriptionText rdf:type owl:DatatypeProperty ;
-                 
-                 rdfs:subPropertyOf dwcOwl:taxonProperty ;
-                 
-                 rdfs:seeAlso :description ;
-                 
-                 rdfs:domain tc:TaxonConcept ;
-                 
-                 rdfs:range xsd:string .
-
-
-
 ###  http://plazi.org/treatment#descriptiveProperty
 
 :descriptiveProperty rdf:type owl:DatatypeProperty .
@@ -303,17 +277,7 @@ dwcOwl:taxonProperty rdf:type owl:DatatypeProperty ;
 
 ###  http://filteredpush.org/ontologies/FP/2.0/dwcFP#Taxon
 
-dwcFP:Taxon rdf:type owl:Class ;
-            
-            owl:equivalentClass tc:TaxonConcept .
-
-
-
-###  http://plazi.org/sdd.owl#Description
-
-sdd:Description rdf:type owl:Class ;
-                
-                rdfs:subClassOf :Description .
+dwcFP:Taxon rdf:type owl:Class .
 
 
 
@@ -418,12 +382,6 @@ occ:OccurrenceRecord rdf:type owl:Class .
 ###  http://rs.tdwg.org/ontology/voc/SpeciesProfileModel#SpeciesProfileModel
 
 spm:SpeciesProfileModel rdf:type owl:Class .
-
-
-
-###  http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept
-
-tc:TaxonConcept rdf:type owl:Class .
 
 
 
