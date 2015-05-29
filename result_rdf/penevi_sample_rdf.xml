@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/">
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <trt:definesTaxonConcept rdf:resource="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <trt:publishedIn rdf:resource="http://dx.doi.org/10.3897/BDJ.1.e957"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <trt:material_examined rdf:resource="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <rdf:type rdf:resource="http://purl.org/spar/fabio/JournalArticle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <dc:title xml:lang="en">The millipede family Paradoxosomatidae in the Philippines, with a description of Eustrongylosoma penevi sp.n., and notes on Anoplodesmus anthracinus Pocock, 1895, recorded in Malaysia and Sri Lanka for the first time (Diplopoda, Polydesmida)</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <dc:date>2013-09-16</dc:date>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <dc:isPartOf rdf:resource="urn:issn:1314-2828"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <bibo:issue>1</bibo:issue>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <dc:creator>Golovatch S</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dx.doi.org/10.3897/BDJ.1.e957">
+    <dc:creator>Stoev P</dc:creator>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:issn:1314-2828">
+    <rdf:type rdf:resource="http://purl.org/ontology/bibo/Journal"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:issn:1314-2828">
+    <dc:title xml:lang="en">Biodiversity Data Journal</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <dwc:genus>Eustrongylosoma</dwc:genus>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <dwc:specificEpithet>penevi</dwc:specificEpithet>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <dwc:scientificNameAuthorship>Golovatch &amp;amp; Stoev, 2013</dwc:scientificNameAuthorship>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <dwc:scientificName>Eustrongylosoma penevi</dwc:scientificName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <dwc:taxonRank>species</dwc:taxonRank>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:lsid:zoobank.org:act:3A600B5D-4791-44CE-AC7C-89BF768789D9">
+    <sdd:hasDescription rdf:resource="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nld"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:typeStatus>Holotype</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:genus>Eustrongylosoma</dwc:genus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:specificEpithet>penevi</dwc:specificEpithet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:scientificNameAuthorship>Golovatch &amp; Stoev, 2013</dwc:scientificNameAuthorship>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:island>Luzon Island</dwc:island>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:country>Philippines</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:stateProvince>Mountain Province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:verbatimLocality>Mt Polis Checkpoint on the road Banaue – Sagada</dwc:verbatimLocality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:verbatimElevation>1800-1900 m</dwc:verbatimElevation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:locationRemarks>under stones and logs</dwc:locationRemarks>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:verbatimLatitude>16°57'58"N</dwc:verbatimLatitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:verbatimLongitude>121°1'37"E</dwc:verbatimLongitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:eventDate>2012-07-06T00:00:00</dwc:eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:individualCount>1</dwc:individualCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:sex>male</dwc:sex>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:recordedBy>P. Stoev &amp; L. Penev</dwc:recordedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material1">
+    <dwc:institutionCode>NMNHS</dwc:institutionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:typeStatus>Paratype</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:genus>Eustrongylosoma</dwc:genus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:specificEpithet>penevi</dwc:specificEpithet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:scientificNameAuthorship>Golovatch &amp; Stoev, 2013</dwc:scientificNameAuthorship>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:island>Luzon Island</dwc:island>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:country>Philippines</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:stateProvince>Mountain Province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:verbatimLocality>Mt Polis Checkpoint on the road Banaue – Sagada</dwc:verbatimLocality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:verbatimElevation>1800-1900 m</dwc:verbatimElevation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:locationRemarks>under stones and logs</dwc:locationRemarks>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:verbatimLatitude>16°57'58"N</dwc:verbatimLatitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:verbatimLongitude>121°1'37"E</dwc:verbatimLongitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:eventDate>2012-07-06T00:00:00</dwc:eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:individualCount>4</dwc:individualCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:sex>male</dwc:sex>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:recordedBy>P. Stoev &amp; L. Penev</dwc:recordedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material2">
+    <dwc:institutionCode>NMNHS</dwc:institutionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:typeStatus>Paratype</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:genus>Eustrongylosoma</dwc:genus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:specificEpithet>penevi</dwc:specificEpithet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:scientificNameAuthorship>Golovatch &amp; Stoev, 2013</dwc:scientificNameAuthorship>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:island>Luzon Island</dwc:island>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:country>Philippines</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:stateProvince>Mountain Province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:verbatimLocality>Mt Polis Checkpoint on the road Banaue – Sagada</dwc:verbatimLocality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:verbatimElevation>1800-1900 m</dwc:verbatimElevation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:locationRemarks>under stones and logs</dwc:locationRemarks>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:verbatimLatitude>16°57'58"N</dwc:verbatimLatitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:verbatimLongitude>121°1'37"E</dwc:verbatimLongitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:eventDate>2012-07-06T00:00:00</dwc:eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:individualCount>1</dwc:individualCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:sex>female</dwc:sex>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:recordedBy>P. Stoev &amp; L. Penev</dwc:recordedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material3">
+    <dwc:institutionCode>NMNHS</dwc:institutionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:typeStatus>Paratype</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:genus>Eustrongylosoma</dwc:genus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:specificEpithet>penevi</dwc:specificEpithet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:scientificNameAuthorship>Golovatch &amp; Stoev, 2013</dwc:scientificNameAuthorship>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:island>Luzon Island</dwc:island>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:country>Philippines</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:stateProvince>Mountain Province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:verbatimLocality>Mt Polis Checkpoint on the road Banaue – Sagada</dwc:verbatimLocality>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:verbatimElevation>1800-1900 m</dwc:verbatimElevation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:locationRemarks>under stones and logs</dwc:locationRemarks>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:verbatimLatitude>16°57'58"N</dwc:verbatimLatitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:verbatimLongitude>121°1'37"E</dwc:verbatimLongitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:eventDate>2012-07-06T00:00:00</dwc:eventDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:individualCount>1</dwc:individualCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:sex>male</dwc:sex>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:recordedBy>P. Stoev &amp; L. Penev</dwc:recordedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/material4">
+    <dwc:institutionCode>ZMUM</dwc:institutionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nld">
+    <rdf:type rdf:resource="http://tdwg.org/sdd#NaturalLanguageDescription"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nld">
+    <sdd:hasContent rdf:resource="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nldContent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nldContent">
+    <rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/3A600B5D-4791-44CE-AC7C-89BF768789D9/nldContent">
+    <cnt:chars>&gt;Length 18-22 (♂) or 23 mm (♀), width of midbody pro- and metazona 1.1-1.3 and 1.5-1.7 mm (♂), or 1.9 and 2.1 mm (♀), respectively. Holotype 22 mm long, width of pro- and metaz ...</cnt:chars>
+  </rdf:Description>
+</rdf:RDF>

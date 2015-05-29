@@ -1,0 +1,1725 @@
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A>
+    dc:creator "Eugene Simon" ;
+    dc:date "1902" ;
+    dc:title "Descriptions de quelques Arachnides nouveaux de la section des Cribellates" ;
+    bibo:endPage "243" ;
+    bibo:journal "Bulletin de la Societe entomologique de France" ;
+    bibo:startPage "240" ;
+    bibo:volume "15" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "10" ;
+    dwc:pageNumber "11" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "egazini" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_1>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_10>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_11>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_12>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_2>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_3>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_4>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_5>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_6>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_7>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_8>, <http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_9> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_1>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024958" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_10>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024960" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_11>
+    dwc:collectionCode "NCA" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.3" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.516666" ;
+    dwc:specimenCode "AcAT 2007 / 1541" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_12>
+    dwc:collectingDate "1914-12" ;
+    dwc:collectionCode "AMG" ;
+    dwc:collectorName "F. Cruden" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-31.467" ;
+    dwc:location "Alicedale" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "25.85" ;
+    dwc:specimenCount "8" ;
+    dwc:specimenCount-female "6" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_2>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024985" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_3>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024962" ;
+    dwc:specimenCount "3" ;
+    dwc:specimenCount-female "2" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_4>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024964" ;
+    dwc:specimenCount "3" ;
+    dwc:specimenCount-female "2" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_5>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024957" ;
+    dwc:specimenCount "9" ;
+    dwc:specimenCount-female "4" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_6>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024965" ;
+    dwc:specimenCount "18" ;
+    dwc:specimenCount-female "3" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_7>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9024961" ;
+    dwc:specimenCount "4" ;
+    dwc:specimenCount-female "3" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_8>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9023774" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/3E2BBACF9E0F3E8D46FABA401D308399/#material_9>
+    dwc:collectingDate "2006-02-10" ;
+    dwc:collectingDateMax "2006-02-19" ;
+    dwc:collectingDateMin "2006-02-10" ;
+    dwc:collectionCode "CAS" ;
+    dwc:collectorName "J. Miller, H. Wood, L. Lotz" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "580 m" ;
+    dwc:latitude "-33.319435" ;
+    dwc:location "Grahamstown Municipal Caravan Park" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "26.523767" ;
+    dwc:specimenCode "CASENT 9023775" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authorityName "Lehtinen" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Wajane" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "null" ;
+    dwc:pageNumber "409" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "armata" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B>
+    dc:creator "Pekka T. Lehtinen" ;
+    dc:date "1967" ;
+    dc:title "Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha" ;
+    bibo:endPage "468" ;
+    bibo:journal "Annales Zoologici Fennici" ;
+    bibo:startPage "199" ;
+    bibo:volume "4" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05/#material_1>
+    dwc:collectingDate "1916-01" ;
+    dwc:collectionCode "MHNG" ;
+    dwc:collectorName "F. Cruden" ;
+    dwc:country "South Africa" ;
+    dwc:location "Alicedale" ;
+    dwc:pageId "null" ;
+    dwc:pageNumber "410" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Simon" ;
+    dwc:authorityName "Simon" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "0" ;
+    dwc:pageNumber "131" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "genus", "species" ;
+    dwc:species "planus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "24" ;
+    dwc:pageNumber "25" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "kruger" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA/#material_1>, <http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA/#material_2> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA/#material_1>
+    dwc:collectingDate "1984-04-07" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "A. Leroy" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-24.0" ;
+    dwc:location "Mid Plateau, Kruger National Park" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "31.5" ;
+    dwc:specimenCode "AcAT 98 / 283, LR 1248" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Limpopo" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/01A1857D5A4726421C572AB9E53EC3BA/#material_2>
+    dwc:collectingDate "1984-04-07" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "A. Leroy" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-24.0" ;
+    dwc:location "Mid Plateau, Kruger National Park" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "31.5" ;
+    dwc:specimenCode "AcAT 98 / 283, LR 1248" ;
+    dwc:specimenCount "6" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Limpopo" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Simon, 1902" ;
+    dwc:authorityName "Simon" ;
+    dwc:authorityYear "1902" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "23" ;
+    dwc:pageNumber "24" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "planus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_1>, <http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_2>, <http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_3> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_1>
+    dwc:collectionCode "MNHN" ;
+    dwc:collectorName "D. H. Brauns" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.166668" ;
+    dwc:location "Willowmore" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "23.35" ;
+    dwc:specimenCode "AR 14375, 21716" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_2>
+    dwc:collectingDate "1901" ;
+    dwc:collectionCode "SAM" ;
+    dwc:collectorName "J. A. O'Neil" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.75" ;
+    dwc:location "Dunbrody, Uitenhage District" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "25.383333" ;
+    dwc:specimenCode "11608 SAM-ENW-X 011608" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_3>
+    dwc:collectingDate "1896-04" ;
+    dwc:collectionCode "SAM" ;
+    dwc:collectorName "W. F. Purcell" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-34.166668" ;
+    dwc:location "Mossel Bay" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "22.116667" ;
+    dwc:specimenCode "912 - 4196 SAM-ENW-X 000912" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Western Cape" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "18" ;
+    dwc:pageNumber "19" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "montanus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_1>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_10>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_2>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_3>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_4>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_5>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_6>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_7>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_8>, <http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_9> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_1>
+    dwc:collectingDate "2003-11-09" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "C. Haddad" ;
+    dwc:country "Lesotho" ;
+    dwc:elevation "1820 m" ;
+    dwc:latitude "-30.092" ;
+    dwc:location "near Ha Mphahama" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.595766" ;
+    dwc:specimenCode "AcAT 2006 / 1534" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Qacha's Nek Distr" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_10>
+    dwc:collectingDate "2005-12-10" ;
+    dwc:collectingMethod "active ground searching" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1491 m" ;
+    dwc:latitude "-31.1159" ;
+    dwc:location "Prentjiesberg (Site No. 46)" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "28.1745" ;
+    dwc:specimenCode "AcAT 2006 / 1536, MDTP 6743" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_2>
+    dwc:collectingDate "2003-11-09" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "C. Haddad" ;
+    dwc:country "Lesotho" ;
+    dwc:elevation "1820 m" ;
+    dwc:latitude "-30.092" ;
+    dwc:location "near Ha Mphahama" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.595766" ;
+    dwc:specimenCode "AcAT 2006 / 1535" ;
+    dwc:specimenCount "9" ;
+    dwc:specimenCount-female "4" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Qacha's Nek Distr" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_3>
+    dwc:collectingDate "2005-11-28" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN [University of KwaZulu Natal, Pietermaritzburg] staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1748 m" ;
+    dwc:latitude "-30.16502" ;
+    dwc:location "Qacha's Nek (Site No. 30)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.62045" ;
+    dwc:specimenCode "AcAT 2006 / 1538, MDTP 5192" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_4>
+    dwc:collectingDate "2005-11-28" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN [University of KwaZulu Natal, Pietermaritzburg] staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1748 m" ;
+    dwc:latitude "-30.16502" ;
+    dwc:location "Qacha's Nek (Site No. 30)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.62045" ;
+    dwc:specimenCode "AcAT 2006 / 1547, MDTP 2082" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_5>
+    dwc:collectingDate "2005-11-28" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN [University of KwaZulu Natal, Pietermaritzburg] staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1748 m" ;
+    dwc:latitude "-30.16502" ;
+    dwc:location "Qacha's Nek (Site No. 30)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.62045" ;
+    dwc:specimenCode "AcAT 2006 / 1542, MDTP 7053" ;
+    dwc:specimenCount "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_6>
+    dwc:collectingDate "2005-11-30" ;
+    dwc:collectingMethod "active ground searching" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1829 m" ;
+    dwc:latitude "-30.15118" ;
+    dwc:location "Qacha's Nek (Site No. 33)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.62637" ;
+    dwc:specimenCode "AcAT 2006 / 1541, MDTP 77378" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_7>
+    dwc:collectingDate "2005-11-30" ;
+    dwc:collectingMethod "active ground searching" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1829 m" ;
+    dwc:latitude "-30.15118" ;
+    dwc:location "Qacha's Nek (Site No. 33)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.62637" ;
+    dwc:specimenCode "AcAT 2006 / 1537, MDTP 5483" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_8>
+    dwc:collectingDate "2005-12-02" ;
+    dwc:collectingMethod "active ground searching" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1692 m" ;
+    dwc:latitude "-30.15538" ;
+    dwc:location "Qacha's Nek (Site No. 36)" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "28.59319" ;
+    dwc:specimenCode "AcAT 2006 / 1540, MDTP 5888" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7/#material_9>
+    dwc:collectingDate "2005-12-10" ;
+    dwc:collectingMethod "active ground searching" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "UKZN staff" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1482 m" ;
+    dwc:latitude "-31.1159" ;
+    dwc:location "Prentjiesberg (Site No. 45)" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "28.1745" ;
+    dwc:specimenCode "AcAT 2006 / 1539, MDTP 78909" ;
+    dwc:specimenCount "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Simon" ;
+    dwc:authorityName "Simon" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "2" ;
+    dwc:pageNumber "133" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "planus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/628EB044913A71C015B9DD5A3A1E2F42>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/628EB044913A71C015B9DD5A3A1E2F42/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/628EB044913A71C015B9DD5A3A1E2F42/#material_1>
+    dwc:collectionCode "MNHN" ;
+    dwc:collectorName "H. Brauns" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.166668" ;
+    dwc:location "Willowmore" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "23.35" ;
+    dwc:pageId "2" ;
+    dwc:pageNumber "133" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCountFemale "1" ;
+    dwc:stateProvince "Cape Province" ;
+    dwc:typeStatus "holotype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A>
+    dc:creator "Eugene Simon" ;
+    dc:date "1902" ;
+    dc:title "Descriptions de quelques Arachnides nouveaux de la section des Cribellates" ;
+    bibo:endPage "243" ;
+    bibo:journal "Bulletin de la Societe entomologique de France" ;
+    bibo:startPage "240" ;
+    bibo:volume "15" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Wajane" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "3" ;
+    dwc:pageNumber "134" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "stilleri" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/78086224E0F731F3805BDDB020C16409>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/78086224E0F731F3805BDDB020C16409/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/78086224E0F731F3805BDDB020C16409/#material_1>
+    dwc:collectingDate "1975-08-03" ;
+    dwc:collectingMethod "found in silk-lined tunnels under exfoliated section of rock, in a boulder" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "M. Stiller" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "300 m" ;
+    dwc:latitude "-33.75" ;
+    dwc:location "Donkerkloof, Du Toit's kloof, Paarl" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "18.833334" ;
+    dwc:pageId "3" ;
+    dwc:pageNumber "134" ;
+    dwc:specimenCode "88 / 29" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCountFemale "1" ;
+    dwc:specimenCountOther "1" ;
+    dwc:typeStatus "holotype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "null" ;
+    dwc:pageNumber "257" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "genus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B>
+    dc:creator "Pekka T. Lehtinen" ;
+    dc:date "1967" ;
+    dc:title "Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha" ;
+    bibo:endPage "468" ;
+    bibo:journal "Annales Zoologici Fennici" ;
+    bibo:startPage "199" ;
+    bibo:volume "4" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:pageId "null" ;
+    dwc:pageNumber "979" ;
+    dwc:rank "subFamily" ;
+    dwc:subFamily "Penestominae" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B>
+    dc:creator "Eugene Simon" ;
+    dc:title "Histoire naturelle des Araignees. T. 2, fasc 4" .
+
+<http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "26" ;
+    dwc:pageNumber "27" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "zulu" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7/#material_1>
+    dwc:collectingDate "1918-02" ;
+    dwc:collectionCode "SAM" ;
+    dwc:collectorName "W. E. Jones" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-27.283333" ;
+    dwc:location "Mfongosi, Zululand" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "32.15" ;
+    dwc:specimenCode "B 4176 SAM-ENW-B 004176" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "KwaZulu Natal" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Dippenaar-Schoeman, 1989" ;
+    dwc:authorityName "Dippenaar-Schoeman" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "29" ;
+    dwc:pageNumber "30" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "stilleri" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_1>, <http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_2>, <http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_3> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_1>
+    dwc:collectingDate "1975-08-03" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "M. Stiller" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "300 m" ;
+    dwc:latitude "-33.75" ;
+    dwc:location "Paarl Du Toit's Kloof, Donkerkloof" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "18.833334" ;
+    dwc:specimenCode "AcAT 88 / 29" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Western Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_2>
+    dwc:collectingDate "1916-11-20" ;
+    dwc:collectionCode "SAM" ;
+    dwc:collectorName "Tucker" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1341 - 1676 m" ;
+    dwc:latitude "-33.1" ;
+    dwc:location "Winterhoek" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "19.13" ;
+    dwc:specimenCode "B 2686 SAM-ENW-B 002686" ;
+    dwc:specimenCount "8" ;
+    dwc:specimenCount-female "3" ;
+    dwc:stateProvince "Western Cape" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_3>
+    dwc:collectingDate "1916-11-20" ;
+    dwc:collectionCode "SAM" ;
+    dwc:collectorName "Tucker" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1524 - 1707 m" ;
+    dwc:latitude "-33.1" ;
+    dwc:location "Winterhoek" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "19.13" ;
+    dwc:municipality "Winterhoek" ;
+    dwc:specimenCode "B 2853 SAM-ENW-B 002853" ;
+    dwc:specimenCount "3" ;
+    dwc:specimenCount-female "2" ;
+    dwc:stateProvince "Western Cape" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authorityName "E. Simon" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "null" ;
+    dwc:pageNumber "980" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "genus", "species" ;
+    dwc:species "planus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B>
+    dc:creator "Eugene Simon" ;
+    dc:title "Histoire naturelle des Araignees. T. 2, fasc 4" .
+
+<http://treatment.plazi.org/id/C81D4B1FF0C7D60F86EDA9FA99A7F997>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "22" ;
+    dwc:pageNumber "23" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "prendinii" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E/#material_1>, <http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E/#material_2> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E/#material_1>
+    dwc:collectingDate "2007-03-08" ;
+    dwc:collectionCode "AMNH" ;
+    dwc:collectorName "L. Prendini, H. Bichard" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1449 m" ;
+    dwc:latitude "-32.068733" ;
+    dwc:location "site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "22.756083" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Western Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E/#material_2>
+    dwc:collectingDate "2007-03-08" ;
+    dwc:collectionCode "AMNH" ;
+    dwc:collectorName "L. Prendini, H. Bichard" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "1449 m" ;
+    dwc:latitude "-32.068733" ;
+    dwc:location "site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73" ;
+    dwc:longLatPrecision "0" ;
+    dwc:longitude "22.756083" ;
+    dwc:specimenCount "6" ;
+    dwc:specimenCount-female "2" ;
+    dwc:stateProvince "Western Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Simon, 1902" ;
+    dwc:authorityName "Simon" ;
+    dwc:authorityYear "1902" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "5" ;
+    dwc:pageNumber "6" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "genus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Dippenaar-Schoeman, 1989" ;
+    dwc:authorityName "Dippenaar-Schoeman" ;
+    dwc:authorityYear "1989" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "27" ;
+    dwc:pageNumber "28" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "croeseri" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_1>, <http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_2>, <http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_3> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_1>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:specimenCode "AcAT 87 / 249" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_2>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:specimenCode "AcAT 87 / 249 a" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A/#material_3>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:specimenCode "AcAT 87 / 249 b" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-female "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Paratypes" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Simon, 1903" ;
+    dwc:authorityName "Simon" ;
+    dwc:authorityYear "1903" ;
+    dwc:family "Penestomidae" ;
+    dwc:pageId "4" ;
+    dwc:pageNumber "5" ;
+    dwc:rank "family" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Lehtinen" ;
+    dwc:authorityName "Lehtinen" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Wajane" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "2" ;
+    dwc:pageNumber "133" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "genus", "species" ;
+    dwc:species "armata" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/F810A2A83567FA92BD7AD19EAF61629D>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "1" ;
+    dwc:pageNumber "132" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "croeseri" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_1>, <http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_2>, <http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_3> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_1>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectingMethod "collected in riverine bush from soil surface" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:pageId "1" ;
+    dwc:pageNumber "132" ;
+    dwc:specimenCode "87 / 249" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCountFemale "1" ;
+    dwc:typeStatus "holotype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_2>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectingMethod "collected in riverine bush from soil surface" ;
+    dwc:collectionCode "Natal Museum, Pietermaritzburg" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:pageId "1" ;
+    dwc:pageNumber "132" ;
+    dwc:specimenCode "87 / 249" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCountFemale "2" ;
+    dwc:typeStatus "Paratype" ;
+    a trt:Material .
+
+<http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D/#material_3>
+    dwc:collectingDate "1980-01-01" ;
+    dwc:collectingMethod "collected in riverine bush from soil surface" ;
+    dwc:collectionCode "NCA" ;
+    dwc:collectorName "P. Croeser, P. Hawkes" ;
+    dwc:country "South Africa" ;
+    dwc:elevation "500 m" ;
+    dwc:latitude "-33.316666" ;
+    dwc:location "Grahamstown" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.533333" ;
+    dwc:pageId "1" ;
+    dwc:pageNumber "132" ;
+    dwc:specimenCode "87 / 249" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCountFemale "2" ;
+    dwc:typeStatus "Paratype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Lehtinen" ;
+    dwc:authorityName "Lehtinen" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Wajane" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "3" ;
+    dwc:pageNumber "134" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "armata" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68>
+    dc:creator "Anna S. Dippenaar-Schoeman" ;
+    dc:date "1989" ;
+    dc:title "The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species" ;
+    bibo:endPage "134" ;
+    bibo:journal "Phytophylactica" ;
+    bibo:startPage "131" ;
+    bibo:volume "21" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1/#material_1>
+    dwc:collectingDate "1916-01" ;
+    dwc:collectionCode "MHNG" ;
+    dwc:collectorName "F. Cruden" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.266666" ;
+    dwc:location "Alicedale" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.033333" ;
+    dwc:pageId "3" ;
+    dwc:pageNumber "134" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCountMale "1" ;
+    dwc:stateProvince "Cape Province" ;
+    dwc:typeStatus "holotype" ;
+    a trt:Material .
+
+@base <FILE> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix : <{@httpUri}> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/concept/id/d1>
+    dwc:authority "Lehtinen, 1967" ;
+    dwc:authorityName "Lehtinen" ;
+    dwc:authorityYear "1967" ;
+    dwc:class "Arachnida" ;
+    dwc:family "Eresidae" ;
+    dwc:genus "Penestomus" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "30" ;
+    dwc:pageNumber "31" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "armatus" ;
+    a dwcFP:TaxonConcept .
+
+<http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C>
+    dc:creator "Charles E. Griswold", "Charles R. Haddad", "Jeremy A. Miller" ;
+    dc:date "2010" ;
+    dc:title "Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)" ;
+    bibo:endPage "36" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "2534" ;
+    a <fabio:JournalArticle> .
+
+<http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC>
+    trt:definesTaxonConcept <http://example.org/concept/id/d1> ;
+    trt:material_examined <http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC/#material_1> ;
+    trt:publishedIn <http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C> ;
+    a trt:Treatment .
+
+<http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC/#material_1>
+    dwc:collectingDate "1916-01" ;
+    dwc:collectionCode "MHNG" ;
+    dwc:collectorName "F. Cruden" ;
+    dwc:country "South Africa" ;
+    dwc:latitude "-33.266666" ;
+    dwc:location "Alicedale" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "26.033333" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Eastern Cape" ;
+    dwc:typeStatus "Holotype" ;
+    a trt:Material .
+

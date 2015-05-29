@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_1"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_2"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+      <dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+      <dc:creator>Jeremy A. Miller</dc:creator>
+      <dc:creator>Charles E. Griswold</dc:creator>
+      <dc:creator>Charles R. Haddad</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Zootaxa</bibo:journal>
+      <dc:date>2010</dc:date>
+      <bibo:volume>2534</bibo:volume>
+      <bibo:startPage>1</bibo:startPage>
+      <bibo:endPage>36</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:authority>Dippenaar-Schoeman, 1989</dwc:authority>
+      <dwc:authorityName>Dippenaar-Schoeman</dwc:authorityName>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Penestomus</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>29</dwc:pageId>
+      <dwc:pageNumber>30</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>stilleri</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1975-08-03</dwc:collectingDate>
+      <dwc:collectionCode>NCA</dwc:collectionCode>
+      <dwc:collectorName>M. Stiller</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>300 m</dwc:elevation>
+      <dwc:latitude>-33.75</dwc:latitude>
+      <dwc:location>Paarl Du Toit's Kloof, Donkerkloof</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>18.833334</dwc:longitude>
+      <dwc:specimenCode>AcAT 88 / 29</dwc:specimenCode>
+      <dwc:specimenCount>2</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Western Cape</dwc:stateProvince>
+      <dwc:typeStatus>Holotype</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_2">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1916-11-20</dwc:collectingDate>
+      <dwc:collectionCode>SAM</dwc:collectionCode>
+      <dwc:collectorName>Tucker</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1341 - 1676 m</dwc:elevation>
+      <dwc:latitude>-33.1</dwc:latitude>
+      <dwc:location>Winterhoek</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>19.13</dwc:longitude>
+      <dwc:specimenCode>B 2686 SAM-ENW-B 002686</dwc:specimenCode>
+      <dwc:specimenCount>8</dwc:specimenCount>
+      <dwc:specimenCount-female>3</dwc:specimenCount-female>
+      <dwc:stateProvince>Western Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1/#material_3">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1916-11-20</dwc:collectingDate>
+      <dwc:collectionCode>SAM</dwc:collectionCode>
+      <dwc:collectorName>Tucker</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:elevation>1524 - 1707 m</dwc:elevation>
+      <dwc:latitude>-33.1</dwc:latitude>
+      <dwc:location>Winterhoek</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>19.13</dwc:longitude>
+      <dwc:municipality>Winterhoek</dwc:municipality>
+      <dwc:specimenCode>B 2853 SAM-ENW-B 002853</dwc:specimenCode>
+      <dwc:specimenCount>3</dwc:specimenCount>
+      <dwc:specimenCount-female>2</dwc:specimenCount-female>
+      <dwc:stateProvince>Western Cape</dwc:stateProvince>
+   </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,276 @@
+@prefix : <http://tdwg.org/SDD.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://tdwg.org/SDD.owl> .
+
+<http://tdwg.org/SDD.owl> rdf:type owl:Ontology ;
+                          
+                          owl:imports <http://www.w3.org/2011/content> .
+
+
+#################################################################
+#
+#    Object Properties
+#
+#################################################################
+
+
+###  http://tdwg.org/SDD.owl#hasCategoricalState
+
+:hasCategoricalState rdf:type owl:ObjectProperty ;
+                     
+                     rdfs:domain :CategoricalCharacter ;
+                     
+                     rdfs:range :CategoricalState ;
+                     
+                     rdfs:subPropertyOf :hasState .
+
+
+
+###  http://tdwg.org/SDD.owl#hasDescription
+
+:hasDescription rdf:type owl:ObjectProperty ;
+                
+                rdfs:comment "Applies to TaxonConcept objects" ;
+                
+                rdfs:range :Description .
+
+
+
+###  http://tdwg.org/SDD.owl#hasQuantitativeState
+
+:hasQuantitativeState rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:domain :QuantitativeCharacter ;
+                      
+                      rdfs:range :QuantitativeState ;
+                      
+                      rdfs:subPropertyOf :hasState .
+
+
+
+###  http://tdwg.org/SDD.owl#hasSequenceState
+
+:hasSequenceState rdf:type owl:ObjectProperty ;
+                  
+                  rdfs:domain :SequenceCharacter ;
+                  
+                  rdfs:range :SequenceState ;
+                  
+                  rdfs:subPropertyOf :hasState .
+
+
+
+###  http://tdwg.org/SDD.owl#hasState
+
+:hasState rdf:type owl:ObjectProperty ;
+          
+          rdfs:domain :Character ;
+          
+          rdfs:range :State .
+
+
+
+###  http://tdwg.org/SDD.owl#hasTextState
+
+:hasTextState rdf:type owl:ObjectProperty ;
+              
+              rdfs:domain :TextCharacter ;
+              
+              rdfs:range :TextState ;
+              
+              rdfs:subPropertyOf :hasState .
+
+
+
+###  http://tdwg.org/SDD.owl#naturalLangageData
+
+:naturalLangageData rdf:type owl:ObjectProperty .
+
+
+
+
+
+#################################################################
+#
+#    Data properties
+#
+#################################################################
+
+
+###  http://tdwg.org/SDD.owl#hasMarkupText
+
+:hasMarkupText rdf:type owl:DatatypeProperty ;
+               
+               rdfs:range xsd:string .
+
+
+
+###  http://tdwg.org/SDD.owl#label
+
+:label rdf:type owl:DatatypeProperty ;
+       
+       rdfs:range rdfs:Literal .
+
+
+
+
+
+#################################################################
+#
+#    Classes
+#
+#################################################################
+
+
+###  http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept
+
+<http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept> rdf:type owl:Class .
+
+
+
+###  http://tdwg.org/SDD.owl#CategoricalCharacter
+
+:CategoricalCharacter rdf:type owl:Class ;
+                      
+                      rdfs:subClassOf :Character .
+
+
+
+###  http://tdwg.org/SDD.owl#CategoricalState
+
+:CategoricalState rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :State ;
+                  
+                  rdfs:comment "Should be associated with exactly one value, not a range" .
+
+
+
+###  http://tdwg.org/SDD.owl#Character
+
+:Character rdf:type owl:Class ;
+           
+           owl:disjointWith :State .
+
+
+
+###  http://tdwg.org/SDD.owl#CodedDescription
+
+:CodedDescription rdf:type owl:Class ;
+                  
+                  rdfs:subClassOf :Description .
+
+
+
+###  http://tdwg.org/SDD.owl#Description
+
+:Description rdf:type owl:Class .
+
+
+
+###  http://tdwg.org/SDD.owl#IdentificationKey
+
+:IdentificationKey rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Description .
+
+
+
+###  http://tdwg.org/SDD.owl#NaturalLanguageDescription
+
+:NaturalLanguageDescription rdf:type owl:Class ;
+                            
+                            rdfs:subClassOf :Description .
+
+
+
+###  http://tdwg.org/SDD.owl#QuantitativeCharacter
+
+:QuantitativeCharacter rdf:type owl:Class ;
+                       
+                       rdfs:subClassOf :Character .
+
+
+
+###  http://tdwg.org/SDD.owl#QuantitativeState
+
+:QuantitativeState rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :State ;
+                   
+                   rdfs:comment "There could be intersection between QuantiativeStates and CategoricalStates, but for now assume not." .
+
+
+
+###  http://tdwg.org/SDD.owl#SequenceCharacter
+
+:SequenceCharacter rdf:type owl:Class ;
+                   
+                   rdfs:subClassOf :Character .
+
+
+
+###  http://tdwg.org/SDD.owl#SequenceState
+
+:SequenceState rdf:type owl:Class ;
+               
+               rdfs:subClassOf :State .
+
+
+
+###  http://tdwg.org/SDD.owl#State
+
+:State rdf:type owl:Class ;
+       
+       rdfs:comment "A State should always be of type one of the substates" .
+
+
+
+###  http://tdwg.org/SDD.owl#TextCharacter
+
+:TextCharacter rdf:type owl:Class ;
+               
+               rdfs:subClassOf :Character .
+
+
+
+###  http://tdwg.org/SDD.owl#TextState
+
+:TextState rdf:type owl:Class ;
+           
+           rdfs:subClassOf :State .
+
+
+
+
+
+#################################################################
+#
+#    General axioms
+#
+#################################################################
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CodedDescription
+                :IdentificationKey
+                :NaturalLanguageDescription
+              )
+] .
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :CategoricalState
+                :QuantitativeState
+                :SequenceState
+                :TextState
+              )
+] .
+
+
+
+
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
+

@@ -1,1 +1,0 @@
-schema-for-xslt20.xsd is not used by UBIF itself, but has been very useful when developing xslt transformations for UBIF.

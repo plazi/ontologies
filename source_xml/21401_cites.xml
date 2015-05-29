@@ -1,0 +1,346 @@
+<tax:div type="ref_group">
+            <tax:p> References</tax:p>
+            <tax:p>
+                <tax:bibref>1. Brown WL Jr. ( 1976 ) Contributions toward a reclassification of the
+                    Formicidae. Part VI. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section
+                    A. Introduction, subtribal characters. Genus Odontomachus . Studia
+                    Entomologica19 : 67-171 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>2. Brown WL Jr. ( 1978 ) Contributions toward a reclassification of the
+                    Formicidae. Part VI. Ponerinae, tribe Ponerini, subtribe Odontomachiti. Section
+                    B. Genus Anochetus and bibliography . Studia Entomologica20 : 549-638
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>3. Brady SG , Schultz TR , Fisher BL , Ward PS ( 2006 ) Evaluating
+                    alternative hypotheses for the early evolution and diversification of ants .
+                    Proceedings ofthe National Academy of Sciences of the United States of
+                    America103 : 18172-18177 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>4. Ouellette GD , Fisher BL , Girman DJ ( 2006 ) Molecular systematics
+                    of basal subfamilies of ants using 28S rRNA (Hymenoptera: Formicidae) .
+                    Molecular Phylogenetics and Evolution40 : 359-369 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>5 . Fisher BL ( 2005 ) A Model for a Global Inventory of Ants: A Case
+                    Study in Madagascar . In: Jablonski NG, ed. Proceedings of the California
+                    Academy of Sciences56 : 78-89 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>6. Polaszek A , Agosti D , Alonso-Zarazaga M , Beccaloni G , de Place
+                    Bjorn P , Bouchet P , Brothers DJ, Earl of Cranbrook , Evenhuis N , Godfray HCJ
+                    , Johnson NF , Krell F-T , Lipscomb D , Lyal CHC , Mace GM , Mawatari S , Miller
+                    SE , Minelli A , Morris S , Ng PKL , Patterson DJ , Pyle RL , Robinson N , Rogo
+                    L , TaverneJ , Thompson FC , van Tol J , Wheeler QD , Wilson EO ( 2005 )
+                    Commentary: A universal register for animal names . Nature437 : 477.165
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>7. Polaszek A , Alonso-Zarazaga M , Bouchet P , Brothers DJ , Evenhuis N
+                    , Krell F- T , Lyal CHC , Minelli A , Pyle RL , Robinson NJ , Thompson FC , van
+                    Tol J ( 2005 ) ZooBank: the open-access register for zoological taxonomy:
+                    Technical Discussion Paper . Bulletin of Zoological Nomenclature62 : 210-220
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>8. Pyle RL , Earle JL , Greene BD ( 2008 ) Five new species ofthe
+                    damselfish genus Chromis (Perciformes: Labroidei: Pomacentridae) from deep coral
+                    reefs in the tropical western Pacific . Zootaxa1671 : 3-31 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>9. Hebert PDN , Cywinska A , Ball SL , DeWaard JR ( 2003 ) Biological
+                    identifications through DNA barcodes . Proceedings ofthe Royal Society ofLondon
+                    Series B-Biological Sciences270 : 313-321 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>10. Hebert PDN , Penton EH , Burns JM , Janzen DH , Hallwachs W ( 2004 )
+                    Ten species in one: DNA barcoding reveals cryptic species in the neotropical
+                    skipper butterfly Astraptes fulgerator . Proceedings of the National Academy of
+                    Sciences of the United States ofAmerica101 : 14812-14817 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>11. Hajibabaei M , DeWaard JR , Ivanova NV , Ratnasingham S , Dooh RT ,
+                    et al. ( 2005 ) Critical factors for assembling a high volume of DNA barcodes .
+                    Philosophical Transactions of the Royal Society B-Biological Sciences360 :
+                    1959-1967 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>12. Hall TA ( 1999 ) BioEdit: a user-friendly biological sequence
+                    alignment editor and analysis program for Windows 95/98/NT.Nucleic Acids
+                    Symposium Series41 : 95-98 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>13. Kimura M ( 1980 ) A simple method for estimating evolutionary rates
+                    of base substitutions through comparative studies of nucleotide sequences .
+                    Journal of Molecular Evolution16 : 111-120 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>14. Saitou N , Nei M ( 1987 ) The neighbor-joining method: a new method
+                    for reconstructing phylogenetic trees . Molecular Biology and Evolution4 :
+                    406-425 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>15. Kumar S , Tamura K , Nei M ( 2004 ) MEGA3: Integrated software for
+                    molecular evolutionary genetics analysis and sequence alignment . Briefings in
+                    Bioinformatics5 : 150-163 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>16. Ratnasingham S , Hebert PDN ( 2007 ) BOLD: The Barcode ofLife Data
+                    System (www.barcodinglife.org) . Molecular Ecology Notes7 : 355-364
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>17. Tajima F ( 1989 ) Statistical method for testing the neutral
+                    mutation hypothesis by DNA polymorphism . Genetics123 : 585-595 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>18. Rozas J , Rozas R ( 1999 ) DnaSP version 3: an integrated program
+                    for molecular population genetics and molecular evolution analysis .
+                    Bioinformatics15 : 174-175 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>19 . Lou M , Golding GB ( 2007 ) fingerprint: visual depiction
+                    ofvariation in multiple sequence alignments Molecular Ecology Notes :
+                    doi:10.1111/j.1471-8286.2007.01904.x.</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>20. Braig HR , Zhou W , Dobson SL , O'Neill SL ( 1998 ) Cloning and
+                    Characterization of a Gene Encoding the Major Surface Protein of the Bacterial
+                    Endosymbiont Wolbachia pipientis . Journal of Bacteriology180 : 2373-2378
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>21. Forel A ( 1891 ) Les Formicides. [part] In: Grandidier A , ed.
+                    Histoire physique, naturelle, et politique de Madagascar. Volume XX. Histoire
+                    naturelle des Hymenopteres. Deuxieme partie (28e fascicule) . Paris: Hachette et
+                    Cie. pp v+237.</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>22. Santschi F ( 1928 ) Descriptions de nouvelles fourmis ethiopiennes
+                    (quatrieme note) . Revue de Zoologie et de Botanique Africaines16 : 54-69
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>23. Forel A ( 1887 ) Fourmis recoltees a Madagascar par le Dr. Conrad
+                    Keller . Mitteilungen der Schweizerischen Entomologischen Gesellschaft7 :
+                    381-389 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>24. Forel A ( 1918 ) Quelques fourmis de Madagascar recoltees par le Dr.
+                    Friederichs et quelques remarques sur d'autres fourmis . Bulletin de la Societe
+                    Vaudoise des Sciences Naturelles52 : 151-156 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>25. Forel A ( 1912 ) The Percy Sladen Trust Expedition to the Indian
+                    Ocean in 1905, under the leadership of Mr. J. Stanley Gardiner, M.A. Volume 4.
+                    No. XI. Fourmis des Seychelles et des Aldabras, recues de M. Hugh Scott .
+                    Transactions ofthe Linnean Society ofLondon. Zoology ( 2 ) 15 : 159-167
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>26. Roger J ( 1861 ) Die Ponera-artigen Ameisen (Schluss) . Berliner
+                    Entomologische Zeitschrift5 : 1-54 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>27. Emery C ( 1899 ) Formiche di Madagascar raccolte dal Sig. A.
+                    Mocquerys nei pressi della Baia di Antongil (1897-1898) . Bullettino della
+                    Societa Entomologica Italiana31 : 263-290 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>28. Molet M , Peeters C , Fisher BL ( 2007 ) Permanent loss ofwings in
+                    queens ofthe ant Odontomachus coquereli from Madagascar . Insectes Sociaux54 :
+                    183-188 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>29. Wilme L , Goodman SM , Ganzhorn JU ( 2006 ) Biogeographic evolution
+                    of Madagascar's microendemic biota . Science312 : 1063-1065 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>30. Colombel P ( 1971 ) Etude biometrique du couvain et des adultes d'
+                    Odontomachus haematodes (Hym. Form. Poneridae) . Annales de la Faculte des
+                    Sciences, UniversiteFederale du Cameroun6 : 53-71 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>31. Smith F ( 1858 ) Catalogue of hymenopterous insects in the
+                    collection of the British Museum. Part VI. Formicidae . London: British Museum
+                    (Natural History). 216 p.</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>32. Wilson EO ( 1959 ) Studies on the ant fauna of Melanesia V. The
+                    tribe Odontomachini . Bulletin of the Museum of Comparative Zoology120 : 483-510
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>33. Crawley WC ( 1915 ) Ants from north and south-west Australia (G. F.
+                    Hill, Rowland Turner) and Christmas Island, Straits Settlements. Part II . Ann.
+                    Mag. Natur. Hist. , 15 : 232-239 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>34. Forel A ( 1913 ) Ameisen aus Sumatra, Java, Malacca und Ceylon.
+                    Gesammelt von Herrn Prof. Dr. v. Buttel-Reepen in den Jahren 1911-1912 .
+                    Zoologische Jahrbucher Abteilung fur Systematik Okologie und Geographie der
+                    Tiere36 : 1-148 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>35. Smith F ( 1860 ) Descriptions of new species of hymenopterous
+                    insects collected by Mr. A. R. Wallace at Celebes . Journal of the Proceedings
+                    of the Linnean Society ofLondon, Zoology5 : 57-93 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>36. Santschi F ( 1914 ) Voyage de Ch. Alluaud et R. Jeannel en Afrique
+                    Orientale, 1911-1912. Resultats scientifiques . Insectes Hymenopteres. II.
+                    Formicidae . Paris: Libr. A. Schulz. pp41-148 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>37. Wheeler WM ( 1922 ) Ants of the American Museum Congo expedition. A
+                    contribution to the myrmecology of Africa. II. The ants collected by the
+                    American Museum Congo Expedition . Bulletin of the American Museum of Natural
+                    History45 : 39-269 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>38. Andre E ( 1887 ) Description de quelques fourmis nouvelles ou
+                    imparfaitement connues . Revue d'Entomologie (Caen)6 : 280-298 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>39. Patek SN , Baio JE , Fisher BL , Suarez AV ( 2006 )
+                    Multifunctionality and mechanical origins: Ballistic jaw propulsion in trap-jaw
+                    ants . Proceedings ofthe National Academy of Sciences of the United States of
+                    America103 : 12787-12792 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>40. Smith MA , Wood DM , Janzen DH , Hallwachs W , Hebert PDN ( 2007 )
+                    DNA barcodes affirm that 16 species of apparently generalist tropical parasitoid
+                    flies (Diptera, Tachinidae) are not all generalists . Proceedings of the
+                    National Academy of Sciences of the United States of America104 : 4771-4772
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>41. Smith MA , Woodley NE , Janzen DH , Hallwachs W , Hebert PDN ( 2006
+                    ) DNA barcodes reveal cryptic host-specificity within the presumed polyphagous
+                    members of a genus of parasitoid flies (Diptera: Tachinidae) . Proceedings of
+                    the National Academy of Sciences of the United States of America103 : 3657-3662
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>42. Seifert KA , Samson RA , Dewaard JR , Houbraken J , Levesque CA , et
+                    al. ( 2007 ) Prospects for fungus identification using C01 DNA barcodes, with
+                    Penicillium as a test case . Proceedings ofthe National Academy ofSciences ofthe
+                    United States of America104 : 3901-3906 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>43. Sonnenberg R , Nolte AW , Tautz D ( 2007 ) An evaluation ofLSU rDNA
+                    D1-D2 sequences for their use in species identification.Frontiers in Zoology4
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>44. Doums C , Cabrera H , Peeters C ( 2002 ) Population genetic
+                    structure and malebiased dispersal in the queenless ant Diacamma cyaneiventre .
+                    Molecular Ecology11 : 2251-2264 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>45. Giraud T , Blatrix R , Poteaux C , Solignac M , Jaisson P ( 2000 )
+                    Population structure and mating biology of the polygynous ponerine ant
+                    Gnamptogenys striatula Brazil . Molecular Ecology9 : 1835-1841 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>46. Ross KG , Krieger MJB , Shoemaker DD , Vargo EL , Keller L ( 1997 )
+                    Hierarchical analysis of genetic structure in native fire ant populations:
+                    results from three classes of molecular markers . Genetics147 : 643-655
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>47. Crandall KA , Bininda-Emonds ORP , Mace GM , Wayne RK ( 2000 )
+                    Considering evolutionary processes in conservation biology . Trends in Ecology
+                    &amp; Evolution15 : 290-295 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>48. Harris JD , Froufe E ( 2005 ) Taxonomic inflation: species concept
+                    or historical geopolitical bias ? Trends in Ecology &amp; Evolution20 : 6-7
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>49. Isaac NJB , Mallet J , Mace GM ( 2004 ) Taxonomic inflation: its
+                    influence on macroecology and conservation . Trends in Ecology &amp; Evolution19
+                    : 464-469 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>50. Caccone A , Sbordoni V ( 2001 ) Molecular biogeography, evolutionary
+                    rates, and morphological adaptations to cave life: a case study using
+                    Bathysciine beetles and sequence data from the mitochondria CO1 gene .
+                    Evolution55 : 122-130 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>51. Farrell BD ( 2001 ) Evolutionary assembly of the milkweed fauna:
+                    cytochrome oxidase 1 and the age of Tetraopes beetles . Molecular Phylogenetics
+                    and Evolution18 : 469-478 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>52. Dick CW , Roubik DW , Gruber KF , Bermingham E ( 2004 )
+                    Long-distance gene flow and cross-Andean dispersal of lowland rainforest bees
+                    (Apidae: Euglossini) revealed by comparative mitochondrial DNA phylogeography .
+                    Molecular Ecology13 : 3775-3785 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>53. Hebert PDN , Ratnasingham S , deWaard JR ( 2003 ) Barcoding animal
+                    life: cytochrome c oxidase subunit 1 divergences among closely related
+                    species.Proceedings of the Royal Society of London Series B-Biological
+                    Sciences270 : 596-599 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>54. Bensasson D , Zhang D , Hartl DL , Hewitt GM ( 2001 ) Mitochondrial
+                    pseudogenes: evolution's misplaced witnesses . Trends in Ecology &amp;
+                    Evolution16 : 314-321 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>55. DeSalle R , Amato G ( 2004 ) The expansion of conservation genetics
+                    . Nature Reviews Genetics5 : 702-712 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>56. Hebert PD , Penton EH , Burns JM , Janzen DH , Hallwachs W ( 2004 )
+                    Ten species in one: DNA barcoding reveals cryptic species in the neotropical
+                    skipper butterfly Astraptes fulgerator . Proceedings of the National Academy of
+                    Sciences of the United States ofAmerica101 : 14812-14817 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>57. Hajibabaei M , deWaard JR , Ivanova NV , Ratnasingham S , Dooh R ,
+                    et al. ( 2005 ) Critical factors for the high volume assembly of DNA barcodes .
+                    Philosophical Transactions of the Royal Society of London B Biological Sciences
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>58. Hajibabaei M , Janzen DH , Burns JM , Hallwachs W , Hebert PDN (
+                    2006 ) DNA barcodes distinguish species of tropical Lepidoptera . Proceedings
+                    ofthe National Academy of Sciences of the United States of America103 : 968-971
+                    .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>59 . Simon C , Frati F , Beckenbach A , Crespi B , Liu H , et al. ( 1994
+                    ) Evolution, Weighting, and Phylogenetic Utility of Mitochondrial Gene-Sequences
+                    and a Compilation of Conserved Polymerase Chain-Reaction Primers . Annals of the
+                    Entomological Society ofAmerica87 : 651-701 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>60. Smith MA , Fisher BL , Hebert PDN ( 2005 ) DNA barcoding for
+                    effective biodiversity assessment of a hyperdiverse arthropod group: the ants of
+                    Madagascar . Philosophical Transactions of the Royal Society B-Biological
+                    Sciences360 : 1825-1834 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>61. Ji Y-J , Zhang D-X , He L-J ( 2003 ) Evolutionary conservation and
+                    versatility ofa new set of primers for amplifying the ribosomal internal
+                    transcribed spacer regions in insects and other invertebrates . Molecular
+                    Ecology Notes3 : 581-585 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>62. Saux C , Fisher BL , Spicer GS ( 2004 ) Dracula ant phylogeny as
+                    inferred by nuclear 28S rDNA sequences and implications for ant systematics
+                    (Hymenoptera: Formicidae: Amblyoponinae) . Molecular Phylogenetics and
+                    Evolution33 : 457-468 .</tax:bibref>
+            </tax:p>
+            <tax:p>
+                <tax:bibref>63. Hillis DM , Dixon MT ( 1991 ) Ribosomal DNA: Molecular Evolution and
+                    Phylogenetic Inference . Quarterly Review of Biology66 : 411-453 .</tax:bibref>
+            </tax:p>
+        </tax:div>

@@ -1,0 +1,64 @@
+@prefix cnt:   <http://www.w3.org/2011/content#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
+@prefix trt:   <http://plazi.org/vocab/treatment#> .
+@prefix tsp:   <http://rs.tdwg.org/ontology/voc/Specimen#> .
+@prefix tn:   <http://rs.tdwg.org/ontology/voc/TaxonName#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix :      <http://plazi.org/rdf/millerSpider/> .
+
+<http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
+	    rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
+	    trt:publishedIn <doi:10.1371/journal.pone.0001787> .
+	    
+<doi:10.1371/journal.pone.0001787> a bibo:Article ;
+  dc:title "A revision of Malagasy species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera: Formicidae)." ;
+  dc:creator "Fisher, B. L." ;
+  dc:creater "Smith, M. A. " ;
+  dc:date "1923-01-03" .
+
+	
+	
+<urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> a dwc:taxonConceptId;
+	dwc:genus "Anochetus";
+	dwc:specificEpithet "grandidieri";
+	dwc:scientificNameAuthorship "Forel";
+	dwc:scientificName "Anochetus gradidieri Forel" ;
+	trt:materials_examined :theMaterialsExamined ;
+	trt:description :theDescription .
+	
+:theDescription a cnt:ContentAsText;
+	cnt:chars "Queens alate: Very similar to workers, only slightly larger than respective size class (Figs 3e-h). Ergatoid queens not recorded.NEWLINE NEWLINE Within a single locality, two size classes of workers, queens and males are present in this species, but the differences within a site do not hold up when variation across all sites is included. These differences suggest that two reproductive and developmental pathways can occur in this species. Further work is needed to explore the biotic or abiotic factors that trigger the development of small and large castes."  .
+
+:theMaterialsExamined a dwcFP:Thing ;
+   trt:material :material1 ;
+   trt:material :material2 .
+   
+ :material1 a trt:Material;
+    tsp:specimenID "abcdefg";
+    dwc:Country "CAMEROON" ;
+    dwc:StateProvince "Sud-Ouest" ;
+    dwc:Locality "Bimbia Forest" .
+	
+ :material2 a trt:Material ;
+    tsp:specimenID "hijk";
+    dwc:DecimalLatitude "-174.0"^xsd:decimal;
+    dwc:Country "CENTRAL AFRICAN REPUBLIC" ;
+    dwc:StateProvince "Prefecture Sangha-Mbaere" ;
+    dwc:Locality "Lidjombo" .
+
+  :material3 a trt:Material;
+     tsp:specimenID "CASENT0487895";
+     tn:nameComplete "Anochetus boltoni Fisher sp. nov.";
+     tsp:hostCollectionString "CASC"; #not sure this is correct usage...ram
+     tsp:typeStatus tn:Holotype; #need to code as worker ...ram
+     dwc:Country"MADAGASCAR" ;
+#....more geography
+     dwc:Locality "MADAGASCAR: Antsiranana, Parc National de Marojejy, Manantenina River" .
+   
+# ToDo: Along with the worker holotype, the publication lists 8 paratype specimens with the 
+# same data but in various collections

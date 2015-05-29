@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_1"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_2"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_3"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+      <dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+      <dc:creator>Jeremy A. Miller</dc:creator>
+      <dc:creator>Charles E. Griswold</dc:creator>
+      <dc:creator>Charles R. Haddad</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Zootaxa</bibo:journal>
+      <dc:date>2010</dc:date>
+      <bibo:volume>2534</bibo:volume>
+      <bibo:startPage>1</bibo:startPage>
+      <bibo:endPage>36</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:authority>Simon, 1902</dwc:authority>
+      <dwc:authorityName>Simon</dwc:authorityName>
+      <dwc:authorityYear>1902</dwc:authorityYear>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Penestomus</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>23</dwc:pageId>
+      <dwc:pageNumber>24</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>planus</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectionCode>MNHN</dwc:collectionCode>
+      <dwc:collectorName>D. H. Brauns</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-33.166668</dwc:latitude>
+      <dwc:location>Willowmore</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>23.35</dwc:longitude>
+      <dwc:specimenCode>AR 14375, 21716</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+      <dwc:typeStatus>Holotype</dwc:typeStatus>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_2">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1901</dwc:collectingDate>
+      <dwc:collectionCode>SAM</dwc:collectionCode>
+      <dwc:collectorName>J. A. O'Neil</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-33.75</dwc:latitude>
+      <dwc:location>Dunbrody, Uitenhage District</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>25.383333</dwc:longitude>
+      <dwc:specimenCode>11608 SAM-ENW-X 011608</dwc:specimenCode>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9/#material_3">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1896-04</dwc:collectingDate>
+      <dwc:collectionCode>SAM</dwc:collectionCode>
+      <dwc:collectorName>W. F. Purcell</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-34.166668</dwc:latitude>
+      <dwc:location>Mossel Bay</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>22.116667</dwc:longitude>
+      <dwc:specimenCode>912 - 4196 SAM-ENW-X 000912</dwc:specimenCode>
+      <dwc:specimenCount>2</dwc:specimenCount>
+      <dwc:specimenCount-female>1</dwc:specimenCount-female>
+      <dwc:stateProvince>Western Cape</dwc:stateProvince>
+   </rdf:Description>
+</rdf:RDF>

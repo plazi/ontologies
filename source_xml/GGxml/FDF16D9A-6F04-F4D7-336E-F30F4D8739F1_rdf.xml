@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="{@httpUri}"
+         xmlns:mods="http://www.loc.gov/mods/v3"
+         xmlns:bibo="http://purl.org/ontology/bibo/"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+         xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
+         xmlns:fabio="http://purl.org/spar/fabio/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:sdd="http://tdwg.org/sdd#"
+         xmlns:trt="http://plazi.org/vocab/treatment#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+      <trt:definesTaxonConcept rdf:resource="http://example.org/concept/id/d1"/>
+      <trt:publishedIn rdf:resource="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68"/>
+      <trt:material_examined rdf:resource="http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1/#material_1"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68">
+      <dc:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</dc:title>
+      <dc:creator>Anna S. Dippenaar-Schoeman</dc:creator>
+      <rdf:type rdf:resource="fabio:JournalArticle"/>
+      <bibo:journal>Phytophylactica</bibo:journal>
+      <dc:date>1989</dc:date>
+      <bibo:volume>21</bibo:volume>
+      <bibo:startPage>131</bibo:startPage>
+      <bibo:endPage>134</bibo:endPage>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://example.org/concept/id/d1">
+      <rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+      <dwc:authority>Lehtinen</dwc:authority>
+      <dwc:authorityName>Lehtinen</dwc:authorityName>
+      <dwc:class>Arachnida</dwc:class>
+      <dwc:family>Eresidae</dwc:family>
+      <dwc:genus>Wajane</dwc:genus>
+      <dwc:kingdom>Animalia</dwc:kingdom>
+      <dwc:order>Araneae</dwc:order>
+      <dwc:pageId>3</dwc:pageId>
+      <dwc:pageNumber>134</dwc:pageNumber>
+      <dwc:phylum>Arthropoda</dwc:phylum>
+      <dwc:rank>species</dwc:rank>
+      <dwc:species>armata</dwc:species>
+   </rdf:Description>
+   <rdf:Description rdf:about="http://treatment.plazi.org/id/FDF16D9A6F04F4D7336EF30F4D8739F1/#material_1">
+      <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+      <dwc:collectingDate>1916-01</dwc:collectingDate>
+      <dwc:collectionCode>MHNG</dwc:collectionCode>
+      <dwc:collectorName>F. Cruden</dwc:collectorName>
+      <dwc:country>South Africa</dwc:country>
+      <dwc:latitude>-33.266666</dwc:latitude>
+      <dwc:location>Alicedale</dwc:location>
+      <dwc:longLatPrecision>1</dwc:longLatPrecision>
+      <dwc:longitude>26.033333</dwc:longitude>
+      <dwc:pageId>3</dwc:pageId>
+      <dwc:pageNumber>134</dwc:pageNumber>
+      <dwc:specimenCount>1</dwc:specimenCount>
+      <dwc:specimenCountMale>1</dwc:specimenCountMale>
+      <dwc:stateProvince>Cape Province</dwc:stateProvince>
+      <dwc:typeStatus>holotype</dwc:typeStatus>
+   </rdf:Description>
+</rdf:RDF>
