@@ -156,6 +156,20 @@
 
 
 
+###  http://plazi.org/treatment#hasMateriaExamined
+
+:hasMateriaExamined rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
+                    
+                    rdfs:range :Material ;
+                    
+                    rdfs:domain :Treatment ;
+                    
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
 ###  http://plazi.org/treatment#hasMaterialsMethods
 
 :hasMaterialsMethods rdf:type owl:ObjectProperty ;
@@ -191,20 +205,6 @@
                       rdfs:range :Treatment ;
                       
                       rdfs:subPropertyOf :hasCitation .
-
-
-
-###  http://plazi.org/treatment#material_examined
-
-:material_examined rdf:type owl:ObjectProperty ;
-                   
-                   rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
-                   
-                   rdfs:range :Material ;
-                   
-                   rdfs:domain :Treatment ;
-                   
-                   rdfs:subPropertyOf owl:topObjectProperty .
 
 
 

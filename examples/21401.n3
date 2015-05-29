@@ -10,8 +10,8 @@
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
    rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
-   trt:material_examined :material1 ;
-   trt:material_examined :material2 ;
+   trt:hasMaterialExamined :material1 ;
+   trt:hasMaterialExamined :material2 ;
    trt:hasDiagnosis :workerDiagnosis ;
    trt:publishedIn <doi:10.1371/journal.pone.0001787> .
 	    
