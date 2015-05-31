@@ -1,0 +1,31 @@
+<treatment>
+...
+<treatment-sec>
+<head>Description.</head>
+   <treatment-sec>
+   <head>Males:</head>
+    <p>(SMF 39671, N=8, means in parentheses): <trait uri="http://example.ogr/pseudo-trait-ont/colors#" scope="whole"><trait-name>colours</trait-name> <value>slightly variable</value></trait>. 
+    <trait uri="http://example.org/pseudo-trait-ont/total-length#" scope="whole"><trait-name>Total length</trait-name>: 
+      <value>
+           <min>1.49</min>–<max>1.66</max> (<mean>1.58</mean>)
+           <context>with cephalic lobe</context>
+     </value>, 
+     <value>
+            <min>1.37</min>–<max>1.54</max> (<mean>1.46</mean>)
+            <context>without cephalic lobe</context>
+     </value>
+    </trait>
+...
+   </p>
+  </treatment-sec>
+ 
+ <treatment-sec>
+   <head>Females:</head>
+   <p>...
+  </p>
+ </treatment-sec>
+
+</treatment-sec>
+
+
+</treatment>

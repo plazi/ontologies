@@ -1,0 +1,28 @@
+@prefix pto:	"http://example.ogr/pseudo-trait-ont# .
+@prefix trt: 	"...."
+@prefix measure: "some measurement ontology" .
+@prefix domain: "some domain ontology that gives modifier usuage" .
+
+trt:theDescription a trt:Description;
+        trt:hasContext <Males> ;
+	trt:trait [
+	    trt:hasName pto:colors ;
+            trt:hasValue [
+                measure:value "variable" ;
+                measure:modifier domain:slightly ] .
+            ] .
+
+ 	trt:trait [
+          trt:hasName pto:total-length ;
+          trt:hasValue :value1;
+          trt:hasValue :value2;
+        ] .
+
+:value1 a trt:Value;
+   measure:min "1.49"^xsd:real;
+   ...
+   trt:context "without cephalic lobe" .
+
+
+              
+          
