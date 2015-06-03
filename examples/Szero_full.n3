@@ -1,0 +1,135 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pto:  <http://example.ogr/pseudo-trait-ont#> .
+@prefix measure: <http://example.org/someMeasurementOntology#> .
+@prefix domain: <http://example.org/someDomainOntologyThatGivesModifierUsage#"> .
+
+<http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 a trt:Treatment ;
+    trt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
+    trt:material_examined    :material_1 ;
+    trt:material_examined    :material_2 ;
+    trt:material_examined    :material_3 ;
+    trt:material_examined    :material_4 ;
+    trt:description :description_1 ;    
+    trt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
+
+<http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597 a dwcFP:TaxonConcept ;
+    dwc:class "Arachnida" ;
+    dwc:family "Linyphiidae" ;
+    dwc:genus "Savignia" ;
+    dwc:higherTaxonomySource "CoL" ;
+    dwc:kingdom "Animalia" ;
+    dwc:order "Araneae" ;
+    dwc:pageId "0" ;
+    dwc:pageNumber "65" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "zero" .
+
+<http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93 a <fabio:JournalArticle> ;
+    dc:creator "Frick, Holger",
+        "Lasut, Liana",
+        "Marusik, Yuri M." ;
+    dc:date "2009" ;
+    dc:title "First description of the female of the spider Savignia zero Eskov, 1988 (Araneae: Linyphiidae)" ;
+    bibo:endPage "68" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "65" ;
+    bibo:volume "2267" .
+
+:material_1 a trt:Material ;
+    dwc:collectingDate "1987-06" ;
+    dwc:collectingDateMax "1987-08" ;
+    dwc:collectingDateMin "1987-06" ;
+    dwc:collectorName "N. E. Dokutchaev" ;
+    dwc:country "Russia" ;
+    dwc:location "middle Chelomdzha river (left tributary of Taui river)" ;
+    dwc:specimenCount "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Magadan" ;
+    dwc:typeStatus "holotype" .
+
+:material_2 a trt:Material ;
+    dwc:collectingDate "1990-09-18" ;
+    dwc:collectionCode "SMF" ;
+    dwc:collectorName "Y. M. Marusik" ;
+    dwc:country "Russia" ;
+    dwc:location "Ola river mouth" ;
+    dwc:specimenCode "39671" ;
+    dwc:specimenCount "22" ;
+    dwc:specimenCount-female "14" ;
+    dwc:specimenCount-male "8" ;
+    dwc:stateProvince "Magadan" ;
+    dwc:typeStatus "Other material" .
+
+:material_3 a trt:Material ;
+    dwc:collectingDate "2005-09-14" ;
+    dwc:collectionCode "IBPN" ;
+    dwc:collectorName "Y. M. Marusik" ;
+    dwc:country "Russia" ;
+    dwc:elevation "430 m" ;
+    dwc:latitude "48.2425" ;
+    dwc:location "environment of Bychikha village, Bolshekhektsyrski reserve, \" Klyuch Sosnenskiy \" kordon" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "134.78334" ;
+    dwc:specimenCount "20" ;
+    dwc:specimenCount-female "13" ;
+    dwc:specimenCount-male "7" ;
+    dwc:stateProvince "Khabarovsk province" ;
+    dwc:typeStatus "Other material" .
+
+:material_4 a trt:Material ;
+    dwc:collectingDate "2005-09-11" ;
+    dwc:collectionCode "IBPN" ;
+    dwc:collectorName "Y. M. Marusik" ;
+    dwc:country "Russia" ;
+    dwc:latitude "48.291668" ;
+    dwc:location "environment of Khabarovsk, environment of Bychikha village, Bolshekhektsyrski reserve" ;
+    dwc:longLatPrecision "1" ;
+    dwc:longitude "134.82834" ;
+    dwc:specimenCount "2" ;
+    dwc:specimenCount-female "1" ;
+    dwc:specimenCount-male "1" ;
+    dwc:stateProvince "Khabarovsk Province" ;
+    dwc:typeStatus "Other material" .
+
+:description_1 a trt:Description ;
+        trt:hasContext <Males> ;
+	    trt:hasTrait :trait_1 ;
+	    trt:hasTrait :trait_2 .
+	    
+:trait_1 a trt:Trait ;
+	    trt:hasName pto:colors ;
+        trt:hasValue :value_1 .
+
+:trt:trait_2 a trt:Trait ;
+        trt:hasName pto:total-length ;
+        trt:hasValue :value_2 ;
+        trt:hasValue :value_3 .
+
+:value_1 a trt:Value ;
+    measure:value "variable" ;
+    measure:modifier domain:slightly .
+
+:value_2 a trt:Value ;
+   measure:min "1.49"^xsd:real ;
+   measure:max "1.66"^xsd:real ;
+   measure:mean "1.58"^xsd:real ;
+   trt:context "with cephalic lobe" .
+
+:value_3 a trt:Value ;
+   measure:min "1.37"^xsd:real ;
+   measure:max "1.54"^xsd:real ;
+   measure:mean "1.46"^xsd:real ;
+   trt:context "without cephalic lobe" .
