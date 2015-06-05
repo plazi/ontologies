@@ -35,10 +35,11 @@
                 <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
                 <trt:definesTaxonConcept rdf:resource="{$taxonConceptID}"/>
                 <trt:publishedIn rdf:resource="{$pubID}"/>
+                <xsl:apply-templates select="//treatmentCitation"/>
                 <xsl:apply-templates select="//materialsCitation" mode="object"/>
             </rdf:Description>
             <xsl:call-template name="publication"/>
-            <xsl:apply-templates select="//treatmentCitation"/>
+            
             <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
             <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
         </rdf:RDF>
