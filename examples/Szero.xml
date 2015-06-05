@@ -1,31 +1,71 @@
-<treatment>
-...
-<treatment-sec>
-<head>Description.</head>
-   <treatment-sec>
-   <head>Males:</head>
-    <p>(SMF 39671, N=8, means in parentheses): <trait uri="http://example.ogr/pseudo-trait-ont/colors#" scope="whole"><trait-name>colours</trait-name> <value>slightly variable</value></trait>. 
-    <trait uri="http://example.org/pseudo-trait-ont/total-length#" scope="whole"><trait-name>Total length</trait-name>: 
-      <value>
-           <min>1.49</min>–<max>1.66</max> (<mean>1.58</mean>)
-           <context>with cephalic lobe</context>
-     </value>, 
-     <value>
-            <min>1.37</min>–<max>1.54</max> (<mean>1.46</mean>)
-            <context>without cephalic lobe</context>
-     </value>
-    </trait>
-...
-   </p>
-  </treatment-sec>
- 
- <treatment-sec>
-   <head>Females:</head>
-   <p>...
-  </p>
- </treatment-sec>
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:measure="http://example.org/measure#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:trt="http://plazi.org/ontologies/treatment#"
+>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value3">
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.154</measure:max>
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.37</measure:min>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeValue"/>
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#description1">
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#Description"/>
+    <trt:trait rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait2"/>
+    <trt:trait rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait3"/>
+    <trt:hasContext rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/Males"/>
+    <trt:trait rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait1">
+    <trt:hasValue rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value1"/>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#CategoricalTrait"/>
+    <trt:hasName rdf:resource="http://example.org/pseudo-trait-ont#colours"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value2">
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.49</measure:min>
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.66</measure:max>
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.58</measure:mean>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait2">
+    <trt:hasValue rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value2"/>
+    <trt:hasName>Total length</trt:hasName>
+    <trt:hasContext>with cepalic lobe</trt:hasContext>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeTrait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#description">
+    <trt:hasSubDescription rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#description2"/>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#Description"/>
+    <trt:hasSubDescription rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#description1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait3">
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeTrait"/>
+    <trt:hasContext>without cepalic lobe</trt:hasContext>
+    <trt:hasName>Total length</trt:hasName>
+    <trt:hasValue rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#description2">
+    <trt:trait rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait4"/>
+    <trt:hasContext rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/Females"/>
+    <trt:trait rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait1"/>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#Description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value1">
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#CategoricalValue"/>
+    <trt:modifier rdf:resource="http://tdwg.org/sdd#slightly"/>
+    <trt:value>variable</trt:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#trait4">
+    <trt:hasName>Total length</trt:hasName>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeTrait"/>
+    <trt:hasValue rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#value4">
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.32</measure:min>
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+    <rdf:type rdf:resource="http://plazi.org/ontologies/treatment#QuantitativeValue"/>
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.157</measure:max>
+  </rdf:Description>
+</rdf:RDF>
 
-</treatment-sec>
-
-
-</treatment>
