@@ -108,6 +108,6 @@
         <xsl:element name="dc:identifier"><xsl:value-of select="."></xsl:value-of></xsl:element>
     </xsl:template>
     <xsl:template match="treatmentCitation">
-        <cito:cites resource="{@httpUri}"/>
+        <cito:cites rdf:resource="{@httpUri}"/>
     </xsl:template>
     </xsl:stylesheet>
