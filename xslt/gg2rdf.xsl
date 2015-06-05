@@ -26,8 +26,7 @@
         <xsl:apply-templates select="//treatment"/>
         
     </xsl:template>
-    <xsl:template match="treatment">
-        
+    <xsl:template match="treatment">        
         <rdf:RDF>
             <rdf:Description
                 rdf:about="{$treatmentID}">
@@ -101,5 +100,8 @@
     </xsl:template>
     <xsl:template match="mods:end">
         <xsl:element name="bibo:endPage"><xsl:value-of select="."/></xsl:element>
-    </xsl:template>    
-</xsl:stylesheet>
+    </xsl:template>
+    <xsl:template match="//NCBI_ID">
+        <xsl:element name="rdfs:seeAlso"><xsl:value-of select="."></xsl:value-of></xsl:element>
+    </xsl:template>
+    </xsl:stylesheet>
