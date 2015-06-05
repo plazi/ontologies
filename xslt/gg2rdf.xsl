@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:bibo="http://purl.org/ontology/bibo/"
+    xmlns:cito="http://purl.org/spar/cito/"
     xmlns:cnt="http://www.w3.org/2011/content#" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
     xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#"
@@ -37,6 +38,7 @@
                 <xsl:apply-templates select="//materialsCitation" mode="object"/>
             </rdf:Description>
             <xsl:call-template name="publication"/>
+            <xsl:apply-templates select="//treatmentCitation"/>
             <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
             <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
         </rdf:RDF>
@@ -104,5 +106,8 @@
     </xsl:template>
     <xsl:template match="//NCBI_ID">
         <xsl:element name="dc:identifier"><xsl:value-of select="."></xsl:value-of></xsl:element>
+    </xsl:template>
+    <xsl:template match="treatmentCitation">
+        <cito:cites><xsl:value-of select="@httpUri"></xsl:value-of></cito:cites>
     </xsl:template>
     </xsl:stylesheet>
