@@ -119,9 +119,11 @@
     </xsl:template>
     <xsl:template match="treatmentCitation" mode="literal">
         <cito:cites>
-            <xsl:text>"</xsl:text>
-            <xsl:value-of select="normalize-space(./text())"/>
-            <xsl:text>"</xsl:text>
+            <xsl:apply-templates select="descendant::text()" mode="normalizeSpace"/>
         </cito:cites>
+    </xsl:template>
+    <xsl:template match="text()" mode="normalizeSpace">
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:if test="position() != last()">&#160;</xsl:if>
     </xsl:template>
     </xsl:stylesheet>
