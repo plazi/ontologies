@@ -6,6 +6,7 @@
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix trt:   <http://plazi.org/vocab/treatment#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cito: <http://purl.org/spar/cito/> .
 @prefix :      <http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c> .
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
@@ -14,6 +15,7 @@
    trt:hasMaterialExamined :material2 ;
    trt:hasDiagnosis :workerDiagnosis ;
    trt:publishedIn <doi:10.1371/journal.pone.0001787> .
+   cito:cites <> <http://treatment.plazi.org/id/1C4EDC178AD79DD7F1A5AB856E8C5BCA> .
 	    
 <doi:10.1371/journal.pone.0001787> a bibo:Article ;
   dc:title "A revision of Malagasy species of Anochetus Mayr and Odontomachus Latreille (Hymenoptera: Formicidae)." ;
