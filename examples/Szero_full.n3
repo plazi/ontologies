@@ -11,9 +11,11 @@
 @prefix trt: <http://plazi.org/vocab/treatment#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix pto:  <http://example.ogr/pseudo-trait-ont#> .
-@prefix measure: <http://example.org/someMeasurementOntology#> .
-@prefix domain: <http://example.org/someDomainOntologyThatGivesModifierUsage#"> .
+@prefix domain: <http://example.org/someDomainOntologyThatGivesModifierUsage#"> . 
+@prefix pto:	<http://example.org/pseudo-trait-ont#> .
+@prefix measure: <http://example.org/measure#> .
+@prefix sdd: 	 <http://tdwg.org/sdd#> .
+@prefix : <http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#> .
 
 <http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 a trt:Treatment ;
     trt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
@@ -21,7 +23,7 @@
     trt:material_examined    :material_2 ;
     trt:material_examined    :material_3 ;
     trt:material_examined    :material_4 ;
-    trt:description :description_1 ;    
+    trt:description :description ;    
     trt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
 
 <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597 a dwcFP:TaxonConcept ;
@@ -104,32 +106,58 @@
     dwc:stateProvince "Khabarovsk Province" ;
     dwc:typeStatus "Other material" .
 
-:description_1 a trt:Description ;
+:description a trt:Description ;
+   trt:hasSubDescription :description1 ;  ### or we could allow recursive Description
+   trt:hasSubDescription :description2 .
+
+:description1 a trt:Description;
         trt:hasContext <Males> ;
-	    trt:hasTrait :trait_1 ;
-	    trt:hasTrait :trait_2 .
-	    
-:trait_1 a trt:Trait ;
-	    trt:hasName pto:colors ;
-        trt:hasValue :value_1 .
+	    trt:trait :trait1 ;  #colours
+	    trt:trait :trait2 ;  #total length with cephalic lobe
+        trt:trait :trait3 .  #total length without cephalic lobe
 
-:trt:trait_2 a trt:Trait ;
-        trt:hasName pto:total-length ;
-        trt:hasValue :value_2 ;
-        trt:hasValue :value_3 .
+:description2 a trt:Description ;
+        trt:hasContext <Females> ;
+        trt:trait :trait1;  #colours same as Male
+        trt:trait :trait4 . # total length
 
-:value_1 a trt:Value ;
-    measure:value "variable" ;
-    measure:modifier domain:slightly .
+:trait1 a trt:CategoricalTrait ;  #Categorize traits or just values??
+	trt:hasName pto:colours ;
+        trt:hasValue :value1 .
 
-:value_2 a trt:Value ;
-   measure:min "1.49"^xsd:real ;
-   measure:max "1.66"^xsd:real ;
-   measure:mean "1.58"^xsd:real ;
-   trt:context "with cephalic lobe" .
 
-:value_3 a trt:Value ;
-   measure:min "1.37"^xsd:real ;
-   measure:max "1.54"^xsd:real ;
-   measure:mean "1.46"^xsd:real ;
-   trt:context "without cephalic lobe" .
+:trait2 a trt:QuantitativeTrait ;
+     trt:hasName "Total length";
+     trt:hasContext "with cepalic lobe";
+     trt:hasValue :value2 .
+
+:trait3 a trt:QuantitativeTrait ;
+     trt:hasName "Total length";
+     trt:hasContext "without cepalic lobe";
+     trt:hasValue :value3 .
+
+:value1 a trt:CategoricalValue;
+     trt:value "variable" ;
+     trt:modifier sdd:slightly .
+	
+
+:value2 a trt:QuantitativeValue;
+   measure:min 1.49 ;
+   measure:max 1.66 ;
+   measure:mean 1.58 .
+
+
+:value3 a trt:QuantitativeValue;  
+   measure:min 1.37 ;
+   measure:max 1.154 ;
+   measure:mean 1.146 .
+
+####### Female length traits
+:trait4 a trt:QuantitativeTrait ;
+     trt:hasName "Total length";
+     trt:hasValue :value4 .
+
+:value4 a trt:QuantitativeValue;  
+   measure:min 1.32 ;
+   measure:max 1.157 ;
+   measure:mean 1.146 .
