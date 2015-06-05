@@ -9,6 +9,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdd="http://tdwg.org/sdd#"
     xmlns:trt="http://plazi.org/vocab/treatment#"
+    xmlns:sdo="http://schema.org/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
     <xsl:output encoding="UTF-8" indent="yes" method="xml"/>
     <xsl:param name="treatmentID">
@@ -102,6 +103,6 @@
         <xsl:element name="bibo:endPage"><xsl:value-of select="."/></xsl:element>
     </xsl:template>
     <xsl:template match="//NCBI_ID">
-        <xsl:element name="rdfs:seeAlso"><xsl:value-of select="."></xsl:value-of></xsl:element>
+        <xsl:element name="dc:identifier"><xsl:value-of select="."></xsl:value-of></xsl:element>
     </xsl:template>
     </xsl:stylesheet>
