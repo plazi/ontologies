@@ -25,8 +25,7 @@
         <xsl:value-of select="generate-id()"/>
     </xsl:param>
     <xsl:template match="/">
-        <xsl:apply-templates select="//treatment"/>
-        
+        <xsl:apply-templates select="//treatment"/>        
     </xsl:template>
     <xsl:template match="treatment">        
         <rdf:RDF>
@@ -35,11 +34,12 @@
                 <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
                 <trt:definesTaxonConcept rdf:resource="{$taxonConceptID}"/>
                 <trt:publishedIn rdf:resource="{$pubID}"/>
-                <xsl:apply-templates select="//treatmentCitation"/>
+                <xsl:apply-templates select="//treatmentCitation[@httpUri]" mode="object"/>
+                <xsl:apply-templates select="//treatmentCitation" mode="literal"/>
                 <xsl:apply-templates select="//materialsCitation" mode="object"/>
             </rdf:Description>
             <xsl:call-template name="publication"/>
-            
+            <xsl:apply-templates select=".//treatmentCitation" mode="subject"/>
             <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
             <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
         </rdf:RDF>
@@ -108,7 +108,20 @@
     <xsl:template match="//NCBI_ID">
         <xsl:element name="dc:identifier"><xsl:value-of select="."></xsl:value-of></xsl:element>
     </xsl:template>
-    <xsl:template match="treatmentCitation">
+    
+    <xsl:template match="treatmentCitation" mode="object">
         <cito:cites rdf:resource="{@httpUri}"/>
+    </xsl:template>
+    <xsl:template match="treatmentCitation" mode="subject">
+        <rdf:Description rdf:about="{@httpUri}">
+            <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+        </rdf:Description>
+    </xsl:template>
+    <xsl:template match="treatmentCitation" mode="literal">
+        <cito:cites>
+            <xsl:text>"</xsl:text>
+            <xsl:value-of select="normalize-space(./text())"/>
+            <xsl:text>"</xsl:text>
+        </cito:cites>
     </xsl:template>
     </xsl:stylesheet>
