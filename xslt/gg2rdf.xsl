@@ -60,11 +60,13 @@
                 <xsl:apply-templates select="//treatmentCitation[@httpUri]" mode="object"/>
                 <xsl:apply-templates select="//treatmentCitation" mode="literal"/>
                 <xsl:apply-templates select="//materialsCitation" mode="object"/>
+                <xsl:apply-templates select="//figureCitation" mode="object"/>
             </rdf:Description>
             <xsl:call-template name="publication"/>
             <xsl:apply-templates select=".//treatmentCitation" mode="subject"/>
             <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
             <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
+            <xsl:apply-templates select=".//figureCitation" mode="subject"/>
         </rdf:RDF>
     </xsl:template>
     <xsl:template name="publication">
@@ -149,4 +151,15 @@
         <xsl:value-of select="normalize-space(.)"/>
         <xsl:if test="position() != last()">&#160;</xsl:if>
     </xsl:template>
+    
+    <xsl:template match="figureCitation" mode="object">
+        <fabio:hasPart rdf:resource="{@httpUri}"/>
+    </xsl:template>
+    <xsl:template match="figureCitation" mode="subject">
+        <rdf:Description rdf:about="{@httpUri}">
+            <rdf:type rdf:resource="http://purl.org/spar/fabio/Figure"/>
+        </rdf:Description>
+    </xsl:template>
+    
+    
     </xsl:stylesheet>
