@@ -17,12 +17,34 @@
         <xsl:value-of select="/document/treatment/@httpUri"/>
     </xsl:param>
     <xsl:param name="pubID">
-        <xsl:value-of select="'http://publication.plazi.org/id/'"/>
-        <xsl:value-of select="/document/@masterDocId"/>
+        <xsl:choose>
+            <xsl:when test="@ID-URI">
+                <xsl:text>http://dx.doi.org/</xsl:text>
+                <xsl:value-of select="translate(., ' ', '')"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="contains(@docSource, 'dx.doi')">
+                        <xsl:value-of select="@docSource"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="'http://publication.plazi.org/id/'"/>
+                        <xsl:value-of select="/document/@masterDocId"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:param>
     <xsl:param name="taxonConceptID">
-        <xsl:text>http://example.org/concept/id/</xsl:text>
-        <xsl:value-of select="generate-id()"/>
+        <xsl:choose>
+            <xsl:when test="@docUuidSource = 'ZBK'">
+                <xsl:value-of select="@docUuid"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>http://taxon-concept.plazi.org/id/</xsl:text>
+                <xsl:value-of select="@docId"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:param>
     <xsl:template match="/">
         <xsl:apply-templates select="//treatment"/>        
