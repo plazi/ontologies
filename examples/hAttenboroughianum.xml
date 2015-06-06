@@ -1,0 +1,292 @@
+<document ENCODING="UTF8" ID-DOI="10.1179/2042349714Y.0000000051" _generate="added" checkinTime="1423689314055" checkinUser="donat" docAuthor="Rich, T. C. G." docDate="2014" docId="49207E3AF24D98031A3A6A5766A574EC" docLanguage="en" docName="Hieracium attenboroughianum njb91.htm.xml" docOrigin="New Journal of Botany 4 (3)" docTitle="Hieracium attenboroughianum Rich, 2014, sp. nov." lastPageNumber="175" masterDocId="364AB2470286AC2C515229A8419E5BB1" masterDocTitle="Hieracium attenboroughianum (Asteraceae), a new species of hawkweed" masterLastPageNumber="175" masterPageNumber="172" pageNumber="172" updateTime="1433584263063" updateUser="donat">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Hieracium attenboroughianum (Asteraceae), a new species of hawkweed</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Rich, T. C. G.</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>New Journal of Botany</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2014</mods:date>
+<mods:detail type="volume">
+<mods:number>4</mods:number>
+</mods:detail>
+<mods:detail type="issue">
+<mods:number>3</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>172</mods:start>
+<mods:end>175</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="DOI">10.1179/2042349714Y.0000000051</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:49207E3AF24D98031A3A6A5766A574EC" httpUri="http://treatment.plazi.org/id/49207E3AF24D98031A3A6A5766A574EC">
+<subSubSection type="nomenclature">
+<paragraph pageId="0" pageNumber="172" type="mainText">
+<taxonomicName authority="T.C.G. Rich" authorityName="T.C.G. Rich" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="0" pageNumber="172" phylum="Tracheophyta" rank="species" species="attenboroughianum">
+Hieracium attenboroughianum 
+<authority>T.C.G. Rich</authority>
+</taxonomicName>
+, 
+<taxonomicNameLabel rank="species">sp. nov.</taxonomicNameLabel>
+</paragraph>
+</subSubSection>
+<subSubSection type="materials_examined">
+<paragraph pageId="0" pageNumber="172" type="mainText">
+<materialsCitation collectingDate="2014-01-01" collectingDateMax="2014-12-31" collectingDateMin="2014-01-01" collectionCode="BM" collectorName="T. C. G. Rich" country="United Kingdom" elevation="740 m" latitude=" 51.881161" location="Mountain ledges, Old Red Sandstone, Cribyn, Brecon" longitude=" -3.418963" specimenCount="1" typeStatus="holotype">
+TYPE: 
+<location LSID="urn:lsid:plazi:treatment:49207E3AF24D98031A3A6A5766A574EC:C638C4DD2244FCDAC91D9C38CB73B11F" country="United Kingdom" latitude=" 51.881161" longitude=" -3.418963" name="Mountain ledges, Old Red Sandstone, Cribyn, Brecon">Mountain ledges, Old Red Sandstone, Cribyn, Brecon</location>
+(v.c. 42), 
+<collectingCountry name="United Kingdom">Wales</collectingCountry>
+, SO021212, 
+<elevation>740 m</elevation>
+altitude, 
+<collectorName>T.C.G. Rich</collectorName>
+, 
+<collectingDate>28 June 2014</collectingDate>
+(
+<typeStatus>holotype</typeStatus>
+<collectionCode>BM</collectionCode>
+</materialsCitation>
+; 
+<materialsCitation collectingDate="2014-01-01" collectingDateMax="2014-12-31" collectingDateMin="2014-01-01" collectionCode="CGE" collectorName="T. C. G. Rich" country="United Kingdom" elevation="740 m" latitude=" 51.881161" location="Mountain ledges, Old Red Sandstone, Cribyn, Brecon" longitude=" -3.418963" longitute=" -3.418963" specimenCount="1" typeStatus="isotype">
+<typeStatus>isotype</typeStatus>
+<collectionCode>CGE</collectionCode>
+)
+</materialsCitation>
+.
+</paragraph>
+</subSubSection>
+<subSubSection type="etymology">
+<paragraph pageId="0" pageNumber="172" type="mainText">
+Vernacular name: 
+<normalizedToken originalValue="Attenborough’s">Attenborough's</normalizedToken>
+Hawkweed.
+</paragraph>
+</subSubSection>
+<subSubSection type="description">
+<paragraph pageId="0" pageNumber="172" type="mainText">
+Description. Phyllopodous perennial herb with a branched stock. Stem to 30(-45) cm tall, green, sometimes weakly flushed reddish purple at the base, slender, with sparse, whitish simple eglandular hairs and stellate hairs below, 6 glabrous or with very sparse, very small stellate hairs in the middle, and with numerous stellate hairs and very few simple eglandular hairs and glandular hairs above. Leaves subglaucous-dark green and more or less glabrous or glabrescent above, paler below with a few white simple eglandular hairs. Basal rosette leaves 4-5(-7) with lamina 3.5- 7 x 2.5-4.5 cm, ovate, cupped with the margins usually up-turned, apex acute and mucronulate or apiculate, margins remotely denticulate towards apex and with a few slightly larger forward-pointing teeth towards base, base cordate to truncate. Cauline leaf 0-1, ovate, acuminate, smaller than basal leaves, or often reduced to 9x2 mm, linear-triangular bract at base of synflorescence branch. Petioles to 4 cm, reddishpurple flushed with numerous long, white simple eglandular hairs, winged near the lamina and at base. Inflorescence furcate-corymbose with up to 4 capitula. Capitula ca 30-45 mm in diameter, rounded at base. Involucral bracts porrect in bud, 9-12 x (1.0-) 1.1-1.4(-1.5)mm, greyish-green with paler margins narrowly linear-lanceolate, acute, with sparse, long simple eglandular hairs which are black at the base and white at the tip, many short to medium glandular hairs with dark bases and yellowish-green tips, and sparse white stellate hairs mainly on the margins and near the base, and a tuft of white stellate hairs at the apex. Ligules mid-yellow, glabrous-tipped. Styles yellow, discolouring with age. Pollen present. Receptacle pits incised-dentate. Seeds 3-4 mm, blackish-brown (
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15033">Figs. 1</figureCitation>
+and 
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15034">2</figureCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph lastPageId="1" lastPageNumber="173" pageId="0" pageNumber="172" type="mainText">
+Notes. 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="0" pageNumber="172" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+is characterised by the subglaucous-dark green, unspotted, remotely denticulate, ovate, acute, cordate leaves which are more or less glabrous above, the 0-1 stem leaf which is often reduced to a bract, the narrowly linear-lanceolate, acute bracts with few simple eglandular hairs, many short glandular hairs and sparse stellate hairs, the glabrous-tipped ligules and the yellow styles.
+</paragraph>
+</subSubSection>
+<subSubSection type="multiple">
+<caption pageId="1" pageNumber="173">
+<paragraph pageId="1" pageNumber="173" type="caption">
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15033">
+<pageBreakToken pageId="1" pageNumber="173" start="start">Figure</pageBreakToken>
+1
+</figureCitation>
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+. (A) Whole plant. (B-F) Basal rosette leaves from outer (B) to inner (F). (G-H) Stem leaves. (I) Capitulum. (J) Involucral bract. Scale bars=1 cm.
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection type="diagnosis">
+<paragraph pageId="1" pageNumber="173" type="mainText">
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+is a member of 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="section" section="Stelligera">Hieracium section Stelligera Zahn</taxonomicName>
+, with a welldeveloped basal rosette and few or no stem leaves, with rigid simple hairs and medium to large capitula. Within Section Stelligera, it is a member of the 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="britannicum">H. britannicum</taxonomicName>
+group (Sell &amp; West, 1968; Sell &amp; Murrell, 2006), which are a group of closely related species of calcareous substrates which may have diverged through geographic isolation and minor mutation from a more widespread parent species. It can be separated from these seven related species as below.
+</paragraph>
+<paragraph pageId="1" pageNumber="173" type="mainText">
+<taxonomicName authority="F. Hanb" authorityName="F. Hanb" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="britannicum">Hieracium britannicum F. Hanb</taxonomicName>
+., which is endemic to Derbyshire and Staffordshire, differs in having dense stellate hairs and numerous simple hairs on the involucral bracts (sparse stellate hairs and sparse simple hairs on the involucral bracts in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<paragraph pageId="1" pageNumber="173" type="mainText">
+<taxonomicName authority="Pugsley" authorityName="Pugsley" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="britanniciforme">
+Hieracium britanniciforme 
+<authority>Pugsley</authority>
+</taxonomicName>
+differs in having larger capitula 40-50 mm across and large dark spots on the leaves which have many long simple hairs on the upper surface (smaller capitula and unspotted leaves with few or no simple hairs on the upper surface in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<paragraph lastPageId="2" lastPageNumber="174" pageId="1" pageNumber="173" type="mainText">
+<taxonomicName authority="P.D. Sell" authorityName="P.D. Sell" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="britannicoides">
+Hieracium britannicoides 
+<authority>P.D. Sell</authority>
+</taxonomicName>
+, which is endemic to North Wales, differs in having flat mid-green or slightly glaucous leaves with many, long simple eglandular hairs on the petioles, and numerous medium simple eglandular hairs and few glandular hairs on the involucral bracts (cupped, dark green leaves and sparse medium simple eglandular hairs and many glandular hairs on the involucral bracts in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="1" pageNumber="173" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<caption pageId="2" pageNumber="174">
+<paragraph pageId="2" pageNumber="174" type="caption">
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15034">
+<pageBreakToken pageId="2" pageNumber="174" start="start">Figure</pageBreakToken>
+2
+</figureCitation>
+Holotype of 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+.
+</paragraph>
+</caption>
+<paragraph pageId="2" pageNumber="174" type="mainText">
+<taxonomicName authority="J. N. Mills" authorityName="J. N. Mills" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="naviense">
+Hieracium naviense 
+<authority>J. N. Mills</authority>
+</taxonomicName>
+, which is endemic to Derbyshire, differs in having numerous stellate hairs on the involucral bracts and much more deeply toothed leaves, often with teeth on the petioles (sparse stellate hairs on the involucral bracts and remotely denticulate teeth in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<paragraph pageId="2" pageNumber="174" type="mainText">
+<taxonomicName authority="Ley" authorityName="Ley" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="subbritannicum">Hieracium subbritannicum (Ley) P.D. Sell &amp; C. West</taxonomicName>
+, which is restricted to South Wales and Western England (though probably extinct in the latter), differs in having more strongly toothed, lanceolate leaves usually with two large reflexed teeth at the base of the inner rosette leaves and numerous medium simple eglandular hairs on the involucral bracts (remotely denticulate ovate leaves and sparse medium simple eglandular hairs on the involucral bracts in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<paragraph pageId="2" pageNumber="174" type="mainText">
+<taxonomicName authority="Pugsley" authorityName="Pugsley" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="stenolepiforme">Hieracium stenolepiforme (Pugsley) P.D. Sell &amp; C. West</taxonomicName>
+, which is endemic to Cheddar Gorge in England, has lanceolate leaves and numerous simple hairs on the involucral bracts (ovate leaves and sparse simple hairs on the involucral bracts in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+<paragraph pageId="2" pageNumber="174" type="mainText">
+<taxonomicName authority="P.D. Sell" authorityName="P.D. Sell" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="vagicola">
+Hieracium vagicola 
+<authority>P.D. Sell</authority>
+</taxonomicName>
+which is endemic to the English side of the Wye Valley, differs in having dense stellate hairs on the involucral bracts and more deeply toothed leaves (sparse stellate hairs on the involucral bracts and remotely denticulate teeth in 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">H. attenboroughianum</taxonomicName>
+).
+</paragraph>
+</subSubSection>
+<subSubSection type="multiple">
+<caption pageId="2" pageNumber="174">
+<paragraph pageId="2" pageNumber="174" type="caption">
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15035 ">Figure 3</figureCitation>
+Pictures of 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="2" pageNumber="174" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+. (a) Locality on NW side of Cribyn. (b) Habitat on Old Red Sandstone mountain rocks. (c) Plant. (d) Capitulum.
+</paragraph>
+</caption>
+<caption pageId="3" pageNumber="175">
+<paragraph pageId="3" pageNumber="175" type="caption">
+<figureCitation httpUri=" http://dx.doi.org/10.5281/zenodo.15036">
+<pageBreakToken pageId="3" pageNumber="175" start="start">Figure</pageBreakToken>
+4
+</figureCitation>
+Distribution map of 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+.
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageId="3" pageNumber="175" type="mainText">History. The earliest specimen traced was collected by M. Porter on 1 July 1975 from the Old Red Sandstone on the middle cliffs of Cribyn, SP022213, no. 75/53 (herb. M. Porter). Given its frequency on Cribyn, it is surprising that no other specimens have been found in herbaria.</paragraph>
+</subSubSection>
+<subSubSection type="etymology">
+<paragraph pageId="3" pageNumber="175" type="mainText">
+Etymology. I have named this species in honour of Sir David Frederick Attenborough whose 'World about 
+<normalizedToken originalValue="us’">us'</normalizedToken>
+series on BBC television inspired me to study ecology when I was 17. I have watched and admired his work ever since, as have many other people, and in naming this hawkweed pay tribute to him for so eloquently educating us about the natural world.
+</paragraph>
+</subSubSection>
+<subSubSection type="distribution">
+<paragraph pageId="3" pageNumber="175" type="mainText">
+Distribution and ecology. About 300 plants (mostly mature and flowering) occur on Old Red Sandstone rock ledges on the north-west face of Cribyn at an altitude of ca 700-760 m (
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15035">Figs. 3</figureCitation>
+and 
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15036">4</figureCitation>
+). It occurred in grassy cliff vegetation with 
+<taxonomicName authority="L." authorityName="L." class="Liliopsida" family="Poaceae" genus="Festuca" higherTaxonomySource="CoL" kingdom="Plantae" order="Poales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="ovina">
+Festuca ovina 
+<authority>L.</authority>
+</taxonomicName>
+, 
+<taxonomicName authority="L." authorityName="L." class="Liliopsida" family="Poaceae" genus="Festuca" higherTaxonomySource="CoL" kingdom="Plantae" order="Poales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="vivipara">F. vivipara (L.) Sm.,</taxonomicName>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Rubiaceae" genus="Galium" higherTaxonomySource="CoL" kingdom="Plantae" order="Gentianales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="saxatile">
+Galium saxatile 
+<authority>L.</authority>
+</taxonomicName>
+, 
+<taxonomicName authority="Ehrend" authorityName="Ehrend" class="Magnoliopsida" family="Rubiaceae" genus="Galium" higherTaxonomySource="CoL" kingdom="Plantae" order="Gentianales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="sterneri">Galium sterneri Ehrend</taxonomicName>
+., 
+<taxonomicName authority="F. J. Hanb." authorityName="F. J. Hanb." class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="siluriense">Hieracium siluriense (F. J. Hanb.) P.D. Sell,</taxonomicName>
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Saxifragaceae" genus="Saxifraga" higherTaxonomySource="CoL" kingdom="Plantae" order="Saxifragales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="hypnoides">
+Saxifraga hypnoides 
+<authority>L.</authority>
+</taxonomicName>
+, 
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Saxifragaceae" genus="Saxifraga" higherTaxonomySource="CoL" kingdom="Plantae" order="Saxifragales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="oppositifolia">
+S. oppositifolia 
+<authority>L.</authority>
+</taxonomicName>
+, 
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Dipsacaceae" genus="Scabiosa" higherTaxonomySource="CoL" kingdom="Plantae" order="Dipsacales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="columbaria">
+Scabiosa columbaria 
+<authority>L.</authority>
+</taxonomicName>
+, and 
+<taxonomicName authority="L." authorityName="L." class="Magnoliopsida" family="Crassulaceae" genus="Sedum" higherTaxonomySource="CoL" kingdom="Plantae" order="Saxifragales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="rosea">Sedum rosea (L.)</taxonomicName>
+Scop. on immature soils derived from the Old Red Sandstone (pH=5.6) or directly rooted in rock crevices.
+</paragraph>
+<paragraph pageId="3" pageNumber="175" type="mainText">
+Most of the plants occurred on ledges out of the reach of sheep. A few vegetative rosettes occurred at the grazed bases of the rocks, but did not appear to flower. Like most other 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="genus">Hieracium</taxonomicName>
+species, it is likely to be susceptible to grazing.
+</paragraph>
+</subSubSection>
+<subSubSection type="biology_ecology">
+<paragraph pageId="3" pageNumber="175" type="mainText">
+The main flowering period on Cribyn is end of June to mid-July. In cultivation in Aberdare and Cardiff, it mainly flowers from the end of May for 2- 3 weeks with occasional inflorescences produced until September. Seed is set about 3-4 weeks after flowering. It flowers 5-10 days after 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="britannicoides">H. britannicoides</taxonomicName>
+and 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="britanniciforme">H. britanniciforme</taxonomicName>
+in cultivation.
+</paragraph>
+<paragraph pageId="3" pageNumber="175" type="mainText">
+The main mountain cliffs within a radius of about 2 km were also searched, but no further populations were found. Other 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="genus">Hieracium</taxonomicName>
+species recorded on the central Brecon Beacons are 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="siluriense">H. siluriense</taxonomicName>
+(frequent), 
+<taxonomicName authority="Ley" authorityName="Ley" class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="cacuminum">H. cacuminum (Ley) Ley</taxonomicName>
+(occasional), and 
+<taxonomicName authority="Fr." authorityName="Fr." class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="argenteum">
+H. argenteum 
+<authority>Fr.</authority>
+</taxonomicName>
+(rare), from which it can be distinguished by the sharp teeth on the basal rosette leaves and in having 0 or 1 stem leaf.
+</paragraph>
+</subSubSection>
+<subSubSection type="discussion">
+<paragraph pageId="3" pageNumber="175" type="mainText">
+Conservation status. 
+<taxonomicName class="Magnoliopsida" family="Asteraceae" genus="Hieracium" higherTaxonomySource="CoL" kingdom="Plantae" order="Asterales" pageId="3" pageNumber="175" phylum="Tracheophyta" rank="species" species="attenboroughianum">Hieracium attenboroughianum</taxonomicName>
+is classified as IUCN Threat Category 
+<normalizedToken originalValue="‘Endangered’">'Endangered'</normalizedToken>
+(
+<figureCitation httpUri="http://dx.doi.org/10.5281/zenodo.15039">IUCN, 2001</figureCitation>
+), due to the small population size restricted to one site. The main threats are overgrazing and rock falls.
+</paragraph>
+</subSubSection>
+</treatment>
+</document>
