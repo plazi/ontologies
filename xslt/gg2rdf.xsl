@@ -74,6 +74,7 @@
             <trt:definesTaxonConcept rdf:resource="{$taxonConceptID}"></trt:definesTaxonConcept>
             <trt:publishedIn rdf:resource="{$pubID}"/>
             <xsl:apply-templates select="//treatmentCitation[@httpUri]" mode="object">
+                <xsl:with-param name="treatmentID" select="$treatmentID"/>                
             </xsl:apply-templates>
             <xsl:apply-templates select="//treatmentCitation" mode="literal"/>
             <xsl:apply-templates select="//materialsCitation" mode="object">
@@ -84,7 +85,7 @@
         <xsl:call-template name="publication">
             <xsl:with-param name="pubID" select="$pubID"/>
         </xsl:call-template>
-        <xsl:apply-templates select=".//treatmentCitation" mode="subject"/>
+        <xsl:apply-templates select=".//treatmentCitation[@httpUri]" mode="subject"/>
         <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']">
             <xsl:with-param name="taxonConceptID" select="$taxonConceptID"/>
         </xsl:apply-templates>
