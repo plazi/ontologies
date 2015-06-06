@@ -60,13 +60,13 @@
                 <xsl:apply-templates select="//treatmentCitation[@httpUri]" mode="object"/>
                 <xsl:apply-templates select="//treatmentCitation" mode="literal"/>
                 <xsl:apply-templates select="//materialsCitation" mode="object"/>
-                <xsl:apply-templates select="//figureCitation" mode="object"/>
+                <xsl:apply-templates select="//figureCitation[@httpUri]" mode="object"/>
             </rdf:Description>
             <xsl:call-template name="publication"/>
             <xsl:apply-templates select=".//treatmentCitation" mode="subject"/>
             <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
             <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
-            <xsl:apply-templates select=".//figureCitation" mode="subject"/>
+            <xsl:apply-templates select=".//figureCitation[@httpUri]" mode="subject"/>
         </rdf:RDF>
     </xsl:template>
     <xsl:template name="publication">
@@ -153,10 +153,10 @@
     </xsl:template>
     
     <xsl:template match="figureCitation" mode="object">
-        <fabio:hasPart rdf:resource="{@httpUri}"/>
+        <fabio:hasPart rdf:resource="{translate(@httpUri, ' ', '')}"/>
     </xsl:template>
     <xsl:template match="figureCitation" mode="subject">
-        <rdf:Description rdf:about="{@httpUri}">
+        <rdf:Description rdf:about="{translate(@httpUri, ' ', '')}">
             <rdf:type rdf:resource="http://purl.org/spar/fabio/Figure"/>
         </rdf:Description>
     </xsl:template>
