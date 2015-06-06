@@ -37,7 +37,7 @@
     </xsl:param>
     <xsl:param name="taxonConceptID">
         <xsl:choose>
-            <xsl:when test="/document/@docUuidSource = 'ZBK'">
+            <xsl:when test=" contains(' ZBK ZooBank ', /document/@docUuidSource)">
                 <xsl:value-of select="/document/@docUuid"/>
             </xsl:when>
             <xsl:otherwise>
