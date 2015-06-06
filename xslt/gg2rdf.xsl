@@ -20,7 +20,7 @@
         <xsl:choose>
             <xsl:when test="/document/@ID-URI">
                 <xsl:text>http://dx.doi.org/</xsl:text>
-                <xsl:value-of select="translate(., ' ', '')"/>
+                <xsl:value-of select="translate(/document/@ID-URI, ' ', '')"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
