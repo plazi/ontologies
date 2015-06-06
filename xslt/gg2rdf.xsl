@@ -38,6 +38,7 @@
     <xsl:param name="taxonConceptID">
         <xsl:choose>
             <xsl:when test=" contains(' ZBK ZooBank ', /document/@docUuidSource)">
+                <xsl:text>http://zoobank.org/NomenclaturalActs/</xsl:text>
                 <xsl:value-of select="/document/@docUuid"/>
             </xsl:when>
             <xsl:otherwise>
