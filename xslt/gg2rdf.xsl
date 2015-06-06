@@ -18,9 +18,9 @@
     </xsl:param>
     <xsl:param name="pubID">
         <xsl:choose>
-            <xsl:when test="/document/@ID-URI">
+            <xsl:when test="/document/@ID-DOI">
                 <xsl:text>http://dx.doi.org/</xsl:text>
-                <xsl:value-of select="translate(/document/@ID-URI, ' ', '')"/>
+                <xsl:value-of select="translate(/document/@ID-DOI, ' ', '')"/>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
@@ -37,7 +37,7 @@
     </xsl:param>
     <xsl:param name="taxonConceptID">
         <xsl:choose>
-            <xsl:when test=" contains(' ZBK ZooBank ', /document/@docUuidSource)">
+            <xsl:when test=" contains(' ZBK ZooBank ', concat(' ', /document/@docUuidSource, ' '))">
                 <xsl:text>http://zoobank.org/NomenclaturalActs/</xsl:text>
                 <xsl:value-of select="/document/@docUuid"/>
             </xsl:when>
