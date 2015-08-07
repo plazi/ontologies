@@ -63,21 +63,7 @@
         </xsl:apply-templates>
     </xsl:template>
     <xsl:template match="treatment">
-<<<<<<< HEAD
-        
-        <rdf:RDF>
-            <rdf:Description
-                rdf:about="{$treatmentID}">
-                <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
-                <trt:definesTaxonConcept rdf:resource="{$taxonConceptID}"/>
-                <trt:publishedIn rdf:resource="{$pubID}"/>
-                <xsl:apply-templates select="//materialsCitation" mode="object"/>
-            </rdf:Description>
-            <xsl:call-template name="publication"/>
-            <xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']"/>
-            <xsl:apply-templates select=".//materialsCitation" mode="subject"/>
-        </rdf:RDF>
-=======
+
         <xsl:param name="treatmentID" tunnel="yes"/>
         <xsl:param name="taxonConceptID" tunnel="yes"/>
         <xsl:param name="pubID" tunnel="yes"/>
@@ -107,7 +93,7 @@
         <xsl:apply-templates select=".//materialsCitation" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
         <xsl:apply-templates select=".//figureCitation[@httpUri]" mode="subject"/>
 
->>>>>>> basedOnDwcFP
+
     </xsl:template>
     <xsl:template name="publication">
         <xsl:param name="pubID"/>
@@ -128,17 +114,11 @@
         </rdf:Description>
     </xsl:template>
     <xsl:template match="materialsCitation" mode="object">
-<<<<<<< HEAD
-        <trt:material_examined rdf:resource="{$treatmentID}#material_{position()}"/>
-    </xsl:template>
-    <xsl:template match="materialsCitation" mode="subject">
-=======
         <xsl:param name="treatmentID"/>
         <trt:material_examined rdf:resource="{$treatmentID}#material_{position()}"/>
     </xsl:template>
     <xsl:template match="materialsCitation" mode="subject">
         <xsl:param name="treatmentID"/>
->>>>>>> basedOnDwcFP
         <rdf:Description rdf:about="{$treatmentID}#material_{position()}">
             <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
             <xsl:apply-templates select="@*"/>
