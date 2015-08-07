@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:domain="http://example.org/someDomainOntologyThatGivesModifierUsage#&quot;" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:measure="http://example.org/measure#" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:pto="http://example.org/pseudo-trait-ont#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#">
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:collectingDate>1987-06</dwc:collectingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:collectingDateMax>1987-08</dwc:collectingDateMax>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:collectingDateMin>1987-06</dwc:collectingDateMin>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:collectorName>N. E. Dokutchaev</dwc:collectorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:country>Russia</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:location>middle Chelomdzha river (left tributary of Taui river)</dwc:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:specimenCount>1</dwc:specimenCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:specimenCount-male>1</dwc:specimenCount-male>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:stateProvince>Magadan</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+    <dwc:typeStatus>holotype</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:collectingDate>1990-09-18</dwc:collectingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:collectionCode>SMF</dwc:collectionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:country>Russia</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:location>Ola river mouth</dwc:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:specimenCode>39671</dwc:specimenCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:specimenCount>22</dwc:specimenCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:specimenCount-female>14</dwc:specimenCount-female>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:specimenCount-male>8</dwc:specimenCount-male>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:stateProvince>Magadan</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+    <dwc:typeStatus>Other material</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:collectingDate>2005-09-14</dwc:collectingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:collectionCode>IBPN</dwc:collectionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:country>Russia</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:elevation>430 m</dwc:elevation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:latitude>48.2425</dwc:latitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:location>environment of Bychikha village, Bolshekhektsyrski reserve, " Klyuch Sosnenskiy " kordon</dwc:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:longLatPrecision>1</dwc:longLatPrecision>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:longitude>134.78334</dwc:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:specimenCount>20</dwc:specimenCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:specimenCount-female>13</dwc:specimenCount-female>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:specimenCount-male>7</dwc:specimenCount-male>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:stateProvince>Khabarovsk province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+    <dwc:typeStatus>Other material</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:collectingDate>2005-09-11</dwc:collectingDate>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:collectionCode>IBPN</dwc:collectionCode>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:country>Russia</dwc:country>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:latitude>48.291668</dwc:latitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:location>environment of Khabarovsk, environment of Bychikha village, Bolshekhektsyrski reserve</dwc:location>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:longLatPrecision>1</dwc:longLatPrecision>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:longitude>134.82834</dwc:longitude>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:specimenCount>2</dwc:specimenCount>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:specimenCount-female>1</dwc:specimenCount-female>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:specimenCount-male>1</dwc:specimenCount-male>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:stateProvince>Khabarovsk Province</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+    <dwc:typeStatus>Other material</dwc:typeStatus>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description">
+    <trt:hasSubDescription rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description">
+    <trt:hasSubDescription rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1">
+    <trt:hasContext rdf:resource="file:///media/KINGSTON8/Work/Plazi/Traits/Males"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1">
+    <trt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1">
+    <trt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description1">
+    <trt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description2">
+    <trt:hasContext rdf:resource="file:///media/KINGSTON8/Work/Plazi/Traits/Females"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description2">
+    <trt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description2">
+    <trt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#CategoricalTrait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1">
+    <trt:hasName rdf:resource="http://example.org/pseudo-trait-ont#colours"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1">
+    <trt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeTrait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2">
+    <trt:hasName>Total length</trt:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2">
+    <trt:hasContext>with cepalic lobe</trt:hasContext>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2">
+    <trt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeTrait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3">
+    <trt:hasName>Total length</trt:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3">
+    <trt:hasContext>without cepalic lobe</trt:hasContext>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3">
+    <trt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#CategoricalValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1">
+    <trt:value>variable</trt:value>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1">
+    <trt:modifier rdf:resource="http://tdwg.org/sdd#slightly"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2">
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.49</measure:min>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2">
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.66</measure:max>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2">
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.58</measure:mean>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3">
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.37</measure:min>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3">
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.154</measure:max>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3">
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeTrait"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4">
+    <trt:hasName>Total length</trt:hasName>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4">
+    <trt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#QuantitativeValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4">
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.32</measure:min>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4">
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.157</measure:max>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4">
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+  </rdf:Description>
+</rdf:RDF>

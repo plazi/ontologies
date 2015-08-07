@@ -1,16 +1,20 @@
-@prefix : <http://plazi.org/treatment.owl#> .
-@prefix tc: <http://rs.tdwg.org/ontology/voc/TaxonConcept#> .
-@prefix dwc: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix : <http://plazi.org/treatment#> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix occ: <http://rs.tdwg.org/ontology/voc/OccurrenceRecord#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix voc: <http://rs.tdwg.org/ontology/voc/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix core: <http://rs.tdwg.org/ontology/Core#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://plazi.org/vocab/treatment#> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
+@prefix dwcIRI: <http://rs.tdwg.org/dwc/iri/> .
+@prefix dwcOwl: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@base <http://plazi.org/treatment#> .
 
-<http://plazi.org/vocab/treatment#> rdf:type owl:Ontology .
+<http://plazi.org/treatment#> rdf:type owl:Ontology ;
+                              
+                              owl:imports dwcFP: .
 
 
 #################################################################
@@ -20,125 +24,204 @@
 #################################################################
 
 
-###  http://plazi.org/treatment.owl#biology
-
-:biology rdf:type owl:ObjectProperty ;
-         
-         rdfs:comment "BiologyEcologyFrom biological parts of div enumeration:BiologyEcology"^^rdfs:Literal ;
-         
-         rdfs:domain :Treatment .
-
-
-
-###  http://plazi.org/treatment.owl#citation
-
-:citation rdf:type owl:ObjectProperty ;
-          
-          rdfs:comment """In practice a (part of?) a Nomenclature object is used as though it is a URI for a Treatment. For modelling, hasCitation refers to the Treatment itself,  and serializations may need to extract the Nomenclature object.
-
-?Normally, within a Treatment, a citation is attached to a Nomenclature object."""^^rdfs:Literal ;
-          
-          rdfs:subPropertyOf owl:topObjectProperty .
-
-
-
-###  http://plazi.org/treatment.owl#definedByTreatment
+###  http://plazi.org/treatment#definedByTreatment
 
 :definedByTreatment rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:domain dwcFP:Taxon ;
+                    
+                    rdfs:range :Treatment ;
                     
                     owl:inverseOf :definesTaxon .
 
 
 
-###  http://plazi.org/treatment.owl#definesTaxon
+###  http://plazi.org/treatment#definesTaxon
 
-:definesTaxonConcept rdf:type owl:ObjectProperty ;
-                     
-                     rdfs:range tc:TaxonConcept .
-
-
-
-###  http://plazi.org/treatment.owl#description
-
-:description rdf:type owl:ObjectProperty ;
-             
-             rdfs:domain :Treatment .
-
-###  http://plazi.org/treatment.owl#diagnosis
-
-:diagnosis rdf:type owl:ObjectProperty ;
-           
-           rdfs:domain :Treatment .
-
-
-
-###  http://plazi.org/treatment.owl#distribution
-
-:distribution rdf:type owl:ObjectProperty ;
+:definesTaxon rdf:type owl:ObjectProperty ;
+              
+              rdfs:comment "should be removed in favor of definesTaxonConcept" ;
+              
+              rdfs:range dwcFP:Taxon ;
               
               rdfs:domain :Treatment .
 
 
 
-###  http://plazi.org/treatment.owl#etymology
+###  http://plazi.org/treatment#definesTaxonConcept
 
-:etymology rdf:type owl:ObjectProperty ;
-           
-           rdfs:domain :Treatment .
-
-
-
-###  http://plazi.org/treatment.owl#key
-
-:key rdf:type owl:ObjectProperty .
+:definesTaxonConcept rdf:type owl:ObjectProperty ;
+                     
+                     rdfs:range dwcFP:Taxon ;
+                     
+                     rdfs:domain :Treatment .
 
 
 
-###  http://plazi.org/treatment.owl#material_examined
+###  http://plazi.org/treatment#description
 
-:material_examined rdf:type owl:ObjectProperty ;
-                   
-                   rdfs:domain :Treatment ;
-                   
-                   rdfs:range <http://plazi.org/vocab/treatment#Material> .
-
-
-
-###  http://plazi.org/treatment.owl#materials_methods
-
-:materials_methods rdf:type owl:ObjectProperty ;
-                   
-                   rdfs:domain :Treatment .
+:description rdf:type owl:ObjectProperty ;
+             
+             rdfs:comment "Should have Taxon as subject" ;
+             
+             rdfs:range :Description ;
+             
+             rdfs:domain :Treatment .
 
 
 
-###  http://plazi.org/treatment.owl#multiple
+###  http://plazi.org/treatment#hasBiology
 
-:multiple rdf:type owl:ObjectProperty ;
-          
-          rdfs:domain :Treatment .
+:hasBiology rdf:type owl:ObjectProperty ;
+            
+            rdfs:comment "BiologyEcologyFrom biological parts of div enumeration:BiologyEcology"^^rdfs:Literal ;
+            
+            rdfs:range :Biology ;
+            
+            rdfs:domain :Treatment ;
+            
+            rdfs:subPropertyOf :hasInformation .
 
 
 
-###  http://plazi.org/treatment.owl#name
+###  http://plazi.org/treatment#hasCitation
+
+:hasCitation rdf:type owl:ObjectProperty ;
+             
+             rdfs:comment """In practice a (part of?) a Nomenclature object is used as though it is a URI for a Treatment. For modelling, hasCitation refers to the Treatment itself,  and serializations may need to extract the Nomenclature object.
+
+?Normally, within a Treatment, a citation is attached to a Nomenclature object."""^^rdfs:Literal ;
+             
+             rdfs:range :Citation ;
+             
+             rdfs:domain :Treatment ;
+             
+             rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://plazi.org/treatment#hasDiagnosis
+
+:hasDiagnosis rdf:type owl:ObjectProperty ;
+              
+              rdfs:comment "should perhaps be hasDiagnosis if" ;
+              
+              rdfs:range :Diagnosis ;
+              
+              rdfs:domain :Treatment ;
+              
+              rdfs:subPropertyOf :hasInformation .
+
+
+
+###  http://plazi.org/treatment#hasDistribution
+
+:hasDistribution rdf:type owl:ObjectProperty ;
+                 
+                 rdfs:range :Distribution ;
+                 
+                 rdfs:domain :Treatment ;
+                 
+                 rdfs:subPropertyOf :hasInformation .
+
+
+
+###  http://plazi.org/treatment#hasEtymology
+
+:hasEtymology rdf:type owl:ObjectProperty ;
+              
+              rdfs:range :Etymology ;
+              
+              rdfs:domain :Treatment ;
+              
+              rdfs:subPropertyOf :hasInformation .
+
+
+
+###  http://plazi.org/treatment#hasInformation
+
+:hasInformation rdf:type owl:ObjectProperty ;
+                
+                rdfs:domain :Treatment .
+
+
+
+###  http://plazi.org/treatment#hasKey
+
+:hasKey rdf:type owl:ObjectProperty ;
+        
+        rdfs:range :Key ;
+        
+        rdfs:subPropertyOf :hasInformation .
+
+
+
+###  http://plazi.org/treatment#hasMateriaExamined
+
+:hasMateriaExamined rdf:type owl:ObjectProperty ;
+                    
+                    rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
+                    
+                    rdfs:range :Material ;
+                    
+                    rdfs:domain :Treatment ;
+                    
+                    rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://plazi.org/treatment#hasMaterialsMethods
+
+:hasMaterialsMethods rdf:type owl:ObjectProperty ;
+                     
+                     rdfs:range :MaterialsMethods ;
+                     
+                     rdfs:domain :Treatment ;
+                     
+                     rdfs:subPropertyOf :hasInformation .
+
+
+
+###  http://plazi.org/treatment#hasPublicationCitation
+
+:hasPublicationCitation rdf:type owl:ObjectProperty ;
+                        
+                        rdfs:range :Publication ;
+                        
+                        rdfs:domain :Treatment ;
+                        
+                        rdfs:subPropertyOf :hasCitation ;
+                        
+                        rdfs:seeAlso dwc:namePublishedIn .
+
+
+
+###  http://plazi.org/treatment#hasTreatmentCitation
+
+:hasTreatmentCitation rdf:type owl:ObjectProperty ;
+                      
+                      rdfs:comment "Perhaps better to just put an rdf:type on the object of citation?  Ditto for other sub props of citation.  Subprops should mainly be for inheritance of property constraints and KR."^^rdfs:Literal ;
+                      
+                      rdfs:range :Treatment ;
+                      
+                      rdfs:subPropertyOf :hasCitation .
+
+
+
+###  http://plazi.org/treatment#name
 
 :name rdf:type owl:ObjectProperty ;
       
       rdfs:range :Nomenclature ;
       
-      rdfs:domain :Treatment .
+      rdfs:domain :Treatment ;
+      
+      rdfs:seeAlso dwc:scientificName ,
+                   dwc:scientificNameAuthorship .
 
 
 
-###  http://plazi.org/treatment.owl#publicationCitation
-
-:publicationCitation rdf:type owl:ObjectProperty ;
-                     
-                     rdfs:subPropertyOf :citation .
-
-
-
-###  http://plazi.org/treatment.owl#relatedTreatment
+###  http://plazi.org/treatment#relatedTreatment
 
 :relatedTreatment rdf:type owl:ObjectProperty ;
                   
@@ -153,18 +236,6 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 
 
 
-###  http://plazi.org/treatment.owl#treatmentCitation
-
-:treatmentCitation rdf:type owl:ObjectProperty ;
-                   
-                   rdfs:comment "Perhaps better to just put an rdf:type on the object of citation?  Ditto for other sub props of citation.  Subprops should mainly be for inheritance of property constraints and KR."^^rdfs:Literal ;
-                   
-                   rdfs:range :Treatment ;
-                   
-                   rdfs:subPropertyOf :citation .
-
-
-
 
 
 #################################################################
@@ -174,7 +245,13 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
-###  http://plazi.org/treatment.owl#synopsis
+###  http://plazi.org/treatment#descriptiveProperty
+
+:descriptiveProperty rdf:type owl:DatatypeProperty .
+
+
+
+###  http://plazi.org/treatment#synopsis
 
 :synopsis rdf:type owl:DatatypeProperty ;
           
@@ -191,14 +268,13 @@ Analagous to the recursive \"treatment\" element of \"treatment\" in taxonx.
 #################################################################
 
 
-###  http://filteredpush.org/ontologies/oa/dwcFP#Taxon
+###  http://filteredpush.org/ontologies/FP/2.0/dwcFP#Taxon
 
-dwc:Taxon rdf:type owl:Class .
-
-
+dwcFP:Taxon rdf:type owl:Class .
 
 
-###  http://plazi.org/treatment.owl#Author
+
+###  http://plazi.org/treatment#Author
 
 :Author rdf:type owl:Class ;
         
@@ -206,39 +282,84 @@ dwc:Taxon rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Citation
+###  http://plazi.org/treatment#Biology
+
+:Biology rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Citation
 
 :Citation rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Nomenclature
+###  http://plazi.org/treatment#Description
+
+:Description rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Diagnosis
+
+:Diagnosis rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Distribution
+
+:Distribution rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Etymology
+
+:Etymology rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Key
+
+:Key rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Material
+
+:Material rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#MaterialsMethods
+
+:MaterialsMethods rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Nomenclature
 
 :Nomenclature rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment.owl#Treatment
+###  http://plazi.org/treatment#Publication
+
+:Publication rdf:type owl:Class .
+
+
+
+###  http://plazi.org/treatment#Treatment
 
 :Treatment rdf:type owl:Class .
 
 
 
-###  http://plazi.org/vocab/treatment#Material
+###  http://rs.tdwg.org/ontology/voc/OccurrenceRecord#OccurrenceRecord
 
-<http://plazi.org/vocab/treatment#Material> rdf:type owl:Class .
-
-
-
-###  http://rs.tdwg.org/ontology/voc/TaxonConcept#TaxonConcept
-
-tc:TaxonConcept rdf:type owl:Class .
+occ:OccurrenceRecord rdf:type owl:Class .
 
 
 
 
-
-###  Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net
-
-
+###  Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net
 

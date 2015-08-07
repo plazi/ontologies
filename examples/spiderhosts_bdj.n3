@@ -3,8 +3,9 @@
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcIRI:   <http://rs.tdwg.org/dwc/iri/> .
 @prefix trt:   <http://plazi.org/vocab/treatment#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix cito:  <http://purl.org/spar/cito/cito/> .
@@ -34,7 +35,7 @@
   dc:date "2013" .
 
 	
-<http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> a dwcFP:TaxonConcept;
+<http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> a dwcFP:Taxon;
 	dwc:genus "Oxyscelio";
 	dwc:specificEpithet "arvi";
 	dwc:scientificNameAuthorship "Burks, 2013";
@@ -43,21 +44,23 @@
 	
 :material1 a trt:Material ;
 		dwcFP:hasOccurrence :something.
-		
+
+<urn:lsid:biosci.ohio-state.edu:osuc_occurrences:SCAU__2011000627> a dwcFP:Occurrence ;
+	dwcFP:hasCollectingEvent <http://plazi.org/collectingevent/7d1e022b-e44c-4ed9-9910-3801ea8bd703>. 		
+
+
 :something a dwcFP:Occurrence ;
-	       
-		dwc:catalogNumber "" ; 
-		dwc:recordedBy "";
-		dwc:recordedBy "Zhang Hong-Ying" ;
-		dwc:catalogNumber "SCAU 2011000627" ;
-		dwc:individualCount "1"^xsd:integer ;
-		dwc:sex "female" ; 
-		dwc:lifeStage "adult" ;
-		dwcFP:identification  <urn:lsid:biosci.ohio-state.edu:osuc_names:275548> ;
-		dwc:genus "Oxyscelio";
-		dwc:specificEpithet "arvi";
-	   	dwc:scientificNameAuthorship "";
-	   	dwc:scientificName "Oxyscelio arvi";
+	dwc:catalogNumber "" ; 
+	dwc:recordedBy "Zhang Hong-Ying" ;
+	dwc:catalogNumber "SCAU 2011000627" ;
+	dwc:individualCount "1"^xsd:integer ;
+	dwc:sex "female" ; 
+	dwc:lifeStage "adult" ;
+	dwcFP:identification  <urn:lsid:biosci.ohio-state.edu:osuc_names:275548> ;
+	dwc:genus "Oxyscelio";
+	dwc:specificEpithet "arvi";
+   	dwc:scientificNameAuthorship "";
+   	dwc:scientificName "Oxyscelio arvi";
        	dwc:country "China" ;
        	dwc:stateProvince "Zhejiang";
        	dwc:locality "Qingliangfeng" ;
@@ -68,16 +71,17 @@
       	dwc:georeferenceProtocol "Google Earth" ; 
       	dwc:georeferenceRemarks "GPS coords. adjusted to place within Zhejiang Prov." ;
       	dwc:identifiedBy "Norman F. Johnson ";
-		dwcFP:event <urn:lsid:biosci.ohio-state.edu:osuc_occurrences:SCAU__2011000627> ; #event == occurrence???
-		dwc:samplingProtocol"none specified"; 
-		dwc:eventDate "2005-08-05"^xsd:date; ##better to make an attribute on the dwcFP:event??
+	dwcFP:hasCollectingEvent <urn:lsid:biosci.ohio-state.edu:osuc_occurrences:SCAU__2011000627> ; 
+	dwc:samplingProtocol"none specified"; 
+	dwc:eventDate "2005-08-05"^xsd:date; ##better to make an attribute on the dwcFP:event??
   		###the below belong on the \record/ not the occurrence
         dwc:modified "2013-07-17T11:03:59Z"^xsd:date ;
-		dwc:language "en" ; 
-		dwcFP:collection <urn:lsid:biocol.org:col:34252> ; #was dwc:collectionID
-		dwc:collectionCode "Insects" ;
-		dwc:basisOfRecord "PreservedSpecimen" 
+	dwc:language "en" ; 
+	dwcIRI:inCollection <urn:lsid:biocol.org:col:34252> ; #was dwc:collectionID
+	dwc:collectionCode "Insects" ;
+	dwc:basisOfRecord "PreservedSpecimen" 
 .
 
-   
+
+
 	

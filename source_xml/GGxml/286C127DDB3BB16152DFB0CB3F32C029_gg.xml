@@ -1,0 +1,406 @@
+<document ENCODING="UTF-8" ModsDocAuthor="Longino, J. T." ModsDocID="21311"
+    checkinTime="1244213549108" checkinUser="thomas" docAuthor="Longino, J. T." docDate="2007"
+    docId="286C127DDB3BB16152DFB0CB3F32C029" docName="21311_gg2.xml" docOrigin="Zootaxa 1491"
+    docSource="http://www.antbase.org/ants/publications/21311/21311.pdf" docTitle="Azteca alfari"
+    lastPageNumber="19" masterDocId="A75589B0B733EFAA7DECE020EC76B43D"
+    masterDocTitle="A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group."
+    masterLastPageNumber="63" masterPageNumber="1" pageNumber="15" updateTime="1275938485658"
+    updateUser="DRS.Boston">
+    <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+        <mods:titleInfo>
+            <mods:title>A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa
+                Rica and a global revision of the aurita group.</mods:title>
+        </mods:titleInfo>
+        <mods:name type="personal">
+            <mods:role>
+                <mods:roleTerm>Author</mods:roleTerm>
+            </mods:role>
+            <mods:namePart>Longino, J. T.</mods:namePart>
+        </mods:name>
+        <mods:typeOfResource>text</mods:typeOfResource>
+        <mods:relatedItem type="host">
+            <mods:titleInfo>
+                <mods:title>Zootaxa</mods:title>
+            </mods:titleInfo>
+            <mods:part>
+                <mods:date>2007</mods:date>
+                <mods:detail type="volume">
+                    <mods:number>1491</mods:number>
+                </mods:detail>
+                <mods:extent unit="page">
+                    <mods:start>1</mods:start>
+                    <mods:end>63</mods:end>
+                </mods:extent>
+            </mods:part>
+        </mods:relatedItem>
+        <mods:location>
+            <mods:url>http://www.antbase.org/ants/publications/21311/21311.pdf</mods:url>
+        </mods:location>
+        <mods:classification>journal article</mods:classification>
+        <mods:identifier type="HNS-PUB">21311</mods:identifier>
+        <mods:identifier type="ZooBank">C31A1226-724D-4D1A-8471-E6BB441EE3EF</mods:identifier>
+    </mods:mods>
+    <treatment LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029">
+        <subSubSection type="nomenclature">
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">Azteca alfari
+                    Emery</taxonomicName> 1893 </paragraph>
+        </subSubSection>
+        <subSubSection type="description">
+            <paragraph pageNumber="15">Figures 2,4A,5,6C,7.</paragraph>
+        </subSubSection>
+        <subSubSection type="reference_group">
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">Azteca alfari
+                    Emery</taxonomicName> 1893:338. <materialsCitation collectionCode="MCSN"
+                    collectorName="Alfaro" country="Costa Rica" location="Atlantic slope"
+                    stateProvince="Jimenez" typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> worker: <normalizedToken
+                        originalValue="Jiménez">
+                        <collectingRegion>Jimenez</collectingRegion>
+                    </normalizedToken> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:9F14ABCE7ECDCA883BDC95537AE7CE7C"
+                        country="Costa Rica" name="Atlantic slope" stateProvince="Jimenez">Atlantic
+                        slope</location> , <collectingCountry>Costa Rica</collectingCountry> (
+                        <collectorName>Alfaro</collectorName> ) [ <collectionCode
+                        collectionName="Italy, Genova, Museo Civico di Storia Naturale &quot;Giacomo Doria&quot;"
+                        >MCSN</collectionCode> ] </materialsCitation> (examined). Description of
+                queen: Emery 1896b:4 [as <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:178521" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfaroi Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="alfaroi" subFamily="Dolichoderinae"
+                    >alfaroi</taxonomicName> ]. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:134326"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca bicolor Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="bicolor" subFamily="Dolichoderinae">Azteca bicolor
+                    Emery</taxonomicName> 1893:341. <materialsCitation collectionCode="MCSN"
+                    collectorName="Germain" country="Brazil" stateProvince="Matto Grosso"
+                    typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> queen:
+                        <collectingCountry>Brazil</collectingCountry> , <collectingRegion>Matto
+                        Grosso</collectingRegion> ( <collectorName>Germain</collectorName> ) [
+                        <collectionCode
+                        collectionName="Italy, Genova, Museo Civico di Storia Naturale &quot;Giacomo Doria&quot;"
+                        >MCSN</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1991b:1575. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:224595"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari lucidula Forel" pageNumber="15" phylum="Arthropoda"
+                    rank="subSpecies" species="alfaroi" subFamily="Dolichoderinae"
+                    subSpecies="lucidula">Azteca alfaroi race lucidula Forel</taxonomicName>
+                1899:113. <materialsCitation collectionCode="MHNG" collectorName="Urich"
+                    country="Trinidad" location="Trinidad" typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> queen:
+                        <collectingCountry>Trinidad</collectingCountry> (
+                        <collectorName>Urich</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:5. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:134335"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca virens Forel" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="virens" subFamily="Dolichoderinae">Azteca virens
+                    Forel</taxonomicName> 1899:115. <materialsCitation collectionCode="MCZC"
+                    collectorName="Goeldi" country="Brazil" stateProvince="Amazonas, Para"
+                    typeStatus="Syntypes">
+                    <typeStatus>Syntype</typeStatus> workers:
+                        <collectingCountry>Brazil</collectingCountry> ,
+                        <collectingRegion>Amazonas</collectingRegion> , <normalizedToken
+                        originalValue="Pará">
+                        <collectingRegion>Para</collectingRegion>
+                    </normalizedToken> ( <normalizedToken originalValue="Göldi">
+                        <collectorName>Goeldi</collectorName>
+                    </normalizedToken> ) [ <collectionCode
+                        collectionName="USA, Massachusetts, Cambridge, Harvard University, Museum of Comparative Zoology"
+                        >MCZC</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:5. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:179070"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfaroi cecropiae Forel" pageNumber="15"
+                    phylum="Arthropoda" rank="subSpecies" species="alfari"
+                    subFamily="Dolichoderinae" subSpecies="cecropiae">Azteca alfari subsp. cecropiae
+                    Forel</taxonomicName> 1906:240. <materialsCitation collectionCode="MHNG"
+                    collectorName="Huber" country="Brazil" location="Manaus"
+                    stateProvince="Amazonas" typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> worker:
+                        <collectingCountry>Brazil</collectingCountry> ,
+                        <collectingRegion>Amazonas</collectingRegion> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:A910F51495FAF93E530D41F0AD10C1AD"
+                        country="Brazil" name="Manaus" stateProvince="Amazonas">Manaus</location> (
+                        <collectorName>Huber</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Description of
+                queen, male: Forel 1908b:387. Synonymy by Longino 1989a:5. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:224596"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari mixta Forel" pageNumber="15" phylum="Arthropoda"
+                    rank="variety" species="alfari" subFamily="Dolichoderinae" variety="mixta"
+                    >Azteca alfari var. mixta Forel</taxonomicName> 1908b:386. <materialsCitation
+                    collectionCode="MHNG" collectorName="Fiebrig" country="Paraguay"
+                    location="San Bernardino" stateProvince="Cordillera" typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> queen: <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:669E777F953F345059A46539E9C679FC"
+                        country="Paraguay" name="San Bernardino">San Bernardino</location> ,
+                        <collectingCountry>Paraguay</collectingCountry> (
+                        <collectorName>Fiebrig</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:6. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:224598"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfaroi fumaticeps Forel" pageNumber="15"
+                    phylum="Arthropoda" rank="variety" species="alfaroi" subFamily="Dolichoderinae"
+                    variety="fumaticeps">Azteca alfaroi var. fumaticeps Forel</taxonomicName>
+                1909:250. <materialsCitation collectionCode="MHNG" collectorName="Ross"
+                    country="Mexico" location="Buenaventura" typeStatus="Syntype">
+                    <typeStatus>Syntype</typeStatus> workers:
+                        <collectingCountry>Mexico</collectingCountry> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:05ED093A3742272F246C98E9BB16F752"
+                        country="Mexico" name="Buenaventura">Buenaventura</location> (
+                        <collectorName>Ross</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Description of
+                queen: Wheeler 1942:218. Synonymy by Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:239267"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari var. curtiscapa" pageNumber="15" phylum="Arthropoda"
+                    rank="variety" species="alfari" subFamily="Dolichoderinae" variety="curtiscapa"
+                    >Azteca alfari var. curtiscapa Forel</taxonomicName> 1912:51. <materialsCitation
+                    collectionCode="MHNG" collectorName="Christophersen" country="Panama"
+                    typeStatus="Lectotype">
+                    <typeStatus>Lectotype</typeStatus> queen:
+                        <collectingCountry>Panama</collectingCountry> (
+                        <collectorName>Christophersen</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:134327"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca foreli r. breviscapa Forel" pageNumber="15"
+                    phylum="Arthropoda" rank="subSpecies" species="foreli"
+                    subFamily="Dolichoderinae" subSpecies="breviscapa">Azteca foreli race breviscapa
+                    Forel</taxonomicName> 1912:51 [first available use of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:231072" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca foreli subsp. championi var. breviscapa" pageNumber="15"
+                    phylum="Arthropoda" rank="variety" species="foreli" subFamily="Dolichoderinae"
+                    subSpecies="championi" variety="breviscapa">Azteca foreli race championi var.
+                    breviscapa Forel</taxonomicName> 1899:112. <materialsCitation
+                    collectionCode="MCZC, USNM" collectorName="Tonduz" country="Costa Rica"
+                    typeStatus="Syntype">
+                    <typeStatus>Syntype</typeStatus> workers: <collectingCountry>Costa
+                        Rica</collectingCountry> ( <collectorName>Tonduz</collectorName> ) [
+                        <collectionCode
+                        collectionName="USA, Massachusetts, Cambridge, Harvard University, Museum of Comparative Zoology"
+                        >MCZC</collectionCode> , <collectionCode
+                        collectionName="USA, Washington D.C., National Museum of Natural History, [formerly, United States National Museum]"
+                        >USNM</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:134385"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari var. argentina Forel" pageNumber="15"
+                    phylum="Arthropoda" rank="variety" species="alfari" subFamily="Dolichoderinae"
+                    variety="argentina">Azteca alfari var. argentina Forel</taxonomicName> 1914:287.
+                    <materialsCitation collectionCode="MHNG" collectorName="Bruch"
+                    country="Argentina" location="Santa Ana" stateProvince="Misiones"
+                    typeStatus="Syntype">
+                    <typeStatus>Syntype</typeStatus> workers:
+                        <collectingCountry>Argentina</collectingCountry> ,
+                        <collectingRegion>Misiones</collectingRegion> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:D1437881241FE586800E256D03D10D78"
+                        country="Argentina" name="Santa Ana" stateProvince="Misiones">Santa
+                        Ana</location> ( <collectorName>Bruch</collectorName> ) [ <collectionCode
+                        collectionName="Switzerland, Geneva, Museum d'Histoire Naturelle"
+                        >MHNG</collectionCode> ] </materialsCitation> (examined). Description of
+                major worker and queen: Gallardo 1916:115. Synonymy by Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:134333"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca lynchi Brèthes" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="lynchi" subFamily="Dolichoderinae"> Azteca lynchi
+                        <normalizedToken originalValue="Bréthes">Brethes</normalizedToken>
+                </taxonomicName> 1914:93. <materialsCitation collectorName="Arribalzaga"
+                    country="Bolivia" typeStatus="Syntype">
+                    <typeStatus>Syntype</typeStatus> worker(s):
+                        <collectingCountry>Bolivia</collectingCountry> ( <normalizedToken
+                        originalValue="Arribálzaga">
+                        <collectorName>Arribalzaga</collectorName>
+                    </normalizedToken> ) </materialsCitation> . Subspecies of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">A.
+                    alfari</taxonomicName> : Gallardo 1916:118. Synonymy by Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:224594"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari langi Wheeler" pageNumber="15" phylum="Arthropoda"
+                    rank="variety" species="alfari" subFamily="Dolichoderinae" variety="langi"
+                    >Azteca alfari var. langi Wheeler</taxonomicName> 1942:218. <materialsCitation
+                    collectionCode="MCZC" collectorName="Lang" country="Guyana" location="Kamakusa"
+                    typeStatus="Syntype">
+                    <typeStatus>Syntype</typeStatus> workers, queens, males:
+                        <collectingCountry>Guyana</collectingCountry> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:87132B321DBE30387232048E11A9ADB4"
+                        country="Guyana" name="Kamakusa">Kamakusa</location> (
+                        <collectorName>Lang</collectorName> ) [ <collectionCode
+                        collectionName="USA, Massachusetts, Cambridge, Harvard University, Museum of Comparative Zoology"
+                        >MCZC</collectionCode> ] </materialsCitation> (examined). Synonymy by
+                Longino 1989a:7. </paragraph>
+            <paragraph pageNumber="15">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:224597"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari subsp. lucidula var. zonalis Wheeler"
+                    pageNumber="15" phylum="Arthropoda" rank="variety" species="alfari"
+                    subFamily="Dolichoderinae" subSpecies="lucidula" variety="zonalis">Azteca alfari
+                    subsp. lucidula var. zonalis Wheeler</taxonomicName> 1942:222 (unavailable
+                name). <materialsCitation collectingDate="1911-11-21" collectionCode="MCZC"
+                    collectorName="Wheeler" country="Panama" location="Corozal"> Workers, queens:
+                        <collectingCountry>Panama</collectingCountry> , <location
+                        LSID="urn:lsid:plazi:treatment:286C127DDB3BB16152DFB0CB3F32C029:C617D00A45D4DCBC7D5908F45391DD7A"
+                        country="Panama" name="Corozal">Corozal</location> , <date day="21"
+                        month="11" value="1911-11-21" year="1911">
+                        <collectingDate day="21" month="11" value="1911-11-21" year="1911"
+                            >21.xi.1911</collectingDate>
+                    </date> ( <collectorName>Wheeler</collectorName> ) [ <collectionCode
+                        collectionName="USA, Massachusetts, Cambridge, Harvard University, Museum of Comparative Zoology"
+                        >MCZC</collectionCode> ] </materialsCitation> (examined). Identification as
+                    <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="15" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">A.
+                    alfari</taxonomicName> : Longino 1989a:7. </paragraph>
+        </subSubSection>
+        <subSubSection type="description">
+            <paragraph pageNumber="15">Queen characters. Measurements (n=21): HLA 1.62 (1.51-1.69),
+                HW 1.32 (1.26-1.43), SL 0.76 (0.71- 0.85), CI 83 (80-86), SI 47 (45-51).</paragraph>
+            <paragraph pageNumber="15">Palpal formula 5,3; middle and hind tibia with prominent
+                pectinate apical spur; dorsal surface of mandible largely smooth, with sparse small
+                piligerous puncta, setae in puncta short, larger puncta with long setae near
+                masticatory margin; medial and lateral clypeal lobes at about same level (medial
+                lobe not projecting anteriorly); head weakly quadrate; petiolar node acute,
+                triangular, neither strongly flattened nor bluntly rounded; posteroventral petiolar
+                lobe well-developed, evenly convex; scape and tibia lacking setae, sides of head
+                lacking setae, posterior margin of head with abundant curved setae, pronotum with
+                posterior row of curved setae, mesoscutum with sparse setae, scutellum and propodeum
+                with more abundant setae, petiolar node with cluster of erect setae, third abdominal
+                tergum with abundant erect setae, fourth and fifth abdominal terga with 0-6 erect
+                setae exclusive of posterior row; color light red brown to black.</paragraph>
+            <paragraph pageNumber="15">Worker characters. Measurements (n=13): HLA 0.99 (0.80-1.24),
+                HW 0.88 (0.72-1.07), SL 0.60 (0.53- 0.72), CI 91 (86-94), SI 62 (58-69).</paragraph>
+            <paragraph lastPageNumber="16" pageNumber="15"> Palpal formula 5,3; middle and hind
+                tibia with prominent pectinate apical spur; dorsal surface of mandible largely
+                smooth, with sparse small piligerous puncta, setae in puncta short, larger puncta
+                with long setae near masticatory margin; medial and lateral clypeal lobes at about
+                same level, medial lobe at most weakly projecting beyond lateral lobes; head with
+                convex sides, strongly cordate posterior margin; mesosoma in lateral profile with
+                promesonotum forming a continuous convexity or mesonotum somewhat elevated above
+                pronotum; posterior mesonotum drops gradually to narrow metanotal groove such that
+                posterior mesonotum, metanotal groove, and dorsal face of propodeum form a broad,
+                shallow V (dorsal face of propodeum and broad metanotal groove do not form flat,
+                step-like junction with posterior mesonotum); scape and tibia lacking setae, sides
+                of head lacking setae, posterior margin of head with sparse to abundant erect setae,
+                pronotum, mesonotum, and dorsal face of propodeum with conspicuous erect setae,
+                mesonotum usually with about 8 erect setae of relatively uniform length (range 2-17;
+                contrast with <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:26013" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca ovaticeps Forel" pageNumber="16" phylum="Arthropoda"
+                    rank="species" species="ovaticeps" subFamily="Dolichoderinae">A.
+                    ovaticeps</taxonomicName> ); color brown to yellow. </paragraph>
+        </subSubSection>
+        <subSubSection type="discussion">
+            <paragraph pageNumber="19"> Similar species. <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">Azteca
+                    alfari</taxonomicName> is most similar to <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:26013" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca ovaticeps Forel" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="ovaticeps" subFamily="Dolichoderinae">A.
+                    ovaticeps</taxonomicName> (Longino 1989a). See differentiating characters in key
+                and under <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:26013" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca ovaticeps Forel" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="ovaticeps" subFamily="Dolichoderinae">A.
+                    ovaticeps</taxonomicName> . Workers of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">A.
+                    alfari</taxonomicName> may also be confused with workers of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25991" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca forelii Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="forelii" subFamily="Dolichoderinae">A.
+                    forelii</taxonomicName> . Mandibles of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">A.
+                    alfari</taxonomicName> workers are smooth and shiny; mandibles of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25991" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca forelii Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="forelii" subFamily="Dolichoderinae">A.
+                    forelii</taxonomicName> workers are roughened and dull. </paragraph>
+        </subSubSection>
+        <subSubSection type="distribution">
+            <paragraph pageNumber="19">Range. Central Mexico to northern Argentina.</paragraph>
+        </subSubSection>
+        <subSubSection type="biology_ecology">
+            <paragraph pageNumber="19"> Biology. The taxonomy and biology of <taxonomicName
+                    LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" class="Insecta"
+                    family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">A.
+                    alfari</taxonomicName> are reviewed in Longino (1989a, 1991b). </paragraph>
+            <paragraph lastPageNumber="20" pageNumber="19">
+                <taxonomicName LSID-HNS="urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967"
+                    class="Insecta" family="Formicidae" genus="Azteca" kingdom="Animalia"
+                    lsidName-HNS="Azteca alfari Emery" pageNumber="19" phylum="Arthropoda"
+                    rank="species" species="alfari" subFamily="Dolichoderinae">Azteca
+                    alfari</taxonomicName> is an obligate <taxonomicName class="Magnoliopsida"
+                    family="Cecropiaceae" genus="Cecropia" kingdom="Plantae" pageNumber="19"
+                    rank="genus">Cecropia</taxonomicName> ant. It is the most widespread of the
+                    <taxonomicName class="Magnoliopsida" family="Cecropiaceae" genus="Cecropia"
+                    kingdom="Plantae" pageNumber="19" rank="genus">Cecropia</taxonomicName> ants,
+                extending into the subtropics at both ends of its range. Throughout the range it is
+                the <taxonomicName class="Magnoliopsida" family="Cecropiaceae" genus="Cecropia"
+                    kingdom="Plantae" pageNumber="19" rank="genus">Cecropia</taxonomicName> ant most
+                likely to be found in open or highly disturbed areas. Founding queens are frequent
+                in <taxonomicName class="Magnoliopsida" family="Cecropiaceae" genus="Cecropia"
+                    kingdom="Plantae" pageNumber="19" rank="genus">Cecropia</taxonomicName>
+                saplings. As trees grow and form multiple branches, the nests become polydomous.
+                Workers and brood are dispersed in branch tips, and the bole and inner portions of
+                branches are progressively abandoned (Longino 1991a). Workers vary in aggressiveness
+                geographically and over time. Workers in young colonies are usually aggressive, but
+                in many cases workers in mature colonies are less aggressive, retreating inside of
+                stems on disturbance (Longino 1991a). </paragraph>
+        </subSubSection>
+        <subSubSection type="materials_examined">
+            <paragraph lastPageNumber="20" pageNumber="19">Material examined. See Longino
+                (1989a).</paragraph>
+        </subSubSection>
+    </treatment>
+</document>
