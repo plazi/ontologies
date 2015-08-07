@@ -63,7 +63,6 @@
         </xsl:apply-templates>
     </xsl:template>
     <xsl:template match="treatment">
-
         <xsl:param name="treatmentID" tunnel="yes"/>
         <xsl:param name="taxonConceptID" tunnel="yes"/>
         <xsl:param name="pubID" tunnel="yes"/>
@@ -92,7 +91,6 @@
         </xsl:apply-templates>
         <xsl:apply-templates select=".//materialsCitation" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
         <xsl:apply-templates select=".//figureCitation[@httpUri]" mode="subject"/>
-
 
     </xsl:template>
     <xsl:template name="publication">
