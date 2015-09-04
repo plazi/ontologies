@@ -19,11 +19,11 @@
 
 <http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 a trt:Treatment ;
     trt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
-    trt:material_examined    :material_1 ;
-    trt:material_examined    :material_2 ;
-    trt:material_examined    :material_3 ;
-    trt:material_examined    :material_4 ;
-    trt:description :description ;    
+    trt:hasMaterialExamined    :material_1 ;
+    trt:hasMaterialExamined    :material_2 ;
+    trt:hasMaterialExamined    :material_3 ;
+    trt:hasMaterialExamined  :material_4 ;
+    trt:hasDescription :description ;    
     trt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
 
 <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597 a dwcFP:TaxonConcept ;
