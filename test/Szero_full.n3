@@ -111,13 +111,13 @@
    trt:hasSubDescription :description2 .
 
 :description1 a trt:Description;
-        trt:hasScope <Males> ;
+        trt:hasScope trt:male ;
 	    trt:trait :trait1 ;  #colours
 	    trt:trait :trait2 ;  #total length with cephalic lobe
         trt:trait :trait3 .  #total length without cephalic lobe
 
 :description2 a trt:Description ;
-        trt:hasScope <Females> ;
+        trt:hasScope trt:female ;
         trt:trait :trait1;  #colours same as Male
         trt:trait :trait4 . # total length
 
