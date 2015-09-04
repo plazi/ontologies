@@ -420,10 +420,24 @@ occ:OccurrenceRecord rdf:type owl:Class .
 
 
 
+###  http://plazi.org/treatment#anyLifeStage
+
+:anyLifeStage rdf:type :lifeStage ,
+                       owl:NamedIndividual .
+
+
+
 ###  http://plazi.org/treatment#anySeason
 
 :anySeason rdf:type :season ,
                     owl:NamedIndividual .
+
+
+
+###  http://plazi.org/treatment#anySex
+
+:anySex rdf:type :sex ,
+                 owl:NamedIndividual .
 
 
 
