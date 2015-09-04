@@ -111,13 +111,13 @@
    trt:hasSubDescription :description2 .
 
 :description1 a trt:Description;
-        trt:hasContext <Males> ;
+        trt:hasScope <Males> ;
 	    trt:trait :trait1 ;  #colours
 	    trt:trait :trait2 ;  #total length with cephalic lobe
         trt:trait :trait3 .  #total length without cephalic lobe
 
 :description2 a trt:Description ;
-        trt:hasContext <Females> ;
+        trt:hasScope <Females> ;
         trt:trait :trait1;  #colours same as Male
         trt:trait :trait4 . # total length
 
@@ -128,12 +128,12 @@
 
 :trait2 a trt:QuantitativeTrait ;
      trt:hasName "Total length";
-     trt:hasContext "with cepalic lobe";
+     trt:hasScope "with cepalic lobe";
      trt:hasValue :value2 .
 
 :trait3 a trt:QuantitativeTrait ;
      trt:hasName "Total length";
-     trt:hasContext "without cepalic lobe";
+     trt:hasScope "without cepalic lobe";
      trt:hasValue :value3 .
 
 :value1 a trt:CategoricalValue;
