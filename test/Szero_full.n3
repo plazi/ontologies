@@ -17,7 +17,7 @@
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
 @prefix : <http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#> .
 
-<http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 a trt:Treatment ;
+<http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597> a trt:Treatment ;
     trt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
     trt:hasMaterialExamined    :material_1 ;
     trt:hasMaterialExamined    :material_2 ;
