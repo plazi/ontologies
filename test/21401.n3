@@ -39,7 +39,7 @@
    dwc:locality "Bimbia Forest" .
 	
 :material2 a trt:Material ;
-   dwc:decimalLatitude "-174.0"^xsd:decimal;
+   dwc:decimalLatitude "-174.0"^^xsd:decimal;
    dwc:country "CENTRAL AFRICAN REPUBLIC" ;
    dwc:stateProvince "Prefecture Sangha-Mbaere" ;
    dwc:locality "Lidjombo" .
