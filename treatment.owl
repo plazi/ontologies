@@ -420,6 +420,13 @@ occ:OccurrenceRecord rdf:type owl:Class .
 
 
 
+###  http://plazi.org/treatment#anySeason
+
+:anySeason rdf:type :season ,
+                    owl:NamedIndividual .
+
+
+
 ###  http://plazi.org/treatment#fall
 
 :fall rdf:type :season ,
