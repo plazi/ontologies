@@ -58,18 +58,6 @@
 
 
 
-###  http://plazi.org/treatment#description
-
-:description rdf:type owl:ObjectProperty ;
-             
-             rdfs:comment "Should have Taxon as subject" ;
-             
-             rdfs:range :Description ;
-             
-             rdfs:domain :Treatment .
-
-
-
 ###  http://plazi.org/treatment#hasBiology
 
 :hasBiology rdf:type owl:ObjectProperty ;
@@ -97,6 +85,18 @@
              rdfs:domain :Treatment ;
              
              rdfs:subPropertyOf owl:topObjectProperty .
+
+
+
+###  http://plazi.org/treatment#hasDescription
+
+:hasDescription rdf:type owl:ObjectProperty ;
+                
+                rdfs:comment "Should have Taxon as subject" ;
+                
+                rdfs:range :Description ;
+                
+                rdfs:domain :Treatment .
 
 
 
@@ -156,17 +156,17 @@
 
 
 
-###  http://plazi.org/treatment#hasMateriaExamined
+###  http://plazi.org/treatment#hasMaterialExamined
 
-:hasMateriaExamined rdf:type owl:ObjectProperty ;
-                    
-                    rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
-                    
-                    rdfs:range :Material ;
-                    
-                    rdfs:domain :Treatment ;
-                    
-                    rdfs:subPropertyOf owl:topObjectProperty .
+:hasMaterialExamined rdf:type owl:ObjectProperty ;
+                     
+                     rdfs:comment "material_examined is intended to be applied to a Treatment object and take values in the class Material." ;
+                     
+                     rdfs:range :Material ;
+                     
+                     rdfs:domain :Treatment ;
+                     
+                     rdfs:subPropertyOf owl:topObjectProperty .
 
 
 
@@ -218,6 +218,12 @@
       
       rdfs:seeAlso dwc:scientificName ,
                    dwc:scientificNameAuthorship .
+
+
+
+###  http://plazi.org/treatment#publishedIn
+
+:publishedIn rdf:type owl:ObjectProperty .
 
 
 
