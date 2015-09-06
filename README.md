@@ -1,6 +1,8 @@
 # TreatmentOntologies
 Ontologies for use in representing data from taxonomic treatments in RDF
 
+Major issues in transition: (a) hasScope object property (b) modeling of traits in descriptions
+
 The repo is radically under construction as is treatment.owl in particular.  Only the following files are even remotely meaningful:
 
 1. treatment.owl  frequently change to attempt to suffice at least sufficient to model the two cases below
