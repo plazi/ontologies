@@ -125,10 +125,10 @@
 :descriptionFemalesInSummer a tmt:Description ;
          tmt:hasScope tmt:females;
          tmt:hasScope tmt:summer;  ##really need previous description to NOT apply in summer
-	 tmt:trait :trait1;
-	 tmt:trait :trait4Summer .
+	 tmt:trait :trait1Summer;
+	 tmt:trait :trait4 .
 
-:trait1Summer a tmt:CategoricalTrait.
+:trait1Summer a tmt:CategoricalTrait.  #needs expansion
 
 :trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
 	tmt:hasName pto:colours ;
