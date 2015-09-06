@@ -8,7 +8,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdd: <http://tdwg.org/sdd#> .
-@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix tmt: <http://plazi.org/vocab/treatment#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix domain: <http://example.org/someDomainOntologyThatGivesModifierUsage#"> . 
@@ -17,14 +17,14 @@
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
 @prefix : <http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#> .
 
-<http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597> a trt:Treatment ;
-    trt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
-    trt:hasMaterialExamined    :material_1 ;
-    trt:hasMaterialExamined    :material_2 ;
-    trt:hasMaterialExamined    :material_3 ;
-    trt:hasMaterialExamined  :material_4 ;
-    trt:hasDescription :description ;    
-    trt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
+<http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597> a tmt:Treatment ;
+    tmt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
+    tmt:hasMaterialExamined    :material_1 ;
+    tmt:hasMaterialExamined    :material_2 ;
+    tmt:hasMaterialExamined    :material_3 ;
+    tmt:hasMaterialExamined  :material_4 ;
+    tmt:hasDescription :description ;    
+    tmt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
 
 <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> a dwcFP:TaxonConcept ;
     dwc:class "Arachnida" ;
@@ -50,7 +50,7 @@
     bibo:startPage "65" ;
     bibo:volume "2267" .
 
-:material_1 a trt:Material ;
+:material_1 a tmt:Material ;
     dwc:collectingDate "1987-06" ;
     dwc:collectingDateMax "1987-08" ;
     dwc:collectingDateMin "1987-06" ;
@@ -62,7 +62,7 @@
     dwc:stateProvince "Magadan" ;
     dwc:typeStatus "holotype" .
 
-:material_2 a trt:Material ;
+:material_2 a tmt:Material ;
     dwc:collectingDate "1990-09-18" ;
     dwc:collectionCode "SMF" ;
     dwc:collectorName "Y. M. Marusik" ;
@@ -75,7 +75,7 @@
     dwc:stateProvince "Magadan" ;
     dwc:typeStatus "Other material" .
 
-:material_3 a trt:Material ;
+:material_3 a tmt:Material ;
     dwc:collectingDate "2005-09-14" ;
     dwc:collectionCode "IBPN" ;
     dwc:collectorName "Y. M. Marusik" ;
@@ -91,7 +91,7 @@
     dwc:stateProvince "Khabarovsk province" ;
     dwc:typeStatus "Other material" .
 
-:material_4 a trt:Material ;
+:material_4 a tmt:Material ;
     dwc:collectingDate "2005-09-11" ;
     dwc:collectionCode "IBPN" ;
     dwc:collectorName "Y. M. Marusik" ;
@@ -106,58 +106,58 @@
     dwc:stateProvince "Khabarovsk Province" ;
     dwc:typeStatus "Other material" .
 
-:description a trt:Description ;
-   trt:hasSubDescription :description1 ;  ### or we could allow recursive Description
-   trt:hasSubDescription :description2 .
+:description a tmt:Description ;
+   tmt:hasSubDescription :descriptionMales ;  ### or we could allow recursive Description
+   tmt:hasSubDescription :descriptionFemales .
 
-:description1 a trt:Description;
-        trt:hasScope trt:male ;
-	    trt:trait :trait1 ;  #colours
-	    trt:trait :trait2 ;  #total length with cephalic lobe
-        trt:trait :trait3 .  #total length without cephalic lobe
+:descriptionMales a tmt:Description;
+        tmt:hasScope tmt:males ;
+	    tmt:trait :trait1 ;  #colours
+	    tmt:trait :trait2 ;  #total length with cephalic lobe
+        tmt:trait :trait3 .  #total length without cephalic lobe
 
-:description2 a trt:Description ;
-        trt:hasScope trt:female ;
-        trt:trait :trait1;  #colours same as Male
-        trt:trait :trait4 . # total length
+:descriptionFemales a tmt:Description ;
+        tmt:hasScope tmt:females ;
+        tmt:trait :trait1;  #colours same as Male
+        tmt:trait :trait4 . # total length
 
-:trait1 a trt:CategoricalTrait ;  #Categorize traits or just values??
-	trt:hasName pto:colours ;
-        trt:hasValue :value1 .
+:trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
+	tmt:hasName pto:colours ;
+        tmt:hasValue :value1 .
 
 
-:trait2 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasScope "with cepalic lobe";
-     trt:hasValue :value2 .
+:trait2 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasScope "with cepalic lobe";
+     tmt:hasValue :value2 .
 
-:trait3 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasScope "without cepalic lobe";
-     trt:hasValue :value3 .
+:trait3 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasScope "without cepalic lobe";
+     tmt:hasValue :value3 .
 
-:value1 a trt:CategoricalValue;
-     trt:value "variable" ;
-     trt:modifier sdd:slightly .
+:value1 a tmt:CategoricalValue;
+     tmt:value "variable" ;
+     tmt:modifier sdd:slightly .
 	
 
-:value2 a trt:QuantitativeValue;
+:value2 a tmt:QuantitativeValue;
    measure:min 1.49 ;
    measure:max 1.66 ;
    measure:mean 1.58 .
 
 
-:value3 a trt:QuantitativeValue;  
+:value3 a tmt:QuantitativeValue;  
    measure:min 1.37 ;
    measure:max 1.154 ;
    measure:mean 1.146 .
 
 ####### Female length traits
-:trait4 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasValue :value4 .
+:trait4 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasValue :value4 .
 
-:value4 a trt:QuantitativeValue;  
+:value4 a tmt:QuantitativeValue;  
    measure:min 1.32 ;
    measure:max 1.157 ;
    measure:mean 1.146 .
