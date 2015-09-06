@@ -121,6 +121,14 @@
         tmt:trait :trait1;  #colours same as Male
         tmt:trait :trait4 . # total length
 
+##### example of scope restriction...not in original source document
+:descriptionFemalesInSummer a tmt:Description ;
+         tmt:hasScope tmt:females;
+         tmt:hasScope tmt:summer;  ##really need previous description to NOT apply in summer
+	 tmt:trait :trait1;
+	 tmt:trait :trait4Summer .
+:trait1Summer a tmt:CategoricalTrait.
+
 :trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
 	tmt:hasName pto:colours ;
         tmt:hasValue :value1 .
