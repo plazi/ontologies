@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:tmt="http://plazi.org/vocab/treatment#"
+  xmlns:dwcFP="http://filteredpush.org/ontologies/FP/2.0/dwcFP#"
+  xmlns:bibo="http://purl.org/ontology/bibo/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:measure="http://example.org/measure#"
+  xmlns:ns1="fabio:"
+>
+  <tmt:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#descriptionFemalesInSummer">
+    <tmt:hasScope rdf:resource="http://plazi.org/vocab/treatment#females"/>
+    <tmt:hasScope rdf:resource="http://plazi.org/vocab/treatment#summer"/>
+    <tmt:trait>
+      <tmt:CategoricalTrait rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1Summer"/>
+    </tmt:trait>
+    <tmt:trait>
+      <tmt:QuantitativeTrait rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4">
+        <tmt:hasName>Total length</tmt:hasName>
+        <tmt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4"/>
+      </tmt:QuantitativeTrait>
+    </tmt:trait>
+  </tmt:Description>
+  <tmt:Treatment rdf:about="http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597">
+    <tmt:definesTaxonConcept>
+      <dwcFP:TaxonConcept rdf:about="http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597">
+        <dwc:rank>species</dwc:rank>
+        <dwc:higherTaxonomySource>CoL</dwc:higherTaxonomySource>
+        <dwc:order>Araneae</dwc:order>
+        <dwc:pageNumber>65</dwc:pageNumber>
+        <dwc:pageId>0</dwc:pageId>
+        <dwc:kingdom>Animalia</dwc:kingdom>
+        <dwc:genus>Savignia</dwc:genus>
+        <dwc:phylum>Arthropoda</dwc:phylum>
+        <dwc:family>Linyphiidae</dwc:family>
+        <dwc:class>Arachnida</dwc:class>
+        <dwc:species>zero</dwc:species>
+      </dwcFP:TaxonConcept>
+    </tmt:definesTaxonConcept>
+    <tmt:hasMaterialExamined>
+      <tmt:Material rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_1">
+        <dwc:collectingDateMax>1987-08</dwc:collectingDateMax>
+        <dwc:location>middle Chelomdzha river (left tributary of Taui river)</dwc:location>
+        <dwc:collectingDate>1987-06</dwc:collectingDate>
+        <dwc:specimenCount>1</dwc:specimenCount>
+        <dwc:country>Russia</dwc:country>
+        <dwc:typeStatus>holotype</dwc:typeStatus>
+        <dwc:collectingDateMin>1987-06</dwc:collectingDateMin>
+        <dwc:specimenCount-male>1</dwc:specimenCount-male>
+        <dwc:collectorName>N. E. Dokutchaev</dwc:collectorName>
+        <dwc:stateProvince>Magadan</dwc:stateProvince>
+      </tmt:Material>
+    </tmt:hasMaterialExamined>
+    <tmt:publishedIn>
+      <ns1:JournalArticle rdf:about="http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93">
+        <bibo:endPage>68</bibo:endPage>
+        <bibo:journal>Zootaxa</bibo:journal>
+        <bibo:startPage>65</bibo:startPage>
+        <dc:title>First description of the female of the spider Savignia zero Eskov, 1988 (Araneae: Linyphiidae)</dc:title>
+        <dc:creator>Marusik, Yuri M.</dc:creator>
+        <dc:creator>Lasut, Liana</dc:creator>
+        <dc:creator>Frick, Holger</dc:creator>
+        <dc:date>2009</dc:date>
+        <bibo:volume>2267</bibo:volume>
+      </ns1:JournalArticle>
+    </tmt:publishedIn>
+    <tmt:hasMaterialExamined>
+      <tmt:Material rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_4">
+        <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+        <dwc:longitude>134.82834</dwc:longitude>
+        <dwc:location>environment of Khabarovsk, environment of Bychikha village, Bolshekhektsyrski reserve</dwc:location>
+        <dwc:longLatPrecision>1</dwc:longLatPrecision>
+        <dwc:specimenCount-female>1</dwc:specimenCount-female>
+        <dwc:collectionCode>IBPN</dwc:collectionCode>
+        <dwc:specimenCount-male>1</dwc:specimenCount-male>
+        <dwc:latitude>48.291668</dwc:latitude>
+        <dwc:collectingDate>2005-09-11</dwc:collectingDate>
+        <dwc:country>Russia</dwc:country>
+        <dwc:specimenCount>2</dwc:specimenCount>
+        <dwc:stateProvince>Khabarovsk Province</dwc:stateProvince>
+        <dwc:typeStatus>Other material</dwc:typeStatus>
+      </tmt:Material>
+    </tmt:hasMaterialExamined>
+    <tmt:hasMaterialExamined>
+      <tmt:Material rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_3">
+        <dwc:typeStatus>Other material</dwc:typeStatus>
+        <dwc:collectionCode>IBPN</dwc:collectionCode>
+        <dwc:country>Russia</dwc:country>
+        <dwc:specimenCount>20</dwc:specimenCount>
+        <dwc:collectingDate>2005-09-14</dwc:collectingDate>
+        <dwc:stateProvince>Khabarovsk province</dwc:stateProvince>
+        <dwc:location>environment of Bychikha village, Bolshekhektsyrski reserve, " Klyuch Sosnenskiy " kordon</dwc:location>
+        <dwc:elevation>430 m</dwc:elevation>
+        <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+        <dwc:specimenCount-male>7</dwc:specimenCount-male>
+        <dwc:longLatPrecision>1</dwc:longLatPrecision>
+        <dwc:longitude>134.78334</dwc:longitude>
+        <dwc:specimenCount-female>13</dwc:specimenCount-female>
+        <dwc:latitude>48.2425</dwc:latitude>
+      </tmt:Material>
+    </tmt:hasMaterialExamined>
+    <tmt:hasDescription>
+      <tmt:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#description">
+        <tmt:hasSubDescription rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#descriptionMales"/>
+        <tmt:hasSubDescription rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#descriptionFemales"/>
+      </tmt:Description>
+    </tmt:hasDescription>
+    <tmt:hasMaterialExamined>
+      <tmt:Material rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#material_2">
+        <dwc:specimenCount-female>14</dwc:specimenCount-female>
+        <dwc:specimenCount-male>8</dwc:specimenCount-male>
+        <dwc:collectorName>Y. M. Marusik</dwc:collectorName>
+        <dwc:stateProvince>Magadan</dwc:stateProvince>
+        <dwc:country>Russia</dwc:country>
+        <dwc:collectionCode>SMF</dwc:collectionCode>
+        <dwc:specimenCode>39671</dwc:specimenCode>
+        <dwc:typeStatus>Other material</dwc:typeStatus>
+        <dwc:specimenCount>22</dwc:specimenCount>
+        <dwc:collectingDate>1990-09-18</dwc:collectingDate>
+        <dwc:location>Ola river mouth</dwc:location>
+      </tmt:Material>
+    </tmt:hasMaterialExamined>
+  </tmt:Treatment>
+  <tmt:QuantitativeTrait rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3">
+    <tmt:hasName>Total length</tmt:hasName>
+    <tmt:hasScope>without cepalic lobe</tmt:hasScope>
+    <tmt:hasValue>
+      <tmt:QuantitativeValue rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value3">
+        <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.37</measure:min>
+        <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.154</measure:max>
+        <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+      </tmt:QuantitativeValue>
+    </tmt:hasValue>
+  </tmt:QuantitativeTrait>
+  <tmt:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#descriptionFemales">
+    <tmt:trait>
+      <tmt:CategoricalTrait rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1">
+        <tmt:hasValue rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1"/>
+        <tmt:hasName rdf:resource="http://example.org/pseudo-trait-ont#colours"/>
+      </tmt:CategoricalTrait>
+    </tmt:trait>
+    <tmt:hasScope rdf:resource="http://plazi.org/vocab/treatment#females"/>
+    <tmt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait4"/>
+  </tmt:Description>
+  <tmt:QuantitativeTrait rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2">
+    <tmt:hasScope>with cepalic lobe</tmt:hasScope>
+    <tmt:hasValue>
+      <tmt:QuantitativeValue rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value2">
+        <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.49</measure:min>
+        <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.58</measure:mean>
+        <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.66</measure:max>
+      </tmt:QuantitativeValue>
+    </tmt:hasValue>
+    <tmt:hasName>Total length</tmt:hasName>
+  </tmt:QuantitativeTrait>
+  <tmt:Description rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#descriptionMales">
+    <tmt:hasScope rdf:resource="http://plazi.org/vocab/treatment#males"/>
+    <tmt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait3"/>
+    <tmt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait2"/>
+    <tmt:trait rdf:resource="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#trait1"/>
+  </tmt:Description>
+  <tmt:CategoricalValue rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value1">
+    <tmt:value>variable</tmt:value>
+    <tmt:modifier rdf:resource="http://tdwg.org/sdd#slightly"/>
+  </tmt:CategoricalValue>
+  <tmt:QuantitativeValue rdf:about="http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#value4">
+    <measure:mean rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.146</measure:mean>
+    <measure:max rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.157</measure:max>
+    <measure:min rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.32</measure:min>
+  </tmt:QuantitativeValue>
+</rdf:RDF>
+
