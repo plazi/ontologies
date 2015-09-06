@@ -2,7 +2,7 @@
 @prefix cnt: <http://www.w3.org/2011/content#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
-@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix mods: <http://www.loc.gov/mods/v3> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -112,8 +112,8 @@
 
 :descriptionMales a tmt:Description;
         tmt:hasScope tmt:males ;
-	    tmt:trait :trait1 ;  #colours
-	    tmt:trait :trait2 ;  #total length with cephalic lobe
+	tmt:trait :trait1 ;  #colours
+	tmt:trait :trait2 ;  #total length with cephalic lobe
         tmt:trait :trait3 .  #total length without cephalic lobe
 
 :descriptionFemales a tmt:Description ;
@@ -121,12 +121,13 @@
         tmt:trait :trait1;  #colours same as Male
         tmt:trait :trait4 . # total length
 
-##### example of scope restriction...not in original source document
+##### example of scope restriction...not in original source document #####
 :descriptionFemalesInSummer a tmt:Description ;
          tmt:hasScope tmt:females;
          tmt:hasScope tmt:summer;  ##really need previous description to NOT apply in summer
 	 tmt:trait :trait1;
 	 tmt:trait :trait4Summer .
+
 :trait1Summer a tmt:CategoricalTrait.
 
 :trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
