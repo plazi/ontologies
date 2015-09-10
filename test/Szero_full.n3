@@ -24,7 +24,7 @@
     tmt:hasMaterialExamined    :material_3 ;
     tmt:hasMaterialExamined  :material_4 ;
     tmt:hasDescription :description ;    
-    tmt:publishedIn <http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> .
+    tmt:publishedIn <doi:00.0000/journal.nowhere.0000> .
 
 <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> a dwcFP:TaxonConcept ;
     dwc:class "Arachnida" ;
