@@ -9,6 +9,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdd: <http://tdwg.org/sdd#> .
 @prefix tmt: <http://plazi.org/vocab/treatment#> .
+@prefix trt:   <http://plazi.org/traits#> . #needs something real!
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix domain: <http://example.org/someDomainOntologyThatGivesModifierUsage#"> . 
@@ -112,38 +113,38 @@
 
 :descriptionMales a tmt:Description;
         tmt:hasScope tmt:males ;
-	tmt:trait :trait1 ;  #colours
-	tmt:trait :trait2 ;  #total length with cephalic lobe
-        tmt:trait :trait3 .  #total length without cephalic lobe
+	trt:trait :trait1 ;  #colours
+	trt:trait :trait2 ;  #total length with cephalic lobe
+        trt:trait :trait3 .  #total length without cephalic lobe
 
 :descriptionFemales a tmt:Description ;
         tmt:hasScope tmt:females ;
-        tmt:trait :trait1;  #colours same as Male
-        tmt:trait :trait4 . # total length
+        trt:trait :trait1;  #colours same as Male
+        trt:trait :trait4 . # total length
 
 ##### example of scope restriction...not in original source document #####
 :descriptionFemalesInSummer a tmt:Description ;
          tmt:hasScope tmt:females;
          tmt:hasScope tmt:summer;  ##really need previous description to NOT apply in summer
-	 tmt:trait :trait1Summer;
-	 tmt:trait :trait4 .
+	 trt:trait :trait1Summer;
+	 trt:trait :trait4 .
 
-:trait1Summer a tmt:CategoricalTrait.  #needs expansion
+:trait1Summer a trt:CategoricalTrait.  #needs expansion
 
-:trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
-	tmt:hasName pto:colours ;
-        tmt:hasValue :value1 .
+:trait1 a trt:CategoricalTrait ;  #Categorize traits or just values??
+	trt:hasName trt:colours ;
+        trt:hasValue :value1 .
 
 
-:trait2 a tmt:QuantitativeTrait ;
-     tmt:hasName "Total length";
-     tmt:hasScope "with cepalic lobe";
-     tmt:hasValue :value2 .
+:trait2 a trt:QuantitativeTrait ;
+     trt:hasName "Total length";
+     tmt:hasScope "with cephalic lobe";
+     trt:hasValue :value2 .
 
 :trait3 a tmt:QuantitativeTrait ;
-     tmt:hasName "Total length";
-     tmt:hasScope "without cepalic lobe";
-     tmt:hasValue :value3 .
+     tmt:hasScope "without cephalic lobe";
+     trt:hasName "Total length";
+     trt:hasValue :value3 .
 
 :value1 a tmt:CategoricalValue;
      tmt:value "variable" ;
@@ -163,8 +164,8 @@
 
 ####### Female length traits
 :trait4 a tmt:QuantitativeTrait ;
-     tmt:hasName "Total length";
-     tmt:hasValue :value4 .
+     trt:hasName "Total length";
+     trt:hasValue :value4 .
 
 :value4 a tmt:QuantitativeValue;  
    measure:min 1.32 ;

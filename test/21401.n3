@@ -5,6 +5,7 @@
 @prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix tmt:   <http://plazi.org/vocab/treatment#> .
+@prefix trt:   <http://plazi.org/traits#> . #needs something real!
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix cito: <http://purl.org/spar/cito/> .
 @prefix :      <http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#> .
