@@ -39,7 +39,7 @@
     dwc:rank "species" ;
     dwc:species "zero" .
 
-<http://publication.plazi.org/id/D50B3C18FFA6FFA1DB19CA41973EFF93> a <fabio:JournalArticle> ;
+<doi:00.0000/journal.nowhere.0000> a <fabio:JournalArticle> ;
     dc:creator "Frick, Holger",
         "Lasut, Liana",
         "Marusik, Yuri M." ;
