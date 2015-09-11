@@ -200,7 +200,15 @@
 
 :hasScope rdf:type owl:ObjectProperty ;
           
-          rdfs:range :scopeState .
+          rdfs:range :ScopeState .
+
+
+
+###  http://plazi.org/treatment#hasSubDescription
+
+:hasSubDescription rdf:type owl:ObjectProperty ;
+                   
+                   rdfs:range :Description .
 
 
 
@@ -338,6 +346,14 @@ dwcFP:Taxon rdf:type owl:Class .
 
 
 
+###  http://plazi.org/treatment#LifeStage
+
+:LifeStage rdf:type owl:Class ;
+           
+           rdfs:subClassOf :ScopeState .
+
+
+
 ###  http://plazi.org/treatment#Material
 
 :Material rdf:type owl:Class .
@@ -362,41 +378,43 @@ dwcFP:Taxon rdf:type owl:Class .
 
 
 
+###  http://plazi.org/treatment#ScopeState
+
+:ScopeState rdf:type owl:Class ;
+            
+            rdfs:comment "Should the subclasses be named something like Scope_Sex rather than just Sex, which might have other uses? Or is it good to let the general thing live here?" ,
+                         "These should have a some well kown instances. As of 9/11/2015, these are individuals that model types given by LifeState, Season, and Sex, all children of class ScopeState" ,
+                         "Should there be disjointness axioms on the indivituals that are scopes?" .
+
+
+
+###  http://plazi.org/treatment#Season
+
+:Season rdf:type owl:Class ;
+        
+        rdfs:subClassOf :ScopeState .
+
+
+
+###  http://plazi.org/treatment#Sex
+
+:Sex rdf:type owl:Class ;
+     
+     rdfs:subClassOf :ScopeState .
+
+
+
+###  http://plazi.org/treatment#SubDescription
+
+:SubDescription rdf:type owl:Class ;
+                
+                rdfs:subClassOf :Description .
+
+
+
 ###  http://plazi.org/treatment#Treatment
 
 :Treatment rdf:type owl:Class .
-
-
-
-###  http://plazi.org/treatment#lifeStage
-
-:lifeStage rdf:type owl:Class ;
-           
-           rdfs:subClassOf :scopeState .
-
-
-
-###  http://plazi.org/treatment#scopeState
-
-:scopeState rdf:type owl:Class ;
-            
-            rdfs:comment "These should have a some well kown instances" .
-
-
-
-###  http://plazi.org/treatment#season
-
-:season rdf:type owl:Class ;
-        
-        rdfs:subClassOf :scopeState .
-
-
-
-###  http://plazi.org/treatment#sex
-
-:sex rdf:type owl:Class ;
-     
-     rdfs:subClassOf :scopeState .
 
 
 
@@ -417,77 +435,77 @@ occ:OccurrenceRecord rdf:type owl:Class .
 
 ###  http://plazi.org/treatment#adult
 
-:adult rdf:type :lifeStage ,
+:adult rdf:type :LifeStage ,
                 owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#anyLifeStage
 
-:anyLifeStage rdf:type :lifeStage ,
+:anyLifeStage rdf:type :LifeStage ,
                        owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#anySeason
 
-:anySeason rdf:type :season ,
+:anySeason rdf:type :Season ,
                     owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#anySex
 
-:anySex rdf:type :sex ,
+:anySex rdf:type :Sex ,
                  owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#fall
 
-:fall rdf:type :season ,
+:fall rdf:type :Season ,
                owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#female
 
-:female rdf:type :sex ,
+:female rdf:type :Sex ,
                  owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#juvenile
 
-:juvenile rdf:type :lifeStage ,
+:juvenile rdf:type :LifeStage ,
                    owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#male
 
-:male rdf:type :sex ,
+:male rdf:type :Sex ,
                owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#spring
 
-:spring rdf:type :season ,
+:spring rdf:type :Season ,
                  owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#summer
 
-:summer rdf:type :season ,
+:summer rdf:type :Season ,
                  owl:NamedIndividual .
 
 
 
 ###  http://plazi.org/treatment#winter
 
-:winter rdf:type :season ,
+:winter rdf:type :Season ,
                  owl:NamedIndividual .
 
 
