@@ -16,6 +16,7 @@
 @prefix pto:	<http://example.org/pseudo-trait-ont#> .
 @prefix measure: <http://example.org/measure#> .
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
+@prefix tprov: 	 <http://example.org/treatmentProvenanceOntology#> .
 @prefix : <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#> .
 
 <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a tmt:Treatment ;
@@ -37,9 +38,9 @@
     dwc:class "Insecta" ;
     dwc:family "Formicidae" ;
     dwc:genus "Azteca" ;
-    dwc:higherTaxonomySource "CoL" ;
+    tprov:higherTaxonomySource "CoL" ;
     dwc:kingdom "Animalia" ;
-    dwc:lsidName-HNS "Azteca alfari Emery" ;
+    dwc:scientificName "Azteca alfari Emery" ;
     dwc:order "Hymenoptera" ;
     dwc:pageNumber "15" ;
     dwc:phylum "Arthropoda" ;
