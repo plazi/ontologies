@@ -16,8 +16,7 @@
 @prefix pto:	<http://example.org/pseudo-trait-ont#> .
 @prefix measure: <http://example.org/measure#> .
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
-# @prefix : <http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#> .
-
+@prefix : <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#> .
 
 <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a tmt:Treatment ;
     tmt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
