@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:tmt="http://plazi.org/vocab/treatment#"
+>
+  <rdf:Description rdf:about="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D">
+    <dc:title>A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group.</dc:title>
+    <bibo:startPage>1</bibo:startPage>
+    <dc:date>2007</dc:date>
+    <bibo:journal>Zootaxa</bibo:journal>
+    <dc:creator>Longino, J. T.</dc:creator>
+    <rdf:type rdf:resource="fabio:JournalArticle"/>
+    <bibo:endPage>63</bibo:endPage>
+    <bibo:volume>1491</bibo:volume>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#material_2">
+    <dwc:stateProvince>Matto Grosso</dwc:stateProvince>
+    <dwc:country>Brazil</dwc:country>
+    <dwc:typeStatus>Lectotype</dwc:typeStatus>
+    <dwc:collectorName>Germain</dwc:collectorName>
+    <dwc:collectionCode>MCSN</dwc:collectionCode>
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#material_1">
+    <dwc:typeStatus>Lectotype</dwc:typeStatus>
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+    <dwc:collectorName>Alfaro</dwc:collectorName>
+    <dwc:collectionCode>MCSN</dwc:collectionCode>
+    <dwc:location>Atlantic slope</dwc:location>
+    <dwc:country>Costa Rica</dwc:country>
+    <dwc:stateProvince>Jimenez</dwc:stateProvince>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
+    <tmt:publishedIn rdf:resource="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D"/>
+    <tmt:hasMaterialExamined_examined rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#material_1"/>
+    <tmt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029"/>
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+    <tmt:hasMaterialExamined_examined rdf:resource="file:///base/data/home/apps/s%7Erdf-translator/1.380697414950152317/#material_2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
+    <dwc:genus>Azteca</dwc:genus>
+    <dwc:lsidName-HNS>Azteca alfari Emery</dwc:lsidName-HNS>
+    <dwc:phylum>Arthropoda</dwc:phylum>
+    <dwc:LSID-HNS>urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967</dwc:LSID-HNS>
+    <dwc:pageNumber>15</dwc:pageNumber>
+    <dwc:order>Hymenoptera</dwc:order>
+    <dwc:kingdom>Animalia</dwc:kingdom>
+    <rdf:type rdf:resource="http://filteredpush.org/ontologies/FP/2.0/dwcFP#TaxonConcept"/>
+    <dwc:rank>species</dwc:rank>
+    <dwc:higherTaxonomySource>CoL</dwc:higherTaxonomySource>
+    <dwc:class>Insecta</dwc:class>
+    <dwc:family>Formicidae</dwc:family>
+    <dwc:species>alfari</dwc:species>
+  </rdf:Description>
+</rdf:RDF>
+
+<!- xml generated from A_a_L.n3 by rdf-translator.appspot.com on Sat Oct 3 12:39:56 EDT 2015 -->
