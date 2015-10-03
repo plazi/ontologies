@@ -5,56 +5,56 @@
    xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:tmt="http://plazi.org/vocab/treatment#"
+   xmlns:tprov="http://example.org/treatmentProvenanceOntology#"
 >
-  <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2">
-    <dwc:stateProvince>Matto Grosso</dwc:stateProvince>
-    <dwc:collectionCode>MCSN</dwc:collectionCode>
-    <dwc:collectorName>Germain</dwc:collectorName>
-    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
-    <dwc:typeStatus>Lectotype</dwc:typeStatus>
-    <dwc:country>Brazil</dwc:country>
-  </rdf:Description>
   <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1">
-    <dwc:country>Costa Rica</dwc:country>
-    <dwc:stateProvince>Jimenez</dwc:stateProvince>
-    <dwc:collectionCode>MCSN</dwc:collectionCode>
-    <dwc:collectorName>Alfaro</dwc:collectorName>
     <dwc:typeStatus>Lectotype</dwc:typeStatus>
     <dwc:location>Atlantic slope</dwc:location>
     <rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
-    <tmt:publishedIn rdf:resource="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D"/>
-    <tmt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029"/>
-    <tmt:hasMaterialExamined_examined rdf:resource="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2"/>
-    <tmt:hasMaterialExamined_examined rdf:resource="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1"/>
-    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+    <dwc:country>Costa Rica</dwc:country>
+    <dwc:collectorName>Alfaro</dwc:collectorName>
+    <dwc:collectionCode>MCSN</dwc:collectionCode>
+    <dwc:stateProvince>Jimenez</dwc:stateProvince>
   </rdf:Description>
   <rdf:Description rdf:about="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
-    <dwc:rank>species</dwc:rank>
-    <dwc:genus>Azteca</dwc:genus>
-    <dwc:class>Insecta</dwc:class>
-    <dwc:species>alfari</dwc:species>
-    <dwc:LSID-HNS>urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967</dwc:LSID-HNS>
-    <dwc:lsidName-HNS>Azteca alfari Emery</dwc:lsidName-HNS>
-    <dwc:family>Formicidae</dwc:family>
     <rdf:type rdf:resource="http://filteredpush.org/ontologies/FP/2.0/dwcFP#TaxonConcept"/>
-    <dwc:order>Hymenoptera</dwc:order>
     <dwc:kingdom>Animalia</dwc:kingdom>
-    <dwc:higherTaxonomySource>CoL</dwc:higherTaxonomySource>
-    <dwc:pageNumber>15</dwc:pageNumber>
+    <dwc:taxonConceptID>urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967</dwc:taxonConceptID>
+    <dwc:order>Hymenoptera</dwc:order>
+    <tprov:higherTaxonomySource>CoL</tprov:higherTaxonomySource>
+    <dwc:species>alfari</dwc:species>
+    <dwc:family>Formicidae</dwc:family>
+    <dwc:genus>Azteca</dwc:genus>
+    <dwc:scientificName>Azteca alfari Emery</dwc:scientificName>
+    <dwc:rank>species</dwc:rank>
     <dwc:phylum>Arthropoda</dwc:phylum>
+    <dwc:class>Insecta</dwc:class>
   </rdf:Description>
-  <rdf:Description rdf:about="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D">
-    <bibo:startPage>1</bibo:startPage>
-    <bibo:endPage>63</bibo:endPage>
-    <bibo:journal>Zootaxa</bibo:journal>
-    <dc:title>A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group.</dc:title>
+  <rdf:Description rdf:about="http://dx.doi.org/10.5281/zenodo.XXXXXX">
     <bibo:volume>1491</bibo:volume>
-    <dc:date>2007</dc:date>
+    <bibo:journal>Zootaxa</bibo:journal>
     <dc:creator>Longino, J. T.</dc:creator>
+    <dc:date>2007</dc:date>
+    <dc:title>A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group.</dc:title>
+    <bibo:endPage>63</bibo:endPage>
     <rdf:type rdf:resource="fabio:JournalArticle"/>
+    <bibo:startPage>1</bibo:startPage>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+    <tmt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029"/>
+    <tmt:hasMaterialExamined_examined rdf:resource="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1"/>
+    <tmt:hasMaterialExamined_examined rdf:resource="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2"/>
+    <tmt:publishedIn rdf:resource="http://dx.doi.org/10.5281/zenodo.XXXXXX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2">
+    <rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+    <dwc:collectionCode>MCSN</dwc:collectionCode>
+    <dwc:country>Brazil</dwc:country>
+    <dwc:typeStatus>Lectotype</dwc:typeStatus>
+    <dwc:stateProvince>Matto Grosso</dwc:stateProvince>
+    <dwc:collectorName>Germain</dwc:collectorName>
   </rdf:Description>
 </rdf:RDF>
 
-<!-- xml generated from A_a_L.n3 by rdf-translator.appspot.com on Sat Oct 3 13:13:57 EDT 2015 -->
+<!-- xml generated from A_a_L.n3 by rdf-translator.appspot.com on Sat Oct 3 14:27:52 EDT 2015 -->
