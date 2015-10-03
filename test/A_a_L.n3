@@ -1,0 +1,60 @@
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwcFP: <http://filteredpush.org/ontologies/oa/dwcFP#> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix mods: <http://www.loc.gov/mods/v3> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sdd: <http://tdwg.org/sdd#> .
+@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a trt:Treatment ;
+    trt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
+    trt:material_examined <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1>,
+        <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2> ;
+    trt:publishedIn <http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> .
+
+<http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> a <fabio:JournalArticle> ;
+    dc:creator "Longino, J. T." ;
+    dc:date "2007" ;
+    dc:title "A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group." ;
+    bibo:endPage "63" ;
+    bibo:journal "Zootaxa" ;
+    bibo:startPage "1" ;
+    bibo:volume "1491" .
+
+<http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a dwcFP:TaxonConcept ;
+    dwc:LSID-HNS "urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967" ;
+    dwc:class "Insecta" ;
+    dwc:family "Formicidae" ;
+    dwc:genus "Azteca" ;
+    dwc:higherTaxonomySource "CoL" ;
+    dwc:kingdom "Animalia" ;
+    dwc:lsidName-HNS "Azteca alfari Emery" ;
+    dwc:order "Hymenoptera" ;
+    dwc:pageNumber "15" ;
+    dwc:phylum "Arthropoda" ;
+    dwc:rank "species" ;
+    dwc:species "alfari" .
+
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1> a trt:Material ;
+    dwc:collectionCode "MCSN" ;
+    dwc:collectorName "Alfaro" ;
+    dwc:country "Costa Rica" ;
+    dwc:location "Atlantic slope" ;
+    dwc:stateProvince "Jimenez" ;
+    dwc:typeStatus "Lectotype" .
+
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2> a trt:Material ;
+    dwc:collectionCode "MCSN" ;
+    dwc:collectorName "Germain" ;
+    dwc:country "Brazil" ;
+    dwc:stateProvince "Matto Grosso" ;
+    dwc:typeStatus "Lectotype" .
+
