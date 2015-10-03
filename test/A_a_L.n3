@@ -43,7 +43,6 @@
     dwc:kingdom "Animalia" ;
     dwc:scientificName "Azteca alfari Emery" ;
     dwc:order "Hymenoptera" ;
-    dwc:pageNumber "15" ;
     dwc:phylum "Arthropoda" ;
     dwc:rank "species" ;
     dwc:species "alfari" .
