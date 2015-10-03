@@ -22,9 +22,9 @@
 <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a tmt:Treatment ;
     tmt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
     tmt:hasMaterialExamined_examined :material_1, :material_2 ;
-    tmt:publishedIn <http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> .
+    tmt:publishedIn <http://dx.doi.org/10.5281/zenodo.XXXXXX> .
 
-<http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> a <fabio:JournalArticle> ;
+<http://dx.doi.org/10.5281/zenodo.XXXXXX> a <fabio:JournalArticle> ;
     dc:creator "Longino, J. T." ;
     dc:date "2007" ;
     dc:title "A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group." ;
