@@ -461,10 +461,10 @@ occ:OccurrenceRecord rdf:type owl:Class .
 
 
 
-###  http://plazi.org/treatment#fall
+###  http://plazi.org/treatment#autumn
 
-:fall rdf:type :Season ,
-               owl:NamedIndividual .
+:autumn rdf:type :Season ,
+                 owl:NamedIndividual .
 
 
 
