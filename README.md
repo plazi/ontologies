@@ -10,4 +10,4 @@ The repo is radically under construction as is treatment.owl in particular.  Onl
 3. test/Szero_full.n3 an increasingly evolving rdf treatment instance modeling http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597 with the same criteria as for test/21401.n3
 
 4. (frequently not current): for each of the active n3 instances there is generally an rdf/xml version produced by 
-http://rdf-translator.appspot.com/ called in a script test/n32xml.sh which should be run in test/  Ultimately hope to support git commit hook to run that automagically at commit.
+http://rdf-translator.appspot.com/ called in a script test/n32xml.sh which should be run in test/  Ultimately we expext to support a git commit hook to run that automagically at commit.
