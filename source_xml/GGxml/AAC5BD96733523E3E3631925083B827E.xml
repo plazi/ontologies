@@ -1,0 +1,186 @@
+<document ModsDocAuthor="Gowda, Vinita, Kress, W. John &amp; Htun, Thet" ModsDocDate="2012" ModsDocID="1314-2003-13" ModsDocOrigin="http://dx.doi.org/10.3897/phytokeys.13.2670" ModsDocTitle="Two new species of Gingers (Zingiberaceae) from Myanmar" checkinTime="1339091606837" checkinUser="pensoft" docAuthor="Gowda, Vinita, Kress, W. John &amp; Htun, Thet" docDate="2012" docId="AAC5BD96733523E3E3631925083B827E" docLanguage="en" docName="PhytoKeys 13 (2012): 5-14" docOrigin="PhytoKeys 13" docSource="http://dx.doi.org/10.3897/phytokeys.13.2670" docTitle="Globba sherwoodiana Gowda, Kress &amp; Htun, 2012, sp. nov." lastPageId="2" lastPageNumber="7" masterDocId="FFF3FFCFFFCE4711886EFFD5FFFE2007" masterDocTitle="Two new species of Gingers (Zingiberaceae) from Myanmar" masterLastPageNumber="14" masterPageNumber="5" pageId="1" pageNumber="6" updateTime="1339091606837" updateUser="pensoft" xmlns:dwc="http://digir.net/schema/conceptual/darwin/2003/1.0" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:tax="http://www.taxonx.org/schema/v1" xmlns:tp="http://www.plazi.org/taxpub" xmlns:xlink="http://www.w3.org/1999/xlink">
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+<mods:titleInfo>
+<mods:title>Two new species of Gingers (Zingiberaceae) from Myanmar</mods:title>
+</mods:titleInfo>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Gowda, Vinita</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Kress, W. John</mods:namePart>
+</mods:name>
+<mods:name type="personal">
+<mods:role>
+<mods:roleTerm>Author</mods:roleTerm>
+</mods:role>
+<mods:namePart>Htun, Thet</mods:namePart>
+</mods:name>
+<mods:typeOfResource>text</mods:typeOfResource>
+<mods:relatedItem type="host">
+<mods:titleInfo>
+<mods:title>PhytoKeys</mods:title>
+</mods:titleInfo>
+<mods:part>
+<mods:date>2012</mods:date>
+<mods:detail type="volume">
+<mods:number>13</mods:number>
+</mods:detail>
+<mods:extent unit="page">
+<mods:start>5</mods:start>
+<mods:end>14</mods:end>
+</mods:extent>
+</mods:part>
+</mods:relatedItem>
+<mods:location>
+<mods:url>http://dx.doi.org/10.3897/phytokeys.13.2670</mods:url>
+</mods:location>
+<mods:classification>journal article</mods:classification>
+<mods:identifier type="Pensoft-Pub">1314-2003-13</mods:identifier>
+</mods:mods>
+<treatment LSID="urn:lsid:plazi:treatment:AAC5BD96733523E3E3631925083B827E" httpUri="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E" lastPageId="2" lastPageNumber="7" pageId="1" pageNumber="6">
+<subSubSection pageId="1" pageNumber="6" type="nomenclature">
+<paragraph pageId="1" pageNumber="6">
+<taxonomicName LSID="urn:lsid:ipni.org:names:77119952-1" class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba sherwoodiana" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="sherwoodiana">Globba sherwoodiana W.J.Kress &amp; V.Gowda</taxonomicName>
+<taxonomicNameLabel pageId="1" pageNumber="6">sp. nov.</taxonomicNameLabel>
+Fig. 1Plate 1.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="diagnosis">
+<paragraph pageId="1" pageNumber="6">Diagnosis.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+A new species in the genus 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="genus">Globba</taxonomicName>
+Section 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="genus">Globba</taxonomicName>
+differing from other species in this section, such as 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba laeta" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="laeta">Globba laeta</taxonomicName>
+K.Larsen, 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba marantina" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="marantina">Globba marantina</taxonomicName>
+L., and 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba winitii" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="winitii">Globba winitii</taxonomicName>
+C.H.Wright by the combination of white, sharply reflexed and imbricate inflorescence bracts and soft, glabrous, bright green leaves.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="Type">
+<paragraph pageId="1" pageNumber="6">Type.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+Myanmar: Mandalay Division: Pyin Oo Lwin, National Botanical Gardens, 69 km from Mandalay, 1000 m, 21°59'31"N, 96°28'09"E, W. J. Kress, Thet Htun, and M. Bordelon s.n. (only living plant collected for cultivation); Plants of this living collection cultivated at the Smithsonian Botany Research Greenhouses as USBRG 1997-141, 
+<date value="2011-09-29">29 September 2011</date>
+, W. J. Kress, V. Gowda &amp; M. Bordelon 11-8809 (holotype: US! [US 3635561, barcode 00940954; isotypes RAF!, E!).
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="description">
+<paragraph pageId="1" pageNumber="6">Description.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+Small perennial herbs from 38-45 cm in height to the top of uppermost leaf sheath. Rhizomes compact, non-tuberulous, white with a light orange center internally. Leafy shoots densely clumped, 6 to 8-leaved, stems bright green in color, sparsely hirsute. Basal sheaths 5-7 
+<normalizedToken originalValue="×">x</normalizedToken>
+1-2 cm, sparsely hirsute. Plane of distichy perpendicular to rhizome. Leaves glabrous and soft, only midvein of the ventral surface pubescent, lamina 17-
+<date value="1920-10-05" valueMax="1920-10-08" valueMin="1920-10-05">
+20 
+<normalizedToken originalValue="×">x</normalizedToken>
+5-8
+</date>
+cm elliptic bright green adaxially and pale green abaxially, margin entire, base attenuate, apex acuminate; petiole 0.5-0.7 
+<normalizedToken originalValue="×">x</normalizedToken>
+0.3-0.4 cm, sparsely hirsute, green. Ligule small, 2-3 mm in length, hirsutulous, emarginate not becoming papery. Inflorescence terminal on leafy shoots, pendent 11-15 cm; peduncle 2.5-4 
+<normalizedToken originalValue="×">x</normalizedToken>
+0.35-0.5 cm, hirsute, pale green; rachis hirsute, straight, visible; inflorescence bracts 25-30 per inflorescence, bracts decreasing in size from base to the tip, median bract 2.5-3.5 cm 
+<normalizedToken originalValue="×">x</normalizedToken>
+1.5-1.8 cm, spirally arranged, imbricate and widely separated, sharply reflexed105-107°from vertical axis, glabrous, white. Cincinni ca. 1.4-2 cm long to the first flower, originating under the inflorescence bract, 2-8 mm apart on the rachis, one per bract containing 2-3 flowers; flowers maturing from base to apex of inflorescence; bracteoles tubular, basal and largest bracteole 2.6-3 
+<normalizedToken originalValue="×">x</normalizedToken>
+3.5-5 mm, glabrous, light green. Flowers conspicuous; calyx tubular 4.5-5 mm long, reflexed at ca. 3-5mm from base, tri-lobed, yellow green; corolla tube 1.1-1.4 cm long, sparsely puberulous, with lobes reflexed; lobes cucullate, ca. 4-6 mm 
+<normalizedToken originalValue="×">x</normalizedToken>
+2-3 mm; lateral staminodes 7-9 
+<normalizedToken originalValue="×">x</normalizedToken>
+2.3-2.6 mm in length, elliptic, glabrous, orange; labellum 6.2-7.6 
+<normalizedToken originalValue="×">x</normalizedToken>
+2.2-2.4 mm, triangular, bi-lobed, glabrous, orange with deep orange center; fertile stamen with filament 1.6-2.6 cm long, orange, glabrous, anther 2.2-2.6 mm long, thecae elliptic with four appendages, glabrous, crest not extended beyond thecae; style held in the ventral furrow of the filament; stigma cup-shaped, pubescent with ciliate margin; ovary uni-locular, 1.2-2 
+<normalizedToken originalValue="×">x</normalizedToken>
+1.6-2.7 mm, glabrous, white, with parietal placentation. Epigynous (stylodial) nectaries 2, linear septal, 3-4 mm long, light orange. Fruit and seeds unknown. Bulbils not observed.
+</paragraph>
+<caption pageId="1" pageNumber="6">
+<paragraph pageId="1" pageNumber="6">
+Figure 1. 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba sherwoodiana" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="sherwoodiana">Globba sherwoodiana</taxonomicName>
+W.J.Kress &amp; V.Gowda. A Habit of flowering plant B Apical part of leaf sheath showing ligule C Flower, lateral view showing bracteoles D Calyx with floral tube E Flower, frontal view F Bracteole G Inflorescence bract H Base of flower, cut-away view showing style, epigynous nectaries and placentation I Anthers with four appendages, style held in the ventral furrow of the filament with a cup-shaped stigma. WJK 11-8809 (US).
+</paragraph>
+</caption>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="distribution">
+<paragraph pageId="1" pageNumber="6">Distribution.</paragraph>
+<paragraph pageId="1" pageNumber="6">At present this species is only known in cultivation in Myanmar where it is commonly sold in the markets and used as an offering in Buddhist ceremonies. However, it is suspected that wild populations are present in the border region between Myanmar and Thailand.</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="Ecology">
+<paragraph pageId="1" pageNumber="6">Ecology.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+The closest relatives of this species (see relationships) inhabit the understory of monsoon forests. We suspect that the same is true for 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba sherwoodiana" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="species" species="sherwoodiana">Globba sherwoodiana</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="etymology">
+<paragraph pageId="1" pageNumber="6">Etymology.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+This splendid and magnificent species of 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba" order="Zingiberales" pageId="1" pageNumber="6" phylum="Tracheophyta" rank="genus">Globba</taxonomicName>
+is named in honor of Dr. Shirley Sherwood, a great lover of plants and a patron of contemporary botanical art. Her support of botanical research in Myanmar is greatly appreciated.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="1" pageNumber="6" type="Common name">
+<paragraph pageId="1" pageNumber="6">Common name.</paragraph>
+<paragraph pageId="1" pageNumber="6">
+The local name for this species, "Padein Gno," means "weeping goldsmith" in the Burmese language. It is said that local goldsmiths in Myanmar weep when they see this flower because no matter how hard they try, they are unable to capture in gold metal the beauty and simplicity of the individual parts of the flower (see 
+<bibRefCitation pageId="1" pageNumber="6">Kress 2009</bibRefCitation>
+).
+</paragraph>
+</subSubSection>
+<subSubSection lastPageId="2" lastPageNumber="7" pageId="1" pageNumber="6" type="Conservation status">
+<paragraph pageId="1" pageNumber="6">Conservation status.</paragraph>
+<paragraph lastPageId="2" lastPageNumber="7" pageId="1" pageNumber="6">
+Because this species is commonly cultivated it is in no danger or threat of extinction. However, the lack of known natural populations may su 
+<pageBreakToken pageId="2" pageNumber="7" start="start">ggest</pageBreakToken>
+that this cultivated species may have low levels of genetic diversity. Genetic studies will provide a better understanding of the conservation status of this species.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="7" type="Relationships">
+<paragraph pageId="2" pageNumber="7">Relationships.</paragraph>
+<paragraph pageId="2" pageNumber="7">
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba sherwoodiana" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="sherwoodiana">Globba sherwoodiana</taxonomicName>
+was included in the molecular phylogenetic analysis of 
+<bibRefCitation author="Williams, KJ" journalOrPublisher="American Journal of Botany" pageId="4" pageNumber="9" title="The phylogeny, evolution, and classification of the genus Globba and tribe Globbeae (Zingiberaceae): Appendages do matter." type="journal article" url="10.3732/ajb.91.1.100" volume="91" year="2004">
+Williams et al. (labeled as 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="genus">Globba</taxonomicName>
+<normalizedToken originalValue="“magnifica”">"magnifica"</normalizedToken>
+; 2004
+</bibRefCitation>
+). Using DNA sequence data from matK and ITS, they showed that this species is a member of Sect. 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba laeta" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="laeta">Globba laeta</taxonomicName>
+K.Larsen, 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba bulbifera" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="bulbifera">Globba bulbifera</taxonomicName>
+Roxb., 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba schomburgkii" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="schomburgkii">Globba schomburgkii</taxonomicName>
+Hook. f., 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba globulifera" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="globulifera">Globba globulifera</taxonomicName>
+Gagnep., 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba adhaerens" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="adhaerens">Globba adhaerens</taxonomicName>
+Gagnep., 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba marantina" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="marantina">Globba marantina</taxonomicName>
+L., and 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba winitii" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="winitii">Globba winitii</taxonomicName>
+C.H.Wright. Several species in this section have large conspicuous inflorescence bracts similar to those characterizing 
+<taxonomicName class="Liliopsida" family="Zingiberaceae" genus="Globba" higherTaxonomySource="CoL" kingdom="Plantae" lsidName="Globba sherwoodiana" order="Zingiberales" pageId="2" pageNumber="7" phylum="Tracheophyta" rank="species" species="sherwoodiana">Globba sherwoodiana</taxonomicName>
+.
+</paragraph>
+</subSubSection>
+<subSubSection pageId="2" pageNumber="7" type="Other specimens examined">
+<paragraph pageId="2" pageNumber="7">Other specimens examined.</paragraph>
+<paragraph pageId="2" pageNumber="7">Known from the type specimen and additional specimens of USBRG 97-141in cultivation; WJK 00-6669; WJK 99-6533.</paragraph>
+</subSubSection>
+</treatment>
+</document>
