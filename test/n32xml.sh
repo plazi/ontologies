@@ -14,7 +14,7 @@ if [ "$extension" == "n3" ]; then
 
    curl --data-urlencode  content@$fullfile http://rdf-translator.appspot.com/convert/n3/xml/content > $filename.xml
    echo "" >> $filename.xml 
-   comment="<!- xml generated from ""$fullfile"" by rdf-translator.appspot.com on " 
+   comment="<!-- xml generated from ""$fullfile"" by rdf-translator.appspot.com on " 
    now=`date`
    endc=" -->"
    comment=${comment}$now$endc

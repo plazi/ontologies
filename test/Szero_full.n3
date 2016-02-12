@@ -23,8 +23,8 @@
     tmt:hasMaterialExamined    :material_1 ;
     tmt:hasMaterialExamined    :material_2 ;
     tmt:hasMaterialExamined    :material_3 ;
-    tmt:hasMaterialExamined  :material_4 ;
-    tmt:hasDescription :description ;    
+    tmt:hasMaterialExamined    :material_4 ;
+    tmt:hasDescription 	       :description ;    
     tmt:publishedIn <doi:00.0000/journal.nowhere.0000> .
 
 <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> a dwcFP:TaxonConcept ;
@@ -129,6 +129,7 @@
 	 trt:trait :trait1Summer;
 	 trt:trait :trait4 .
 
+##### part of above example, not an extraction from the publication ####
 :trait1Summer a trt:CategoricalTrait.  #needs expansion
 
 :trait1 a trt:CategoricalTrait ;  #Categorize traits or just values??
@@ -137,37 +138,37 @@
 
 
 :trait2 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
      tmt:hasScope "with cephalic lobe";
+     trt:hasName "Total length";
      trt:hasValue :value2 .
 
-:trait3 a tmt:QuantitativeTrait ;
+:trait3 a trt:QuantitativeTrait ;
      tmt:hasScope "without cephalic lobe";
      trt:hasName "Total length";
      trt:hasValue :value3 .
 
-:value1 a tmt:CategoricalValue;
+:value1 a trt:CategoricalValue;
      tmt:value "variable" ;
      tmt:modifier sdd:slightly .
 	
 
-:value2 a tmt:QuantitativeValue;
+:value2 a trt:QuantitativeValue;
    measure:min 1.49 ;
    measure:max 1.66 ;
    measure:mean 1.58 .
 
 
-:value3 a tmt:QuantitativeValue;  
+:value3 a trt:QuantitativeValue;  
    measure:min 1.37 ;
    measure:max 1.154 ;
    measure:mean 1.146 .
 
 ####### Female length traits
-:trait4 a tmt:QuantitativeTrait ;
+:trait4 a trt:QuantitativeTrait ;
      trt:hasName "Total length";
      trt:hasValue :value4 .
 
-:value4 a tmt:QuantitativeValue;  
+:value4 a trt:QuantitativeValue;  
    measure:min 1.32 ;
    measure:max 1.157 ;
    measure:mean 1.146 .

@@ -6,6 +6,6 @@ plazi.cs.umb.edu:/var/lib/tomcat6/webapps/GgServer/WEB-INF/srsWebPortalData/gg2r
 
 To clear that cache after you update the XSLT, you have to do the following:
 * go to http://plazi.cs.umb.edu/GgServer/manager
-* log in as (admin/taxonx)
+* log in as admin
 * go to "Servlet Refresher"
 * hit the "Re-Initialize" button in the row that reads "Re-initialize servlet GgSrsXSLT"
