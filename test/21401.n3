@@ -38,7 +38,7 @@
    dc:description  "Queens alate: Very similar to workers, only slightly larger than respective size class (Figs 3e-h). Ergatoid queens not recorded.NEWLINE NEWLINE Within a single locality, two size classes of workers, queens and males are present in this species, but the differences within a site do not hold up when variation across all sites is included. These differences suggest that two reproductive and developmental pathways can occur in this species. Further work is needed to explore the biotic or abiotic factors that trigger the development of small and large castes." .
 
 :section_1 a spm:InfoItem;
-spm:hasContent "Figures: worker 3a-d, 5c; queen 3e-h; male 3i-j, 8b; map 6b" .
+  spm:hasContent "Figures: worker 3a-d, 5c; queen 3e-h; male 3i-j, 8b; map 6b" .
 
 :workerDiagnosis a tmt:Diagnosis; 
   dc:description "Worker Diagnosis: Blade of mandible with five teeth and denticles located along distal two thirds of blade's length. Propodeum with short teeth (Fig. 5a). Dorsolateral margin of petiole with long spine (Fig. 5a). In frontal view, petiolar margin deeply U-shaped. Pilosity, sculpture as in Figures 2a,b." .
