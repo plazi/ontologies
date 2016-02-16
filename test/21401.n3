@@ -12,7 +12,8 @@
 @prefix :      <http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#> .
 
 # to produce rdf/xml cd to the directory holding this file and in a shell do
-#     n32rdf.sh 21401.n3
+#     ./n32xml.sh 21401.n3
+#   to produce 21401.xml
 
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a tmt:Treatment ;
