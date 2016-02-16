@@ -17,6 +17,7 @@
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a tmt:Treatment ;
    rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
+   tmt:compliesTo: <http://plazi.org/treatment-0.0.1> ;
    spm:hasInformation :section_1 ;
    tmt:hasMaterialExamined :material1 ;
    tmt:hasMaterialExamined :material2 ;
