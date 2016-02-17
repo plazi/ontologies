@@ -1,61 +1,65 @@
 @prefix pto:	<http://example.org/pseudo-trait-ont#> .
-@prefix trt: 	<http://plazi.org/ontologies/treatment#> .
+@prefix tmt: 	<http://plazi.org/ontologies/treatment#> .
 @prefix measure: <http://example.org/measure#> .
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
 
-:description a trt:Description ;
+# to produce rdf/xml cd to the directory holding this file and in a shell do
+#     ./n32xml.sh <thisfile>.n3
+#   to produce <thisfile>.xml
+
+:description a tmt:Description ;
    #document origin etc goes here ###
-   trt:hasSubDescription :description1 ;  ### or we could allow recursive Description
-   trt:hasSubDescription :description2 .
+   tmt:hasSubDescription :description1 ;  ### or we could allow recursive Description
+   tmt:hasSubDescription :description2 .
 
-:description1 a trt:Description;
-        trt:hasContext <Males> ;
-	trt:trait :trait1 ;  #colours
-	trt:trait :trait2 ;  #total length with cephalic lobe
-        trt:trait :trait3 .  #total length without cephalic lobe
+:description1 a tmt:Description;
+        tmt:hasContext <Males> ;
+	tmt:trait :trait1 ;  #colours
+	tmt:trait :trait2 ;  #total length with cephalic lobe
+        tmt:trait :trait3 .  #total length without cephalic lobe
 
-:description2 a trt:Description ;
-        trt:hasContext <Females> ;
-        trt:trait :trait1; #colours same as Male
-        trt:trait :trait4 .# total length
+:description2 a tmt:Description ;
+        tmt:hasContext <Females> ;
+        tmt:trait :trait1; #colours same as Male
+        tmt:trait :trait4 .# total length
 
-:trait1 a trt:CategoricalTrait ;  #Categorize traits or just values??
-	trt:hasName pto:colours ;
-        trt:hasValue :value1 .
+:trait1 a tmt:CategoricalTrait ;  #Categorize traits or just values??
+	tmt:hasName pto:colours ;
+        tmt:hasValue :value1 .
 
 
-:trait2 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasContext "with cepalic lobe";
-     trt:hasValue :value2 .
+:trait2 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasContext "with cepalic lobe";
+     tmt:hasValue :value2 .
 
-:trait3 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasContext "without cepalic lobe";
-     trt:hasValue :value3 .
+:trait3 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasContext "without cepalic lobe";
+     tmt:hasValue :value3 .
 
-:value1 a trt:CategoricalValue;
-     trt:value "variable" ;
-     trt:modifier sdd:slightly .
+:value1 a tmt:CategoricalValue;
+     tmt:value "variable" ;
+     tmt:modifier sdd:slightly .
 	
 
-:value2 a trt:QuantitativeValue;
+:value2 a tmt:QuantitativeValue;
    measure:min 1.49 ;
    measure:max 1.66 ;
    measure:mean 1.58 .
 
 
-:value3 a trt:QuantitativeValue;  
+:value3 a tmt:QuantitativeValue;  
    measure:min 1.37 ;
    measure:max 1.154 ;
    measure:mean 1.146 .
 
 ####### Femle length traits
-:trait4 a trt:QuantitativeTrait ;
-     trt:hasName "Total length";
-     trt:hasValue :value4 .
+:trait4 a tmt:QuantitativeTrait ;
+     tmt:hasName "Total length";
+     tmt:hasValue :value4 .
 
-:value4 a trt:QuantitativeValue;  
+:value4 a tmt:QuantitativeValue;  
    measure:min 1.32 ;
    measure:max 1.157 ;
    measure:mean 1.146 .

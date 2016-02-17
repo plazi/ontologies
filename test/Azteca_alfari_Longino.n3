@@ -10,15 +10,20 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix sdd: <http://tdwg.org/sdd#> .
-@prefix trt: <http://plazi.org/vocab/treatment#> .
+@prefix tmt: <http://plazi.org/vocab/treatment#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a trt:Treatment ;
-    trt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
-    trt:material_examined <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1>,
+# to produce rdf/xml cd to the directory holding this file and in a shell do
+#     ./n32xml.sh <thisfile>.n3
+#   to produce <thisfile>.xml
+
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a tmt:Treatment ;
+    tmt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
+   tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
+   tmt:material_examined <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1>,
         <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2> ;
-    trt:publishedIn <http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> .
+    tmt:publishedIn <http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> .
 
 <http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D> a <fabio:JournalArticle> ;
     dc:creator "Longino, J. T." ;
@@ -43,7 +48,7 @@
     dwc:rank "species" ;
     dwc:species "alfari" .
 
-<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1> a trt:Material ;
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_1> a tmt:Material ;
     dwc:collectionCode "MCSN" ;
     dwc:collectorName "Alfaro" ;
     dwc:country "Costa Rica" ;
@@ -51,7 +56,7 @@
     dwc:stateProvince "Jimenez" ;
     dwc:typeStatus "Lectotype" .
 
-<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2> a trt:Material ;
+<http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#material_2> a tmt:Material ;
     dwc:collectionCode "MCSN" ;
     dwc:collectorName "Germain" ;
     dwc:country "Brazil" ;

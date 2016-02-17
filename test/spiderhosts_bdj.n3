@@ -6,20 +6,21 @@
 @prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix dwcIRI:   <http://rs.tdwg.org/dwc/iri/> .
-@prefix trt:   <http://plazi.org/vocab/treatment#> .
+@prefix tmt:   <http://plazi.org/vocab/treatment#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix cito:  <http://purl.org/spar/cito/cito/> .
 @prefix :      <http://plazi.org/rdf/millerSpider/> .
 
 
-<http://treatment.plazi.org/id/mumble31F96F41E3E002BD88985A4F3A20E45A> a trt:Treatment ;
-	    rdfs:about <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
-	    trt:publishedIn <10.3897/BDJ.1.e987> ;
+<http://treatment.plazi.org/id/mumble31F96F41E3E002BD88985A4F3A20E45A> a tmt:Treatment ;
+	    tmt:definesTaxonConcept <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
+   	    tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
+	    tmt:publishedIn <10.3897/BDJ.1.e987> ;
 	    cito:cites <http://treatment.plazi.org/id/abc> .
 
-<http://treatment.plazi.org/id/abc> a trt:Treatment ;
+<http://treatment.plazi.org/id/abc> a tmt:Treatment ;
 	    #rdfs:about <http://lsid.tdwg.org/urn:lsid:biosci.ohio-state.edu:osuc_concepts:275548> ;
-	    trt:publishedIn <10.3897/zookeys.292.3867> .
+	    tmt:publishedIn <10.3897/zookeys.292.3867> .
 	    
 <10.3897/BDJ.1.e987> a bibo:Article ;
   dc:title "Chinese species of egg-parasitoids of the genera Oxyscelio Kieffer, Heptascelio Kieffer and Platyscelio Kieffer (Hymenoptera: Platygastridae s.l., Scelioninae)." ;
@@ -40,9 +41,9 @@
 	dwc:specificEpithet "arvi";
 	dwc:scientificNameAuthorship "Burks, 2013";
 	dwc:scientificName "Oxyscelio arvi Burks, 2013" ;
-	trt:material_examined :material1 .
+	tmt:material_examined :material1 .
 	
-:material1 a trt:Material ;
+:material1 a tmt:Material ;
 		dwcFP:hasOccurrence :something.
 
 <urn:lsid:biosci.ohio-state.edu:osuc_occurrences:SCAU__2011000627> a dwcFP:Occurrence ;

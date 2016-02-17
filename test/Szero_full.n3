@@ -18,8 +18,13 @@
 @prefix sdd: 	 <http://tdwg.org/sdd#> .
 @prefix : <http://plazi.org/rdf/2358B75578BBAB653E79C93BF2783597#> .
 
+# to produce rdf/xml cd to the directory holding this file and in a shell do
+#     ./n32xml.sh <thisfile>.n3
+#   to produce <thisfile>.xml
+
 <http://treatment.plazi.org/id/2358B75578BBAB653E79C93BF2783597> a tmt:Treatment ;
     tmt:definesTaxonConcept <http://example.org/concept/id/2358B75578BBAB653E79C93BF2783597> ;
+    tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
     tmt:hasMaterialExamined    :material_1 ;
     tmt:hasMaterialExamined    :material_2 ;
     tmt:hasMaterialExamined    :material_3 ;

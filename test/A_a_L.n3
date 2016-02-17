@@ -20,8 +20,13 @@
 @prefix tprov: 	 <http://example.org/treatmentProvenanceOntology#> .
 @prefix : <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029#> .
 
+# to produce rdf/xml cd to the directory holding this file and in a shell do
+#     ./n32xml.sh <thisfile>.n3
+#   to produce <thisfile>.xml
+
 <http://treatment.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> a tmt:Treatment ;
     tmt:definesTaxonConcept <http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029> ;
+    tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
     tmt:hasMaterialExamined_examined :material_1, :material_2 ;
     tmt:publishedIn <http://dx.doi.org/10.5281/zenodo.XXXXXX> .
 

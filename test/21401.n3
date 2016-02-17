@@ -12,12 +12,12 @@
 @prefix :      <http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#> .
 
 # to produce rdf/xml cd to the directory holding this file and in a shell do
-#     ./n32xml.sh 21401.n3
-#   to produce 21401.xml
+#     ./n32xml.sh <thisfile>.n3
+#   to produce <thisfile>.xml
 
 
 <http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A> a tmt:Treatment ;
-   rdfs:about <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
+   tmt:definesTaxonConcept <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
    tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
    spm:hasInformation :section_1 ;
    tmt:hasMaterialExamined :material1 ;
