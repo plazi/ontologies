@@ -74,10 +74,10 @@
 			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
 			<trt:definesTaxonConcept rdf:resource="{$taxonConceptID}"></trt:definesTaxonConcept>
 			<trt:publishedIn rdf:resource="{$pubID}"/>
-			<xsl:apply-templates select="//treatmentCitation[@httpUri]" mode="object">
+			<xsl:apply-templates select="//treatmentCitation[@httpUri] | //subSubSection[@type = 'reference_group']//taxonomicName[@httpUri]" mode="object">
 				<xsl:with-param name="treatmentID" select="$treatmentID"/>				
 			</xsl:apply-templates>
-			<xsl:apply-templates select="//treatmentCitation" mode="literal"/>
+			<xsl:apply-templates select="//treatmentCitation | //subSubSection[@type = 'reference_group']//taxonomicName[not(ancestor::treatmentCitation)][not(child::treatmentCitation)]" mode="literal"/>
 			<xsl:apply-templates select=".//subSubSection[@type != 'nomenclature']"  mode="object">
 				<xsl:with-param name="treatmentID" select="$treatmentID"/>
 			</xsl:apply-templates>
@@ -89,7 +89,7 @@
 		<xsl:call-template name="publication">
 			<xsl:with-param name="pubID" select="$pubID"/>
 		</xsl:call-template>
-		<xsl:apply-templates select=".//treatmentCitation[@httpUri]" mode="subject"/>
+		<xsl:apply-templates select=".//treatmentCitation[@httpUri] | //subSubSection[@type = 'reference_group']//taxonomicName[@httpUri]" mode="subject"/>
 		<xsl:apply-templates select=".//subSubSection[@type = 'nomenclature']">
 			<xsl:with-param name="taxonConceptID" select="$taxonConceptID"/>
 		</xsl:apply-templates>
@@ -186,15 +186,16 @@
 		</xsl:element>
 	</xsl:template>
 
-	<xsl:template match="treatmentCitation" mode="object">
+	<xsl:template match="treatmentCitation | subSubSection[@type = 'reference_group']//taxonomicName" mode="object">
 		<cito:cites rdf:resource="{@httpUri}"/>
 	</xsl:template>
-	<xsl:template match="treatmentCitation" mode="subject">
+	<xsl:template match="treatmentCitation | subSubSection[@type = 'reference_group']//taxonomicName" mode="subject">
 		<rdf:Description rdf:about="{@httpUri}">
 			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+			<dc:description><xsl:apply-templates select="descendant::text()" mode="normalizeSpace"/></dc:description>
 		</rdf:Description>
 	</xsl:template>
-	<xsl:template match="treatmentCitation" mode="literal">
+	<xsl:template match="treatmentCitation | subSubSection[@type = 'reference_group']//taxonomicName" mode="literal">
 		<cito:cites>
 			<xsl:apply-templates select="descendant::text()" mode="normalizeSpace"/>
 		</cito:cites>
