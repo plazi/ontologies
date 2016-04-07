@@ -10,7 +10,7 @@
 	xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdo="http://schema.org/"
 	xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	exclude-result-prefixes="xs" version="1.1">
+	exclude-result-prefixes="xs mods" version="1.1">
 	<xsl:output encoding="UTF-8" indent="yes" method="xml"/>
 	<xsl:template match="/">
 		<rdf:RDF>
