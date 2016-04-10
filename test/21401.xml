@@ -76,7 +76,7 @@
     <rdf:type rdf:resource="http://purl.org/spar/cito/CitationAct"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#materialCitation1">
-    <cito:hasCitingEntity rdf:resource="doi:10.1371/journal.pone.0001787"/>
+    <cito:hasCitingEntity rdf:resource="http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#materialCitation1">
     <cito:hasCitedEntity rdf:resource="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#material1"/>
@@ -88,7 +88,7 @@
     <rdf:type rdf:resource="http://purl.org/spar/cito/CitationAct"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#materialCitation2">
-    <cito:hasCitingEntity rdf:resource="doi:10.1371/journal.pone.0001787"/>
+    <cito:hasCitingEntity rdf:resource="http://treatment.plazi.org/id/31F96F41E3E002BD88985A4F3A20E45A"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#materialCitation2">
     <cito:hasCitedEntity rdf:resource="http://plazi.org/rdf/80c76562-b3ab-4015-b1a7-bef03992ac7c#material2"/>
