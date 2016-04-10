@@ -5,7 +5,7 @@
 @prefix dwcFP: <http://filteredpush.org/ontologies/FP/2.0/dwcFP#> .
 @prefix dwc:   <http://rs.tdwg.org/dwc/terms/> .
 @prefix tmt:   <http://plazi.org/vocab/treatment#> .
-@prefix trt:   <http://plazi.org/traits#> . #needs something real!
+@prefix trt:   <http://plazi.org/traits#> .
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix cito: <http://purl.org/spar/cito/> .
 @prefix spm: <http://rs.tdwg.org/ontology/voc/SpeciesProfileModel> .
@@ -20,8 +20,8 @@
    tmt:definesTaxonConcept <urn:lsid:biosci.ohio-state.edu:osuc_concepts:25263> ;
    tmt:compliesTo <http://plazi.org/treatment-0.0.1> ;
    spm:hasInformation :section_1 ;
-   tmt:hasMaterialExamined :material1 ;
-   tmt:hasMaterialExamined :material2 ;
+   tmt:hasMaterialCitation :materialCitation1 ;
+   tmt:hasMaterialCitation :materialCitation2 ;
    tmt:hasDiagnosis :workerDiagnosis ;
    tmt:publishedIn <doi:10.1371/journal.pone.0001787> ;
    cito:cites  <http://treatment.plazi.org/id/1C4EDC178AD79DD7F1A5AB856E8C5BCA> .
@@ -44,6 +44,18 @@
 
 :workerDiagnosis a tmt:Diagnosis; 
   dc:description "Worker Diagnosis: Blade of mandible with five teeth and denticles located along distal two thirds of blade's length. Propodeum with short teeth (Fig. 5a). Dorsolateral margin of petiole with long spine (Fig. 5a). In frontal view, petiolar margin deeply U-shaped. Pilosity, sculpture as in Figures 2a,b." .
+
+
+:materialCitation1 a cito:CitationAct;
+  cito:hasCitingEntity <doi:10.1371/journal.pone.0001787>;
+  cito:hasCitedEntity :material1;
+  cito:hasCitationCharacterization cito:citesAsEvidence .
+
+:materialCitation2 a cito:CitationAct;
+  cito:hasCitingEntity <doi:10.1371/journal.pone.0001787>;
+  cito:hasCitedEntity :material2;
+  cito:hasCitationCharacterization cito:citesAsEvidence .
+
 
 :material1 a tmt:Material;
    dwc:country "CAMEROON" ;
