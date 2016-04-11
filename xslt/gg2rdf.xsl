@@ -118,8 +118,18 @@
 	</xsl:template>
 	<xsl:template match="materialsCitation" mode="object">
 		<xsl:param name="treatmentID"/>
-		<trt:hasMaterialExamined rdf:resource="{$treatmentID}#material_{position()}"/>
+		<trt:hasMaterialCitation rdf:resource="{$treatmentID}#materialCitation_{position()}"/>
 	</xsl:template>
+	<xsl:template match="materialsCitation" mode="subject">
+		<xsl:param name="treatmentID"/>
+		<rdf:Description rdf:about="{$treatmentID}#materialCitation_{position()}">
+			<rdf:type rdf:resource="cito:CitationAct"/>
+			<cito:hasCitingEntity rdf:resource="{$treatmentID}"/>
+			<cito:hasCitedEntity rdf:resource="{$treatmentID}#material_{position()}"/>
+			<cito:hasCitationCharacterization rdf:resource="cito:citesAsEvidence"/>
+		</rdf:Description>
+	</xsl:template>
+<!--	
 	<xsl:template match="materialsCitation" mode="subject">
 		<xsl:param name="treatmentID"/>
 		<rdf:Description rdf:about="{$treatmentID}#material_{position()}">
@@ -127,6 +137,7 @@
 			<xsl:apply-templates select="@*"/>
 		</rdf:Description>
 	</xsl:template>
+-->	
 	<!-- MATERIALS AND TAXON CONCEPT TERMS -->
 	<!-- Should map to proper dwc terms	-->
 	<xsl:template match="materialsCitation/@* | taxonomicName/@*">
