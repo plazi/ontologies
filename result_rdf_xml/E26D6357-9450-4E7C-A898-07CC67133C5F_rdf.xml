@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://zoobank.org/NomenclaturalActs/E26D6357-9450-4E7C-A898-07CC67133C5F"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/F810A2A8-3567-FA92-BD7A-D19EAF61629D"/>
+<cito:cites> Penestomus Simon, 1902  : 241</cito:cites>
+<cito:cites>Penestomus planus Simon, 1902 </cito:cites>
+<cito:cites>Simon, 1903: 980</cito:cites>
+<cito:cites>Lehtinen, 1967: 257, 385-390</cito:cites>
+<cito:cites> Dippenaar-Schoeman , 1989: 131</cito:cites>
+<cito:cites> Wajane Lehtinen, 1967  : 275</cito:cites>
+<cito:cites>Wajane armata Lehtinen, 1967 </cito:cites>
+<cito:cites> Dippenaar-Schoeman , 1989: 133</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_5"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Penestomus Simon, 1902  : 241</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Simon, 1903: 980</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Lehtinen, 1967: 257, 385-390</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Dippenaar-Schoeman , 1989: 131</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Wajane Lehtinen, 1967  : 275</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/F810A2A8-3567-FA92-BD7A-D19EAF61629D">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Dippenaar-Schoeman , 1989: 133</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://zoobank.org/NomenclaturalActs/E26D6357-9450-4E7C-A898-07CC67133C5F">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Simon, 1902</dwc:authority>
+<dwc:authorityName>Simon</dwc:authorityName>
+<dwc:authorityYear>1902</dwc:authorityYear>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>5</dwc:pageId>
+<dwc:pageNumber>6</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>genus</dwc:rank>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Penestomus Simon, 1902: 241. Typespecies by monotypy Penestomus planus Simon, 1902. Simon, 1903: 980;  Lehtinen, 1967: 257, 385-390;  Dippenaar-Schoeman, 1989: 131.   Wajane Lehtinen, 1967: 275. Typespecies by monotypy Wajane armata Lehtinen, 1967.  Dippenaar-Schoeman, 1989: 133. New synonymy.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Justification of synonymy. Wajanewas described by Lehtinen (1967) based on a single male specimen. At the time, Penestomuswas known only from females. The chief diagnostic character for distinguishing Penestomusfrom Wajanewas the lack of a cribellum in the latter. However, male spiders almost never have a cribellum, even when conspecific females do, and Lehtinen himself speculated that Wajanefemales could have a functional cribellum (Lehtinen 1967: 387). Dippenaar-Schoeman(1989) described W. stilleriin the genus Wajanebased on its reported lack of a cribellum but electron microscopy of W. stillerinon-type material clearly indicates that a functional cribellum is present (Fig. 8 F). A total of three penestomid species are now known from males. While all differ in detail (especially of the pedipalp), there are no obvious characters that would suggest two distinct clades that could be circumscribed as Penestomusand Wajane. Wajaneis thus hereby synonymised with Penestomus.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Distinguished from other three-clawed, eight-eyed, cribellate entelegyne spiders except Eresidaeby their subrectangular carapace (Fig. 1 B) and clypeal hood (Fig. 1 C); distinguished from Eresidaeby the flat body (Fig. 1 A), tapetum in the indirect eyes (Fig. 1 D), RTA on the male pedipalpal tibia and by the position of the posterior lateral eyes, which are several eye diameters behind the posterior median eyes in Eresidaebut are less than three eye diameters behind the posterior median eyes in Penestomidae(Fig. 1 C). Distinguished from the ecribellate Zodariidaeby the presence of a cribellum (Fig. 5 A) and calamistrum (Fig. 4 C), a serrula on the endites (Fig. 2 A), a clypeal hood (Fig. 1 C), and by the absence of tarsal trichobothria.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Flat spiders (Fig. 1 A). Total length 3-6. Carapace subrectangular with shallow ovoid fovea. Eight eyes in two rows, posterior eye row slightly recurved, more widely spaced than anteriors (Fig. 1 C). Tapetum present in indirect eyes ( ALE, PLE, PME), at least that of PME appears to be canoe-shaped (Fig. 1 D). Carapace, legs, and abdomen usually with two setal morphologies, one black and filiform, the other white and plumose (Figs 1 B, E). Sternum ovoid, longer than wide, not fused to labium (Fig. 1 F). Endites parallel, with serrula. Anterior surface of labrum with bifid lingual process (Fig. 2 B). Chelicerae with boss (Fig. 2 C). Promargin of fang furrow armed with four-six teeth increasing in size from base of fang to the penultimate tooth; proximal tooth small. Retromargin of fang furrow armed with two-three teeth (Fig. 2 D; contra Dippenaar-Schoeman1989; Lehtinen 1967). Respiratory system with pair of book lungs anteriorly; posterior tracheal system (examined in a penultimate juvenile of P. egazini sp. nov.) quadritracheate, with four simple, subequal tubes restricted to abdomen. Female pedipalp with dentate claw; tarsus with pro-ventral cluster of macrosetae. Leg tarsi each with multidentate paired claws and untoothed median claw (Fig. 2 E); scopula absent. Tarsal organ capsulate, on slightly raised base; opening circular (Fig. 2 F). Tibiae each with two dorsal rows of trichobothria; metatarsi each with one dorsal trichobothrium distally; bothria hooded (Fig. 4 A); tarsi without trichobothria. Male tibiae and metatarsi I with clusters of retrolateral macrosetae (Figs 3B-D); tibiae II-IV with visible transverse suture near base (Fig. 3 A; see also Griswold 1993, 1994; Griswold et al. 2005). Female with calamistrum, a single row of setae occupying distal two thirds of metatarsus IV (Fig. 4 C). Female cribellum divided with two fields of strobilate spigots (Figs 5 E, F). Female anterior lateral spinnerets ( ALS) with two major ampullate gland spigots ( MAP) on squat bases, these invaginated into piriform ( PI) field, four PI on tall tapered bases, plus approximately four tartipores (Fig. 5 B). Female posterior median spinnerets ( PMS) with two minor ampullate gland spigots (mAP), one aciniform gland spigot ( AC), one tartipore, and two cylindrical gland spigots ( CY; Fig. 5 C). Female PLS with one modified spigot ( MS) flanked by two nubbins, four aciniform gland spigots ( AC), one tartipore, and one CY (Fig. 5 D). Paracribellar spigots absent from both the PLS and PMS. Male cribellum vestigial, lacking spigots (Fig. 6 A). Male ALS with one MAP on a squat base plus one nubbin, these within the PI field, four PI on tall tapered bases, and approximately three tartipores. Male PMS with one mAP, one nubbin (representing a mAP), one anterior AC, and one tartipore (Fig. 6 C). Male PLS with one nubbin (representing the MS), seven AC, and three tartipores (Fig. 6 D). Epiandrum with two clusters of about 5-10 spigots (Fig. 4 B).  FIGURE1. Penestomus egazini sp. nov.females from Grahamstown, South Africa ( A, C, E, F, CASENT 9024961; B, CASENT 9023774; D, CASENT 9024964). A, prosoma, lateral view; B, live female with egg case under Eucalyptus bark; C, prosoma, anterior view, arrow indicates clypeal hood; D, light micrograph showing tapetum in posterior median eyes; E, detail of carapace, lateral view, showing plumose and filiform typesof setae; F, prosoma, ventral view. A, C, E-F, scanning electron micrographs; B, field photograph; D, light micrograph of specimen under stereomicroscope. Scale bars A, F = 100 µm; C, E = 30 µm; D = 0.1 mm. Male pedipalpal tibia with apophyses arising from the retrolateral part of tibia (the retrolateral tibial apophysis or RTA), which comprise an inner ramus of the RTA ( RTA2) that arises apically near the base of the cymbium (Fig. 7 B) and an outer, bifid ramus of the RTA ( RTA1) that arises basally on the tibia and that is divided apically into inner RTA1( I) and outer RTA1( O) tips (Fig. 7 F). Base of RTA1 with ridge ( R). Median apophysis ( MA) anchored to retrolateral side of tegulum by membranous tissue, with notched plate on retrolateralside and long tailpiece extending transversely across the proximal tegulum to prolateral side of bulb (Fig. 7 C). Conductor ( C) retroapical, fleshy, translucent (Figs 7 D, 10 A). Embolus makes a half turn, tip expanded and complex, rests against conductor in unexpanded conformation (Figs 7 C, 10 A). Expansion of the bulb reveals a long, narrow, heavily sclerotized petiole that extends two-thirds the retrolateral height of the alveolus, the prodorsal surface of the tegulum with a conical projection that fits into a corresponding depression on the subtegulum (Fig. 11 B), and a reservoir that makes a simple loop around the margin of the tegulum and subtegulum, without switchbacks. FIGURE 2. Penestomus egazini sp. nov.from Grahamstown, South Africa ( A, B, E, F, female, CASENT 9024964; C, D, male, CASENT 9024985), scanning electron micrographs. A, detail of endite showing serrula, anterior view; B, labrum, anterior view, chelicerae removed, arrow indicated bifid lingual process; C, chelicera, lateral view, arrow indicates boss; D, chelicera showing fang and teeth; E, claws, left tarsus IV; F, tarsal organ, tarsus I. A, B taken from specimen with chelicerae removed; C shows chelicera removed from prosoma and mounted separately. Scale bars A, E, F = 20 µm; B = 30 µm; C, D = 100 µm.   FIGURE3. Male legs of Penestomusspecies, retrolateral view. A, C, P. montanus sp. nov.from Qacha's Nek, Lesotho (AcAT 2006/1535); B, P. egazini sp. nov.from Grahamstown, South Africa (CASENT 9024985); D, P. armatus (Lehtinen, 1967)from Alicedale, South Africa ( holotypeof Wajane armata). A, leg II showing tibia broken at suture; B-D, leg I. Scale bars = 0.5 mm. Female genitalia entelegyne, epigynum divided into anterior lobe ( AL) and posterior lobe ( PL; Fig. 12 A). Epigynum usually mushroom-shaped (a subtriangular anterior lobe with a long, narrow posterior lobe), occasionally subpentagonal (Fig. 16 E). Median projection of AL runs posteriorly into PL, divided from PL by a groove laterally and posteriorly (Fig. 8 A). Pair of (usually membranous) posterolateral apophyses ( PA) arise from AL on either side of the median projection ( MP)/PL complex (Figs 8 A, E). AL usually with pair of unsclerotized anterolateral patches (Fig. 12 A). Spermathecae ( S) usually subspherical, occasionally ovoid (Figs 8 B, 16 H); fertilization ducts ( FD) and copulatory ducts ( CD) originate from posteromesal region of spermathecae (Fig. 12 D). CD path direct, gently curved or sinuous, running posteriorly from spermathecae (Fig. 8 B). FD relatively robust, gently curved, running posteriorly from spermathecae (Fig. 8 B).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/3E931D97229BA4C724F1EE5A012BD7FA#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Previous authors have erroneously suggested that penestomids lack teeth on the posterior margin of the fang furrow ( Dippenaar-Schoeman1989; Lehtinen 1967). The lack of posterior margin teeth has also been claimed in eresines, although in fact the teeth are merely small (Griswold et al. 2005: fig. 131 D). Lehtinen (1967: 388) asserted that there were instead two rows of teeth along the anterior margin. In fact, penestomids have four to six teeth on the promargin and two to three teeth on the retromargin of the fang furrow (Fig. 2 D). Species groups. Based on morphology of female genitalia, most penestomidspecies resemble the typespecies P. planusin possessing a mushroom-shaped epigynum (a subtriangular anterior lobe with a long, narrow posterior lobe; Fig. 16 A). Penestomus croeseriand P. stilleriare both quite distinct from the P. planusconfiguration and from each other. All remaining species ( P. planus , P. egazini sp. nov., P. kruger sp. nov., P montanus sp. nov., P. prendinii sp. nov., P. zulu. sp. nov.) are placed in the planusgroup. Females of planusgroup species are distinguished from P. stilleriby the subspherical spermathecae (Figs 8 B, 12 B, D, F, 16 D; ovoidin P stilleri , Fig. 16 H); from P croeseriby the connection between the AL and its MP (as wide as the MPin planusgroup species, Figs 12 A, C, E, 16 A, B, C; distinctly narrower in P. croeseri , Fig. 16 E). Since the female of P. armatusis unknown, it is not possible to infer its affinities at this time. But if the female is discovered and it resembles P. croeseri , P. stilleri, or has a unique configuration, this could justify the resurrection of Wajane.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

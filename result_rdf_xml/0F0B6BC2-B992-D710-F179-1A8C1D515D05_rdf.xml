@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#section_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#material_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B">
+<dc:title>Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha</dc:title>
+<dc:creator>Pekka T. Lehtinen</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Annales Zoologici Fennici</bibo:journal>
+<dc:date>1967</dc:date>
+<bibo:volume>4</bibo:volume>
+<bibo:startPage>199</bibo:startPage>
+<bibo:endPage>468</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authorityName>Lehtinen</dwc:authorityName>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Wajane</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>null</dwc:pageId>
+<dwc:pageNumber>409</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>armata</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  ♂ - Carapace 2.1 mm, flat, cephalic area very short. Colouration reddish brown, completely covered with short, white hairs. There are also longer, darker bristles along the clypeus and laterally to the ocular area. Fovea quite shallow, wide, and indistinctly limited.  Chelicerae rather long and narrow, obliquely directed, fang short. Anterior margin of cheliceral groove with a low chitinous keel that is armed with four teeth, the next to the most basal being the largest. There are also two chitinous knobs immediately behind this keel, but they are too close to the anterior margin to represent a true armature of the posterior margin of the cheliceral groove that is lacking in other Eresid species. Maxillae basally wide, triangular, but the apical part has parallel sides and a rounded apex. The maxillae are quite parallel to each other, and therefore separated by the whole width of the labium. The latter is longer than wide, its apical part is tapering, but widely rounded at the apex. Sternum long oval as in  Penestomus, caudally projected between fourth coxae, the apex rounded.  Abdomen long oval, strongly tapering towards both ends, and somewhat flattened. Anterior margin truncate, caudal endpointed. Anal tubercle well-developed, triangular. There are white patches at the anterolateral corners of the dorsal side, and a pair of broader, transversal white patches at the widest point of the abdomen. Remainder of dorsal side yellowish brown. Ventral side unicoloured, lighter brownish yellow. Anterior spinnerets conical, dorsoventrally flattened and their basal diameter apart. Posterior spinnerets shorter, cylindrical, and much narrower than the anterior pair. Apical segment of both these pairs as long as wide, conical. Median spinnerets acutely conical, a little shorter than the. posterior pair. The homologues of the anterior median spinnerets are represented by an unpaired, narrow, strongly curved, and weakly sclerotized plate in front of the spinnerets. Evidently this is a case of nonfunctional colulus, but the weak sclerotization of the whole caudal end of the holotypehinders further interpretation of the structure of this colulus, as such unique in Eresidae. Tracheal stigma as wide as the spinnerets area, separated from the colulus by its own width.  Legs rather short, weakly sclerotized in the holotype. Coxae exceptionally long, especially in fourth leg, in this respect resembling the Platorid spiders. Trochanterae unnotched. Femora thick, armed with a single dorsomedian spine, much darker than the remaining segments of the legs. Tibiae with numerous short spines on ventral and lateral sides; they are quite irregularly arranged. Metatarsi also with irregular spinulation, although a basic pattern of three ventral pairs of spines might be traced. Tarsi spineless, more or less rigidly joined to metatarsi as in all Eresid species. Three tarsal claws, all with teeth. An oval area around the unpaired claw, densely covered with short hairs, also proves affinity with Eresids. Neither calamistrum nor any distinct trichobothria can be seen in the holotype, but its hair covering has been mostly rubbed away. The male palpus (Figs. 470 and 471) is characterized by a large, bifurcate tibial process and a large and complicated median apophysis, both of these characters being unique among Eresids. The coiled embolus runs inside a fold of the conductor. Moreover, there is a central membranous plate arising from the tegulum and supporting the apical parts of conductor and embolus.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>    Holotype♂ from Alicedale, South Africa, coll. F. Cruden,  Jan. 1916( Geneva).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/0F0B6BC2B992D710F1791A8C1D515D05#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1916-01</dwc:collectingDate>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>F. Cruden</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:location>Alicedale</dwc:location>
+<dwc:pageId>null</dwc:pageId>
+<dwc:pageNumber>410</dwc:pageNumber>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-male>1</dwc:specimenCount-male>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>

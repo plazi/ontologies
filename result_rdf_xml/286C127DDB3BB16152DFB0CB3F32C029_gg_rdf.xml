@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D"/>
+<cito:cites>Azteca alfari Emery</cito:cites>
+<cito:cites>alfaroi</cito:cites>
+<cito:cites>Azteca bicolor Emery</cito:cites>
+<cito:cites>Azteca alfaroi race lucidula Forel</cito:cites>
+<cito:cites>Azteca virens Forel</cito:cites>
+<cito:cites>Azteca alfari subsp. cecropiae Forel</cito:cites>
+<cito:cites>Azteca alfari var. mixta Forel</cito:cites>
+<cito:cites>Azteca alfaroi var. fumaticeps Forel</cito:cites>
+<cito:cites>Azteca alfari var. curtiscapa Forel</cito:cites>
+<cito:cites>Azteca foreli race breviscapa Forel</cito:cites>
+<cito:cites>Azteca foreli race championi var. breviscapa Forel</cito:cites>
+<cito:cites>Azteca alfari var. argentina Forel</cito:cites>
+<cito:cites>Azteca lynchi Brethes </cito:cites>
+<cito:cites>A. alfari</cito:cites>
+<cito:cites>Azteca alfari var. langi Wheeler</cito:cites>
+<cito:cites>Azteca alfari subsp. lucidula var. zonalis Wheeler</cito:cites>
+<cito:cites>A. alfari</cito:cites>
+<spm:hasInformation rdf:resource="#section_1"/>
+<spm:hasInformation rdf:resource="#section_2"/>
+<spm:hasInformation rdf:resource="#section_3"/>
+<spm:hasInformation rdf:resource="#section_4"/>
+<spm:hasInformation rdf:resource="#section_5"/>
+<spm:hasInformation rdf:resource="#section_6"/>
+<spm:hasInformation rdf:resource="#section_7"/>
+<trt:hasMaterialExamined rdf:resource="#material_1"/>
+<trt:hasMaterialExamined rdf:resource="#material_2"/>
+<trt:hasMaterialExamined rdf:resource="#material_3"/>
+<trt:hasMaterialExamined rdf:resource="#material_4"/>
+<trt:hasMaterialExamined rdf:resource="#material_5"/>
+<trt:hasMaterialExamined rdf:resource="#material_6"/>
+<trt:hasMaterialExamined rdf:resource="#material_7"/>
+<trt:hasMaterialExamined rdf:resource="#material_8"/>
+<trt:hasMaterialExamined rdf:resource="#material_9"/>
+<trt:hasMaterialExamined rdf:resource="#material_10"/>
+<trt:hasMaterialExamined rdf:resource="#material_11"/>
+<trt:hasMaterialExamined rdf:resource="#material_12"/>
+<trt:hasMaterialExamined rdf:resource="#material_13"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/A75589B0B733EFAA7DECE020EC76B43D">
+<dc:title>A taxonomic review of the genus Azteca (Hymenoptera: Formicidae) in Costa Rica and a global revision of the aurita group.</dc:title>
+<dc:creator>Longino, J. T.</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2007</dc:date>
+<bibo:volume>1491</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>63</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/286C127DDB3BB16152DFB0CB3F32C029">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:LSID-HNS>urn:lsid:biosci.ohio-state.edu:osuc_concepts:25967</dwc:LSID-HNS>
+<dwc:class>Insecta</dwc:class>
+<dwc:family>Formicidae</dwc:family>
+<dwc:genus>Azteca</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:lsidName-HNS>Azteca alfari Emery</dwc:lsidName-HNS>
+<dwc:pageNumber>15</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>alfari</dwc:species>
+<dwc:subFamily>Dolichoderinae</dwc:subFamily>
+</rdf:Description>
+<rdf:Description rdf:about="#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figures 2,4A,5,6C,7.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Azteca alfari Emery1893:338.  Lectotypeworker:  Jimenez, Atlantic slope, Costa Rica( Alfaro) [ MCSN](examined). Description of queen: Emery 1896b:4 [as alfaroi].  Azteca bicolor Emery1893:341.  Lectotypequeen: Brazil, Matto Grosso( Germain) [ MCSN](examined). Synonymy by Longino 1991b:1575.  Azteca alfaroi race lucidula Forel1899:113.  Lectotypequeen: Trinidad( Urich) [ MHNG](examined). Synonymy by Longino 1989a:5.  Azteca virens Forel1899:115.  Syntypeworkers: Brazil, Amazonas,  Para(  Goeldi) [ MCZC](examined). Synonymy by Longino 1989a:5.  Azteca alfari subsp. cecropiae Forel1906:240.  Lectotypeworker: Brazil, Amazonas, Manaus( Huber) [ MHNG](examined). Description of queen, male: Forel 1908b:387. Synonymy by Longino 1989a:5.  Azteca alfari var. mixta Forel1908b:386.  Lectotypequeen: San Bernardino, Paraguay( Fiebrig) [ MHNG](examined). Synonymy by Longino 1989a:6.  Azteca alfaroi var. fumaticeps Forel1909:250.  Syntypeworkers: Mexico, Buenaventura( Ross) [ MHNG](examined). Description of queen: Wheeler 1942:218. Synonymy by Longino 1989a:7.  Azteca alfari var. curtiscapa Forel1912:51.  Lectotypequeen: Panama( Christophersen) [ MHNG](examined). Synonymy by Longino 1989a:7.  Azteca foreli race breviscapa Forel1912:51 [first available use of Azteca foreli race championi var. breviscapa Forel1899:112.  Syntypeworkers: Costa Rica( Tonduz) [ MCZC, USNM](examined). Synonymy by Longino 1989a:7.  Azteca alfari var. argentina Forel1914:287.  Syntypeworkers: Argentina, Misiones, Santa Ana( Bruch) [ MHNG](examined). Description of major worker and queen: Gallardo 1916:115. Synonymy by Longino 1989a:7.  Azteca lynchi Brethes1914:93.  Syntypeworker(s): Bolivia(  Arribalzaga). Subspecies of A. alfari: Gallardo 1916:118. Synonymy by Longino 1989a:7.  Azteca alfari var. langi Wheeler1942:218.  Syntypeworkers, queens, males: Guyana, Kamakusa( Lang) [ MCZC](examined). Synonymy by Longino 1989a:7.  Azteca alfari subsp. lucidula var. zonalis Wheeler1942:222 (unavailable name). Workers, queens: Panama, Corozal,  21.xi.1911( Wheeler) [ MCZC](examined). Identification as A. alfari: Longino 1989a:7.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Queen characters. Measurements (n=21): HLA 1.62 (1.51-1.69), HW 1.32 (1.26-1.43), SL 0.76 (0.71- 0.85), CI 83 (80-86), SI 47 (45-51). Palpal formula 5,3; middle and hind tibia with prominent pectinate apical spur; dorsal surface of mandible largely smooth, with sparse small piligerous puncta, setae in puncta short, larger puncta with long setae near masticatory margin; medial and lateral clypeal lobes at about same level (medial lobe not projecting anteriorly); head weakly quadrate; petiolar node acute, triangular, neither strongly flattened nor bluntly rounded; posteroventral petiolar lobe well-developed, evenly convex; scape and tibia lacking setae, sides of head lacking setae, posterior margin of head with abundant curved setae, pronotum with posterior row of curved setae, mesoscutum with sparse setae, scutellum and propodeum with more abundant setae, petiolar node with cluster of erect setae, third abdominal tergum with abundant erect setae, fourth and fifth abdominal terga with 0-6 erect setae exclusive of posterior row; color light red brown to black. Worker characters. Measurements (n=13): HLA 0.99 (0.80-1.24), HW 0.88 (0.72-1.07), SL 0.60 (0.53- 0.72), CI 91 (86-94), SI 62 (58-69). Palpal formula 5,3; middle and hind tibia with prominent pectinate apical spur; dorsal surface of mandible largely smooth, with sparse small piligerous puncta, setae in puncta short, larger puncta with long setae near masticatory margin; medial and lateral clypeal lobes at about same level, medial lobe at most weakly projecting beyond lateral lobes; head with convex sides, strongly cordate posterior margin; mesosoma in lateral profile with promesonotum forming a continuous convexity or mesonotum somewhat elevated above pronotum; posterior mesonotum drops gradually to narrow metanotal groove such that posterior mesonotum, metanotal groove, and dorsal face of propodeum form a broad, shallow V (dorsal face of propodeum and broad metanotal groove do not form flat, step-like junction with posterior mesonotum); scape and tibia lacking setae, sides of head lacking setae, posterior margin of head with sparse to abundant erect setae, pronotum, mesonotum, and dorsal face of propodeum with conspicuous erect setae, mesonotum usually with about 8 erect setae of relatively uniform length (range 2-17; contrast with A. ovaticeps); color brown to yellow.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Similar species. Azteca alfariis most similar to A. ovaticeps(Longino 1989a). See differentiating characters in key and under A. ovaticeps. Workers of A. alfarimay also be confused with workers of A. forelii. Mandibles of A. alfariworkers are smooth and shiny; mandibles of A. foreliiworkers are roughened and dull.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Range. Central Mexico to northern Argentina.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Biology. The taxonomy and biology of A. alfariare reviewed in Longino (1989a, 1991b).  Azteca alfariis an obligate Cecropiaant. It is the most widespread of the Cecropiaants, extending into the subtropics at both ends of its range. Throughout the range it is the Cecropiaant most likely to be found in open or highly disturbed areas. Founding queens are frequent in Cecropiasaplings. As trees grow and form multiple branches, the nests become polydomous. Workers and brood are dispersed in branch tips, and the bole and inner portions of branches are progressively abandoned (Longino 1991a). Workers vary in aggressiveness geographically and over time. Workers in young colonies are usually aggressive, but in many cases workers in mature colonies are less aggressive, retreating inside of stems on disturbance (Longino 1991a).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Material examined. See Longino (1989a).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MCSN</dwc:collectionCode>
+<dwc:collectorName>Alfaro</dwc:collectorName>
+<dwc:country>Costa Rica</dwc:country>
+<dwc:location>Atlantic slope</dwc:location>
+<dwc:stateProvince>Jimenez</dwc:stateProvince>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MCSN</dwc:collectionCode>
+<dwc:collectorName>Germain</dwc:collectorName>
+<dwc:country>Brazil</dwc:country>
+<dwc:stateProvince>Matto Grosso</dwc:stateProvince>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Urich</dwc:collectorName>
+<dwc:country>Trinidad</dwc:country>
+<dwc:location>Trinidad</dwc:location>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_4">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MCZC</dwc:collectionCode>
+<dwc:collectorName>Goeldi</dwc:collectorName>
+<dwc:country>Brazil</dwc:country>
+<dwc:stateProvince>Amazonas, Para</dwc:stateProvince>
+<dwc:typeStatus>Syntypes</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_5">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Huber</dwc:collectorName>
+<dwc:country>Brazil</dwc:country>
+<dwc:location>Manaus</dwc:location>
+<dwc:stateProvince>Amazonas</dwc:stateProvince>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_6">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Fiebrig</dwc:collectorName>
+<dwc:country>Paraguay</dwc:country>
+<dwc:location>San Bernardino</dwc:location>
+<dwc:stateProvince>Cordillera</dwc:stateProvince>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_7">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Ross</dwc:collectorName>
+<dwc:country>Mexico</dwc:country>
+<dwc:location>Buenaventura</dwc:location>
+<dwc:typeStatus>Syntype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_8">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Christophersen</dwc:collectorName>
+<dwc:country>Panama</dwc:country>
+<dwc:typeStatus>Lectotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_9">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MCZC, USNM</dwc:collectionCode>
+<dwc:collectorName>Tonduz</dwc:collectorName>
+<dwc:country>Costa Rica</dwc:country>
+<dwc:typeStatus>Syntype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_10">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>Bruch</dwc:collectorName>
+<dwc:country>Argentina</dwc:country>
+<dwc:location>Santa Ana</dwc:location>
+<dwc:stateProvince>Misiones</dwc:stateProvince>
+<dwc:typeStatus>Syntype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_11">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectorName>Arribalzaga</dwc:collectorName>
+<dwc:country>Bolivia</dwc:country>
+<dwc:typeStatus>Syntype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_12">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MCZC</dwc:collectionCode>
+<dwc:collectorName>Lang</dwc:collectorName>
+<dwc:country>Guyana</dwc:country>
+<dwc:location>Kamakusa</dwc:location>
+<dwc:typeStatus>Syntype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="#material_13">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1911-11-21</dwc:collectingDate>
+<dwc:collectionCode>MCZC</dwc:collectionCode>
+<dwc:collectorName>Wheeler</dwc:collectorName>
+<dwc:country>Panama</dwc:country>
+<dwc:location>Corozal</dwc:location>
+</rdf:Description>
+</rdf:RDF>

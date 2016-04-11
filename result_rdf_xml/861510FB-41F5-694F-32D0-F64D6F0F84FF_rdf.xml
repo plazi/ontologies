@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33"/>
+<cito:cites>Simon 1902, Ann. Soc. Ent. France 71, Bull., CCXLI:</cito:cites>
+<cito:cites>  P. planus   Sim . 1902, ibid. from South Africa (? Paris). Described in Eresidae , and selected by  </cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF#section_2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/2147628664A36F240C7F6CCA1C9B177B">
+<dc:title>Classification of the cribellate spiders and some allied families, with notes on the evolution of the suborder Araneomorpha</dc:title>
+<dc:creator>Pekka T. Lehtinen</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Annales Zoologici Fennici</bibo:journal>
+<dc:date>1967</dc:date>
+<bibo:volume>4</bibo:volume>
+<bibo:startPage>199</bibo:startPage>
+<bibo:endPage>468</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Simon 1902, Ann. Soc. Ent. France 71, Bull., CCXLI:</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>null</dwc:pageId>
+<dwc:pageNumber>257</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>genus</dwc:rank>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>    -   Penestomus   Wajane  Figure 482, 469 470, 471  Size medium medium  Cribellum - colulus cr: bipartite, long oval co: transersal narrow plate  Anterior spinnerets strongly conical slender, slightly conical  Posterior spinnerets &lt;AS, cylindrical ~ AS, slender cylindrical  Median spinnerets small triangular small triangular  Abdominal pattern #m unknown 2 central white patches  Abdominal pattern #f none unknown  Shape of carapace very flat subrectangular very flat subrectangular  Clypeal triangle gradually pointed obtuse  Fovea oval shallow depression indistinct  Size of AM subequal to PM subequal to PM  Shape of MOT strongly trapezoidal strongly trapezoidal  Shape of LOT very strongly trapezoidal strongly trapezoidal  Cheliceral keel rounded triangular with 3 teeth rounded triangular with 4 teeth  Anterior part of sternum gradually narrowed gradually narrowed  Tib. &amp; met. v. sp. I-II: 0 + 2, III-IV: 1 - 3 + 2 I-IV: numerous irregular + 3  Tarsal spines none I-IV: 2 - 3 rather long apical  Tarsal scopulae none none  Shape of cymbium #m unknown circular with basodorsal carina  Tibial apophysis &amp;nbsp; long branched  Embolus &amp;nbsp; semicircular, distally modified  Conductor &amp;nbsp; semicircular fold  Median apophysis &amp;nbsp; very long and protruding, geniculate  Shape of tegulum &amp;nbsp; very long and protruding, geniculate  Epigynal plate caudally projected trapezium #f unknown  Epigynal foveae paired longitudinal narrow &amp;nbsp;  Distribution S. Ethiopian S. Ethiopian</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB41F5694F32D0F64D6F0F84FF#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>     Figs. 445-453. - 445: Adonea splendens♂, 446: Gandanameno spenceri♀ (holotype of Eresus depressus), 447: Dresserus schreineri, leg, 448: Seothyra schreineri, chelicera, 449: Adonea splendens, chelicera, 450: Magunia tentoriicola, spinnerets and anal tubercle, 451: Seothyra schreineri, spinnerets in dorsal view, 452: Penestomus planus, carapace, 453: Dresserus schreineri, spinnerets and anal tubercle. - Orig.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

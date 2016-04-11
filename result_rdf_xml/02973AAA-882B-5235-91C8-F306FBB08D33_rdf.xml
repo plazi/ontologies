@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/02973AAA882B523591C8F306FBB08D33"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33#section_2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A">
+<dc:title>Descriptions de quelques Arachnides nouveaux de la section des Cribellates</dc:title>
+<dc:creator>Eugene Simon</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Bulletin de la Societe entomologique de France</bibo:journal>
+<dc:date>1902</dc:date>
+<bibo:volume>15</bibo:volume>
+<bibo:startPage>240</bibo:startPage>
+<bibo:endPage>243</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Penestomus , nov. gen.- Cephalothorax multo longior quam latior, planissimus, fere parallelus, fovea thoracica magna et profunda impressus. Oculi cuncti parvi, quatuor medii, ad marginem frontalem depressum siti, aream plus duplo latiorem quam longiorem et antice quam postice multo angustiorem occupantes, antici posticis minores, laterales antici ad marginem siti, a mediis non multo distantes, laterales postici a mediis latissime distantes, sed parum remoti, cum mediis lineam latam recurvam formantes. Laminae longae, angustae. rectae et parallelae, apice obtusae. Sternum angustum. antice posticeque fere aequaliter attenuatum. Pedes breves et robusti, cuncti aculeati, tarsis. praesertim posticis, parvis, compressis sed ad basin attenuatis, unguibus superioribus longis, numerose et tenuiter pectinatis. Cribellum bipartitum. Calamistrum ex setis longis uniseriatis compositum.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA882B523591C8F306FBB08D33#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Ce genre appartient a la famille des  Eresidae , mais il est tresanormal et deviendra le type d'une sous-famille, reliant les  Eresidae, jus-qu'ici tres isolesau milieu des Cribellates, aux  Amaurobius et aux  Zoropsis. Le cephalothoraxet les yeux offrent une frappante analogie avec ceux des Hemicloea de la familie des  Drassidae.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

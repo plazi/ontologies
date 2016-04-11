@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/AAC5BD96733523E3E3631925083B827E"/>
+<trt:publishedIn rdf:resource="http://dx.doi.org/10.3897/phytokeys.13.2670"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_6"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_7"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_8"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_9"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_10"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://dx.doi.org/10.3897/phytokeys.13.2670">
+<dc:title>Two new species of Gingers (Zingiberaceae) from Myanmar</dc:title>
+<dc:creator>Gowda, Vinita</dc:creator>
+<dc:creator>Kress, W. John</dc:creator>
+<dc:creator>Htun, Thet</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>PhytoKeys</bibo:journal>
+<dc:date>2012</dc:date>
+<bibo:volume>13</bibo:volume>
+<bibo:startPage>5</bibo:startPage>
+<bibo:endPage>14</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/AAC5BD96733523E3E3631925083B827E">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:LSID>urn:lsid:ipni.org:names:77119952-1</dwc:LSID>
+<dwc:class>Liliopsida</dwc:class>
+<dwc:family>Zingiberaceae</dwc:family>
+<dwc:genus>Globba</dwc:genus>
+<dwc:higherTaxonomySource>CoL</dwc:higherTaxonomySource>
+<dwc:kingdom>Plantae</dwc:kingdom>
+<dwc:lsidName>Globba sherwoodiana</dwc:lsidName>
+<dwc:order>Zingiberales</dwc:order>
+<dwc:pageId>1</dwc:pageId>
+<dwc:pageNumber>6</dwc:pageNumber>
+<dwc:phylum>Tracheophyta</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>sherwoodiana</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. A new species in the genus GlobbaSection Globbadiffering from other species in this section, such as Globba laetaK.Larsen, Globba marantinaL., and Globba winitiiC.H.Wright by the combination of white, sharply reflexed and imbricate inflorescence bracts and soft, glabrous, bright green leaves.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Type. Myanmar: Mandalay Division: Pyin Oo Lwin, National Botanical Gardens, 69 km from Mandalay, 1000 m, 21°59'31"N, 96°28'09"E, W. J. Kress, Thet Htun, and M. Bordelon s.n. (only living plant collected for cultivation); Plants of this living collection cultivated at the Smithsonian Botany Research Greenhouses as USBRG 1997-141, 29 September 2011, W. J. Kress, V. Gowda &amp; M. Bordelon 11-8809 (holotype: US! [US 3635561, barcode 00940954; isotypes RAF!, E!).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Small perennial herbs from 38-45 cm in height to the top of uppermost leaf sheath. Rhizomes compact, non-tuberulous, white with a light orange center internally. Leafy shoots densely clumped, 6 to 8-leaved, stems bright green in color, sparsely hirsute. Basal sheaths 5-7 x1-2 cm, sparsely hirsute. Plane of distichy perpendicular to rhizome. Leaves glabrous and soft, only midvein of the ventral surface pubescent, lamina 17- 20 x5-8cm elliptic bright green adaxially and pale green abaxially, margin entire, base attenuate, apex acuminate; petiole 0.5-0.7 x0.3-0.4 cm, sparsely hirsute, green. Ligule small, 2-3 mm in length, hirsutulous, emarginate not becoming papery. Inflorescence terminal on leafy shoots, pendent 11-15 cm; peduncle 2.5-4 x0.35-0.5 cm, hirsute, pale green; rachis hirsute, straight, visible; inflorescence bracts 25-30 per inflorescence, bracts decreasing in size from base to the tip, median bract 2.5-3.5 cm x1.5-1.8 cm, spirally arranged, imbricate and widely separated, sharply reflexed105-107°from vertical axis, glabrous, white. Cincinni ca. 1.4-2 cm long to the first flower, originating under the inflorescence bract, 2-8 mm apart on the rachis, one per bract containing 2-3 flowers; flowers maturing from base to apex of inflorescence; bracteoles tubular, basal and largest bracteole 2.6-3 x3.5-5 mm, glabrous, light green. Flowers conspicuous; calyx tubular 4.5-5 mm long, reflexed at ca. 3-5mm from base, tri-lobed, yellow green; corolla tube 1.1-1.4 cm long, sparsely puberulous, with lobes reflexed; lobes cucullate, ca. 4-6 mm x2-3 mm; lateral staminodes 7-9 x2.3-2.6 mm in length, elliptic, glabrous, orange; labellum 6.2-7.6 x2.2-2.4 mm, triangular, bi-lobed, glabrous, orange with deep orange center; fertile stamen with filament 1.6-2.6 cm long, orange, glabrous, anther 2.2-2.6 mm long, thecae elliptic with four appendages, glabrous, crest not extended beyond thecae; style held in the ventral furrow of the filament; stigma cup-shaped, pubescent with ciliate margin; ovary uni-locular, 1.2-2 x1.6-2.7 mm, glabrous, white, with parietal placentation. Epigynous (stylodial) nectaries 2, linear septal, 3-4 mm long, light orange. Fruit and seeds unknown. Bulbils not observed.  Figure 1. Globba sherwoodianaW.J.Kress &amp; V.Gowda. A Habit of flowering plant B Apical part of leaf sheath showing ligule C Flower, lateral view showing bracteoles D Calyx with floral tube E Flower, frontal view F Bracteole G Inflorescence bract H Base of flower, cut-away view showing style, epigynous nectaries and placentation I Anthers with four appendages, style held in the ventral furrow of the filament with a cup-shaped stigma. WJK 11-8809 (US).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. At present this species is only known in cultivation in Myanmar where it is commonly sold in the markets and used as an offering in Buddhist ceremonies. However, it is suspected that wild populations are present in the border region between Myanmar and Thailand.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Ecology. The closest relatives of this species (see relationships) inhabit the understory of monsoon forests. We suspect that the same is true for Globba sherwoodiana.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Etymology. This splendid and magnificent species of Globbais named in honor of Dr. Shirley Sherwood, a great lover of plants and a patron of contemporary botanical art. Her support of botanical research in Myanmar is greatly appreciated.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Common name. The local name for this species, "Padein Gno," means "weeping goldsmith" in the Burmese language. It is said that local goldsmiths in Myanmar weep when they see this flower because no matter how hard they try, they are unable to capture in gold metal the beauty and simplicity of the individual parts of the flower (see Kress 2009).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_8">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Conservation status. Because this species is commonly cultivated it is in no danger or threat of extinction. However, the lack of known natural populations may su ggestthat this cultivated species may have low levels of genetic diversity. Genetic studies will provide a better understanding of the conservation status of this species.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_9">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Relationships.  Globba sherwoodianawas included in the molecular phylogenetic analysis of Williams et al. (labeled as Globba "magnifica"; 2004). Using DNA sequence data from matK and ITS, they showed that this species is a member of Sect. Globba laetaK.Larsen, Globba bulbiferaRoxb., Globba schomburgkiiHook. f., Globba globuliferaGagnep., Globba adhaerensGagnep., Globba marantinaL., and Globba winitiiC.H.Wright. Several species in this section have large conspicuous inflorescence bracts similar to those characterizing Globba sherwoodiana.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/AAC5BD96733523E3E3631925083B827E#section_10">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Other specimens examined. Known from the type specimen and additional specimens of USBRG 97-141in cultivation; WJK 00-6669; WJK 99-6533.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

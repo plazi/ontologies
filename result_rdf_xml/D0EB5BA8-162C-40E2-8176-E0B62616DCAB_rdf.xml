@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://zoobank.org/NomenclaturalActs/D0EB5BA8-162C-40E2-8176-E0B62616DCAB"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites>Penestomus</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_6"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_7"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#material_2"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://zoobank.org/NomenclaturalActs/D0EB5BA8-162C-40E2-8176-E0B62616DCAB">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>22</dwc:pageId>
+<dwc:pageNumber>23</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>prendinii</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 12E, 12F, 15A, 15B, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Penestomus sp. nov. 2: Miller et al., 2010. GenBank accession numbers FJ948972 ( 28 SrDNA), FJ948888 and FJ948930 ( 18 SrDNA), FJ949049 ( Histone H3), FJ949012 ( cytochrome oxidase I).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀, site 65, 37.4 kmNE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73, Western Cape, South Africa, 32°4.124'S, 22°45.365'E,  1449 m,  8 March 2007, L. Prendini&amp; H. Bichard( AMNH).  Paratypes: 2♀, 4 juveniles, same data as holotype ( AMNH).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Etymology. The specific epithet is a patronymic in honor of co-collector Lorenzo Prendinifor his contributions to arachnid systematics in South Africa and elsewhere, and for braving gunfire during the collection of this species.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Female distinguished by the shape of the carapace, which is more rounded laterally (Fig. 15 A), nearly parallel sided in other species (Fig. 9 A), and also flatter than other species. Female further distinguished from other planusgroup species by the shape of the posterior margin of the AL of the epigynum, which is straight medially, then turns sharply to form lateral corners that project somewhat more posteriorly (Fig. 12 E). The posterior margin of the AL is distinctly recurved in other species (Fig. 12 A) except P montanus, which has an indistinct margin (Fig. 12 C). Male unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace brown, lateral margins somewhat rounded, covered by fine black setae, with broad white setae concentrated posterior to fovea (Fig. 15 A). Sternum dusky pale yellow (Fig. 15 B). Chelicerae brown, with five promarginal teeth, two retromarginal teeth; with fine black setae only. Legs dusky brown basally, anterior legs orange distally, posterior legs yellow distally. Abdomen dark gray dorsally with pair of broad light dorsolateral patches, covered with mixture of fine black and broad white setae (Fig. 15 A). Epigynum. AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin straight medially, then turns sharply to form lateral corners projecting somewhat more posteriorly; PL approximately 1/4 length of epigynum, grooves slightly diverging posteriorly (Fig. 12 E). Female macrosetae. Leg I: tibia v1-2-2, metatarsus v2-2-2; leg II: tibia v1, metatarsus v2-2-2; leg III: metatarsus v1-2; leg IV: metatarsus v2-1-2, tarsus r1.  Paratypefemale ( AMNH): Total length 5.7, carapace 2.31 long, 1.88 wide, 0.16 high, sternum 1.34 long, 0.69 wide. Leg measurements:    - I II III IV Pedipalp  Femur 1.33 1.31 0.98 1.58 0.68  Patella 0.70 0.67 0.52 0.76 0.29  Tibia 0.84 0.83 0.62 1.31 0.25  Metatarsus 0.86 0.79 0.55 0.86 -  Tarsus 0.39 0.34 0.24 0.29 0.46  Total 4.12 3.94 2.91 4.81 1.69</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from Western Cape Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2007-03-08</dwc:collectingDate>
+<dwc:collectionCode>AMNH</dwc:collectionCode>
+<dwc:collectorName>L. Prendini, H. Bichard</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1449 m</dwc:elevation>
+<dwc:latitude>-32.068733</dwc:latitude>
+<dwc:location>site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>22.756083</dwc:longitude>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/84A90B878C7606E484D8052DD338ED7E#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2007-03-08</dwc:collectingDate>
+<dwc:collectionCode>AMNH</dwc:collectionCode>
+<dwc:collectorName>L. Prendini, H. Bichard</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1449 m</dwc:elevation>
+<dwc:latitude>-32.068733</dwc:latitude>
+<dwc:location>site 65, 37.4 km NE Beaufort West, top of De Jager's Pass, Beaufort West District Farm Spitskop 73</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>22.756083</dwc:longitude>
+<dwc:specimenCount>6</dwc:specimenCount>
+<dwc:specimenCount-female>2</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+<dwc:typeStatus>Paratypes</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>

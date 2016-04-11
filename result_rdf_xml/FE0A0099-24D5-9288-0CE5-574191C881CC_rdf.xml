@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/FE0A009924D592880CE5574191C881CC"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/0F0B6BC2-B992-D710-F179-1A8C1D515D05"/>
+<cito:cites> Wajane armata Lehtinen, 1967  : 409, figs 470-471.</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_6"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_7"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#material_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/0F0B6BC2-B992-D710-F179-1A8C1D515D05">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Wajane armata Lehtinen, 1967  : 409, figs 470-471.</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/FE0A009924D592880CE5574191C881CC">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Lehtinen, 1967</dwc:authority>
+<dwc:authorityName>Lehtinen</dwc:authorityName>
+<dwc:authorityYear>1967</dwc:authorityYear>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>30</dwc:pageId>
+<dwc:pageNumber>31</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>armatus</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 3D, 19-21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Wajane armata Lehtinen, 1967: 409, figs 470-471.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♂, Alicedale, Eastern Cape, South Africa[ 33°16'S, 26°2'E],  January 1916, F. Cruden( MHNG).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Male distinguished from P egazini(Fig. 10 A) by the absence of a keel on the outer margin of the embolus (Fig. 20 A); and from P. montanus(Fig. 14 A) by the lack of a lobe on the anterior margin of the tail of the MA (Fig. 20 A). Male further distinguished by the relatively shallow notch in the retrolateral plate of the MA (Fig. 20 C). Female unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace orange, rugose (Fig. 19 A; setae, if any, lost from holotype). Sternum pale yellow (Fig. 19 B; damaged in holotypespecimen). Chelicerae orange, with five promarginal teeth, two retromarginal teeth. Legs brown basally, pale yellow distally. Abdomen light gray dorsally with pair of light dorsolateral patches (Fig. 19 A; setae, if any, lost from holotype). Male pedipalp: RTA1 with tips long, diverging, inside tip curved ventrally, outside tip with basal suture (Fig. 20 A). Dorsal ridge short, restricted to base of RTA1. RTA2 with apex short, curved dorsally (Fig. 20 C). MA without anterior lobe arising from tail (Fig. 20 A). Embolus without keel along outer margin; bifid distal region formed from small transparent dorsal process and pointed distal tip (Fig. 20 C).  FIGURE 19. A, B, Habitus images of male Penestomus armatus (Lehtinen, 1967)from Alicedale, South Africa ( holotypeof Wajane armata). A, dorsal view; B, ventral view. Scale bars = 0.3 mm.   FIGURE20. Penestomus armatus (Lehtinen, 1967)from Alicedale, South Africa ( holotypeof Wajane armata), left pedipalp. A, ventral view; B, prolateral view; C, retrolateral view. Scale bars = 0.2 mm. C, conductor; E, embolus; MA, median apophysis; RTA1, outer, bifid ramus of retrolateral tibial apophysis; RTA1( I), inner tip of outer ramus of retrolateral tibial apophysis; RTA1( O), outer tip of outer ramus of retrolateral tibial apophysis; RTA2, inner ramus of retrolateral tibial apophysis; SU, suture; TG, tegulum.  Malemacrosetae: Leg I: femur d1, tibia r2-2-2-2-2-1, v1-2-2, metatarsus r1-3-1, v2-2-2; leg II: femur d1, tibia r1-1-1, v2-2-2, metatarsus r1-1-1, v2-2; leg III: femur d1, tibia r1-1-1, v2-2-2, metatarsus r1-1-1, v2-2; leg IV: femur d1 (tibia, metatarsus, tarsus undetermined).  Holotypemale: Total length 4.9, carapace 2.20 long, 1.56 wide, 0.56 high, sternum 1.28 long, 0.69 wide. Leg measurements:    - - - - -  - I II III IV*  Femur 1.17 1.11 0.95 1.27  Patella 0.59 0.56 0.50 0.67  Tibia 0.91 0.80 0.64 NA  Metatarsus 1.02 0.88 0.69 NA  Tarsus 0.51 0.45 0.36 NA  Total 4.20 3.80 3.14 NA  * tibiae of both fourth legs broken.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from Eastern Cape Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  FIGURE 21. Distribution of Penestomusspecies. Red circle, P egazini sp. nov.; white circle, P. montanus sp. nov.; yellow square, P. prendinii sp. nov.; white triangle, P. planus Simon, 1902; red square, P. kruger sp. nov.; yellow circle, P. zulu sp. nov.; white square, P. croeseri Dippenaar-Schoeman, 1989; red triangle, P. stilleri( Dippenaar-Schoeman, 1989); yellow triangle, P. armatus (Lehtinen, 1967); gray circles, Penestomusfrom localities represented only by juveniles. To explore distribution data using Google Earth, see supplementary file (http://www.mapress.com/zootaxa/ 2010/data/2520/ Penestomidae. kml).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FE0A009924D592880CE5574191C881CC#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1916-01</dwc:collectingDate>
+<dwc:collectionCode>MHNG</dwc:collectionCode>
+<dwc:collectorName>F. Cruden</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:latitude>-33.266666</dwc:latitude>
+<dwc:location>Alicedale</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.033333</dwc:longitude>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-male>1</dwc:specimenCount-male>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>

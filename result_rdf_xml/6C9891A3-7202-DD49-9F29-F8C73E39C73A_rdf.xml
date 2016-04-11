@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A#section_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/205CFA7769E010886A9DB1156B0CB11A">
+<dc:title>Descriptions de quelques Arachnides nouveaux de la section des Cribellates</dc:title>
+<dc:creator>Eugene Simon</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Bulletin de la Societe entomologique de France</bibo:journal>
+<dc:date>1902</dc:date>
+<bibo:volume>15</bibo:volume>
+<bibo:startPage>240</bibo:startPage>
+<bibo:endPage>243</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/6C9891A37202DD499F29F8C73E39C73A#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   P. planus,  sp. nov.- ♀ long. 7 mill. - Cephalothoraxsublaevis. fusco-piceus, pilis albidis pronis et longis conspersus. Abdomen oblongum, depressiusculum, fusco-testaceum. Chelae validae et convexae. nigrae, antice setis spiniformibus nigris longis hirsutae, subtus valde transversim rugatae. Partes oris laeves, fulvo-rufulae, testaceo-marginatae. Sternum coxaeque fulva, nitida et glabra. Pedes fusco-testacei,  longenigro-pilosi, tibia 1 iparis aculeis apicalibus binis, metatarsis cunctis aculeis apicalibus aculeoque medio inferiore subtus instructis. Plaga genitalis magna, convexa, rufula, semicircularis, pilis crassis et longis cinereis munita, sed postice foveola longitudinali angusta et nitida secta. - Africa maxime australis: Willomore (D rH. Brauns).</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

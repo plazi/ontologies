@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/86199BB4D42B090DA48E17773610C8F2"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AB10B65447CA3EFC5642B740CC24267B">
+<dc:title>Histoire naturelle des Araignees. T. 2, fasc 4</dc:title>
+<dc:creator>Eugene Simon</dc:creator>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/86199BB4D42B090DA48E17773610C8F2">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:pageId>null</dwc:pageId>
+<dwc:pageNumber>979</dwc:pageNumber>
+<dwc:rank>subFamily</dwc:rank>
+<dwc:subFamily>Penestominae</dwc:subFamily>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Proposeepour le genre  Penestomus, qui differedes  Eresus par un cephalothorax tresplat, comme celui des  Hemicloea , beaucoup plus long que large, parallele, tronqueen avant, marque, un peu au deladu milieu, d'unelarge fossette mal definie; ses yeux sont petits, les mediansfigurent, au milieu du bord frontal deprime, un groupe au moins deux fois plus large que long et beaucoup plus etroiten avant qu'en arriere, avec les anterieursun peu plus petits que les posterieurs; les lateraux anterieurs, un peu plus gros et ovales sont situes ala marge et plus eloignesdes angles frontaux que des yeux medians; les lateraux posterieurs, petits, sont beaucoup plus ecartestransversalement, mais moins reculesque ceux des  Eresus , figurant, avec les medians posterieurs, une ligne treslarge, legerement recurvee; disposition oculaire rappelant celle des  Hemicloea(t. I, p. 242, fig. 305).  Les cheliceressont construites comme celles des  Eresus ; mais les lamesmaxillaires sont plus etroites, non dilateesau coteexterne, droites, paralleleset obtuses. Le sternum est etroit, presque egalement attenueen avant et en arriere.  Les pattes sont courtes et robustes comme celles des  Eresus , mais leurs tarses, petits (surtout les posterieurs) et comprimes, sont un peu attenues ala base, nullement en continuiteavec les metatarseset pourvus de griffes beaucoup plus longues, tresvisibles, au moins les superieures(celles des  Eresus sont courtes et cacheespar des poils), qui sont garnies d'une seriede dents fines et nombreuses; ces pattes sont de plus armees d'epinesplus longues que celles des autres Eresides: les tibias de la 1 repaire ont en dessous 2 epinesapicales, les metatarses2 apicales et (sauf celui de la 3 epaire) une mediane.  Le cribellum, large et transverse, est divise; le calamistrum, qui occupe le dessus de l'artiele, tres comprime, est formede crins courbes fins, uniseries.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Lafamilie des Eresides,  jusqu'ici tres isoleeau. milieu des Cribellates, se trouve relieeaux  Amaurobius et a certains Zoropsides par le genre ambigu  Penestomus .</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/86199BB4D42B090DA48E17773610C8F2#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Ce genre ne comprend qu'une petite especede l'Afrique du Sud, brunatreet garnie de gros poils blancs peu serreset couches.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>
