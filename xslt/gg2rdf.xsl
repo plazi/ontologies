@@ -95,6 +95,7 @@
 		</xsl:apply-templates>
 		<xsl:apply-templates select=".//subSubSection[@type != 'nomenclature']" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
 		<xsl:apply-templates select=".//materialsCitation" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
+		<xsl:apply-templates select=".//materialsCitation" mode="material"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
 		<xsl:apply-templates select=".//figureCitation[@httpUri]" mode="subject"/>
 
 	</xsl:template>
@@ -129,15 +130,13 @@
 			<cito:hasCitationCharacterization rdf:resource="cito:citesAsEvidence"/>
 		</rdf:Description>
 	</xsl:template>
-<!--	
-	<xsl:template match="materialsCitation" mode="subject">
+	<xsl:template match="materialsCitation" mode="material">
 		<xsl:param name="treatmentID"/>
 		<rdf:Description rdf:about="{$treatmentID}#material_{position()}">
-			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
 			<xsl:apply-templates select="@*"/>
 		</rdf:Description>
 	</xsl:template>
--->	
 	<!-- MATERIALS AND TAXON CONCEPT TERMS -->
 	<!-- Should map to proper dwc terms	-->
 	<xsl:template match="materialsCitation/@* | taxonomicName/@*">
