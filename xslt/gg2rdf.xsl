@@ -95,6 +95,7 @@
 		</xsl:apply-templates>
 		<xsl:apply-templates select=".//subSubSection[@type != 'nomenclature']" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
 		<xsl:apply-templates select=".//materialsCitation" mode="subject"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
+		<xsl:apply-templates select=".//materialsCitation" mode="material"><xsl:with-param name="treatmentID" select="$treatmentID"></xsl:with-param></xsl:apply-templates>
 		<xsl:apply-templates select=".//figureCitation[@httpUri]" mode="subject"/>
 
 	</xsl:template>
@@ -118,12 +119,21 @@
 	</xsl:template>
 	<xsl:template match="materialsCitation" mode="object">
 		<xsl:param name="treatmentID"/>
-		<trt:hasMaterialExamined rdf:resource="{$treatmentID}#material_{position()}"/>
+		<trt:hasMaterialCitation rdf:resource="{$treatmentID}#materialCitation_{position()}"/>
 	</xsl:template>
 	<xsl:template match="materialsCitation" mode="subject">
 		<xsl:param name="treatmentID"/>
+		<rdf:Description rdf:about="{$treatmentID}#materialCitation_{position()}">
+			<rdf:type rdf:resource="cito:CitationAct"/>
+			<cito:hasCitingEntity rdf:resource="{$treatmentID}"/>
+			<cito:hasCitedEntity rdf:resource="{$treatmentID}#material_{position()}"/>
+			<cito:hasCitationCharacterization rdf:resource="cito:citesAsEvidence"/>
+		</rdf:Description>
+	</xsl:template>
+	<xsl:template match="materialsCitation" mode="material">
+		<xsl:param name="treatmentID"/>
 		<rdf:Description rdf:about="{$treatmentID}#material_{position()}">
-			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+			<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Material"/>
 			<xsl:apply-templates select="@*"/>
 		</rdf:Description>
 	</xsl:template>

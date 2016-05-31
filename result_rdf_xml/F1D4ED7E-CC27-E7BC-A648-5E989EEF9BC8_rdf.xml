@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F"/>
+<cito:cites> Penestominae Simon, 1903  : 979</cito:cites>
+<cito:cites>Penestomus Simon, 1902 </cito:cites>
+<cito:cites>Lehtinen, 1967: 385-390</cito:cites>
+<cito:cites> Dippenaar-Schoeman , 1989: 131.</cito:cites>
+<cito:cites>Penestomidae</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/C81D4B1F-F0C7-D60F-86ED-A9FA99A7F997">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Penestominae Simon, 1903  : 979</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Lehtinen, 1967: 385-390</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557-FE00-D0D2-7092-DAAD78833B0F">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Dippenaar-Schoeman , 1989: 131.</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Simon, 1903</dwc:authority>
+<dwc:authorityName>Simon</dwc:authorityName>
+<dwc:authorityYear>1903</dwc:authorityYear>
+<dwc:family>Penestomidae</dwc:family>
+<dwc:pageId>4</dwc:pageId>
+<dwc:pageNumber>5</dwc:pageNumber>
+<dwc:rank>family</dwc:rank>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Penestominae Simon, 1903: 979. Typegenus Penestomus Simon, 1902. Lehtinen, 1967: 385-390;  Dippenaar-Schoeman, 1989: 131.  Penestomidae. Miller et al., 2010: 801.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Affinities. Removal of the Penestominaefrom the Eresidaewas justified by analysis of molecular sequence data (Miller et al. 2010). These data consistently indicated that penestomines are close to the Zodariidae, and that this relationship has significantly better support than one constrained to include a monophyletic Eresidaeincluding Penestominae (Shimodaira &amp; Hasegawa 1999). One line of morphological evidence that could support a close relationship between zodariids and penestomids has to do with the arrangement of spigots on the anterior lateral spinnerets. Typically, the major ampullate gland spigots ( MAP) are placed on the margin of the spinning field (e.g. see Griswold et al. 2005, fig. 49 B) but in both zodariids (Miller et al. 2010, fig. 2 E) and penestomids (Fig. 6 B) the MAP are placed in the center of the field of piriform gland spigots ( PI).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/F1D4ED7ECC27E7BCA6485E989EEF9BC8#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> The Zodariidaeare diagnosed by several characters not found in Penestominae(i.e. absence of serrula, lateral implantation of tarsal claw teeth, long anterior lateral spinnerets; see Jocque1991). Inclusion of Penestominaewithin the entirely ecribellate Zodariidaewould radically change and complicate the diagnosis of this expanded family concept. For these reasons, Miller et al. (2010) promoted Penestominaeto family rank.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

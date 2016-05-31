@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/78086224-E0F7-31F3-805B-DDB020C16409"/>
+<cito:cites> Wajane stilleri Dippenaar-Schoeman, 1989  : 134, figs 2, 7-8</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_6"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_7"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/78086224-E0F7-31F3-805B-DDB020C16409">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Wajane stilleri Dippenaar-Schoeman, 1989  : 134, figs 2, 7-8</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Dippenaar-Schoeman, 1989</dwc:authority>
+<dwc:authorityName>Dippenaar-Schoeman</dwc:authorityName>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>29</dwc:pageId>
+<dwc:pageNumber>30</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>stilleri</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 8E, 8F, 16G-I, 18C, 18D, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Wajane stilleri Dippenaar-Schoeman, 1989: 134, figs 2, 7-8.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀ (with 1 juvenile paratype), Paarl Du Toit's Kloof, Donkerkloof, Western Cape, South Africa, 33°45'S 18°50'E,  300 m,  3 August 1975, found in silk-lined tunnels under exfoliated section of rock, in a boulder, M. Stiller( AcAT 88/29, NCA).  Additional material examined. SOUTH AFRICA. Western Cape: 3 ♀ 5 juveniles, Winterhoek[ 33.1°S, 19.13°E]  4400-5500 ft,  20 November 1916, Tucker( B2686 SAM-ENW-B002686, SAM);  2 ♀, 1 juvenile, Winterhoek[ 33.1°S, 19.13°E],  5000-5600 ft,  20 November 1916, Tucker( B2853 SAM-ENW-B002853, SAM).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Female distinguished by the ovoid, diverging spermathecae (Figs 16 H, I) and PA of the epigynum that are as sclerotized as the AL (Figs 8 E, 16 G). Male unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace orange-yellow, lighter posteriorly with smooth texture (Fig. 18 C). Sternum dusky pale yellow (Fig. 18 D). Chelicerae orange, with five promarginal teeth, two retromarginal teeth. Legs brown basally, leg I and II orange distally, posterior legs pale yellow distally. Abdomen medium gray dorsally with light dorsolateral patches (Fig. 18 C). (Most setae lost on specimens so these data are not reported here.) Epigynum. Subpentagonal, MP/PL complex approximately 1/4 length of epigynum, parallel sided with grooves converging posteriorly, extending only slightly posterior from AL (Figs 8 E, 16 G). PA sclerotized, undifferentiated from rest of epigynum. Female macrosetae: Leg I: femur d1, tibia v2-2, metatarsus v2-2-2; leg II: femur d1, tibia v1, metatarsus v2-2; leg III: femur d1, tibia v1, metatarsus v1-3; leg IV: femur d1, metatarsus v1-1-3.  Holotypefemale (AcAT 88/29): Total length 3.6, carapace 1.44 long, 0.97 wide, 0.38 high, sternum 0.91 long, 0.50 wide. Leg measurements:    - I II III IV Pedipalp  Femur 0.65 0.62 0.56 0.71 0.35  Patella 0.43 0.40 0.32 0.48 0.17  Tibia 0.48 0.44 0.40 0.63 0.17  Metatarsus 0.43 0.40 0.33 0.46 -  Tarsus 0.27 0.24 0.19 0.22 0.30  Total 2.25 2.10 1.79 2.51 1.00</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Distribution. Known from Western Cape Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Remarks. Dippenaar-Schoeman(1989) reported the absence of a cribellum in this species. Indeed, no cribellum is obvious in the somewhat degraded typeseries specimens, although there is evidence of a broad lobe that could be a cribellum or wide colulus. In the holotype, most setae are missing from the legs, including the calamistrum region; in the juvenile paratype, both legs IV are broken near the tibia-metatarsus joint. Other specimens (i.e., those from Winterhoek, South Africa; B2853, SAM-ENW-B002853), have a well developed cribellum (Fig. 8 F) and calamistrum.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1975-08-03</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>M. Stiller</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>300 m</dwc:elevation>
+<dwc:latitude>-33.75</dwc:latitude>
+<dwc:location>Paarl Du Toit's Kloof, Donkerkloof</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>18.833334</dwc:longitude>
+<dwc:specimenCode>AcAT 88 / 29</dwc:specimenCode>
+<dwc:specimenCount>2</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1916-11-20</dwc:collectingDate>
+<dwc:collectionCode>SAM</dwc:collectionCode>
+<dwc:collectorName>Tucker</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1341 - 1676 m</dwc:elevation>
+<dwc:latitude>-33.1</dwc:latitude>
+<dwc:location>Winterhoek</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>19.13</dwc:longitude>
+<dwc:specimenCode>B 2686 SAM-ENW-B 002686</dwc:specimenCode>
+<dwc:specimenCount>8</dwc:specimenCount>
+<dwc:specimenCount-female>3</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B3838D82C90CA2A6381781A50DD078E1#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1916-11-20</dwc:collectingDate>
+<dwc:collectionCode>SAM</dwc:collectionCode>
+<dwc:collectorName>Tucker</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1524 - 1707 m</dwc:elevation>
+<dwc:latitude>-33.1</dwc:latitude>
+<dwc:location>Winterhoek</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>19.13</dwc:longitude>
+<dwc:municipality>Winterhoek</dwc:municipality>
+<dwc:specimenCode>B 2853 SAM-ENW-B 002853</dwc:specimenCode>
+<dwc:specimenCount>3</dwc:specimenCount>
+<dwc:specimenCount-female>2</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://zoobank.org/NomenclaturalActs/B04D9201-7E5A-450A-9F8F-51D7AFA48EC1"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_6"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#material_1"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://zoobank.org/NomenclaturalActs/B04D9201-7E5A-450A-9F8F-51D7AFA48EC1">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>26</dwc:pageId>
+<dwc:pageNumber>27</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>zulu</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 16C, 16D, 17C, 17D, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀, Mfongosi, Zululand, KwaZulu Natal, South Africa[ 27°17'S, 32°9'E],  February 1918, W.E. Jones( B4176 SAM-ENW-B004176, SAM).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Etymology. The specific epithet is a noun in apposition derived from the collection locality and the dominant tribe in the region.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Female distinguished by the median invagination in the posterior margin of the PL (Fig. 16 D). Female further distinguished from other planusgroup species by the sclerotization of the PA (Fig. 16 C), which is about the same as the AL (lighter in other planusgroup species, Fig. 16 A). Male unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace orange, lighter posteriorly with smooth texture, covered by fine black setae and broad white setae (Fig. 17 A). Sternum pale yellow (Fig. 17 B). Chelicerae red-brown, with five promarginal teeth, two retromarginal teeth. Legs dusky yellow, anterior legs orange distally. Abdomen dark gray dorsally with indistinct light dorsolateral patches (Fig. 17 A). Epigynum: AL nearly hexagonal, moderately differentiated from surrounding cuticle, broadly connected to PL; PL approximately 1/3 length of epigynum, with more or less parallel grooves (Fig. 16 C), with median invagination on posterior margin (Fig. 16 D). Sclerotization of PA undifferentiated from the rest of the epigynum, separated from AL by groove (Fig. 16 C). Female macrosetae: Leg I: femur d1, tibia v1-2, metatarsus v2-2; leg II: femur d1, metatarsus v2-2; leg III: femur d1, metatarsus v2; leg IV: femur d1, metatarsus v1-2; tarsus r1.  Holotypefemale (SAM-ENW-B004176): Total length 4.5, carapace 2.00 long, 1.39 wide, 0.44 high, sternum 1.11 long, 0.63 wide. Leg measurements:    - I II III IV Pedipalp  Femur 0.98 0.94 0.81 1.10 0.57  Patella 0.56 0.51 0.47 0.64 0.19  Tibia 0.63 0.55 0.46 0.91 0.21  Metatarsus 0.64 0.56 0.44 0.69 -  Tarsus 0.32 0.29 0.18 0.21 0.44  Total 3.13 2.86 2.37 3.56 1.42</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from KwaZulu Natal Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/1015A8FA376590DA248AF5A6212718D7#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1918-02</dwc:collectingDate>
+<dwc:collectionCode>SAM</dwc:collectionCode>
+<dwc:collectorName>W. E. Jones</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:latitude>-27.283333</dwc:latitude>
+<dwc:location>Mfongosi, Zululand</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>32.15</dwc:longitude>
+<dwc:specimenCode>B 4176 SAM-ENW-B 004176</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>KwaZulu Natal</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>

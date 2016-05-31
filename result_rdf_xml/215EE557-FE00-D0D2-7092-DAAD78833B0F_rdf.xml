@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33"/>
+<cito:cites rdf:resource="http://plazi.cs.umb.edu/GgServer/html/861510FB41F5694F32D0F64D6F0F84FF"/>
+<cito:cites> Penestomus Simon, 1902: 241</cito:cites>
+<cito:cites>Lehtinen, 1967: 257, 390</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68">
+<dc:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</dc:title>
+<dc:creator>Anna S. Dippenaar-Schoeman</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Phytophylactica</bibo:journal>
+<dc:date>1989</dc:date>
+<bibo:volume>21</bibo:volume>
+<bibo:startPage>131</bibo:startPage>
+<bibo:endPage>134</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/02973AAA-882B-5235-91C8-F306FBB08D33">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Penestomus Simon, 1902: 241</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://plazi.cs.umb.edu/GgServer/html/861510FB41F5694F32D0F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Lehtinen, 1967: 257, 390</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>0</dwc:pageId>
+<dwc:pageNumber>131</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>genus</dwc:rank>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Simon</dwc:authority>
+<dwc:authorityName>Simon</dwc:authorityName>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>0</dwc:pageId>
+<dwc:pageNumber>131</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>planus</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   PenestomusSimon, 1902: 241; Lehtinen, 1967: 257, 390.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis The flattened body, small size and the position of the eyes distinguish Penestomusfrom other eresids. It differs from Wajanein having a cribellum, no patterns on the abdomen and a slightly different eye pattern.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description Female. Size: small to medium-sized spiders (4,4-7,0 mm). Colour of carapace reddish brown to dark brown; smooth and shiny, with scattered long black setae covering the dorsal surface interspersed by thicker white setae. Carapace longer than wide, subrectangular and flattened, sides subparallel, slightly narrower in caphalic area, posteriorly and anteriorly truncated with clypeus centrally protruding (Fig. 3). Fovea oval, shallow depression. Eyes in two rows, situated close to anterior edge; anterior row straight, posterior row recurved; eyes small, lateral eyes slightly larger than median eyes; MOQ wider than long, narrower in front; ALE situated close to anterior margin; both AMEand PME nearer to each other than to lateral eyes; PLE widely spaced (Fig. 1). Chelicerae long, obliquely directed; anterior margin of cheliceral groove with small chitinous keel armed with small teeth. Maxillae parallel to each other, longer than wide. Sternum oval, caudally projecting between fourth coxae. Abdomen long oval, slightly depressed dorsally, covered with short black setae, uniformly pale ventrally. Legs short, robust; leg formula 4123; coxae long, especially leg IV; three tarsal claws, paired claws pectinate. Cribellum indistinct, oval, bipartite; calamistrum bi- or uniseriate. Epigynal plate large, reddish brown. Male Unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution Known only from the Cape Province, South Africa.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Relationship Closely related to Wajanefrom which it differs in having a cribellum, no pattern on the abdomen and a slightly different eye pattern.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/215EE557FE00D0D27092DAAD78833B0F#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Bionomics Nothing is known of P. planus. Adult females of P. croeseri  spec. nov.have been collected from the soil surface in riverine bush in Grahamstown.</spm:hasContent>
+</rdf:Description>
+</rdf:RDF>

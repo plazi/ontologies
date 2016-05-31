@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/FDC2009739A3C902AE482CB24271860D"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_6"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/CA6D89F0B69DAEB31A724162E5043C68">
+<dc:title>The African species of the subfamily Penestominae (Araneae: Eresidae): with descriptions of two new species</dc:title>
+<dc:creator>Anna S. Dippenaar-Schoeman</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Phytophylactica</bibo:journal>
+<dc:date>1989</dc:date>
+<bibo:volume>21</bibo:volume>
+<bibo:startPage>131</bibo:startPage>
+<bibo:endPage>134</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/FDC2009739A3C902AE482CB24271860D">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>1</dwc:pageId>
+<dwc:pageNumber>132</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>croeseri</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Types  Female holotype, South Africa, Grahamstown, elevation 500m ( 33° 19' S, 26° 32' E), collected in riverine bush from soil surface,  1. i. 1980, P. Croeserand P. Hawkes, deposited in the National Collection of Arachnida, NCA 87/249.  Paratypes: four females, same locality and date, deposited in the following collections: two females in the Natal Museum, Pietermaritzburg, and two in the National Collection of Arachnida( NCA 87/249).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Etymology The specific name is a patronym in honour of Mr Peter Croeser of the Natal Museum, collector of the typematerial.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis The new speciesdiffer from P. planus, the only otherspecies in the genus, in the different shape of the genitalia, its reddish brown colour, smaller size and the biseriate calamistrum.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description Female Size (n=5): total length 5,6 (4,4-5,7); carapace width 1,68 (1,56-1,76); carapace length 2,08(2,0-2,12). Carapace smooth and shiny, reddish brown, anterior edge slightly darker, eyes encircled with black; carapace longer than wide, flattened, slightly narrower in cephalic area, lateral margins of thoracic area almost subparallel, posteriorly truncated, clypeus centrally protruding (Fig. 3); cephalic area very short, pars cephalica slightly elevated, flattened; fovea a shallow oval-shaped depression, with short black setae marginally; carapace clothed with short to long thin black setae, thoracic area with thick white setae scattered in between. Eyes situated close to anterior margin; anterior eye row straight, posterior row recurved, ALE situated close to anterior margin, not widely spaced, larger than AME; AMEsmall, situated closer to each other than to ALE; PLE widely spaced, slightly larger than PME, PME closer to each other than to PLE, PME situated close to AME, MOQ wider than long, narrower anteriorly (Fig. 1). Chelicerae similar in colour to anterior part of carapace, long and obliquely directed, hairy; fangs short, anterior margin of cheliceral groove with low chitinous keel, armed with four teeth, tooth next to basal one largest. Labium and maxillae pale brown, labium half the length of maxillae, apex white translucent; maxillae longer than wide, parallel to each other, sides subparallel, apex rounded, white translucent. Sternum yellowish brown. Legs brown, hairy and weakly sclerotized; leg formula 4123; coxae exceptionally long, especially fourth leg; trochanters unnotched, femora thicker and darker than remaining segments, with a single seta dorsomedially; tibia I with two spines apically; metatarsi with 1-4 irregularly spaced spines; tarsi very short, shorter than metatarsi; calamistrum on metatarsi IV a double row of curved setae covering two thirds of segment; three tarsal claws, paired claws with numerous long teeth. Palp with a single, apical pectinate claw, hairy, with strong setae ventrally. Measurements of legs:    - I II III IV Palp  Coxa 0,68 0,64 0,60 0,88 -  Femur 1,12 0,92 0,60 1,22 0,56  Patella 0,60 0,72 0,24 0,68 0,24  Tibia 0,72 0,76 0,60 1,12 0,24  Metatarsus 0,72 0,56 0,20 0,68 -  Tarsus 0,40 0,24 0,24 0,20 0,52  Total 4,24 3,84 2,48 4,78 1,56 Abdomen oval long, not modified, tapering towards spinnerets; slightly flattened; dirty greyish brown, clothed with short black setae, no patterns; venter unicoloured, paler than dorsum; tracheal stigmata close to spinnerets; anal tubercle triangular, well-developed; anterior spinnerets conical, dorsoventrally flattened; posterior spinnerets shorter than anterior ones; median spinnerets small, triangular. Cribellum oval, bipartite. Epigynum: epigynal plate roundish, truncated posteriorly (Fig. 4), internal genitalia as depicted in Fig. 5. Male. Unknown. Variation No significant variation was detected in specimens examined, except for a paler colour in some specimens.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution Known only from typelocality.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Bionomics Very little is known about the species except that adults were collected in January from the soil surface in riverine bushes.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectingMethod>collected in riverine bush from soil surface</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:pageId>1</dwc:pageId>
+<dwc:pageNumber>132</dwc:pageNumber>
+<dwc:specimenCode>87 / 249</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCountFemale>1</dwc:specimenCountFemale>
+<dwc:typeStatus>holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectingMethod>collected in riverine bush from soil surface</dwc:collectingMethod>
+<dwc:collectionCode>Natal Museum, Pietermaritzburg</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:pageId>1</dwc:pageId>
+<dwc:pageNumber>132</dwc:pageNumber>
+<dwc:specimenCode>87 / 249</dwc:specimenCode>
+<dwc:specimenCount>2</dwc:specimenCount>
+<dwc:specimenCountFemale>2</dwc:specimenCountFemale>
+<dwc:typeStatus>Paratype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC2009739A3C902AE482CB24271860D#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectingMethod>collected in riverine bush from soil surface</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:pageId>1</dwc:pageId>
+<dwc:pageNumber>132</dwc:pageNumber>
+<dwc:specimenCode>87 / 249</dwc:specimenCode>
+<dwc:specimenCount>2</dwc:specimenCount>
+<dwc:specimenCountFemale>2</dwc:specimenCountFemale>
+<dwc:typeStatus>Paratype</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>

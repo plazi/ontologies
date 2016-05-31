@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://zoobank.org/NomenclaturalActs/5413BD60-C459-4606-BB30-5B8E1E16AA57"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites>Penestomus</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_6"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_7"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_8"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_9"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_3"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_4"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_5"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_6"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_7"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_8"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_9"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_10"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://zoobank.org/NomenclaturalActs/5413BD60-C459-4606-BB30-5B8E1E16AA57">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>18</dwc:pageId>
+<dwc:pageNumber>19</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>montanus</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 3A, 3C, 12C, 12D, 13, 14, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Penestomus sp. nov. 3: Miller et al., 2010, fig. 1F.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀, near Ha Mphahama, Qacha's Nek Distr., Lesotho, 30°5.520'S, 28°35.746'E,  1820 m,  9 November 2003, sandstone ridge under rocks in webs, C. Haddad( AcAT 2006/1534, NCA).  Paratypes: 1 ♂, 4 ♀, 4 juveniles, same data as holotype ( AcAT 2006/1535, NCA).  SOUTH AFRICA: Eastern Cape: 1 ♀, Qacha's Nek (Site No. 30) 30.16502°S, 28.62045°E,  1748 m,  28 November 2005, grassland active ground searching, UKZN [University of KwaZulu Natal, Pietermaritzburg] staff( AcAT 2006/1538, MDTP 5192, NCA);  1 ♂, same data ( AcAT 2006/1547, MDTP 2082, NCA);  1 juvenile, same data ( AcAT 2006/1542, MDTP 7053, NCA);  1 ♀, 1 juvenile, Qacha's Nek (Site No. 33) 30.15118°S, 28.62637°E,  1829 m,  30 November 2005, grassland active ground searching, UKZN staff( AcAT 2006/1541, MDTP 77378, NCA);  1 ♀, same data ( AcAT 2006/1537, MDTP 5483, NCA);  1 ♀, Qacha's Nek (Site No. 36) 30.15538°S, 28.59319°E,  1692 m,  2 December 2005, grassland active ground searching, UKZN staff( AcAT 2006/1540, MDTP 5888, NCA);  1 juvenile, Prentjiesberg (Site No. 45) 31.1159°S, 28.1745°E,  1482 m,  10 December 2005, grassland active ground searching, UKZN staff( AcAT 2006/1539, MDTP 78909, NCA);  1 ♀, Prentjiesberg (Site No. 46) 31.1159°S, 28.1745°E,  1491 m,  10 December 2005, grassland active ground searching, UKZN staff( AcAT 2006/1536, MDTP 6743, NCA).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  FIGURE 12. Epigynum of Penestomusspecies. A, B, P. egazini sp. nov.from Grahamstown, South Africa (CASENT 9024961), arrow indicates posterior margin of anterior lobe; C, D, P. montanus sp. nov.from Qacha's Nek, Lesotho (AcAT 2006/1535); E, F, P. prendinii sp. nov.from Beaufort West, South Africa, arrow indicates posterior margin of anterior lobe. A, C, E, ventral view; B, D, F, cleared, dorsal view. Scale bars = 0.2 mm. AL, anterior lobe; CD, copulatory duct; FD, fertilization duct; MP, median projection of the AL; PA, posterolateral apophysis; PL, posterior lobe; S, spermatheca.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Etymology. The specific epithet is Latin for from the mountains, named for the montane habitats in the uKhahlamba-Drakensberg and Maluti mountains in South Africa and Lesotho, respectively, to which the species is apparently endemic.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Male distinguished by the distal part of RTA1, which has the bifid tips relatively short (Fig. 14 A), longer in P. egaziniand P armatus(Fig. 10 A). Further distinguished by the shape of the MA, which has a lobe on the anterior margin of the tail piece (Fig. 14 A), absent from other species, and by the embolic tip, which is subrectangular and entire in P montanus(Fig. 14 A), bifid in other species (Fig. 10 A).  FIGURE 13. Penestomus montanus sp. nov.from Qacha's Nek, Lesotho (AcAT 2006/1535), habitus. A, B, male; C, D, female; A, C, dorsal view; B, D, ventral view. Scale bars = 0.2 mm.   FIGURE14. Penestomus montanus sp. nov.from Qacha's Nek, Lesotho (AcAT 2006/1535), left pedipalp. A, ventral view; B, prolateral view; C, retrolateral view. Scale bars = 0.2 mm. C, conductor; E, embolus; MA, median apophysis; RTA1, outer, bifid ramus of retrolateral tibial apophysis; RTA1( I), inner tip of outer ramus of retrolateral tibial apophysis; RTA1( O), outer tip of outer ramus of retrolateral tibial apophysis; RTA2, inner ramus of retrolateral tibial apophysis; TG, tegulum.  Femaledistinguished from other planusgroup species except P. prendinii sp. nov.by the grooves on the PL, which diverge posteriorly (Fig. 12 C); other species except P. prendinii sp. nov.have the grooves nearly parallel (Fig. 8 A). Distinguished from P. prendinii sp. nov.by the posterior margin of the AL, which is straight medially, then turns sharply to form lateral corners that project somewhat more posteriorly (Fig. 12 E). The AL in P. montanusis unique among planusgroup species in being nearly oval in shape and weakly differentiated from the rest of the epigynum (Fig. 12 C).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_7">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace brown, rugose, covered by fine black setae, with broad white setae concentrated in thoracic region, fovea round, shallow (Figs 13 A, C). Sternum dusky pale yellow (Figs 13 B, D). Chelicerae dark red-brown, with four promarginal teeth, two retromarginal teeth. Chelicerae with fine black setae, those of male with broad white setae in addition. Legs with broad white setae (more in male than female) and fine black setae. Tibiae with two rows of dorsal trichobothria, metatarsi with one distal trichobothrium. Legs brown basally, pale yellow distally. Abdomen dark gray dorsally with pair of light dorsolateral patches, covered with mixture of fine black and broad white setae (Figs 13 A, C). Male pedipalp: RTA1 with inside tip short and blunt, outside tip curved and pointed (Fig. 14 A). Dorsal ridge short, restricted to base of RTA1. RTA2 with apex short, projecting distally (Fig. 14 C). MA with anterior lobe arising from near distal part of tail (Fig. 14 A). Embolus without keel on outer margin, distal region flat, subrectangular, not bifid (Figs 14 A, B). Epigynum. AL suboval, weakly differentiated from surrounding cuticle; PL approximately 1/4 length of epigynum, with grooves diverging posteriorly (Fig. 12 C). Male macrosetae: Leg I: femur d1, tibia r2-2-2, v1-2-2, metatarsus r1-1, v2-2-2; leg II: femur d1, tibia p 1-1-2, r1, v2-2-2, metatarsus r1, v2-2; leg III: femur d1, tibia r1, v2-2-2, metatarsus r1, v1-2; leg IV: femur d1, tibia v2-2-3-2, metatarsus v2-1-1-2, tarsus r1. Female macrosetae. Leg I: femur d1, tibia v1-2-2, metatarsus v2-2-2; leg II: femur d1, tibia v1-2, metatarsus v2-2; leg III: femur d1, tibia v2, metatarsus v2; leg IV: femur d1, tibia v2, metatarsus v1-1-1-1-2, tarsus r1.  Paratypemale (AcAT 2006/1535): Total length 4.0, carapace 1.84 long, 1.34 wide, 0.45 high, sternum 1.03 long, 0.63 wide. Leg measurements:    - I II III IV  Femur 1.03 0.64 0.84 1.16  Patella 0.54 0.30 0.41 0.59  Tibia 0.79 0.70 0.56 0.94  Metatarsus 0.85 0.78 0.60 0.77  Tarsus 0.43 0.37 0.27 0.30  Total 3.64 2.79 2.68 3.76  Paratypefemale (AcAT 2006/1535): Total length 4.1, carapace 1.8 long, 1.5 wide, 0.3 high, sternum 1.1 long, 0.6 wide. Leg measurements:    - I II III IV Pedipalp  Femur 1.03 0.96 0.78 1.17 0.59  Patella 0.59 0.56 0.44 0.63 0.25  Tibia 0.70 0.63 0.48 0.98 0.24  Metatarsus 0.75 0.67 0.46 0.73 -  Tarsus 0.34 0.30 0.22 0.27 0.48  Total 3.40 3.13 2.39 3.79 1.55</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_8">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Natural history. This species occupies a relatively narrow altitudinal range (collected between  1480- 1830m), which coincides with sandstone rock formations. Above 2000msandstone is virtually absent, and granite and basalt formations dominate. The specimens from Ha Mphahama were collected on a sandstone ridgeand constructed their webs underneath rocks lying on the soil surface. The webs followed a winding path that varied from ca. 6 cmin early instar immatures to ca. 18 cmin one adult female. Prey remains included Formicidae, Curculionidaeand small Gryllidae.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#section_9">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from Eastern Cape Province, South Africa, and Lesotho (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2003-11-09</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>C. Haddad</dwc:collectorName>
+<dwc:country>Lesotho</dwc:country>
+<dwc:elevation>1820 m</dwc:elevation>
+<dwc:latitude>-30.092</dwc:latitude>
+<dwc:location>near Ha Mphahama</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.595766</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1534</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Qacha's Nek Distr</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2003-11-09</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>C. Haddad</dwc:collectorName>
+<dwc:country>Lesotho</dwc:country>
+<dwc:elevation>1820 m</dwc:elevation>
+<dwc:latitude>-30.092</dwc:latitude>
+<dwc:location>near Ha Mphahama</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.595766</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1535</dwc:specimenCode>
+<dwc:specimenCount>9</dwc:specimenCount>
+<dwc:specimenCount-female>4</dwc:specimenCount-female>
+<dwc:specimenCount-male>1</dwc:specimenCount-male>
+<dwc:stateProvince>Qacha's Nek Distr</dwc:stateProvince>
+<dwc:typeStatus>Paratypes</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-11-28</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1748 m</dwc:elevation>
+<dwc:latitude>-30.16502</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.62045</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1538, MDTP 5192</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_4">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-11-28</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1748 m</dwc:elevation>
+<dwc:latitude>-30.16502</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.62045</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1547, MDTP 2082</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-male>1</dwc:specimenCount-male>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_5">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-11-28</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN [University of KwaZulu Natal, Pietermaritzburg] staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1748 m</dwc:elevation>
+<dwc:latitude>-30.16502</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 30)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.62045</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1542, MDTP 7053</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_6">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-11-30</dwc:collectingDate>
+<dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1829 m</dwc:elevation>
+<dwc:latitude>-30.15118</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 33)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.62637</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1541, MDTP 77378</dwc:specimenCode>
+<dwc:specimenCount>2</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_7">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-11-30</dwc:collectingDate>
+<dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1829 m</dwc:elevation>
+<dwc:latitude>-30.15118</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 33)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.62637</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1537, MDTP 5483</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_8">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-12-02</dwc:collectingDate>
+<dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1692 m</dwc:elevation>
+<dwc:latitude>-30.15538</dwc:latitude>
+<dwc:location>Qacha's Nek (Site No. 36)</dwc:location>
+<dwc:longLatPrecision>0</dwc:longLatPrecision>
+<dwc:longitude>28.59319</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1540, MDTP 5888</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_9">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-12-10</dwc:collectingDate>
+<dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1482 m</dwc:elevation>
+<dwc:latitude>-31.1159</dwc:latitude>
+<dwc:location>Prentjiesberg (Site No. 45)</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>28.1745</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1539, MDTP 78909</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/B322CC14AAB4F190FB450C48BA8CC4A7#material_10">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>2005-12-10</dwc:collectingDate>
+<dwc:collectingMethod>active ground searching</dwc:collectingMethod>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>UKZN staff</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>1491 m</dwc:elevation>
+<dwc:latitude>-31.1159</dwc:latitude>
+<dwc:location>Prentjiesberg (Site No. 46)</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>28.1745</dwc:longitude>
+<dwc:specimenCode>AcAT 2006 / 1536, MDTP 6743</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+</rdf:RDF>

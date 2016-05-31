@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/30CB85924C969307CD4DE863B7717CD9"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/6C9891A3-7202-DD49-9F29-F8C73E39C73A"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/628EB044-913A-71C0-15B9-DD5A3A1E2F42"/>
+<cito:cites> Penestomus planus Simon, 1902  : 241</cito:cites>
+<cito:cites>Lehtinen, 1967: 462, fig. 469</cito:cites>
+<cito:cites>Dippenaar-Schoeman, 1989: 133, fig. 6</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_6"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/6C9891A3-7202-DD49-9F29-F8C73E39C73A">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Penestomus planus Simon, 1902  : 241</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/861510FB-41F5-694F-32D0-F64D6F0F84FF">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Lehtinen, 1967: 462, fig. 469</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/628EB044-913A-71C0-15B9-DD5A3A1E2F42">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description>Dippenaar-Schoeman, 1989: 133, fig. 6</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/30CB85924C969307CD4DE863B7717CD9">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Simon, 1902</dwc:authority>
+<dwc:authorityName>Simon</dwc:authorityName>
+<dwc:authorityYear>1902</dwc:authorityYear>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>23</dwc:pageId>
+<dwc:pageNumber>24</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>planus</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 15C, 16A, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Penestomus planus Simon, 1902: 241; Lehtinen, 1967: 462, fig. 469; Dippenaar-Schoeman, 1989: 133, fig. 6.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀, Willowmore, Eastern Cape, South Africa[ 33°10'S, 23°21'E], D.H. Brauns( AR 14375, 21716, MNHN).   Additionalmaterial examined. SOUTH AFRICA: Eastern Cape: 1 ♀, Dunbrody, Uitenhage District[ 33°45'S,  25°23'E], 1901, J.A. O'Neil( 11608 SAM-ENW-X 011608, SAM);  Western Cape: 1 ♀, 1 juvenile, Mossel Bay[ 34°10'S, 22°7'E],  April 1896, W.F. Purcell( 912 - 4196 SAM-ENW-X000912, SAM).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Female distinguished from other planusgroup species as follows: from P. montanusby the parallel grooves on the PL (Figs 16 A, B; diverging in P. montanus , Fig. 12 C), and by the having the AL of the epigynum well defined and subtriangular (suboval and weakly defined in P. montanus , Fig. 12 C); from P egaziniby the PL, which is approximately one third the length of the epigynum (Figs 16 A, B; nearly half the length of the epigynum in P. egazini , Fig. 12 A); from P. prendiniiby the recurved posterior margin of the AL (Figs 16 A, B; transverse medially in P. prendinii , Fig. 12 E); from P. zulu sp. nov.by the lack of an invagination on the posterior margin of the PL (Fig. 16 D); and from P. kruger sp. nov.by the overall shape of the epigynum, which is relatively wide and short with a strongly concave posterior margin of the AL in P. planus(Fig. 16 A; narrow and long with a more weakly concave posterior margin of the ALin P. kruger sp. nov., Fig. 16 B). Male unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Specimen faded, carapace orange, lighter posteriorly with smooth texture, covered by fine black setae, with broad white setae concentrated in thoracic and fovea region (Fig. 15 C). Sternum pale yellow. Chelicerae dark red, with six promarginal teeth, two retromarginal teeth. Legs dusky yellow basally, anterior legs orange distally, posterior legs yellow distally. Abdomen pale, but details obscured due to specimen damage. Epigynum. AL subtriangular, clearly differentiated from surrounding cuticle, posterior margin strongly concave; PL approximately 1/3 length of epigynum, with parallel grooves (Fig. 16 A). Female macrosetae: Leg I: femur d1, tibia v1-2-2, metatarsus v1-2-2; leg II: femur d1, tibia v1, metatarsus v1-2; leg III: femur d1, metatarsus v2; leg IV: femur d1, metatarsus v1-2; tarsus r1.  Holotypefemale ( AR14375, 21716): Carapace 2.28 long, 1.61 wide, 0.56 high, sternum 1.31 long, 0.75 wide (abdomen disarticulated from prosoma so total length undetermined). Leg measurements:    - I II III IV Pedipalp  Femur 0.98 0.95 0.78 1.22 0.60  Patella 0.57 0.59 0.47 0.73 0.23  Tibia 0.64 0.61 0.48 1.08 0.25  Metatarsus 0.75 0.66 0.47 0.74 -  Tarsus 0.37 0.33 0.22 0.26 0.51  Total 3.31 3.14 2.42 4.03 1.60</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from Eastern Cape Province and Western Cape Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectionCode>MNHN</dwc:collectionCode>
+<dwc:collectorName>D. H. Brauns</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:latitude>-33.166668</dwc:latitude>
+<dwc:location>Willowmore</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>23.35</dwc:longitude>
+<dwc:specimenCode>AR 14375, 21716</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1901</dwc:collectingDate>
+<dwc:collectionCode>SAM</dwc:collectionCode>
+<dwc:collectorName>J. A. O'Neil</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:latitude>-33.75</dwc:latitude>
+<dwc:location>Dunbrody, Uitenhage District</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>25.383333</dwc:longitude>
+<dwc:specimenCode>11608 SAM-ENW-X 011608</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/30CB85924C969307CD4DE863B7717CD9#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1896-04</dwc:collectingDate>
+<dwc:collectionCode>SAM</dwc:collectionCode>
+<dwc:collectorName>W. F. Purcell</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:latitude>-34.166668</dwc:latitude>
+<dwc:location>Mossel Bay</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>22.116667</dwc:longitude>
+<dwc:specimenCode>912 - 4196 SAM-ENW-X 000912</dwc:specimenCode>
+<dwc:specimenCount>2</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Western Cape</dwc:stateProvince>
+</rdf:Description>
+</rdf:RDF>

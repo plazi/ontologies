@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:spm="http://rs.tdwg.org/ontology/voc/SpeciesProfileModel" xmlns:sdo="http://schema.org/" xmlns:trt="http://plazi.org/vocab/treatment#" xmlns:sdd="http://tdwg.org/sdd#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:dwcFP="http://filteredpush.org/ontologies/oa/dwcFP#" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cnt="http://www.w3.org/2011/content#" xmlns:cito="http://purl.org/spar/cito/" xmlns:bibo="http://purl.org/ontology/bibo/">
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<trt:definesTaxonConcept rdf:resource="http://taxon-concept.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A"/>
+<trt:publishedIn rdf:resource="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C"/>
+<cito:cites rdf:resource="http://treatment.plazi.org/id/FDC20097-39A3-C902-AE48-2CB24271860D"/>
+<cito:cites> Penestomus croeseri Dippenaar-Schoeman, 1989  : 132, figs 1, 3-5</cito:cites>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_1"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_2"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_3"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_4"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_5"/>
+<spm:hasInformation rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_6"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_1"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_2"/>
+<trt:hasMaterialExamined rdf:resource="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_3"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://publication.plazi.org/id/AAFA02E9D2D840A4CA58B3957719276C">
+<dc:title>Taxonomic revision of the spider family Penestomidae (Araneae, Entelegynae)</dc:title>
+<dc:creator>Jeremy A. Miller</dc:creator>
+<dc:creator>Charles E. Griswold</dc:creator>
+<dc:creator>Charles R. Haddad</dc:creator>
+<rdf:type rdf:resource="fabio:JournalArticle"/>
+<bibo:journal>Zootaxa</bibo:journal>
+<dc:date>2010</dc:date>
+<bibo:volume>2534</bibo:volume>
+<bibo:startPage>1</bibo:startPage>
+<bibo:endPage>36</bibo:endPage>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/FDC20097-39A3-C902-AE48-2CB24271860D">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#Treatment"/>
+<dc:description> Penestomus croeseri Dippenaar-Schoeman, 1989  : 132, figs 1, 3-5</dc:description>
+</rdf:Description>
+<rdf:Description rdf:about="http://taxon-concept.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A">
+<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+<dwc:authority>Dippenaar-Schoeman, 1989</dwc:authority>
+<dwc:authorityName>Dippenaar-Schoeman</dwc:authorityName>
+<dwc:authorityYear>1989</dwc:authorityYear>
+<dwc:class>Arachnida</dwc:class>
+<dwc:family>Eresidae</dwc:family>
+<dwc:genus>Penestomus</dwc:genus>
+<dwc:kingdom>Animalia</dwc:kingdom>
+<dwc:order>Araneae</dwc:order>
+<dwc:pageId>27</dwc:pageId>
+<dwc:pageNumber>28</dwc:pageNumber>
+<dwc:phylum>Arthropoda</dwc:phylum>
+<dwc:rank>species</dwc:rank>
+<dwc:species>croeseri</dwc:species>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_1">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Figs 16E, 16F, 18A, 18B, 21</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_2">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>   Penestomus croeseri Dippenaar-Schoeman, 1989: 132, figs 1, 3-5.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_3">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent>  Type material. Holotype: ♀ (with 2 ♀ paratypes), Grahamstown[ Eastern Cape], South Africa, 33°19'S 26°32'E,  500 m,  1 January 1980, in riverine bush from soil surface, P. Croeser, P. Hawkes( AcAT 87/249,  NCA).  Paratypes: ♀, same data as holotype ( AcAT 87/249a, NCA); ♀, same data as holotype ( AcAT 87/ 249b, NCA).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_4">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Diagnosis. Female distinguished by the narrow connection between the AL and the MP, which then becomes a wide plate with convex lateral margins (Fig. 16 E). Male unknown.</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_5">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Description. Carapace red-brown, lighter posteriorly with smooth texture, with sparse fine black setae and broad white setae mostly at margin and fovea region (Fig. 18 A). Sternum dusky pale yellow (Fig. 18 B). Chelicerae red-brown, with six promarginal teeth, three retromarginal teeth; with fine black setae only. Legs brown basally, anterior legs red-brown distally, posterior legs pale yellow distally. Abdomen medium gray dorsally without light dorsolateral patches, covered by fine black setae, broad white setae around margin (Fig. 18 A).  FIGURE 18. Habitus images of female Penestomusspecies. A, B, P. croeseri Dippenaar-Schoeman, 1989from Grahamstown, South Africa (AcAT 87/249). C, D, P. stilleri( Dippenaar-Schoeman, 1989) from Winterhoek, South Africa (SAM-ENW-B002686). A, C, dorsal view; B, D, ventral view. Scale bars = 0.2 mm.  Epigynum. Subpentagonal, clearly differentiated from surrounding cuticle. AL a half oval, connected to MP by narrow waist; MP a wide plate with convex lateral margins; MP/PL complex approximately 1/3 length of epigynum, much wider posteriorly than anteriorly. PA only marginally less sclerotized than the rest of the epigynum, separated from AL by groove (Fig. 16 E). Female macrosetae: Leg I: femur d1, tibia v1-2, metatarsus v1-2-2; leg II: femur d1, tibia v1, metatarsus v1-2; leg III: femur d1, tibia v1, metatarsus v1-2; leg IV: femur d1, metatarsus v1-2; tarsus r1.  Paratypefemale (AcAT 87/249): Total length 5.0, carapace 2.13 long, 1.59 wide, 0.53 high, sternum 1.25 long, 0.72 wide. Leg measurements:    - I II III IV Pedipalp  Femur 1.14 1.08 0.86 1.30 0.62  Patella 0.59 0.54 0.51 0.70 0.22  Tibia 0.75 0.70 0.56 1.10 0.25  Metatarsus 0.75 0.67 0.51 0.78 -  Tarsus 0.37 0.30 0.19 0.24 0.48  Total 3.59 3.29 2.62 4.11 1.57</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#section_6">
+<rdf:type rdf:resource="spm:InfoItem"/>
+<spm:hasContent> Distribution. Known from Eastern Cape Province, South Africa (Fig. 21).</spm:hasContent>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_1">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:specimenCode>AcAT 87 / 249</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+<dwc:typeStatus>Holotype</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_2">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:specimenCode>AcAT 87 / 249 a</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+<dwc:typeStatus>Paratypes</dwc:typeStatus>
+</rdf:Description>
+<rdf:Description rdf:about="http://treatment.plazi.org/id/EE0AE1F449C8FFE34E1E0552F4D5102A#material_3">
+<rdf:type rdf:resource="http://plazi.org/vocab/treatment#MaterialExamined"/>
+<dwc:collectingDate>1980-01-01</dwc:collectingDate>
+<dwc:collectionCode>NCA</dwc:collectionCode>
+<dwc:collectorName>P. Croeser, P. Hawkes</dwc:collectorName>
+<dwc:country>South Africa</dwc:country>
+<dwc:elevation>500 m</dwc:elevation>
+<dwc:latitude>-33.316666</dwc:latitude>
+<dwc:location>Grahamstown</dwc:location>
+<dwc:longLatPrecision>1</dwc:longLatPrecision>
+<dwc:longitude>26.533333</dwc:longitude>
+<dwc:specimenCode>AcAT 87 / 249 b</dwc:specimenCode>
+<dwc:specimenCount>1</dwc:specimenCount>
+<dwc:specimenCount-female>1</dwc:specimenCount-female>
+<dwc:stateProvince>Eastern Cape</dwc:stateProvince>
+<dwc:typeStatus>Paratypes</dwc:typeStatus>
+</rdf:Description>
+</rdf:RDF>
