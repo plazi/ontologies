@@ -113,7 +113,7 @@
 	<xsl:template match="subSubSection[@type = 'nomenclature']">
 		<xsl:param name="taxonConceptID"/>
 		<rdf:Description rdf:about="{$taxonConceptID}">
-			<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#TaxonConcept"/>
+			<rdf:type rdf:resource="http://filteredpush.org/ontologies/oa/dwcFP#Taxon"/>
 			<xsl:apply-templates select="descendant::taxonomicName[1]/@*"/>
 		</rdf:Description>
 	</xsl:template>
