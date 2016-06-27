@@ -181,12 +181,12 @@
 		</xsl:element>
 	</xsl:template>
 	<xsl:template match="mods:start">
-		<xsl:element name="bibo:startPage">
+		<xsl:element name="bibo:pageStart">
 			<xsl:value-of select="."/>
 		</xsl:element>
 	</xsl:template>
 	<xsl:template match="mods:end">
-		<xsl:element name="bibo:endPage">
+		<xsl:element name="bibo:pageEnd">
 			<xsl:value-of select="."/>
 		</xsl:element>
 	</xsl:template>
