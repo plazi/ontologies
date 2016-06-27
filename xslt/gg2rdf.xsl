@@ -207,7 +207,8 @@
 	</xsl:template>
 	<xsl:template match="treatmentCitation | subSubSection[@type = 'reference_group']//taxonomicName" mode="literal">
 		<cito:cites>
-			<xsl:apply-templates select="descendant::text()" mode="normalizeSpace"/>
+			<xsl:value-of select="normalize-space(.)"/>
+			<!-- <xsl:apply-templates select="descendant::text()" mode="normalizeSpace"/> -->
 		</cito:cites>
 	</xsl:template>
 	<xsl:template match="text()" mode="normalizeSpace">
@@ -222,8 +223,7 @@
 		<rdf:Description rdf:about="{translate(@httpUri, ' ', '')}">
 			<rdf:type rdf:resource="http://purl.org/spar/fabio/Figure"/>
 		</rdf:Description>
-	</xsl:template>
-	
+	</xsl:template>	
 	<xsl:template match="subSubSection[@type != 'nomenclature']" mode="object">
 		<xsl:param name="treatmentID"/>
 		<spm:hasInformation rdf:resource="{$treatmentID}#section_{position()}"/>
