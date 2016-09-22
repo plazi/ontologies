@@ -1,14 +1,4 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://plazi.org/treatment#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -18,6 +8,7 @@
      ontologyIRI="http://plazi.org/treatment#"
      versionIRI="http://plazi.org/treatment-0.0.1">
     <Prefix name="" IRI="http://plazi.org/treatment#"/>
+    <Prefix name="dsw" IRI="http://purl.org/dsw/"/>
     <Prefix name="dwc" IRI="http://rs.tdwg.org/dwc/terms/"/>
     <Prefix name="occ" IRI="http://rs.tdwg.org/ontology/voc/OccurrenceRecord#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -32,62 +23,83 @@
     <Import>http://filteredpush.org/ontologies/FP/2.0/dwcFP#</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Perhaps a github branch name, or a github File</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Perhaps a github branch name, or a github File</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral"></Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"></Literal>
     </Annotation>
     <Declaration>
-        <Class abbreviatedIRI="dwcFP:Taxon"/>
+        <ObjectProperty IRI="hasDescription"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Author"/>
+        <NamedIndividual IRI="adult"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Biology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Citation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Description"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Diagnosis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Distribution"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Etymology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Key"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="LifeStage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Material"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="MaterialsMethods"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Nomenclature"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="Publication"/>
+        <ObjectProperty IRI="publishedIn"/>
     </Declaration>
     <Declaration>
         <Class IRI="ScopeState"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Season"/>
+        <DataProperty IRI="descriptiveProperty"/>
     </Declaration>
     <Declaration>
-        <Class IRI="Sex"/>
+        <NamedIndividual IRI="anyLifeStage"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dsw:Taxon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Material"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasCitation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasSubDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasPublicationCitation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="anySex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="male"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="definesTaxonConcept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Key"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasDistribution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasTreatmentCitation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Nomenclature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasInformation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="anySeason"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="autumn"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="occ:OccurrenceRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Distribution"/>
     </Declaration>
     <Declaration>
         <Class IRI="SubDescription"/>
@@ -96,106 +108,85 @@
         <Class IRI="Treatment"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="occ:OccurrenceRecord"/>
+        <Class IRI="Season"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="definedByTreatment"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="definesTaxon"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="definesTaxonConcept"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasBiology"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasCitation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasDescription"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasDiagnosis"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasDistribution"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasEtymology"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasInformation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasKey"/>
+        <Class IRI="Description"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="hasMaterialExamined"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="hasMaterialsMethods"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasPublicationCitation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasScope"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasSubDescription"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="hasTreatmentCitation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="name"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="publishedIn"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="relatedTreatment"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="descriptiveProperty"/>
+        <ObjectProperty IRI="hasEtymology"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="synopsis"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="adult"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="anyLifeStage"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="anySeason"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="anySex"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="autumn"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="female"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="juvenile"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="male"/>
+        <Class IRI="Etymology"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="spring"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="summer"/>
+        <ObjectProperty IRI="hasMaterialsMethods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Sex"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="juvenile"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="definesTaxon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasKey"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="synopsis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="LifeStage"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="winter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasScope"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="summer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MaterialsMethods"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Citation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Publication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="hasBiology"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="Author"/>
@@ -307,7 +298,7 @@
     </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="definedByTreatment"/>
-        <Class abbreviatedIRI="dwcFP:Taxon"/>
+        <Class abbreviatedIRI="dsw:Taxon"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="definesTaxon"/>
@@ -371,11 +362,11 @@
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="definesTaxon"/>
-        <Class abbreviatedIRI="dwcFP:Taxon"/>
+        <Class abbreviatedIRI="dsw:Taxon"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="definesTaxonConcept"/>
-        <Class abbreviatedIRI="dwcFP:Taxon"/>
+        <Class abbreviatedIRI="dsw:Taxon"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="hasBiology"/>
@@ -444,49 +435,49 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>ScopeState</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Should the subclasses be named something like Scope_Sex rather than just Sex, which might have other uses? Or is it good to let the general thing live here?</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Should the subclasses be named something like Scope_Sex rather than just Sex, which might have other uses? Or is it good to let the general thing live here?</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>ScopeState</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Should there be disjointness axioms on the indivituals that are scopes?</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Should there be disjointness axioms on the indivituals that are scopes?</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>ScopeState</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">These should have a some well kown instances. As of 9/11/2015, these are individuals that model types given by LifeState, Season, and Sex, all children of class ScopeState</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">These should have a some well kown instances. As of 9/11/2015, these are individuals that model types given by LifeState, Season, and Sex, all children of class ScopeState</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>definesTaxon</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">should be removed in favor of definesTaxonConcept</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">should be removed in favor of definesTaxonConcept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasBiology</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">BiologyEcologyFrom biological parts of div enumeration:BiologyEcology</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BiologyEcologyFrom biological parts of div enumeration:BiologyEcology</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasCitation</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">In practice a (part of?) a Nomenclature object is used as though it is a URI for a Treatment. For modelling, hasCitation refers to the Treatment itself,  and serializations may need to extract the Nomenclature object.
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">In practice a (part of?) a Nomenclature object is used as though it is a URI for a Treatment. For modelling, hasCitation refers to the Treatment itself,  and serializations may need to extract the Nomenclature object.
 
 ?Normally, within a Treatment, a citation is attached to a Nomenclature object.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasDescription</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Should have Taxon as subject</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Should have Taxon as subject</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasDiagnosis</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">should perhaps be hasDiagnosis if</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">should perhaps be hasDiagnosis if</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasMaterialExamined</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">material_examined is intended to be applied to a Treatment object and take values in the class Material.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">material_examined is intended to be applied to a Treatment object and take values in the class Material.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -496,7 +487,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>hasTreatmentCitation</IRI>
-        <Literal datatypeIRI="&rdfs;Literal">Perhaps better to just put an rdf:type on the object of citation?  Ditto for other sub props of citation.  Subprops should mainly be for inheritance of property constraints and KR.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Perhaps better to just put an rdf:type on the object of citation?  Ditto for other sub props of citation.  Subprops should mainly be for inheritance of property constraints and KR.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -511,7 +502,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>relatedTreatment</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">E.g. a Treatment for a species might be deemed related to the Treatment for a particular Genus.  hasRelatedTreatment might need subProperties, e.g. hasOriginalGenus. Or a treatment of a species might be publishedWith Gid, where Gid is the URI of the genus whose original publication contains the genus treatment and the species treatment.
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">E.g. a Treatment for a species might be deemed related to the Treatment for a particular Genus.  hasRelatedTreatment might need subProperties, e.g. hasOriginalGenus. Or a treatment of a species might be publishedWith Gid, where Gid is the URI of the genus whose original publication contains the genus treatment and the species treatment.
 
 Analagous to the recursive &quot;treatment&quot; element of &quot;treatment&quot; in taxonx.
 </Literal>
@@ -520,5 +511,5 @@ Analagous to the recursive &quot;treatment&quot; element of &quot;treatment&quot
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
