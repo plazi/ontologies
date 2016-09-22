@@ -20,7 +20,7 @@
     <Prefix name="dwcFP" IRI="http://filteredpush.org/ontologies/FP/2.0/dwcFP#"/>
     <Prefix name="dwcIRI" IRI="http://rs.tdwg.org/dwc/iri/"/>
     <Prefix name="dwcOwl" IRI="http://filteredpush.org/ontologies/oa/dwcFP#"/>
-    <Import>http://filteredpush.org/ontologies/FP/2.0/dwcFP#</Import>
+    <Import>http://purl.org/dsw/</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Perhaps a github branch name, or a github File</Literal>
