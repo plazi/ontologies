@@ -1,0 +1,29 @@
+:Treatment a rdfs:Class.
+:TaxonConcept a rdfs:Class.
+:HomonimicGroup a rdfs:Class
+
+:definesTaxonConcept a rdfs:Property;
+rdfs:domain :Treatment;
+rdfs:range :TaxonConcept.
+
+:hasTaxonConcept a rdfs:Property;
+rdfs:domain :Treatment;
+rdfs:range :TaxonConcept.
+
+:synonymizes a rdfs:Property;
+rdfs:domain :Treatment;
+rdfs:range :TaxonConcept.
+
+:isPartOf a rdfs:Property;
+rdfs:domain :Treatment;
+rdfs:range doi:Publication.
+
+:taxonConceptName a rdfs:Property;
+rdfs:domain :TaxonConcept;
+rdfs:range :HomonimicGroup.
+
+:year a rdfs:Property;
+rdfs:domain :TaxonConcept.
+
+:author a rdfs:Property;
+rdfs:domain :TaxonConcept.
