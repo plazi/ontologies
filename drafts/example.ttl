@@ -1,4 +1,4 @@
-<http://names.plazi.org/Animalia/Formica_Fusca> a :HomonimicGroup;
+<http://names.plazi.org/Animalia/Formica_Fusca> a :ScienticName;
 rdf:value "Formica_Fusca".
 
 <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016> a :TaxonConcept;
