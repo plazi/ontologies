@@ -1,6 +1,6 @@
 :Treatment a rdfs:Class.
 :TaxonConcept a rdfs:Class.
-:HomonimicGroup a rdfs:Class
+:ScientificName a rdfs:Class
 
 :definesTaxonConcept a rdfs:Property;
 rdfs:domain :Treatment;
