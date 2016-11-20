@@ -2,7 +2,7 @@
 rdf:value "Formica Fusca".
 
 <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016> a :TaxonConcept;
-:taxonConceptName <http://names.plazi.org/Animalia/Formica_Fusca>;
+:scientificName <http://names.plazi.org/Animalia/Formica_Fusca>;
 :author "Donat Agosti"; # here we probably should use a schema:Person instead
 :year "2016"^^xsd:gYear. 
 
@@ -13,14 +13,14 @@ rdf:value "Formica Fusca".
 
 <http://treatments.plazi.org/2222222222> a :Treatment;
 :author "Guido Sautter";
-:hasTaxonConcept <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
+:scientificName <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
 :isPartOf <http://publication...../Ants_of_Karlsruhe>.
 
 <http://names.plazi.org/Animalia/Formica_Venti> a :ScientificName;
 rdf:value "Formica Venti".
 
 <http://concept.plazi.org/Animalia/Formica_Venti_Catapano_2022> a :TaxonConcept;
-:taxonConceptName <http://names.plazi.org/Animalia/Formica_Venti>;
+:scientificName <http://names.plazi.org/Animalia/Formica_Venti>;
 :author "Therry Catapano"; # here we probably should use a schema:Person instead
 :year "2022"^^xsd:gYear. 
 
