@@ -1,0 +1,16 @@
+<http://names.plazi.org/Animalia/Formica_Fusca> a :HomonimicGroup;
+rdf:value "Formica_Fusca".
+
+<http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016> :taxonConceptName <http://names.plazi.org/Animalia/Formica_Fusca>;
+:author "Donat Agosti"; # here we probably should use a schema:Person instead
+:year 2016. # best datatype?
+
+<http://treatments.plazi.org/111111111> a :Treatment;
+:author "Donat Agosti";
+:definesTaxonConcept <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
+:isPartOf <http://publication...../Formica_Fusca>.
+
+<http://treatments.plazi.org/2222222222> a :Treatment;
+:author "Guido Sautter";
+:hasTaxonConcept <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
+:isPartOf <http://publication...../Ants_of_Karlsruhe>.
