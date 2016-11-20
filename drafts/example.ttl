@@ -1,7 +1,8 @@
 <http://names.plazi.org/Animalia/Formica_Fusca> a :HomonimicGroup;
 rdf:value "Formica_Fusca".
 
-<http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016> :taxonConceptName <http://names.plazi.org/Animalia/Formica_Fusca>;
+<http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016> a :TaxonConcept;
+:taxonConceptName <http://names.plazi.org/Animalia/Formica_Fusca>;
 :author "Donat Agosti"; # here we probably should use a schema:Person instead
 :year 2016. # best datatype?
 
