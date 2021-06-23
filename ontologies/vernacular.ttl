@@ -1,0 +1,24 @@
+@base <https://vocab.plazi.org/vernacular/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <http://schema.org/> .
+@prefix slang: <https://vocab.plazi.org/vernacular/> .
+
+<> a owl:Ontology;
+    dcterms:title "Plazi Vernacular Names Ontology"@en;
+    dcterms:description "Some terms we use to describe vernacular names"@en.
+
+slang:NameOccurrence a rdfs:class;
+    rdfs:isDefinedBy <> ;
+    skos:prefLabel "NameOccurrence"@en ;
+    skos:definition "Usage of a vernacular name in a sepcific region."@en.
+
+slang:taxon a rdf:Property ;
+    rdfs:isDefinedBy <> ;
+    skos:prefLabel "taxon"@en ;
+    skos:definition "A taxon denoting an identical or similar biological concept."@en;
+    rdfs:subPropertyOf schema:citation .
