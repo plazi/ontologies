@@ -149,7 +149,7 @@ curl -H "Accept: application/rdf+xml" http://treatment.plazi.org/id/000087F6E32C
 ```
 The easyrdf online service converts the above in the more readable `Turtle` serialization at https://www.easyrdf.org/converter?in=rdfxml&out=turtle&uri=http://treatment.plazi.org/id/000087F6E32CFF9BFDAEFAB4FD49FBDF
 
-On a daily basis a `Turtle` version of every treatment is also added to the Repo: https://github.com/plazi/treatments-rdf, this data is added to a SPARQL endpoint taht backs the 
+On a daily basis a `Turtle` version of every treatment is also added to the Repo: https://github.com/plazi/treatments-rdf, this data is added to [our AllergroGraph RDF store](https://allegro.ld.plazi.org/#/repositories/treatments) that exposes the SPARQL endpoint that backs the 
 [synospecies application](https://synospecies.plazi.org/)
 
 A different RDF representation of the same treatment is available here: http://treatment.plazi.org/GgServer/rdf/000087F6E32CFF9BFDAEFAB4FD49FBDF
