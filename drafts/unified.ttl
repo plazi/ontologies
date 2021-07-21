@@ -1,0 +1,58 @@
+@prefix treat: <http://plazi.org/vocab/treatment#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix tdwgvoc: <http://rs.tdwg.org/ontology/voc/> .
+@prefix tdwgterms: <http://rs.tdwg.org/dwc/terms/> .
+
+<http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E>
+  a <http://plazi.org/vocab/treatment#Treatment> ;
+  treat:treatsTaxonName <http://taxon-name.plazi.org/id/Animalia/Galearis_spectabilis> ;
+  dc11:creator "Jarvis, Charlie" ;
+  treat:publishedIn <http://dx.doi.org/10.5281/zenodo.250878> ;
+  treat:citesTaxonName <http://tb.plazi.org/GgServer/lodRdf/Orchis_spectabilis> ;
+  bibo:definesTaxonConcept <http://taxon-concept.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E> ;
+  bibo:publishedIn <http://dx.doi.org/10.5281/zenodo.250878> ;
+  cito:cites "Orchis spectabilis Linnaeus" ;
+  tdwgvoc:SpeciesProfileModelhasInformation <http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_1>, <http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_2>, <http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_3> .
+
+<http://dx.doi.org/10.5281/zenodo.250878>
+  dc11:title "pp 705 - 708 in: Order out of Chaos" ;
+  dc11:creator "Jarvis, Charlie" .
+
+<http://taxon-concept.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E>
+  a <http://filteredpush.org/ontologies/oa/dwcFP#Taxon> ;
+  tdwgterms:LSID-IPNI "urn:lsid:ipni.org:names:1009442-2" ;
+  tdwgterms:authorityName "(L.) Raf." ;
+  tdwgterms:authorityPageNumber "1837" ;
+  tdwgterms:box "[1030,1313,1719,1741]" ;
+  tdwgterms:class "Liliopsida" ;
+  tdwgterms:family "Orchidaceae" ;
+  tdwgterms:genus "Galearis" ;
+  tdwgterms:kingdom "Plantae" ;
+  tdwgterms:order "Asparagales" ;
+  tdwgterms:pageId "2" ;
+  tdwgterms:pageNumber "707" ;
+  tdwgterms:phylum "Tracheophyta" ;
+  tdwgterms:rank "species" ;
+  tdwgterms:species "spectabilis" .
+
+<http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_1>
+  a <spm:InfoItem> ;
+  tdwgvoc:SpeciesProfileModelhasContent "   Orchis spectabilisLinnaeus, Species Plantarum2: 943- 1753." .
+
+<http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_2>
+  a <spm:InfoItem> ;
+  tdwgvoc:SpeciesProfileModelhasContent " “ Habitatin Virginia. D. Gronovius.” RCN: 6832." .
+
+<http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E#section_3>
+  a <spm:InfoItem> ;
+  tdwgvoc:SpeciesProfileModelhasContent " Lectotype (Sheviak in Cafferty & Jarvis in Taxon48: 49. 1999): Clayton s.n.,Herb. Linn. No. 1054.44 (LINN)." .
+
+<http://dx.doi.org/10.5281/zenodo.250878>
+  dc11:title "pp 705 - 708 in: Order out of Chaos" ;
+  dc11:creator "Jarvis, Charlie" ;
+  a <http://purl.org/spar/fabio/BookSection> ;
+  dc11:date "2007" ;
+  bibo:startPage "705" ;
+  bibo:endPage "708" .
