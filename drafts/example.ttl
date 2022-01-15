@@ -14,12 +14,12 @@ rdf:value "Formica Fusca".
 <http://treatments.plazi.org/111111111> a :Treatment;
 :author "Donat Agosti";
 :definesTaxonConcept <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
-:isPartOf <http://publication...../Formica_Fusca>.
+:isPartOf <http://publication.example.org/Formica_Fusca>.
 
 <http://treatments.plazi.org/2222222222> a :Treatment;
 :author "Guido Sautter";
 :scientificName <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
-:isPartOf <http://publication...../Ants_of_Karlsruhe>.
+:isPartOf <http://publication.example.org/Ants_of_Karlsruhe>.
 
 <http://names.plazi.org/Animalia/Formica_Venti> a :ScientificName;
 rdf:value "Formica Venti".
@@ -33,4 +33,4 @@ rdf:value "Formica Venti".
 :author "Therry Catapano";
 :definesTaxonConcept <http://concept.plazi.org/Animalia/Formica_Venti_Catapano_2022>;
 :synonymizes <http://concept.plazi.org/Animalia/Formica_Fusca_Agosti_2016>;
-:isPartOf <http://publication...../AntsToday>.
+:isPartOf <http://publication.example.org/AntsToday>.
