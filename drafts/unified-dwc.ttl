@@ -1,0 +1,42 @@
+// terms from https://dwc.tdwg.org/terms/
+// and https://dwc.tdwg.org/rdf/
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dwc: <http://rs.tdwg.org/dwc/terms/> .
+@prefix dwciri: <http://rs.tdwg.org/dwc/iri/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix plazi: <http://plazi.org/vocab/treatment#> .
+@prefix schema: <http://schema.org/> .
+
+<http://treatment.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E>
+  a plazi:Treatment;
+  dcterm:type <http://purl.org/dc/dcmitype/Text>;
+  dcterms:creator [
+    a schema:Person ;
+    schema:name "Jarvis, Charlie"^^xsd:string
+  ];
+  plazi:publishedIn <http://dx.doi.org/10.5281/zenodo.250878> ;
+  treat:treatsTaxonName <http://taxon-name.plazi.org/id/Animalia/Galearis_spectabilis> .
+  
+
+<http://dx.doi.org/10.5281/zenodo.250878>
+  a schema:ScholarlyArticle ;
+  schema:creator [
+    a schema:Person ;
+    schema:name "Jarvis, Charlie"^^xsd:string
+  ] ;
+  schema:datePublished "2007-12-31"^^schema:Date ;
+  schema:name "pp 705-708 in: Order out of Chaos"^^xsd:string.
+
+<http://taxon-name.plazi.org/id/Animalia/Galearis_spectabilis>
+  a dwciri:Identification;
+  dwc:identifiedBy "(L.) Raf." ;
+  dwc:class "Liliopsida" ;
+  dwc:family "Orchidaceae" ;
+  dwc:genus "Galearis" ;
+  dwc:kingdom "Plantae" ;
+  dwc:order "Asparagales" ;
+  dwc:phylum "Tracheophyta" ;
+  dwciri:taxonRank plazi:species ;
+  dwc:species "spectabilis" ;
+  dwciri:toTaxon <http://taxon-concept.plazi.org/id/03CB87C52324FFE6FCDE9030FA24F97E>.
