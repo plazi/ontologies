@@ -2,7 +2,7 @@
 A place to define and document the ontologies used by plazi, notably ontologies for use in representing data from taxonomic treatments in RDF.
 
 ## Background and use
-Several resources served by the [plazi treatment bank](http://tb.plazi.org) are avaible as RDF. Currently the only supported RDF serialiization is `rdf/xml`.
+Several resources served by the [plazi treatment bank](http://tb.plazi.org) are avaible as RDF. Currently the only supported RDF serialization is `rdf/xml`.
 
 ### Examples
 
