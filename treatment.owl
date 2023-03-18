@@ -264,6 +264,10 @@ Analagous to the recursive &quot;treatment&quot; element of &quot;treatment&quot
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
     </owl:DatatypeProperty>
     
+    <owl:DatatypeProperty rdf:about="http://plazi.org/treatment#httpUri">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyUri"/>
+    </owl:DatatypeProperty>
+    
     
 
 
