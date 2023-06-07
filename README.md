@@ -154,7 +154,8 @@ On a daily basis a `Turtle` version of every treatment is also added to the Repo
 
 A different RDF representation of the same treatment is available here: http://treatment.plazi.org/GgServer/rdf/000087F6E32CFF9BFDAEFAB4FD49FBDF
 
-
+### nomenclature ontology
+* [issue](https://github.com/plazi/ontologies/issues/36)
 
 ## Scope of this project
 
