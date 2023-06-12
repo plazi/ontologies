@@ -1,0 +1,134 @@
+Term,Definition
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Absolute_Synonym,A general term for synonyms based upon the same type.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#First_Revisor_Choosing_Spelling,"The first revisor of a zoological name which is spelled in more than one way in the original work selecting the correct spelling for the name, under ICZN Article 24.2.3. 'Selection of correct original spellings. If a name is spelled in more than one way in the original work, the first author to have cited them together and to have selected one spelling as correct is the First Reviser'."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Invalid_Name_ICZN,A zoological name which is not a valid name
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Junior_Subjective_Synonym,A name that is considered to be a junior synonym as a matter of taxonomic opinion.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Junior_Subjective_Synonym_in_part,A name that is considered to be a junior synonym as a matter of taxonomic opinion where only a portion of the taxonomic concept associated with the name (the portion including the type) is considered to be in synonymy.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Later_Taxonomic_Synonym,A botanical name that is considered to be a synonym of an earlier name as a matter of taxonomic opinion.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Newer_Homonym,More recently published name that has the same spelling as an earlier name for a different type.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Monstrositatum,"A name that is based explicitly upon a monstrosity (e.g. teratalogy), and is thus not available under the ICZN"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Preoccupied_Name,Under the ICZN a uninomial that is preoccupied by the same name for another taxon with a different type.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Senior_Homonym,The member of a pair (or larger set) of identical names for different types that has priority over the other names in the set.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Senior_Primary_Homonym,The member of a pair (or larger set) of identical names for different types that has priority over the other names in the set.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Senior_Objective_Synonym,The status of being a senior objective synonym in the sense of the ICZN.  The earlier of a pair of nominal taxa that have the same name bearing type.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Senior_Secondary_Homonym,The member of a pair (or larger set) of identical zoological or bacterial names for different types that has priority over the other names in the set where the name lacking in priority was not originally in the same combination as the name with priority.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Unjustified_Emendation,A zoological name with any change in spelling other than a Justified Emendation
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Valid_ICZN,A valid name in the sense of the ICZN.  An available name that is considered to be the name in current use for a taxon.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#gen_et_sp_nov,The similtaneous creation of a new monotypic genus and its type species.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#nom_novICBN,"A nom. nov. in the sense of the ICBN, the proposal of a replacement name (a new name for an existing taxon)."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#nom_novICZN,"A nom. nov. in the sense of the ICZN, the proposal of a new scientific name for an undescribed taxon (a name for a new taxon)."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#sp_nov,The description of a novel species.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ssp_nov,The description of a novel taxon at the rank of subspecies.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#stat_nov,A change of combination.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#var_nov,The description of a novel taxon at the rank of variety.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Accepted_Name,A name considered to be a name in current use.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Alternative_Name,"Botanical name based on the same type as another name proposed similtaneusly by the same author for the same taxon.  
+"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Alternative_name,One of a set of two or more different names proposed at the same time by the same author for the same taxon.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Ambiguous_Name,A name that has been used by different authors for different taxonomic concepts in a manner that has lead to repeated errors and confusion
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Approved_Name_ICNP,Approved Name under the ICNP
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Available_ICZN,Nomenclatural act status that is also an available names under the International Code of Zoological Nomenclature.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Conservation,An act of the plenary body (the Zoological Commission or a Botanical Congress) that conserves a name which would be suppressed by the application of the normal rules of the relevant code.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Conserved_Name,"A name that should not be acceptable under the governing code, but which has been conserved by an action of the relevant code governed body."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Creation_of_Unjustified_Emendation,Any change in spelling other than a Justified Emendation
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#First_Revisor_Choosing_Priority,"Selection of priority for simultaneously published zoological acts or names.  When there is an issue of priority and two names in question were published at the same time, the first revisor of these names establishes which of the two names have priority under Article 24 of the ICZN. 'Precedence between simultaneously published names, spellings or acts'."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Historical_Synonym,A usage of an old bacterial name that was not included in the approved list where the usage post dates the creation of the approved list.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Hybrid_Name_ICNP,"Hawksworth: 'a name formed by combining words derived from different languages'
+"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ICBN,The International Code of Botanical Nomenclature.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ICNP,The International Code for the Nomenclature of Prokariotes.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ICZN,The International Code of Zoological Nomenclature.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Illegitimate_Name,"Hawksworth: (ICBN,ICNP) 'a validly published name that is not in accordance with one or more rules in the Code (principally those on superfluity and homonymy)'"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Independent_Name,"Under the ICNP, names that are not homonyms because they are subject to different codes."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Invalid_Name_ICBN,A botanical name that is not valid
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Justified_Emendation,Under the ICZN the correction of an incorrect original spelling.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Lectotypification,Selection of a Lectotype and Paralectotypes out of a Syntype series.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Missidentification,"'the assignment of a specimen, population or taxon to a taxon to which it is generally (or later) considered it does not belong.'
+Hawksworth, Terms Used in Bionomenclature"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Neotypification,"Selection of a neotype.   ICZN: The designation of a single specimen to serve as the name bearing type for a nominal species or subspecies when a need exists to define the nominal taxon with an objective type and no name-bearing type is known to be extant, or by action of the commission an extant type specimen is set aside.  ICBN, ICNP: the designation of a specimen or illustration to serve as a nomenclatural type if no type specimen is known to be extant. "
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Carentum,A description for a taxon published without a name.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Nudem,A name that was published without adequate information under the governing code to allow association of the name with a taxonomic concept.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Potentially_Valid_ICZN,A name which is potentially valid under the IZCN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Proposed_Conserved_Name,A name that is proposed to the relevant code governed body as a conserved name.  
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Valid_ICBN,A valid name in the sense of the botanical code.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl,"Informed by the following sources:
+
+http://software.speciesfile.org/Design/TaxaTables.aspx
+http://clade.ansp.org/obis/mollusc_keywords.php   
+http://bionomenclature-glossary.gbif.org/
+http://research.calacademy.org/ichthyology/catalog/glossary
+
+The Codes:
+http://www.nhm.ac.uk/hosted-sites/iczn/code/
+http://ibot.sav.sk/icbn/main.htm
+http://www.ncbi.nlm.nih.gov/books/NBK8817/"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl,"Development of this ontology was driven by a Harvard-Australia Fellowship to James A. Macklin and Paul J. Morris, with additional support from GBIF for the Nomina VIII meeting at which the terms vocaublary which triggered the creation of this ontology was discussed.  This ontology was further developed under the FilteredPush project, NSF DBI 0960535"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Absolute_Synonym,Implied in calling a name an absolute synonym is that it is a Junior/Later Absolute Synonym
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Doubtfull_Name,ICNP.   A name of doubtfull or uncertain application.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Earlier_Taxonomic_Synonym,"'a name based on a different type from that of the accepted name of taxon; a subjective synonym in zool. and prok.; see also taxonomic synonym; syntaxonomic synonym.'
+Hawksworth, Terms Used in Bionomenclature."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Effectively_Published,A work has met the criteria of the ICBN or ICNP to have been published.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Forgotten_Name,"ICZN Glossary: nomen oblitum: applied after 1 January 2000 to a name, unused since 1899, which as a result of an action taken under Article 23.9.2 does not take precedence over a younger synonym or homonym in prevailing usage; the younger name which takes precedence over the nomen oblitum may be called a nomen protectum (q.v.)."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Junior_Homonym,ICZN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Junior_Primary_Homonym,ICZN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Junior_Secondary_Homonym,ICZN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Unjustified_Emendation,ICZN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Later_Homonym,ICBN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Earlier_Homonym,ICBN
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Name_Rejected_Outright,Name rejected without a corresponding conserved name.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Newer_Homonym,General Category for Zoological Junior Homonyms and Botanical Later Homonyms.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Monstrositatum,"ICZN(?), Hawksworth's definition of Monstrosity includes the assertion 'names based on type specimens that were monstrosities were formerly to be rejected in (bot.), but that provision of the Code has now been deleted."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Monstrositatum,"See for example discussions of whether the widespread Brown Garden Snail should be called Helix aspersa, Cantarius aspersus, Cryptomphalus aspersus, or Cornu aspersum, an argument which involves the question whether Cornu von Born, 1778 and its type species by original monotypy Cornu copia von Born, 1778, which were based on a teratalogical (disjunctly coiled) specimen of Helix aspersa, was originally considered to be a name for a teratology by von Born or a name for a new species of snail.  If Cornu copia von Born, 1778 was explicitly based on a monstrosity then it would not be an available name."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Oblitum_ICZN_1961to1973,ICZN Glossary:  'The term nomen oblitum was also applied to a disused senior synonym rejected between 6 November 1961 and 1 January 1973 under Article 23b of the Code editions then in force (see Article 23.12.2). Nomina oblita remain available names; see Articles 23.9 and 23.12 for conditions controlling their use as valid names.'
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Oblitum_ICZN_1961to1973,Obsolete Term
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Preoccupied_Name,ICZN.  Uninomial that is preoccupied by the same name for another taxon with a different type.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#TreatmentAsCorrect,Treatment of a botantical or prokariotye name as legitimate and validly published.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#TreatmentAsValid_ICZN,Treatment of a zoological name as valid and available.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#hasPriorityOver,One name of the pair should be used because it has nomenclatural priority over the other.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#isSubjectivelyJuniorTo,An assertion that one name of a pair should not be used for subjective/taxonomic reasons.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#isSubjectivelySeniorTo,An assertion that one name of a pair should  be used in favor of the other for subjective/taxonomic reasons.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#lacksPriorityInFavorOf,One name of the pair should not be used because it lacks priority (and is not used for nomenclatural reasons).
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#AcceptableUnderGoverningCode,Statuses of nomenclatural acts that are acceptable statuses under the governing code.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ChangeOfType,Category of nomenclatural events in which the type for a name is changed
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#ChangeOfType,May not affect the name.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#NomenImaginatum,Imagniary name used to illustrate a nomenclatural point.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#NomenclaturalActStatus,"ICZN Glossary: Nomenclatural Status: 'Of a name, nomenclatural act or work: its standing in nomenclature (i.e. its availability or otherwise, and in the case of a name its spelling, the typification of the nominal taxon it denotes, and its precedence relative to other names).'"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#NomenclaturalEventType,ICZN Glossary:  'A published act which affects the nomenclatural status (q.v.) of a scientific name or the typification of a nominal taxon.'
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#TaxonomicEventStatus,Terms for the taxonomic status of biological names.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#TaxonomicEventType,Terms describing types of taxonomic events.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Accepted_Name,Taxonomic Status terms that indicate that a name is considered a name in current use
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Alternative_Name,"Hawksworth: '(1) (bot.) one of two or more different
+names based on the same type proposed simultaneously for the same
+taxon by the same author; see conditional name. (2) (bot.) a pair of
+names authorized in the Code for use at an author's discretion for a
+particular taxon, both being correct (e.g. Umbelliferae and
+Apiaceae);'
+"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Approved_Name_ICNP,ICNP Approved Name
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Creation_of_Unjustified_Emendation,ICZN:  Any change in spelling other than a Justified Emendation
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Dubious_Name,"Hawksworth:  'A name of unknown or doubtfull application.'  
+
+ Names for which the available circumscription information is too limited to allow the name to be related to a taxonomic concept."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Historical_Synonym,ICNP.  Synonyms not included in the Approved List.  Generally placed in single quotes when included in a synonymy.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Independent_Name,Independent Names.  ICNP.  Names that are not homonyms because they are subject to different codes.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Justified_Emendation,ICZN:  Correction of an incorrect original spelling.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Legitimate,"ICBN, ICNP"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Missapplied_Name,"'a name applied to a taxon in a sense that excludes the type of the name, i.e. a name incorrectly applied.'
+Hawksworth, Terms Used In Bionomenclature"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Abortivum,Obsoltete term for names that were contrary to the governing code at the date of their publication.  Useful as a category of names that were never acceptable under their governing code.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Nudem,"ICZN Glossary: 'a name that, if published before 1931, fails to conform to Article 12; or, if published after 1930, fails to conform to Article 13. A nomen nudum is not an available name, and therefore the same name may be made available later for the same or a different concept; in such a case it would take authorship and date [Arts. 50, 21] from that act of establishment, not from any earlier publication as a nomen nudum.'"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Nudem,ICBN Glossary: 'A name of a new taxon published without a description or diagnosis or reference to a description or diagnosis.'
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Oblitum,"ICZN Glossary: 'applied after 1 January 2000 to a name, unused since 1899, which as a result of an action taken under Article 23.9.2 does not take precedence over a younger synonym or homonym in prevailing usage; the younger name which takes precedence over the nomen oblitum may be called a nomen protectum (q.v.). The term nomen oblitum was also applied to a disused senior synonym rejected between 6 November 1961 and 1 January 1973 under Article 23b of the Code editions then in force (see Article 23.12.2). Nomina oblita remain available names; see Articles 23.9 and 23.12 for conditions controlling their use as valid names.'"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Nomen_Oblitum,ICZN.  A name who's priority has been quashed.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#PlacedInSynonomy,Placement of a name for either nomenclatural or taxonomic reasons within a synonomy.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Proposed_Conserved_Name,Applies to a publication in which the proposal for conservation of the name is discussed.
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Protected_Name,"ICZN Glossary: 'applied to a name which has been given precedence over its unused senior synonym or senior homonym relegated to the status of nomen oblitum (q.v., and see Article 23.9.2)'"
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Rejected_Name,A name that has been rejected by an act of the relevant code governed body (the Zoological Commissioners or a Botanical Congress).
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Sanctioned_Name,"In Botanical Nomenclature the standard starting point is Linnaeus' Species Plantarum.  In the interests of stability, Mycologists have taken several measures over time to devalue early fungal names from the late 1700s and early 1800s.   Since the 1981 ICBN, two works, namely Persoon's 1801 Synopisis and Fries 1821-1832 Systema, have been granted a special status, in which a subset of the names adopted in these works are given a special protected priority.   Names adopted by Persoon for rusts, smuts and gastromycetes are automatically granted priority over earlier names.   Names found in Persoon and Fries are considered to be sanctioned names, created by their original authors, but sanctioned and given special protected status by Fr. or Pers. and this sanctioning is recognised by appending either :Fr. or :Pers. to the authorship of the name.
+
+However,  between 1950 and 1981, three works later than Species Plantarum were set as the starting point for nomenclature of Fungi, and substantial complexity resulted.  One of these works was Freis published in three volumes from 1821 to 1832.  The date of Jan 1 1821 was considered to be the date of publication of this three volume work.  This left a set of fungal names that were validly published between 1821 and 1832 and which were adopted by Fries, the author of the three volume work, in volumes 2 or 3 in an awkward position (being both considerd as published by Fries in the starting point work in 1821, and actually first published by other authors after 1821, as well as the issue of who should be considered the author of earlier names addopted by Fries and Persoon.  Substantial disagreement existed over how  to handle these names, and the term Sanctioned name was proposed in this context, with the term and :Fr. authorship convention being later coopted by the 1981 code."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Sanctioning_Usage,"See: http://www.cybertruffle.org.uk/cyberliber/59575/0016/002/0341.htm
+
+Korf RP. (1983). 'Sanctioned epithets, sanctioned names, and cardinal principles in ': Pers.' and ': Fr.' citations'. Mycotaxon 16 (2): 341–52."
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#Substitute_Name,Avowed substitute
+http://webprojects.huh.harvard.edu/ontologies/taxonomic_nomenclatural_status_terms.owl#TreatmentAsNameToUse,Placement of a name as the name the author asserts is the name to use at the heading of a synonomy.
