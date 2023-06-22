@@ -6,8 +6,7 @@ Develop an operational ontology/vacabulary for use in publishing and legacy publ
    * [Nomen github repo](https://github.com/SpeciesFileGroup/nomen);
    * [presentation](https://github.com/SpeciesFileGroup/nomen/raw/master/docs/presentations/Ballroom_A_Tuesday_1445_Yoder_TDWG17.pptx);
    *  [Yoder M, Dmitriev D, Pereira J, Cigliano M (2017) Design and use of NOMEN, an ontology defining the rules of biological nomenclature. Proceedings of TDWG 1: e20284.](https://doi.org/10.3897/tdwgproceedings.1.20284);
-   *  [Yoder M, Dmitriev DA (2021) Nomenclature over 5 years in TaxonWorks: Approach, implementation, limitations and outcomes.
-   *  Biodiversity Information Science and Standards 5: e75441.](https://doi.org/10.3897/biss.5.75441)
+   *  [Yoder M, Dmitriev DA (2021) Nomenclature over 5 years in TaxonWorks: Approach, implementation, limitations and outcomes. Biodiversity Information Science and Standards 5: e75441.](https://doi.org/10.3897/biss.5.75441)
 * Nomen at Bioportal
    * [NOMEN - A nomenclatural ontology for biological names](https://bioportal.bioontology.org/ontologies/NOMEN/?p=summary)
 * Nomen at Ontobee
