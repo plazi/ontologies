@@ -1,6 +1,9 @@
 # Developing an operational taxonomic nomenclature ontology
 ## goal
 Develop an operational ontology/vacabulary for use in publishing and legacy publication annotation
+## use case
+* [TreatmentCitation patterns](https://docs.google.com/document/d/1JoTUJyxOV1DtcPkfB2w94tdGsSDHdPLCDn676ZJRltw/edit#heading=h.kl2l8bok8hgg)
+  
 ## related projects
 * Nomen at SpeciesFileGroup
    * [Nomen github repo](https://github.com/SpeciesFileGroup/nomen);
@@ -16,6 +19,7 @@ Develop an operational ontology/vacabulary for use in publishing and legacy publ
    * [extracted nomenclatural terms from Morris](https://docs.google.com/spreadsheets/d/17UsLQ1iIrr5O2EicC_RtgVKLTF9y1eofp5FO-ARvdwM/edit#gid=476777259)
 ## project notes
 * [Notes](https://docs.google.com/document/d/1p6R-z8Xiy4styq4hnZrhi_NdzKLCGx0GeZqgkhXXs_g/edit#heading=h.4uhanv554d45)
+* [Notes BiCIKL WP6](https://docs.google.com/document/d/1VR54ecDppm8LcVr-eaER3nFdfsTE-uGNYPSW3Vkt_6s/edit#heading=h.4583k77farjq)
 * [internal notes](https://github.com/plazi/Plazi-Communications/issues/1270)
 ## issues
 * [ontology repo](https://github.com/plazi/ontologies/issues?q=is%3Aissue+is%3Aopen+label%3Aontology)
