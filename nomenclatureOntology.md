@@ -22,6 +22,8 @@ Develop an operational ontology/vacabulary for use in publishing and legacy publ
 * [Notes](https://docs.google.com/document/d/1p6R-z8Xiy4styq4hnZrhi_NdzKLCGx0GeZqgkhXXs_g/edit#heading=h.4uhanv554d45)
 * [Notes BiCIKL WP6](https://docs.google.com/document/d/1VR54ecDppm8LcVr-eaER3nFdfsTE-uGNYPSW3Vkt_6s/edit#heading=h.4583k77farjq)
 * [internal notes](https://github.com/plazi/Plazi-Communications/issues/1270)
+* [Notes Rich/Lyubo](https://docs.google.com/document/d/1aY5qGDI-6f8FLolTtMGdMloInKipWFOqpNLpZsOqWvE/edit)
+
 ## issues
 * [ontology repo](https://github.com/plazi/ontologies/issues?q=is%3Aissue+is%3Aopen+label%3Aontology)
 * [Plazi communication](https://github.com/plazi/Plazi-Communications/issues?q=is%3Aissue+is%3Aopen+ontology+label%3Aontology)
